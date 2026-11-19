@@ -1,0 +1,17 @@
+{
+  "src\\data\\aliases.json": "c58d07f34510644389791a629bb8654752c4edb90eee25bdd660f1073bcb783e",
+  "src\\data\\candidate-reviews.json": "4ec37ed530756d209e67609c60c6f4905fe2c83d8c880c18a781255a6335736f",
+  "src\\data\\candidates.json": "5f76084ca46fd86e2d8e11457d19ee2b28f67fec76c771eb15bd22c4eb910d4f",
+  "src\\data\\capital-pathways.json": "39d1fdb2bc13053c0bd0d44f1eded4ee425d198ba2b7cd37451d17e76e9a5a59",
+  "src\\data\\entity-scope.json": "ed551f50286fc70aa886be48c5516692132a8a0c6245947350196213d9a8a3bd",
+  "src\\data\\geographies.json": "4b5246f748b4e58c7fbf2e6872158ae9fb0b7dfe60500097ab46df1d129e0313",
+  "src\\data\\institutions.json": "e986e5584c058e26ae6ed1b8ea83e1eb543c666c07e1667e5c64c0fee4db2305",
+  "src\\data\\projects.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "src\\data\\relationship-scope.json": "495921a701565afff9b8325d3adb3dbc5bfc09433388483b4a510608d2d33807",
+  "src\\data\\relationships.json": "06503f62d1c7ce63153cb800a1c2b0997d48d4868aa177bbe8a20e2c0755a397",
+  "src\\data\\scope-sources.json": "cf187b2722c9597e45ed05b9750075a6c605b6856ebb59c704ca95b06700101f",
+  "src\\data\\sectors.json": "00b2a88c0b77b6a2572e9cd0f13b09dd1ecce1abf320d2a9e380d199c49f9992",
+  "src\\data\\sources.json": "0e5e92b269f555867c79cdecce8e1febb12ca300769892d098397838216e6610",
+  "src\\data\\transactions.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "src\\data\\vehicles.json": "e811ad919033de8c9c26a39a08ba79af1640c55dca02a28c6f08a6a765bda190"
+}

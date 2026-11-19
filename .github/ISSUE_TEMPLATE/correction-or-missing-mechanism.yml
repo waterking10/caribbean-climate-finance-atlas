@@ -1,0 +1,38 @@
+name: Correction or missing mechanism
+description: Suggest a sourced correction or a Caribbean climate finance mechanism for review.
+title: "[Atlas suggestion] "
+body:
+  - type: markdown
+    attributes:
+      value: "Suggestions are reviewed against the atlas methodology before publication. GitHub issues are public; include public information and sources only."
+  - type: dropdown
+    id: suggestion-type
+    attributes:
+      label: Suggestion type
+      options:
+        - Correction to a published record
+        - Missing institution, fund or financing mechanism
+        - Missing relationship or capital pathway
+    validations:
+      required: true
+  - type: input
+    id: record
+    attributes:
+      label: Entity, relationship or mechanism
+      description: Provide its name and an atlas record ID or page link if available.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed correction or addition
+      description: Explain the documented Caribbean climate or transition finance connection and the change you suggest.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Public sources
+      description: Include official source URLs, titles, dates and the claims they support. Distinguish commitments, disbursements and risk coverage where relevant.
+    validations:
+      required: true

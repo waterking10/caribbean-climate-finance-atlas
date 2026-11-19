@@ -4,7 +4,7 @@ Mapping the funds, institutions and financing relationships supporting the Carib
 
 Explore the [hosted atlas on GitHub Pages](https://waterking10.github.io/caribbean-climate-finance-atlas/).
 
-The atlas explores institutional relationships behind adaptation, mitigation, energy transition, disaster resilience, nature finance, environmental sustainability and transition finance. The default network shows core entities and supporting counterparties with relevant documented links. **Full network** opens the wider verified registry.
+The atlas explores institutional relationships behind adaptation, mitigation, energy transition, disaster resilience, nature finance, environmental sustainability and transition finance. The focused local explorer starts with a deterministic selection of highly relevant institutions and documented connections. Search reaches the complete research registry; mechanisms expand individually when selected. The hosted version may precede these local changes.
 
 The international capital expansion approved on 18 November 2026 brings coverage to 93 entities, 102 relationships and 24 capital pathways. Its source records distinguish institution-wide funding, case-specific finance, contingent protection, approval authority and unknown attribution. See the [publication record and remaining gaps](INTERNATIONAL_CAPITAL_PROPOSAL.md).
 
@@ -19,13 +19,16 @@ pnpm dev
 
 Open [the local atlas](http://127.0.0.1:5173/). The application bundles its fonts and data and runs without credentials or an external service.
 
-- Search names and aliases or filter by theme, profile fields and documented relationship types.
-- Click a node to highlight its direct links. Select an edge to inspect its direction, evidence and amount where available.
-- Follow the amber **Capital pathway** highlight on the map, or the same label under an entity’s **Relationships** tab. Open the link to see documented financing, authority, risk, reported amounts and open questions with their sources.
-- Use the relationship legend to show or hide each line category. Open **View** to change labels or select a like-for-like edge weighting.
-- Open an entity’s **Evidence** or **Relationships** tab to inspect records using the keyboard.
-- Add profile entries to **Compare**, or use the chooser there.
-- Use **Research** for manual intake and review. Candidate data persists on the same browser origin.
+- Use the prominent search for institutions, funds, facilities, mechanisms, acronyms and aliases, including records outside the starting view.
+- Filter connections by relationship type, geography and financing theme. Advanced filters contain supported institution types, ownership and documented financing instruments.
+- Click an institution for a compact summary and immediate connections; expand around it or include two-hop connections.
+- Click a connection for its original relationship types and associated arrangements. Expand an arrangement to reveal its documented multi-party pathway, then return to the previous network.
+- Open **See full profile**, **See relationship details** or **See full pathway** for original observations, sources, role limitations and research questions. Detailed profiles have shareable hash URLs and preserve the mounted network context when returning.
+- Institution nodes use a neutral appearance; relationship colours and patterns describe documented function. Graph line widths do not claim financial volume. Financial observations remain separately labelled and are never summed automatically.
+- Use **Explore**, **Compare** and **About & Methodology**. There are no exploration sub-tabs. Compare retains up to three registry institutions or financing mechanisms.
+- Use **Suggest a correction or missing mechanism** in the footer to open the existing sourced suggestion issue template.
+
+The public app does not include candidate intake or review tools. Existing Research Desk bookmarks open Explore. Research management code and all data are retained. The owner confirmed there are no saved candidates or review edits to export for this change; no dataset migration is required. If browser-local research is saved before release, export it from each original browser profile and origin using the [navigation audit and backup procedure](PUBLIC_NAVIGATION_AUDIT.md).
 
 ## Verify and build
 
@@ -44,6 +47,8 @@ Add institutions in [institutions.json](src/data/institutions.json), vehicles in
 
 ## Deploy to GitHub Pages
 
+This navigation change is for local review only. Do not deploy or push it to `main`/`master` until the owner has reviewed it. The browser-local backup check is resolved by the owner's confirmation recorded in the [audit](PUBLIC_NAVIGATION_AUDIT.md). Those branches trigger the existing deployment workflow.
+
 1. Push the checkout to the GitHub repository you want to use.
 2. In the repository’s **Settings → Pages**, choose **GitHub Actions** as the source.
 3. Run **GitHub Pages** from the Actions tab or push to `main` or `master`. The [workflow](.github/workflows/pages.yml) validates and builds the site before uploading `dist/`.
@@ -53,7 +58,14 @@ Follow [GitHub’s Pages workflow documentation](https://docs.github.com/en/page
 
 ## Documentation
 
+- [Focused explorer: pre-implementation audit, structure and mapping](FOCUSED_EXPLORER_PLAN.md)
+- [Focused explorer: validation, screenshots and remaining limits](FOCUSED_EXPLORER_VALIDATION.md)
+
+- [Filter taxonomy audit and revised structure](FILTER_TAXONOMY_AUDIT.md)
+- [Relationship exploration validation and unresolved classifications](FILTER_RESTRUCTURE_VALIDATION.md)
+
 - [Architecture](ARCHITECTURE.md)
+- [Public navigation audit and browser-local backup procedure](PUBLIC_NAVIGATION_AUDIT.md)
 - [Data dictionary](DATA_DICTIONARY.md)
 - [Research methodology](RESEARCH_METHODOLOGY.md)
 - [Dataset scope audit and research priorities](SCOPE_AUDIT.md)

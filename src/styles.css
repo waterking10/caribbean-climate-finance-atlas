@@ -81,6 +81,9 @@ a { color: inherit; }
 .atlas-grid { display: grid; grid-template-columns: 228px minmax(0, 1fr) 320px; gap: 15px; height: clamp(690px, calc(100dvh - 228px), 1050px); }
 .atlas-foot { @apply flex justify-between; padding: 13px 0 14px; color: var(--muted); font-size: 11px; gap: 14px; }
 .atlas-foot b { margin: 0 4px; color: var(--accent); }
+.site-footer { max-width: 1740px; margin: 0 auto; padding: 12px 18px 24px; text-align: center; color: var(--muted); font-size: 12px; }
+.site-footer a { text-underline-offset: 3px; }
+.site-footer a:hover { color: var(--accent); }
 
 .sidebar { display: flex; flex-direction: column; overflow: hidden; padding: 0 14px; }
 .sidebar-head, .inspector-label { @apply flex items-center justify-between; gap: 8px; min-height: 51px; }
@@ -401,3 +404,48 @@ a { color: inherit; }
   .source-dates { grid-template-columns: 1fr; }
 }
 
+/* Relationship exploration: retain the existing Atlas panels and tokens. */
+.exploration-controls { padding: 12px 14px; margin-bottom: 14px; }
+.exploration-modes { display: flex; flex-wrap: wrap; gap: 6px; }
+.exploration-modes button { border: 1px solid var(--border); border-radius: 7px; background: var(--input); color: var(--ink); padding: 8px 12px; font-size: 12px; }
+.exploration-modes button[aria-pressed="true"] { background: var(--on-active); color: var(--accent); border-color: var(--accent); font-weight: 700; }
+.exploration-inputs { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 10px; }
+.exploration-inputs:empty { display: none; }
+.exploration-inputs label { display: grid; gap: 4px; font-size: 12px; min-width: 0; flex: 1 1 220px; }
+.exploration-inputs select { width: 100%; min-width: 0; padding: 8px; border: 1px solid var(--border); border-radius: 7px; background: var(--input); color: var(--ink); }
+.exploration-controls p, .exploration-context { color: var(--muted); font-size: 11px; line-height: 1.6; margin-top: 8px; }
+.exploration-context { margin: 0 0 10px; }
+.sidebar-filters { max-height: 65%; overflow-y: auto; flex-shrink: 0; }
+.filter-help { font-size: 10px; font-weight: 400; line-height: 1.5; color: var(--muted); }
+.filter-chips { display: flex; flex-wrap: wrap; gap: 3px; }
+.filter-chips button { display: inline-flex; align-items: center; gap: 4px; border: 1px solid var(--border); border-radius: 5px; background: var(--on-active); color: var(--ink); text-align: left; padding: 4px 6px; font-size: 10px; }
+.filter-chips svg { flex-shrink: 0; }
+.advanced-filters summary { font-size: 12px; color: var(--accent); padding: 5px 0; }
+.advanced-filters fieldset { border: 0; margin: 10px 0 0; padding: 0; display: grid; gap: 8px; min-width: 0; }
+.advanced-filters legend { padding: 0 0 8px; font-size: 11px; font-weight: 700; }
+.matching-toggle { display: flex; align-items: start; gap: 6px; font-size: 11px; line-height: 1.5; }
+.matching-toggle input { margin-top: 2px; flex-shrink: 0; }
+.relationship-note { color: #b2c8bf; font-size: 10px; line-height: 1.5; margin-top: 7px; }
+.edge-sample.capital { border-top: 2px solid #64ccae; }
+.edge-sample.decision { border-top: 2px dashed #efbb70; }
+.edge-sample.support { border-top: 2px dotted #7dabfd; }
+.edge-sample.review { border-top: 2px dashed #aab8b1; }
+.visible-connections { margin-top: 7px; color: #e3eee8; }
+.visible-connections ul { max-height: 150px; overflow-y: auto; list-style: none; margin: 4px 0 0; padding: 0; }
+.visible-connections button { background: transparent; color: inherit; text-align: left; border: 0; font-size: 11px; padding: 6px 0; }
+.classification-note { padding: 8px; border-left: 2px solid var(--accent); background: var(--muted-surface); font-size: 11px; line-height: 1.6; margin-top: 8px; }
+.explore-profile { margin-top: 12px; }
+.edge-endpoints { flex-wrap: wrap; }
+.edge-endpoints button { overflow-wrap: anywhere; }
+@media (max-width: 660px) {
+  .exploration-controls { padding: 10px; }
+  .exploration-modes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; }
+  .exploration-modes button { padding: 7px 3px; font-size: 10px; min-height: 42px; }
+  .exploration-inputs { gap: 8px; }
+  .exploration-inputs label { flex-basis: 100%; }
+  .sidebar-filters { max-height: none; }
+  .mobile-open .sidebar-filters { grid-template-columns: 1fr; }
+  .network-panel { height: auto; min-height: 650px; }
+  .graph-area { min-height: 350px; }
+  .legend-relationships > button { white-space: normal; text-align: left; }
+}
