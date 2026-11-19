@@ -25,16 +25,36 @@ const style: StylesheetStyle[] = [
   { selector: 'edge.mutual', style: { 'target-arrow-shape': 'none' } },
   { selector: 'edge.chosen', style: { width: 3.3, opacity: 1 } },
   { selector: '.dim', style: { opacity: .16 } },
+  { selector: '.quiet-label', style: { label: '' } },
+  { selector: 'node.quiet-label.chosen', style: { label: 'data(label)' } },
 ]
 
 export function layoutFocusedGraph(nodes: ExplorationNode[], connections: Connection[]): Map<string,Position> {
   const graph = new graphlib.Graph({ multigraph: true })
-  graph.setGraph({ rankdir: 'LR', nodesep: 58, ranksep: 75, marginx: 70, marginy: 70 })
   graph.setDefaultEdgeLabel(() => ({}))
   for (const node of [...nodes].sort((a,b) => a.id.localeCompare(b.id))) graph.setNode(node.id, { width: 110, height: 55 })
   for (const edge of [...connections].sort((a,b) => a.id.localeCompare(b.id))) graph.setEdge(edge.source, edge.target, {}, edge.id)
-  layout(graph)
-  return new Map(nodes.map(node => [node.id, { x: graph.node(node.id).x, y: graph.node(node.id).y }]))
+  // Pack real connected components, including single institutions, instead of
+  // letting Dagre stack all mechanism-only participants into one long column.
+  const blocks=graphlib.alg.components(graph).map(ids=>{
+    const component=new graphlib.Graph({multigraph:true})
+    component.setGraph({rankdir:'LR',nodesep:58,ranksep:75,marginx:0,marginy:0})
+    component.setDefaultEdgeLabel(()=>({}))
+    for(const id of [...ids].sort())component.setNode(id,graph.node(id))
+    const members=new Set(ids)
+    for(const edge of [...connections].sort((a,b)=>a.id.localeCompare(b.id)))if(members.has(edge.source))component.setEdge(edge.source,edge.target,{},edge.id)
+    layout(component)
+    return {ids:ids.sort(),graph:component,width:component.graph().width??110,height:component.graph().height??55}
+  }).sort((a,b)=>b.ids.length-a.ids.length||a.ids[0].localeCompare(b.ids[0]))
+  const targetWidth=Math.max(0,...blocks.map(block=>block.width),Math.sqrt(blocks.reduce((area,block)=>area+(block.width+60)*(block.height+60),0)*1.8))
+  const positions=new Map<string,Position>()
+  let x=0,y=0,rowHeight=0
+  for(const block of blocks){
+    if(x>0&&x+block.width>targetWidth){x=0;y+=rowHeight+60;rowHeight=0}
+    for(const id of block.ids){const point=block.graph.node(id);positions.set(id,{x:point.x+x+70,y:point.y+y+70})}
+    x+=block.width+60;rowHeight=Math.max(rowHeight,block.height)
+  }
+  return positions
 }
 export function extendFocusedPositions(proposed:Map<string,Position>,preserved:Map<string,Position>):Map<string,Position> {
   const placed=new Map([...preserved].filter(([id])=>proposed.has(id)))
@@ -62,7 +82,7 @@ export function FocusedNetworkGraph(props: Props) {
   const pendingFit = useRef(false)
   const [hovered,setHovered] = useState<{node:ExplorationNode;x:number;y:number}|null>(null)
   useEffect(() => {
-    const cy = cytoscape({ container: host.current, elements: [], style, layout: {name:'preset'}, minZoom: .15, maxZoom: 3,
+    const cy = cytoscape({ container: host.current, elements: [], style, layout: {name:'preset'}, minZoom: .02, maxZoom: 3,
       autounselectify: true, boxSelectionEnabled: false, wheelSensitivity: .18 })
     graph.current = cy
     cy.on('tap','node', event => { setHovered(null); callbacks.current.onNode(event.target.id()) })
@@ -74,10 +94,12 @@ export function FocusedNetworkGraph(props: Props) {
     })
     cy.on('mouseout','node',() => setHovered(null))
     cy.on('pan zoom drag',() => setHovered(null))
-    cy.on('zoom',()=>{
-      // Keep short captions readable on narrow screens instead of shrinking them to a few pixels.
-      cy.nodes().style({'font-size':Math.max(13,9/cy.zoom()),'text-max-width':Math.max(110,64/cy.zoom())})
-    })
+    function updateLabels(){
+      // Keep every node visible at overview scale; reveal captions as space permits.
+      cy.elements().toggleClass('quiet-label',cy.zoom()<.5)
+      cy.nodes().style({'width':Math.max(27,6/cy.zoom()),'height':Math.max(27,6/cy.zoom()),'font-size':Math.max(13,9/cy.zoom()),'text-max-width':Math.max(110,64/cy.zoom())})
+    }
+    cy.on('zoom add',updateLabels)
     const resize = new ResizeObserver(() => { if (host.current?.clientWidth && host.current?.clientHeight) {
       cy.resize()
       if(pendingFit.current&&cy.nodes().length){pendingFit.current=false;cy.fit(undefined,45)}
@@ -96,6 +118,7 @@ export function FocusedNetworkGraph(props: Props) {
     const positions=extendFocusedPositions(proposed,preserved)
     const first=cy.nodes().empty()
     const removedMany=cy.nodes().length > props.nodes.length * 1.5
+    const addedMany=props.nodes.length > cy.nodes().length * 1.5
     const ids=new Set([...props.nodes.map(node=>node.id),...props.connections.map(edge=>edge.id)])
     cy.batch(() => {
       cy.elements().filter(element=>!ids.has(element.id())).remove()
@@ -116,7 +139,7 @@ export function FocusedNetworkGraph(props: Props) {
     scope.current=props.scopeKey
     cy.resize()
     if(changedScope && remembered?.zoom && remembered.pan) {cy.zoom(remembered.zoom);cy.pan(remembered.pan)}
-    else if((first || changedScope || removedMany) && props.nodes.length) {
+    else if((first || changedScope || removedMany || addedMany) && props.nodes.length) {
       if(host.current?.clientWidth)cy.fit(undefined,45)
       else pendingFit.current=true
     }

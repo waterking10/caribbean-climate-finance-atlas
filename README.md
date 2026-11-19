@@ -4,7 +4,7 @@ Mapping the funds, institutions and financing relationships supporting the Carib
 
 Explore the [hosted atlas on GitHub Pages](https://waterking10.github.io/caribbean-climate-finance-atlas/).
 
-The atlas explores institutional relationships behind adaptation, mitigation, energy transition, disaster resilience, nature finance, environmental sustainability and transition finance. The focused local explorer starts with a deterministic selection of highly relevant institutions and documented connections. Search reaches the complete research registry; mechanisms expand individually when selected. The hosted version may precede these local changes.
+The atlas explores institutional relationships behind adaptation, mitigation, energy transition, disaster resilience, nature finance, environmental sustainability and transition finance. The focused explorer includes all institutions with sourced thematic profiles or verified thematic financing participation, together with their documented direct institutional connections. There is no ranking cutoff. Search reaches the complete research registry; mechanisms expand individually when selected. The hosted version may precede these local changes.
 
 The international capital expansion approved on 18 November 2026 brings coverage to 93 entities, 102 relationships and 24 capital pathways. Its source records distinguish institution-wide funding, case-specific finance, contingent protection, approval authority and unknown attribution. See the [publication record and remaining gaps](INTERNATIONAL_CAPITAL_PROPOSAL.md).
 
@@ -19,7 +19,8 @@ pnpm dev
 
 Open [the local atlas](http://127.0.0.1:5173/). The application bundles its fonts and data and runs without credentials or an external service.
 
-- Use the prominent search for institutions, funds, facilities, mechanisms, acronyms and aliases, including records outside the starting view.
+- The default view shows the Atlas’s documented institutional coverage. Mechanism-only participants remain selectable without invented bilateral lines; active filters hide institutions without matching direct connections.
+- Use the prominent search for institutions, funds, facilities, mechanisms, acronyms and aliases, including other registry records.
 - Filter connections by relationship type, geography and financing theme. Advanced filters contain supported institution types, ownership and documented financing instruments.
 - Click an institution for a compact summary and immediate connections; expand around it or include two-hop connections.
 - Click a connection for its original relationship types and associated arrangements. Expand an arrangement to reveal its documented multi-party pathway, then return to the previous network.
@@ -29,6 +30,8 @@ Open [the local atlas](http://127.0.0.1:5173/). The application bundles its font
 - Use **Suggest a correction or missing mechanism** in the footer to open the existing sourced suggestion issue template.
 
 The public app does not include candidate intake or review tools. Existing Research Desk bookmarks open Explore. Research management code and all data are retained. The owner confirmed there are no saved candidates or review edits to export for this change; no dataset migration is required. If browser-local research is saved before release, export it from each original browser profile and origin using the [navigation audit and backup procedure](PUBLIC_NAVIGATION_AUDIT.md).
+
+See [default coverage eligibility, screenshots and validation](DEFAULT_COVERAGE_VALIDATION.md) for the expanded overview.
 
 ## Verify and build
 

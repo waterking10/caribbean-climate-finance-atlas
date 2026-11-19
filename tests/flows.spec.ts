@@ -151,7 +151,7 @@ test('loads production assets and routes under a Pages repository path', async (
 test('keeps mechanisms off the starting canvas and makes the wider research searchable',async({page})=>{
   await page.goto('/')
   const nodes=page.getByRole('list',{name:'Visible institutions'}).getByRole('button')
-  expect(await nodes.count()).toBeLessThanOrEqual(12)
+  await expect(nodes).toHaveCount(69)
   await expect(nodes.filter({hasText:'Energy Smart II'})).toHaveCount(0)
   await expect(page.getByRole('button',{name:/Explore pathways|Explore institutions|Explore ecosystem|Full network/})).toHaveCount(0)
   await page.getByRole('searchbox').fill('PPP Support Facility')

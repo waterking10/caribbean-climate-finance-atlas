@@ -1,0 +1,354 @@
+{
+  "before": {
+    "institutions": 11,
+    "connections": 10
+  },
+  "after": {
+    "institutions": 69,
+    "connections": 49,
+    "withoutDirectInstitutionalEdges": 23
+  },
+  "institutions": [
+    "acb-caribbean-group",
+    "adaptation-fund",
+    "aon-securities",
+    "axa-xl",
+    "bahamas-gov",
+    "bahamas-protected-areas-fund",
+    "barbados-energy-division",
+    "barbados-gov",
+    "barbados-water-authority",
+    "belize-blue-investment-company",
+    "belize-gov",
+    "builders-vision",
+    "caribbean-export",
+    "cbf",
+    "ccccc",
+    "ccrif",
+    "ccsa",
+    "cdb",
+    "cdf",
+    "cibc",
+    "cibc-barbados-bank",
+    "cif",
+    "clifford-chance",
+    "credit-suisse-international",
+    "ctf",
+    "dbj",
+    "dfc",
+    "edc",
+    "egfl",
+    "eib",
+    "enertur",
+    "eu",
+    "fcdo",
+    "findev",
+    "fmo",
+    "fundaccess",
+    "gac",
+    "gcf",
+    "gef",
+    "germany-bmz",
+    "germany-environment-ministry",
+    "germany-government",
+    "giz",
+    "gpc-dominica",
+    "grenlec",
+    "idb",
+    "idbi",
+    "ifc",
+    "interenergy",
+    "jamaica-gov",
+    "kfw",
+    "mpc-capital-gmbh",
+    "mpc-manager",
+    "mpc-renewable-adviser",
+    "oas",
+    "pioj",
+    "renwick",
+    "republic-bb",
+    "sccf",
+    "searious-business",
+    "standard-chartered-bank",
+    "swiss-re-capital-markets",
+    "sygnus",
+    "tnc",
+    "ubs-financial-services",
+    "undp",
+    "unep",
+    "us-treasury",
+    "world-bank"
+  ],
+  "connections": [
+    {
+      "id": "connection:adaptation-fund|pioj|directed|capital",
+      "source": "adaptation-fund",
+      "target": "pioj"
+    },
+    {
+      "id": "connection:bahamas-gov|bahamas-protected-areas-fund|directed|capital",
+      "source": "bahamas-gov",
+      "target": "bahamas-protected-areas-fund"
+    },
+    {
+      "id": "connection:barbados-energy-division|barbados-gov|directed|management",
+      "source": "barbados-energy-division",
+      "target": "barbados-gov"
+    },
+    {
+      "id": "connection:barbados-energy-division|egfl|directed|decision",
+      "source": "barbados-energy-division",
+      "target": "egfl"
+    },
+    {
+      "id": "connection:barbados-gov|tnc|directed|risk",
+      "source": "barbados-gov",
+      "target": "tnc"
+    },
+    {
+      "id": "connection:belize-blue-investment-company|belize-gov|directed|capital",
+      "source": "belize-blue-investment-company",
+      "target": "belize-gov"
+    },
+    {
+      "id": "connection:ccrif|barbados-gov|directed|risk",
+      "source": "ccrif",
+      "target": "barbados-gov"
+    },
+    {
+      "id": "connection:cdb|gpc-dominica|directed|capital",
+      "source": "cdb",
+      "target": "gpc-dominica"
+    },
+    {
+      "id": "connection:cdb|gpc-dominica|directed|decision",
+      "source": "cdb",
+      "target": "gpc-dominica"
+    },
+    {
+      "id": "connection:cdb|gpc-dominica|directed|management",
+      "source": "cdb",
+      "target": "gpc-dominica"
+    },
+    {
+      "id": "connection:cdb|grenlec|directed|capital",
+      "source": "cdb",
+      "target": "grenlec"
+    },
+    {
+      "id": "connection:cdf|acb-caribbean-group|directed|risk",
+      "source": "cdf",
+      "target": "acb-caribbean-group"
+    },
+    {
+      "id": "connection:cdf|gpc-dominica|directed|capital",
+      "source": "cdf",
+      "target": "gpc-dominica"
+    },
+    {
+      "id": "connection:cibc-barbados-bank|barbados-gov|directed|capital",
+      "source": "cibc-barbados-bank",
+      "target": "barbados-gov"
+    },
+    {
+      "id": "connection:clifford-chance|cibc-barbados-bank|directed|support",
+      "source": "clifford-chance",
+      "target": "cibc-barbados-bank"
+    },
+    {
+      "id": "connection:clifford-chance|credit-suisse-international|directed|support",
+      "source": "clifford-chance",
+      "target": "credit-suisse-international"
+    },
+    {
+      "id": "connection:ctf|cdb|directed|capital",
+      "source": "ctf",
+      "target": "cdb"
+    },
+    {
+      "id": "connection:edc|findev|directed|capital",
+      "source": "edc",
+      "target": "findev"
+    },
+    {
+      "id": "connection:eib|cdb|directed|capital",
+      "source": "eib",
+      "target": "cdb"
+    },
+    {
+      "id": "connection:eu|idb|directed|capital",
+      "source": "eu",
+      "target": "idb"
+    },
+    {
+      "id": "connection:findev|enertur|directed|capital",
+      "source": "findev",
+      "target": "enertur"
+    },
+    {
+      "id": "connection:findev|idbi|mutual|capital",
+      "source": "findev",
+      "target": "idbi"
+    },
+    {
+      "id": "connection:fmo|enertur|directed|capital",
+      "source": "fmo",
+      "target": "enertur"
+    },
+    {
+      "id": "connection:gac|cdb|directed|capital",
+      "source": "gac",
+      "target": "cdb"
+    },
+    {
+      "id": "connection:gcf|ccccc|directed|capital",
+      "source": "gcf",
+      "target": "ccccc"
+    },
+    {
+      "id": "connection:gcf|idbi|directed|capital",
+      "source": "gcf",
+      "target": "idbi"
+    },
+    {
+      "id": "connection:gef|undp|directed|capital",
+      "source": "gef",
+      "target": "undp"
+    },
+    {
+      "id": "connection:gef|world-bank|directed|capital",
+      "source": "gef",
+      "target": "world-bank"
+    },
+    {
+      "id": "connection:germany-bmz|kfw|directed|capital",
+      "source": "germany-bmz",
+      "target": "kfw"
+    },
+    {
+      "id": "connection:germany-environment-ministry|kfw|directed|capital",
+      "source": "germany-environment-ministry",
+      "target": "kfw"
+    },
+    {
+      "id": "connection:germany-government|kfw|directed|capital",
+      "source": "germany-government",
+      "target": "kfw"
+    },
+    {
+      "id": "connection:giz|cdf|directed|support",
+      "source": "giz",
+      "target": "cdf"
+    },
+    {
+      "id": "connection:idb|barbados-gov|directed|capital",
+      "source": "idb",
+      "target": "barbados-gov"
+    },
+    {
+      "id": "connection:idb|barbados-gov|directed|decision",
+      "source": "idb",
+      "target": "barbados-gov"
+    },
+    {
+      "id": "connection:idb|cdb|directed|capital",
+      "source": "idb",
+      "target": "cdb"
+    },
+    {
+      "id": "connection:idb|gef|directed|management",
+      "source": "idb",
+      "target": "gef"
+    },
+    {
+      "id": "connection:idbi|enertur|directed|capital",
+      "source": "idbi",
+      "target": "enertur"
+    },
+    {
+      "id": "connection:idbi|enertur|directed|management",
+      "source": "idbi",
+      "target": "enertur"
+    },
+    {
+      "id": "connection:kfw|cbf|directed|capital",
+      "source": "kfw",
+      "target": "cbf"
+    },
+    {
+      "id": "connection:mpc-capital-gmbh|mpc-manager|directed|support",
+      "source": "mpc-capital-gmbh",
+      "target": "mpc-manager"
+    },
+    {
+      "id": "connection:mpc-renewable-adviser|mpc-manager|directed|support",
+      "source": "mpc-renewable-adviser",
+      "target": "mpc-manager"
+    },
+    {
+      "id": "connection:standard-chartered-bank|bahamas-gov|directed|capital",
+      "source": "standard-chartered-bank",
+      "target": "bahamas-gov"
+    },
+    {
+      "id": "connection:tnc|barbados-gov|directed|support",
+      "source": "tnc",
+      "target": "barbados-gov"
+    },
+    {
+      "id": "connection:tnc|belize-blue-investment-company|directed|capital",
+      "source": "tnc",
+      "target": "belize-blue-investment-company"
+    },
+    {
+      "id": "connection:world-bank|adaptation-fund|directed|management",
+      "source": "world-bank",
+      "target": "adaptation-fund"
+    },
+    {
+      "id": "connection:world-bank|barbados-gov|directed|capital",
+      "source": "world-bank",
+      "target": "barbados-gov"
+    },
+    {
+      "id": "connection:world-bank|ccrif|directed|capital",
+      "source": "world-bank",
+      "target": "ccrif"
+    },
+    {
+      "id": "connection:world-bank|jamaica-gov|directed|risk",
+      "source": "world-bank",
+      "target": "jamaica-gov"
+    },
+    {
+      "id": "connection:world-bank|sccf|directed|management",
+      "source": "world-bank",
+      "target": "sccf"
+    }
+  ],
+  "withoutDirectEdges": [
+    "aon-securities",
+    "axa-xl",
+    "barbados-water-authority",
+    "builders-vision",
+    "caribbean-export",
+    "ccsa",
+    "cibc",
+    "cif",
+    "dbj",
+    "dfc",
+    "fcdo",
+    "fundaccess",
+    "ifc",
+    "interenergy",
+    "oas",
+    "renwick",
+    "republic-bb",
+    "searious-business",
+    "swiss-re-capital-markets",
+    "sygnus",
+    "ubs-financial-services",
+    "unep",
+    "us-treasury"
+  ]
+}

@@ -15,13 +15,47 @@ beforeAll(async()=>{atlas=await localRepository.load();index=createFocusedIndex(
 const select=(filters=focusedEmptyFilters,roots:string[]=[],two=false,path='')=>selectFocusedNetwork(index,filters,roots,two,path)
 
 describe('focused relationship explorer',()=>{
-  it('starts with at most twelve connected institutional participants and no case-mechanism canvas inventory',()=>{
+  it('includes every qualifying institution and explicit institutional connection without a ranking cutoff',()=>{
     const view=select()
-    expect(view.nodes.length).toBeGreaterThan(3);expect(view.nodes.length).toBeLessThanOrEqual(12)
+    expect(view.nodes).toHaveLength(69)
+    expect(view.nodes.map(node=>node.id)).toEqual(index.defaultIds)
+    expect(view.connections).toEqual(index.connections)
+    expect(view.totalRecords).toBe(53)
     expect(view.nodes.every(node=>isInstitutionNode(node,index.research))).toBe(true)
-    for(const node of view.nodes)expect(view.connections.some(edge=>edge.source===node.id||edge.target===node.id)).toBe(true)
+    expect(new Set(view.nodes.map(node=>node.id)).size).toBe(view.nodes.length)
+    for(const edge of index.relevant)for(const id of [edge.source,edge.target])if(isInstitutionNode(index.nodes.get(id)!,index.research))expect(index.defaultIds).toContain(id)
     for(const id of ['energy-smart-ii','surge','barbados-blue-loan'])expect(view.nodes.some(node=>node.id===id)).toBe(false)
     expect(view.nodes.some(node=>node.id==='cdb')).toBe(true)
+  })
+  it('retains mechanism-only and sourced thematic institutions without fabricating bilateral links',()=>{
+    const view=select()
+    for(const id of ['dfc','ubs-financial-services','searious-business','ccsa']) {
+      expect(view.nodes.some(node=>node.id===id)).toBe(true)
+      expect(view.connections.some(edge=>edge.source===id||edge.target===id)).toBe(false)
+    }
+    expect(index.defaultIds).not.toContain('wbg')
+    expect(index.defaultIds).not.toContain('rbc')
+    // A sourced, verified case can document a role absent from the older profile assessment.
+    expect(index.defaultIds).toContain('fundaccess')
+    expect(index.nodes.get('fundaccess')!.entity!.scope.status).toBe('OUT_OF_SCOPE')
+  })
+  it('admits additional sourced thematic profiles beyond any old cap and never promotes generic or reported participation',()=>{
+    const extra=structuredClone(atlas)
+    const template=extra.institutions.find(node=>node.id==='cdb')!
+    for(let n=0;n<30;n++)extra.institutions.push({...template,id:'specialist-'+n})
+    extra.institutions.push({...template,id:'generic-only',themes:[],scope:{...template.scope,status:'SUPPORTING'}})
+    extra.relationships.push({...atlas.relationships[0],id:'generic-owned',type:'OWNS',source:'generic-only',target:'cdb',themes:['energy_transition']})
+    const research=structuredClone(loadCapitalResearch(atlas))
+    research.actors.push({id:'reported-only',name:'Reported only',kind:'institution'})
+    const path=research.pathways.find(path=>path.id==='surge')!
+    path.links.push({...path.links[0],id:'reported-only-link',atlasRelationshipId:undefined,source:'reported-only',status:'reported'})
+    const other=createFocusedIndex(createIndex(extra),research)
+    const view=selectFocusedNetwork(other,focusedEmptyFilters,[],false)
+    for(let n=0;n<30;n++)expect(view.nodes.some(node=>node.id==='specialist-'+n)).toBe(true)
+    expect(view.nodes).toHaveLength(99)
+    expect(other.defaultIds).not.toContain('generic-only')
+    expect(other.defaultIds).not.toContain('reported-only')
+    expect(view.connections.map(edge=>edge.id)).toEqual(select().connections.map(edge=>edge.id))
   })
   it('has a deterministic default selection independent of registry ordering',()=>{
     const reverse={...atlas,institutions:[...atlas.institutions].reverse(),vehicles:[...atlas.vehicles].reverse(),relationships:[...atlas.relationships].reverse()}
