@@ -1,5 +1,7 @@
 # Focused climate finance explorer — audit and implementation plan
 
+Historical implementation record. The ranked starting sample below is superseded by [expanded default coverage](DEFAULT_COVERAGE_VALIDATION.md); the original audit and validation are retained.
+
 19 November 2026. Recorded before implementation. Baseline screenshot: `design/focused-explorer/01-before-desktop.jpg`; research SHA-256 baseline: `design/focused-explorer/research-baseline.json`.
 
 ## 1. Existing interface audit

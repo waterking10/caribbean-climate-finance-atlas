@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { ArrowLeft, ArrowRight, Search, X } from 'lucide-react'
 import type { FocusedFilters, FocusedIndex } from '../focused-network'
-import { focusedEmptyFilters, memberInstruments, primaryFamilies, searchFocused, selectFocusedNetwork } from '../focused-network'
+import { focusedEmptyFilters, hasFinancingParticipation, isInstitutionNode, memberInstruments, primaryFamilies, searchFocused, selectFocusedNetwork } from '../focused-network'
 import { institutionTypeGroups } from '../entity-taxonomy'
 import { themes } from '../model'
 import { displayName } from '../selectors'
-import { CompactConnection, CompactInstitution, CompactPathway } from './CompactPanels'
+import { CompactConnection, CompactInstitution, CompactPathway, profileHref } from './CompactPanels'
 import { connectionColors, FocusedNetworkGraph } from './FocusedNetworkGraph'
 
 export interface FocusRequest { id?:string; pathwayId?:string; token:number }
@@ -36,7 +36,11 @@ export function FocusedExplorer({index,hidden,request,picked,onCompare}:Props) {
     setExpandedPath(id);setArrangement(id);setSelectedNode('');setSelectedConnection('');setQuery('')
   }
   function focusInstitution(id:string) {
-    setExpandedPath('');setArrangement('');setRoots([id]);setSelectedNode(id);setSelectedConnection('');setQuery('');setTwoHops(false)
+    const institution=index.nodes.get(id)
+    if(institution&&isInstitutionNode(institution,index.research)&&!hasFinancingParticipation(index,id)) {
+      window.location.hash=profileHref('institution',id);return
+    }
+    setExpandedPath('');setArrangement('');setRoots(institution&&isInstitutionNode(institution,index.research)&&!index.defaultIds.includes(id)?[]:[id]);setSelectedNode(id);setSelectedConnection('');setQuery('');setTwoHops(false)
   }
   function returnToNetwork(){
     const prior=previous.current
@@ -93,16 +97,16 @@ export function FocusedExplorer({index,hidden,request,picked,onCompare}:Props) {
       </aside>
       <section className="focused-network" aria-label="Climate finance network">
         <div className="focused-network-heading"><div><h2>{view.path?index.nodes.get(view.path.mechanismId)?.shortName??view.path.name:roots.length?roots.map(id=>index.nodes.get(id)?.shortName).join(' + '):'Institutions & capital providers'}</h2><p aria-live="polite">{view.nodes.length} {expandedPath?'participants':'institutions'} · {view.connections.length} connections</p></div>
-          {expandedPath?<button type="button" className="on-dark" onClick={returnToNetwork}><ArrowLeft size={14}/> Back to network</button>:<label className="focused-depth"><input type="checkbox" checked={twoHops} disabled={!roots.length&&!selectedNode} onChange={event=>{if(!roots.length&&selectedNode)setRoots([selectedNode]);setTwoHops(event.target.checked)}}/> Include two-hop connections</label>}
+          {expandedPath?<button type="button" className="on-dark" onClick={returnToNetwork}><ArrowLeft size={14}/> Back to network</button>:<label className="focused-depth"><input type="checkbox" checked={twoHops} disabled={!roots.length&&!index.defaultIds.includes(selectedNode)} onChange={event=>{if(!roots.length&&selectedNode)setRoots([selectedNode]);setTwoHops(event.target.checked)}}/> Include two-hop connections</label>}
         </div>
         {!expandedPath&&roots.length>0&&<button className="focused-overview" type="button" onClick={()=>{setRoots([]);setSelectedNode('');setSelectedConnection('');setArrangement('');setTwoHops(false)}}><ArrowLeft size={12}/> Return to starting view</button>}
         <FocusedNetworkGraph nodes={view.nodes} connections={view.connections} selectedNode={selectedNode} selectedConnection={selectedConnection} scopeKey={expandedPath?'path:'+expandedPath:'network:'+(roots[0]??'overview')} hidden={hidden} onNode={chooseNode} onConnection={chooseConnection} onBackground={()=>{setSelectedNode('');setSelectedConnection('');setArrangement(expandedPath)}}/>
         <div className="focused-legend" aria-label="Relationship legend">{primaryFamilies.map(([id,label])=><span key={id}><i style={{borderColor:connectionColors[id],borderTopStyle:id==='capital'?'solid':id==='risk'||id==='support'?'dotted':'dashed'}}/>{label}</span>)}</div>
-        <div className="focused-network-foot"><p>{expandedPath?'Verified documented links; direction describes each relationship. Targeting and oversight do not establish a capital transfer.':roots.length?'Direct documented institutional links. Mechanisms are available in the selection panel.':'A selected starting view, not a complete inventory. Search the full registry or expand a participant.'}</p>
+        <div className="focused-network-foot"><p>{expandedPath?'Verified documented links; direction describes each relationship. Targeting and oversight do not establish a capital transfer.':roots.length?'Direct documented institutional links. Mechanisms are available in the selection panel.':'All documented direct institutional connections in the Atlas’s climate finance coverage. Expand a mechanism to reveal its other participants. Additional institution profiles remain searchable; this is not a complete regional inventory.'}</p>
           <details><summary>Connections in this view ({view.connections.length})</summary><ul aria-label="Documented connections">{view.connections.map(edge=><li key={edge.id}><button type="button" onClick={()=>chooseConnection(edge.id)}>{index.nodes.get(edge.source)?.shortName} {edge.direction==='mutual'?'↔':'→'} {index.nodes.get(edge.target)?.shortName}<span>{edge.types.map(displayName).join(' · ')} · {edge.arrangementCount} arrangement{edge.arrangementCount===1?'':'s'}</span></button></li>)}</ul></details>
         </div>
       </section>
-      {path?<CompactPathway path={path} index={index} expanded={expandedPath===path.id} onExpand={()=>expandPath(path.id)} onNode={chooseNode}/>:connection?<CompactConnection connection={connection} index={index} onNode={chooseNode} onPathway={setArrangement}/>:node?<CompactInstitution node={node} index={index} connections={view.connections} path={view.path} onNode={chooseNode} onConnection={chooseConnection} onExpand={()=>{if(expandedPath){setExpandedPath('');setArrangement('');previous.current=null}setRoots(current=>[...new Set([...current,node.id])]);setTwoHops(false)}} onPathway={setArrangement} onCompare={()=>onCompare(node.id)} compared={picked.includes(node.id)}/>:<aside className="compact-panel panel compact-welcome" aria-label="Selection summary"><div className="compact-eyebrow">Start with a connection</div><h2>Who finances what?</h2><p>Select an institution to see its connections, or select a line to discover the financing arrangements behind it.</p><p className="compact-muted">Search includes smaller institutions, funds and mechanisms beyond this starting view.</p><a className="compact-full" href="#about">Scope & methodology <ArrowRight size={14}/></a></aside>}
+      {path?<CompactPathway path={path} index={index} expanded={expandedPath===path.id} onExpand={()=>expandPath(path.id)} onNode={chooseNode}/>:connection?<CompactConnection connection={connection} index={index} onNode={chooseNode} onPathway={setArrangement}/>:node?<CompactInstitution node={node} index={index} connections={view.connections} path={view.path} onNode={chooseNode} onConnection={chooseConnection} onExpand={()=>{if(expandedPath){setExpandedPath('');setArrangement('');previous.current=null}setRoots(current=>[...new Set([...current,node.id])]);setTwoHops(false)}} onPathway={setArrangement} onCompare={()=>onCompare(node.id)} compared={picked.includes(node.id)}/>:<aside className="compact-panel panel compact-welcome" aria-label="Selection summary"><div className="compact-eyebrow">Start with a connection</div><h2>Who finances what?</h2><p>Select an institution to see its connections, or select a line to discover the financing arrangements behind it.</p><p className="compact-muted">All qualifying institutions are included. Search also finds funds, mechanisms and other registry records. Zoom in for labels or use the institution list.</p><a className="compact-full" href="#about">Scope & methodology <ArrowRight size={14}/></a></aside>}
     </div>
   </main>
 }

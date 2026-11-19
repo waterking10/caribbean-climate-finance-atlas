@@ -15,13 +15,59 @@ beforeAll(async()=>{atlas=await localRepository.load();index=createFocusedIndex(
 const select=(filters=focusedEmptyFilters,roots:string[]=[],two=false,path='')=>selectFocusedNetwork(index,filters,roots,two,path)
 
 describe('focused relationship explorer',()=>{
-  it('starts with at most twelve connected institutional participants and no case-mechanism canvas inventory',()=>{
+  it('includes every qualifying institution and explicit institutional connection without a ranking cutoff',()=>{
     const view=select()
-    expect(view.nodes.length).toBeGreaterThan(3);expect(view.nodes.length).toBeLessThanOrEqual(12)
+    expect(view.nodes).toHaveLength(46)
+    expect(view.nodes.map(node=>node.id)).toEqual(index.defaultIds)
+    expect(view.connections).toEqual(index.connections)
+    expect(view.totalRecords).toBe(53)
     expect(view.nodes.every(node=>isInstitutionNode(node,index.research))).toBe(true)
+    expect(new Set(view.nodes.map(node=>node.id)).size).toBe(view.nodes.length)
     for(const node of view.nodes)expect(view.connections.some(edge=>edge.source===node.id||edge.target===node.id)).toBe(true)
     for(const id of ['energy-smart-ii','surge','barbados-blue-loan'])expect(view.nodes.some(node=>node.id===id)).toBe(false)
     expect(view.nodes.some(node=>node.id==='cdb')).toBe(true)
+  })
+  it('keeps mechanism-only and profile-only institutions searchable without adding isolated nodes',()=>{
+    const view=select()
+    for(const id of ['dfc','ubs-financial-services','searious-business','ccsa']) {
+      expect(view.nodes.some(node=>node.id===id)).toBe(false)
+      expect(view.connections.some(edge=>edge.source===id||edge.target===id)).toBe(false)
+      expect(searchFocused(index,index.nodes.get(id)!.name).some(result=>result.id===id)).toBe(true)
+      expect(select(focusedEmptyFilters,[id]).nodes).toEqual([])
+    }
+    expect(searchFocused(index,'CCSA').find(record=>record.id==='ccsa')!.type).toContain('profile only')
+    expect(select(focusedEmptyFilters,[],false,'cbf-ace').nodes.some(node=>node.id==='searious-business')).toBe(true)
+    expect(index.defaultIds).not.toContain('wbg')
+    expect(index.defaultIds).not.toContain('rbc')
+    // A sourced, verified case can document a role absent from the older profile assessment.
+    expect(index.defaultIds).not.toContain('fundaccess')
+    expect(select(focusedEmptyFilters,[],false,'energy-smart-ii').nodes.some(node=>node.id==='fundaccess')).toBe(true)
+    expect(index.nodes.get('fundaccess')!.entity!.scope.status).toBe('OUT_OF_SCOPE')
+  })
+  it('admits all additional connected specialists without a cap while excluding unconnected profiles and generic or reported participation',()=>{
+    const extra=structuredClone(atlas)
+    const template=extra.institutions.find(node=>node.id==='cdb')!
+    for(let n=0;n<30;n++){
+      extra.institutions.push({...template,id:'specialist-'+n})
+      extra.relationships.push({...atlas.relationships[0],id:'specialist-link-'+n,type:'GRANTS_TO',source:'specialist-'+n,target:'cdb',themes:['energy_transition']})
+    }
+    extra.institutions.push({...template,id:'profile-only',name:'Profile only specialist'})
+    extra.institutions.push({...template,id:'generic-only',themes:[],scope:{...template.scope,status:'SUPPORTING'}})
+    extra.relationships.push({...atlas.relationships[0],id:'generic-owned',type:'OWNS',source:'generic-only',target:'cdb',themes:['energy_transition']})
+    const research=structuredClone(loadCapitalResearch(atlas))
+    research.actors.push({id:'reported-only',name:'Reported only',kind:'institution'})
+    const path=research.pathways.find(path=>path.id==='surge')!
+    path.links.push({...path.links[0],id:'reported-only-link',atlasRelationshipId:undefined,source:'reported-only',status:'reported'})
+    const other=createFocusedIndex(createIndex(extra),research)
+    const view=selectFocusedNetwork(other,focusedEmptyFilters,[],false)
+    for(let n=0;n<30;n++)expect(view.nodes.some(node=>node.id==='specialist-'+n)).toBe(true)
+    expect(view.nodes).toHaveLength(76)
+    expect(other.defaultIds).not.toContain('profile-only')
+    expect(searchFocused(other,'Profile only specialist')[0].id).toBe('profile-only')
+    expect(other.defaultIds).not.toContain('generic-only')
+    expect(other.defaultIds).not.toContain('reported-only')
+    expect(view.connections).toHaveLength(79)
+    expect(view.connections.flatMap(edge=>edge.members).some(member=>member.id==='generic-owned')).toBe(false)
   })
   it('has a deterministic default selection independent of registry ordering',()=>{
     const reverse={...atlas,institutions:[...atlas.institutions].reverse(),vehicles:[...atlas.vehicles].reverse(),relationships:[...atlas.relationships].reverse()}

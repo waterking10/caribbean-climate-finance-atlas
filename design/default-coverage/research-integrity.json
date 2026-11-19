@@ -1,0 +1,82 @@
+{
+  "baseline_commit": "7ed0fa76db98774ff346b15474a4006d5a003cfa",
+  "checked": 15,
+  "unchanged": true,
+  "files": [
+    {
+      "path": "src/data/aliases.json",
+      "sha256": "c58d07f34510644389791a629bb8654752c4edb90eee25bdd660f1073bcb783e",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/candidate-reviews.json",
+      "sha256": "4ec37ed530756d209e67609c60c6f4905fe2c83d8c880c18a781255a6335736f",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/candidates.json",
+      "sha256": "5f76084ca46fd86e2d8e11457d19ee2b28f67fec76c771eb15bd22c4eb910d4f",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/capital-pathways.json",
+      "sha256": "39d1fdb2bc13053c0bd0d44f1eded4ee425d198ba2b7cd37451d17e76e9a5a59",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/entity-scope.json",
+      "sha256": "ed551f50286fc70aa886be48c5516692132a8a0c6245947350196213d9a8a3bd",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/geographies.json",
+      "sha256": "4b5246f748b4e58c7fbf2e6872158ae9fb0b7dfe60500097ab46df1d129e0313",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/institutions.json",
+      "sha256": "e986e5584c058e26ae6ed1b8ea83e1eb543c666c07e1667e5c64c0fee4db2305",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/projects.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/relationship-scope.json",
+      "sha256": "495921a701565afff9b8325d3adb3dbc5bfc09433388483b4a510608d2d33807",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/relationships.json",
+      "sha256": "06503f62d1c7ce63153cb800a1c2b0997d48d4868aa177bbe8a20e2c0755a397",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/scope-sources.json",
+      "sha256": "cf187b2722c9597e45ed05b9750075a6c605b6856ebb59c704ca95b06700101f",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/sectors.json",
+      "sha256": "00b2a88c0b77b6a2572e9cd0f13b09dd1ecce1abf320d2a9e380d199c49f9992",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/sources.json",
+      "sha256": "0e5e92b269f555867c79cdecce8e1febb12ca300769892d098397838216e6610",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/transactions.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/vehicles.json",
+      "sha256": "e811ad919033de8c9c26a39a08ba79af1640c55dca02a28c6f08a6a765bda190",
+      "unchanged": true
+    }
+  ]
+}

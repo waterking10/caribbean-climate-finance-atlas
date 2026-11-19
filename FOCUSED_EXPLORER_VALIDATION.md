@@ -1,5 +1,7 @@
 # Focused explorer — implementation and validation
 
+Historical implementation record. The ranked starting sample below is superseded by [expanded default coverage](DEFAULT_COVERAGE_VALIDATION.md); the original audit and validation are retained.
+
 19 November 2026. Local review only. No push, merge, commit, deployment, backend or deployment-workflow changes were made by this rebuild.
 
 ## Before implementation
