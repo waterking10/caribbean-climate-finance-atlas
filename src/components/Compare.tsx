@@ -1,5 +1,5 @@
 import { ArrowLeft, Columns3, Plus, X } from 'lucide-react'
-import { categories } from '../model'
+import { entityColor } from '../entity-taxonomy'
 import type { Entity } from '../model'
 import { comparisonRows, comparisonValues, sharedValues } from '../selectors'
 import type { AtlasIndex } from '../selectors'
@@ -23,13 +23,13 @@ export function Compare({ index, picked, onToggle, onEntity }: {
   const selected = picked.map(id => index.entityById.get(id)).filter((entity): entity is Entity => Boolean(entity))
   const options = index.entities.filter(entity => !picked.includes(entity.id)).sort((a, b) => a.name.localeCompare(b.name))
   return <main className="secondary-page" id="main">
-    <a href="#network" className="back-link"><ArrowLeft size={15}/> Network</a>
+    <a href="#network" className="back-link"><ArrowLeft size={15}/> Explore</a>
     <header className="secondary-heading"><h1>Compare entities</h1><p>Compare evidence-backed characteristics across up to three institutions, funds or facilities.</p></header>
     <section className="panel comparison-panel">
       <div className="compare-controls">
         <div className="picked">
           {selected.map(entity => <div className="picked-chip" key={entity.id}>
-            <span className="category-dot" style={{ background: categories[entity.category].color }}/>
+            <span className="category-dot" style={{ background: entityColor(entity) }}/>
             {entity.shortName}
             <button type="button" aria-label={'Remove ' + entity.shortName} onClick={() => onToggle(entity.id)}><X size={15}/></button>
           </div>)}

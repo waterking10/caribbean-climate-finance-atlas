@@ -42,6 +42,8 @@ Entity columns count the entity’s own tags. The thematic filter can also surfa
 
 ## Research candidate list
 
+This section records the original candidate intake. Research Desk code and candidate records are retained outside the public app; see the [public navigation audit](PUBLIC_NAVIGATION_AUDIT.md) for the current interface and browser-local backup requirements.
+
 The Research desk includes 16 new pending candidates and preserves the two original project-brief leads. Initial priority goes to mechanisms with named Caribbean counterparts or activity and a source that identifies the instrument or mandate. Each queue entry includes a source and the next verification step. [Candidate records](src/data/candidates.json)
 
 | Coverage | Priority candidates and current evidence |

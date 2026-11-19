@@ -56,7 +56,7 @@ Apply multiple roles when supported. The existing type, category and ownership f
 
 ## Research candidate review
 
-Start with a named institution, fund, vehicle or financing mechanism. Prioritize primary sources documenting a Caribbean operation, a named regional delivery channel or Caribbean eligibility. Check aliases and distinguish umbrella funds, sub-funds and administrators. Record which parts of the evidence describe a proposal, approval, signing, commitment, payout or historical operation. Capture the remaining verification work in the review note. When preparing a dataset update, substantiate each proposed role, edge, direction and amount separately. The Research desk preserves pending leads and local decisions. Publication uses the verified catalog and scope assessment files.
+Start with a named institution, fund, vehicle or financing mechanism. Prioritize primary sources documenting a Caribbean operation, a named regional delivery channel or Caribbean eligibility. Check aliases and distinguish umbrella funds, sub-funds and administrators. Record which parts of the evidence describe a proposal, approval, signing, commitment, payout or historical operation. Capture the remaining verification work in the review note. When preparing a dataset update, substantiate each proposed role, edge, direction and amount separately. Research Desk code and pending leads are retained outside the public application; existing browser-local decisions must be backed up on their original origin before release (see the [backup procedure](PUBLIC_NAVIGATION_AUDIT.md)). Public suggestions use the sourced GitHub issue template. Publication uses the verified catalog and scope assessment files.
 
 ## International capital-source review
 

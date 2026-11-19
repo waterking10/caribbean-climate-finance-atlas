@@ -2,13 +2,15 @@ import { useState } from 'react'
 import { ArrowDownLeft, ArrowLeft, ArrowRight, ArrowUpRight, Building2, ChartNoAxesColumn, ChevronDown, GitBranch, Globe2, Link2, Plus } from 'lucide-react'
 import type { CapitalPathwayIndex } from '../capital-research'
 import type { CapitalPathway } from '../capital-research-model'
-import { accessRoutes, categories, financialRoles, scopes, themes } from '../model'
+import { accessRoutes, financialRoles, scopes, themes } from '../model'
+import { entityColor } from '../entity-taxonomy'
 import type { Entity, Relationship } from '../model'
 import { displayName, edgeGroup } from '../selectors'
 import type { AtlasIndex } from '../selectors'
 import { VerificationBadge } from './NetworkPanel'
 import { PathwayInspector } from './PathwayInspector'
 import { Sources } from './Sources'
+import { classificationNotes, relationshipFamily, relationshipFamilies } from '../relationship-taxonomy'
 
 function Amount({ edge, pathwayAmounts }: { edge: Relationship; pathwayAmounts?: boolean }) {
   if (!edge.amount) return <p className="muted">{pathwayAmounts ? 'See dated financial observations in the capital pathway below.' : 'Amount unavailable in the atlas.'}</p>
@@ -40,6 +42,7 @@ export function EdgeInspector({ edge, index, capital, onEntity, onBack }: {
           <button type="button" onClick={() => onEntity(edge.target)}>{index.entityById.get(edge.target)?.shortName}</button>
         </div>
         <p className="muted">{edge.description}</p>
+        <p className="classification-note">{relationshipFamilies[relationshipFamily(edge.type)]}{classificationNotes[edge.type] && ' · ' + classificationNotes[edge.type]}</p>
         {edge.period && <p className="muted">Effective period · {edge.period}</p>}
       </div>
       <div className="profile-content">
@@ -51,7 +54,7 @@ export function EdgeInspector({ edge, index, capital, onEntity, onBack }: {
           <div><dt>{index.entityById.get(edge.target)?.shortName}</dt><dd>{edge.participantRoles.target}</dd></div>
         </dl>
         {edgeGroup(edge) !== 'institutional' && <Amount edge={edge} pathwayAmounts={pathways?.some(path => path.amounts.length > 0)}/>}
-        {pathways && <PathwayInspector edgeId={edge.id} pathways={pathways} capital={capital}/>}
+        {pathways && <PathwayInspector edgeId={edge.id} pathways={pathways} capital={capital} onEntity={onEntity}/>}
         <h3>Supporting evidence</h3>
         <Sources ids={[...new Set([...edge.evidenceIds, ...(edge.scopeEvidenceIds ?? [])])]} evidence={index.evidence}/>
       </div>
@@ -59,10 +62,11 @@ export function EdgeInspector({ edge, index, capital, onEntity, onBack }: {
   </aside>
 }
 
-export function Inspector({ entity, index, pathways, onEntity, onEdge, compared, compareFull, onCompare }: {
+export function Inspector({ entity, index, pathways, onEntity, onEdge, compared, compareFull, onCompare, onExplore }: {
   entity?: Entity; index: AtlasIndex; onEntity: (id: string) => void; onEdge: (id: string) => void;
   pathways: ReadonlyMap<string, CapitalPathway[]>;
   compared: boolean; compareFull: boolean; onCompare: () => void;
+  onExplore?: () => void;
 }) {
   const [tab, setTab] = useState('Overview')
   if (!entity) return <aside className="inspector panel" aria-label="Entity profile">
@@ -87,13 +91,14 @@ export function Inspector({ entity, index, pathways, onEntity, onEdge, compared,
     <div className="inspector-scroll">
       <div className="profile-head">
         <div className="profile-meta">
-          <div className="profile-icon" style={{ '--entity-color': categories[entity.category].color } as React.CSSProperties}><Building2 size={24}/></div>
+          <div className="profile-icon" style={{ '--entity-color': entityColor(entity) } as React.CSSProperties}><Building2 size={24}/></div>
           <VerificationBadge status={entity.status}/>
         </div>
         <h2>{entity.name}</h2>
         <p className="profile-alias">{[...new Set([entity.shortName, ...aliases])].filter(name => name !== entity.name).join(' · ') || entity.type}</p>
         <div className="tags"><span>{entity.type}</span><span>{entity.ownership}</span><span>{scopes[entity.scope.status]}</span></div>
         <a className="official-link" href={entity.website} target="_blank" rel="noreferrer"><Globe2 size={15}/> Official website <ArrowUpRight size={15}/></a>
+        {onExplore && <button type="button" className="text-button explore-profile" onClick={onExplore}>Explore documented relationships</button>}
       </div>
       <div className="profile-tabs" aria-label="Profile sections">
         {['Overview', 'Relationships', 'Evidence'].map(value => <button key={value} className={tab === value ? 'active' : ''} aria-pressed={tab === value}

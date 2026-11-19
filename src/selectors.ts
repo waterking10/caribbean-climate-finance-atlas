@@ -1,16 +1,24 @@
-import { accessRoutes, categories, financialRoles, themes } from './model'
+import { accessRoutes, financialRoles, themes } from './model'
+import { entityCategories, entityCategory, institutionTypeGroups, institutionTypeValues } from './entity-taxonomy'
 import type { AtlasData, Entity, Relationship } from './model'
 import { financialTypes } from './validation'
+import type { CapitalResearch } from './capital-research-model'
+import { relationshipFamilies, relationshipFamilyByType } from './relationship-taxonomy'
 
 export const filterFields = [
-  ['category', 'Institution category'], ['type', 'Institution type'], ['ownership', 'Ownership'],
-  ['origin', 'Capital origin'], ['geography', 'Country or mandate'], ['sector', 'Financing sector'],
-  ['theme', 'Theme'], ['instrument', 'Financial instrument'], ['relationship', 'Relationship type'],
+  ['family', 'Relationship family'], ['geography', 'Geographic scope'], ['theme', 'Financing theme'],
+  ['kind', 'Entity kind'], ['role', 'Institution role'], ['capitalType', 'Documented capital type'],
+  ['category', 'Entity category'], ['type', 'Institution type'], ['ownership', 'Ownership'],
+  ['origin', 'Capital origin'], ['sector', 'Financing sector'],
+  ['instrument', 'Financial instrument'], ['relationship', 'Relationship type'],
 ] as const
 export type FilterField = typeof filterFields[number][0]
-export type Filters = Record<FilterField | 'search', string>
+export type FilterValue = string | string[]
+export type Filters = Record<FilterField, FilterValue> & { search: string }
+export const selectedValues = (value: FilterValue): string[] => Array.isArray(value) ? value : value ? [value] : []
+export const matchesFilter = (value: FilterValue, candidates: readonly string[]): boolean => !selectedValues(value).length || selectedValues(value).some(item => candidates.includes(item))
 export const emptyFilters: Filters = {
-  search: '', category: '', type: '', ownership: '', origin: '', geography: '', sector: '', theme: '', instrument: '', relationship: '',
+  search: '', family: '', kind: '', role: '', capitalType: '', category: '', type: '', ownership: '', origin: '', geography: '', sector: '', theme: '', instrument: '', relationship: '',
 }
 
 export const displayName = (value: string) =>
@@ -52,54 +60,54 @@ export function selectEntities(index: AtlasIndex, filters: Filters): Entity[] {
 export function selectNetwork(index: AtlasIndex, filters: Filters, fullNetwork = false) {
   const eligibleEdges = index.relationshipList.filter(edge =>
     (fullNetwork || edge.themes.length > 0) &&
-    (!filters.theme || edge.themes.some(theme => theme === filters.theme)) &&
-    (!filters.relationship || edge.type === filters.relationship))
+    matchesFilter(filters.theme, edge.themes) && matchesFilter(filters.relationship, [edge.type]))
   const endpoints = new Set(eligibleEdges.flatMap(edge => [edge.source, edge.target]))
   const query = normalize(filters.search).split(/\s+/).filter(Boolean)
   const entities = index.entities.filter(entity => {
     const searchable = normalize([entity.shortName, entity.name, ...(index.aliases.get(entity.id) ?? [])].join(' '))
     return (fullNetwork || entity.scope.status === 'CORE' || (entity.scope.status === 'SUPPORTING' && endpoints.has(entity.id))) &&
       query.every(term => searchable.includes(term)) &&
-      (!filters.category || entity.category === filters.category) &&
-      (!filters.type || entity.type === filters.type) &&
-      (!filters.ownership || entity.ownership === filters.ownership) &&
-      (!filters.origin || entity.capitalOrigins?.includes(filters.origin)) &&
-      (!filters.geography || entity.geographies.includes(filters.geography)) &&
-      (!filters.sector || entity.sectors.includes(filters.sector)) &&
-      (!filters.theme || endpoints.has(entity.id) || entity.themes.some(theme => theme === filters.theme)) &&
-      (!filters.instrument || entity.instruments?.includes(filters.instrument)) &&
-      (!filters.relationship || endpoints.has(entity.id))
+      matchesFilter(filters.category, [entity.category, entityCategory(entity) ?? '']) && matchesFilter(filters.type, institutionTypeValues(entity.type)) &&
+      matchesFilter(filters.ownership, [entity.ownership]) && matchesFilter(filters.origin, entity.capitalOrigins ?? []) &&
+      matchesFilter(filters.geography, entity.geographies) && matchesFilter(filters.sector, entity.sectors) &&
+      (!selectedValues(filters.theme).length || endpoints.has(entity.id) || matchesFilter(filters.theme, entity.themes)) &&
+      matchesFilter(filters.instrument, entity.instruments ?? []) &&
+      (!selectedValues(filters.relationship).length || endpoints.has(entity.id))
   })
   const ids = new Set(entities.map(entity => entity.id))
   const edges = eligibleEdges.filter(edge => ids.has(edge.source) && ids.has(edge.target))
   return { entities, edges }
 }
 
-export function filterOptions(index: AtlasIndex): Record<FilterField, [string, string][]> {
+export function filterOptions(index: AtlasIndex, research?: CapitalResearch): Record<FilterField, [string, string][]> {
   const unique = (values: string[]): [string, string][] => [...new Set(values)].sort().map(value => [value, value])
   return {
-    category: Object.entries(categories).map(([id, { label }]) => [id, label]),
-    type: unique(index.entities.map(entity => entity.type)),
+    family: Object.entries(relationshipFamilies),
+    kind: ['institution', 'fund', 'facility', 'programme'].map(kind => [kind, displayName(kind)]),
+    role: Object.entries(financialRoles),
+    capitalType: unique(research?.pathways.flatMap(path => path.origins.map(origin => origin.capitalType)) ?? []).map(([id]) => [id, displayName(id)]),
+    category: Object.entries(entityCategories).map(([id, { label }]) => [id, label]),
+    type: Object.entries(institutionTypeGroups).map(([id, {label}]) => [id,label]),
     ownership: unique(index.entities.map(entity => entity.ownership)),
     origin: unique(index.entities.flatMap(entity => entity.capitalOrigins ?? [])),
     geography: [...index.geography.entries()].sort((a, b) => a[1].localeCompare(b[1])),
     sector: [...index.sector.entries()].sort((a, b) => a[1].localeCompare(b[1])),
     theme: Object.entries(themes),
     instrument: unique(index.entities.flatMap(entity => entity.instruments ?? [])),
-    relationship: [...new Set(index.relationshipList.map(row => row.type))].sort().map(type => [type, displayName(type)]),
+    relationship: Object.keys(relationshipFamilyByType).sort().map(type => [type, displayName(type)]),
   }
 }
 
-export function edgeGroup(edge: Relationship): 'finance' | 'risk' | 'institutional' {
+export function edgeGroup(edge: { type: string }): 'finance' | 'risk' | 'institutional' {
   if (edge.type === 'GUARANTEES' || edge.type === 'INSURES') return 'risk'
-  return financialTypes.includes(edge.type) ? 'finance' : 'institutional'
+  return financialTypes.some(type => type === edge.type) ? 'finance' : 'institutional'
 }
-export function metricKey(edge: Relationship): string | undefined {
+export function metricKey(edge: { type: string; amount?: Relationship['amount'] }): string | undefined {
   const amount = edge.amount
   if (!amount || edgeGroup(edge) !== 'finance' || !['approval', 'commitment', 'financial_close', 'disbursement'].includes(amount.status)) return
   return amount.currency + ' · ' + displayName(amount.status)
 }
-export function edgeWeights(edges: Relationship[], metric: string): Map<string, number> {
+export function edgeWeights(edges: { id: string; type: string; amount?: Relationship['amount'] }[], metric: string): Map<string, number> {
   const matching = edges.filter(edge => metric && metricKey(edge) === metric && edge.amount)
   const max = Math.max(0, ...matching.map(edge => edge.amount!.value))
   return new Map(matching.map(edge => [edge.id, 2 + 4 * Math.sqrt(edge.amount!.value / max)]))

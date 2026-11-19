@@ -2,8 +2,9 @@ import { ArrowRight, FileCheck2, GitBranch, Landmark } from 'lucide-react'
 import { atlasName, atlasSubtitle } from '../model'
 import { emptyFilters, selectNetwork } from '../selectors'
 import type { AtlasIndex } from '../selectors'
+import type { FocusedIndex } from '../focused-network'
 
-export function About({ index }: { index: AtlasIndex }) {
+export function About({ index, focused }: { index: AtlasIndex; focused?: FocusedIndex }) {
   const { entities, edges } = selectNetwork(index, emptyFilters)
   return <main className="secondary-page about-page" id="main">
     <section className="about-hero">
@@ -14,15 +15,21 @@ export function About({ index }: { index: AtlasIndex }) {
       </div>
       <div className="about-stats">
         <div><Landmark size={20}/><strong>{entities.filter(entity => entity.scope.status === 'CORE').length}</strong><span>Core entities</span></div>
-        <div><GitBranch size={20}/><strong>{edges.length}</strong><span>Relationships in the default view</span></div>
+        <div><GitBranch size={20}/><strong>{index.relationshipList.length}</strong><span>Registry relationship records</span></div>
         <div><FileCheck2 size={20}/><strong>{index.evidence.size}</strong><span>Registry sources</span></div>
       </div>
     </section>
     <div className="about-grid">
-      <section className="panel form-card"><h2>Explore the scope</h2><p>The atlas covers adaptation, mitigation, the energy transition, disaster resilience, biodiversity and nature finance, environmental sustainability, and transition finance. The default view shows core participants and the supporting entities that explain their documented financing or institutional relationships. Use Full network to explore the wider registry.</p></section>
+      <section className="panel form-card"><h2>Explore the scope</h2><p>The Atlas is a professional portfolio project and public research resource focused on how climate finance reaches Caribbean projects. It covers adaptation, mitigation, energy transition, disaster resilience, biodiversity and nature finance, environmental sustainability and transition finance. It is not a complete inventory of Caribbean climate finance or a map of every regional financial institution. Search reaches records beyond the initial selection.</p></section>
       <section className="panel form-card"><h2>Read the evidence</h2><p>This release covers a selection of institutions and relationships. Source dates and references allow you to check each record. An accreditation link describes a delivery role. Disclosed financial amounts retain their original meaning and currency.</p></section>
       <section className="panel form-card"><h2>Compare institutions and roles</h2><p>Profiles show each entity’s scope rationale, thematic tags, institutional roles and documented access routes. Relationship details identify each participant’s role in that arrangement. Compare up to three entities side by side.</p></section>
-      <section className="panel form-card"><h2>Review new candidates</h2><p>The research desk stores manual intake and review decisions in this browser. Verified graph updates are managed in the underlying dataset.</p></section>
+      <section className="panel form-card"><h2>Project purpose</h2><p>Explore and understand documented relationships between Caribbean climate finance institutions, funds and financing mechanisms. Capital pathways connect the published relationships to their financing context, decision-making roles and evidence.</p></section>
+      <section className="panel form-card"><h2>Methodology</h2><p>Research uses official institutional profiles, programme documents, audited disclosures and financier records. Each entity and relationship is assessed separately for its Caribbean climate and transition finance role. Sources support the recorded parties, direction, roles and dated claims. Amounts retain their currency and distinguish approvals, commitments, payments and risk coverage.</p></section>
+      <section className="panel form-card"><h2>Limitations</h2><p>Coverage is selective and source availability varies. Missing records or amounts do not establish an absence of finance. Accreditation, implementation and partnership links do not by themselves demonstrate a financial transfer. Institution-wide funding does not establish the origin of a particular investment. Unresolved attribution and conflicting disclosures remain visible in pathway evidence and open questions.</p></section>
+      <section className="panel form-card"><h2>Geographic coverage</h2><p>Country and territory tags, Caribbean/regional mandates and multi-country arrangements come from the existing research. Case geography is used where documented; registry-only connections use shared explicit geographic mandate tags. A regional mandate does not prove that capital was allocated to every country.</p></section>
+      <section className="panel form-card"><h2>Relationship definitions</h2><p>Capital and investment links identify financing, participation or commitments with their original labels. Management and administration identify delivery responsibilities; they do not establish ownership of the capital or approval authority. Decision links retain their stated approval or oversight scope. Guarantees and insurance are contingent risk coverage, not disbursements. Technical assistance and project preparation identify documented support. Each entity can perform several roles without being duplicated.</p></section>
+      <section className="panel form-card"><h2>Evidence standards</h2><p>Only verified connections appear in Explore. Full pathway profiles retain reported or conflicting claims with their original status, supporting sources, dates and research questions. Separate observations are never added merely because they share a currency or appear in the same diagram. Source identifiers and original relationship and pathway IDs remain intact.</p></section>
+      {focused&&<section className="panel form-card"><h2>How the starting view is selected</h2><p>At most 12 verified institutions and institutional climate-capital pools are selected deterministically, with isolated nodes removed. Scores use 4 points per relevant documented climate-finance link, 6 per associated researched pathway, 5 per capital-provision link, 3 per management/intermediation link, up to 5 for verified evidence coverage and up to 3 for completed profile fields. Ties use stable record IDs. Generic ownership, establishment, accreditation and partnership links do not contribute. This selects a useful starting view, not institutional merit or regional market share.</p><details><summary>Current selection and scores</summary><ul>{focused.rank.filter(row=>focused.defaultIds.includes(row.id)).map(row=><li key={row.id}>{focused.nodes.get(row.id)?.name} · {row.score} points · {row.relevantLinks} relevant links · {row.pathways} pathways</li>)}</ul></details></section>}
     </div>
   </main>
 }

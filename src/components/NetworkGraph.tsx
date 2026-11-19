@@ -3,8 +3,9 @@ import type { Core, ElementDefinition, Position, StylesheetStyle } from 'cytosca
 import { useEffect, useMemo, useRef } from 'react'
 import { Crosshair, Minus, Plus } from 'lucide-react'
 import type { CapitalPathway } from '../capital-research-model'
-import { categories } from '../model'
-import type { Entity, Relationship } from '../model'
+import { entityColor } from '../entity-taxonomy'
+import type { ExplorationNode, ExplorationEdge } from '../exploration'
+import { relationshipFamily } from '../relationship-taxonomy'
 import { edgeGroup, edgeWeights } from '../selectors'
 
 const seedPositions: Record<string, [number, number]> = {
@@ -81,6 +82,12 @@ const graphStyle: StylesheetStyle[] = [
     style: { 'line-color': '#dbb6f3', 'target-arrow-color': '#dbb6f3', 'line-style': 'dotted' },
   },
   { selector: 'edge.mutual', style: { 'target-arrow-shape': 'none' } },
+  { selector: 'edge.capital', style: { 'line-color': '#64ccae', 'target-arrow-color': '#64ccae', 'line-style': 'solid' } },
+  { selector: 'edge.decision', style: { 'line-color': '#efbb70', 'target-arrow-color': '#efbb70', 'line-style': 'dashed', 'line-dash-pattern': [8, 3] } },
+  { selector: 'edge.support', style: { 'line-color': '#7dabfd', 'target-arrow-color': '#7dabfd', 'line-style': 'dotted' } },
+  { selector: 'edge.review', style: { 'line-color': '#aab8b1', 'target-arrow-color': '#aab8b1', 'line-style': 'dashed', 'line-dash-pattern': [2, 6] } },
+  { selector: 'node.research', style: { shape: 'round-rectangle', 'font-size': 11, 'text-max-width': '140px' } },
+  { selector: 'edge.active-path', style: { 'underlay-color': '#efc987', 'underlay-opacity': 0.5, 'underlay-padding': 3, opacity: 1 } },
   { selector: 'edge.pathway', style: { 'underlay-color': '#efc987', 'underlay-opacity': 0.38, 'underlay-padding': 3 } },
   { selector: 'edge.connected', style: { opacity: 0.98 } },
   {
@@ -92,8 +99,11 @@ const graphStyle: StylesheetStyle[] = [
 ]
 
 interface Props {
-  entities: Entity[]
-  edges: Relationship[]
+  entities: ExplorationNode[]
+  edges: ExplorationEdge[]
+  highlighted: string[]
+  compact: boolean
+  matchingCount: number
   pathways: ReadonlyMap<string, CapitalPathway[]>
   selected: string
   selectedEdge: string
@@ -122,14 +132,15 @@ export function NetworkGraph(props: Props) {
         const [x, y] = seedPositions[entity.id] ?? [100 + (index % 9) * 85, 810 + Math.floor(index / 9) * 85]
         return {
           group: 'nodes',
-          data: { id: entity.id, label: entity.shortName, color: categories[entity.category].color,
+          classes: entity.entity ? [] : ['research'],
+          data: { id: entity.id, label: entity.shortName, color: entityColor(entity),
             size: Math.min(42, 20 + 2.4 * (degrees.get(entity.id) ?? 0)) },
           position: remembered.current.get(entity.id) ?? { x: x * 1.14, y: y * 0.94 },
         }
       }),
       ...edges.map((edge): ElementDefinition => ({
         group: 'edges', data: { id: edge.id, source: edge.source, target: edge.target, stroke: widths.get(edge.id) ?? 1.5 },
-        classes: [edgeGroup(edge), ...(edge.direction === 'mutual' ? ['mutual'] : []), ...(pathways.has(edge.id) ? ['pathway'] : [])],
+        classes: [edgeGroup(edge), relationshipFamily(edge.type), ...(edge.direction === 'mutual' || edge.type === 'CO_INVESTS_WITH' ? ['mutual'] : []), ...(pathways.has(edge.id) ? ['pathway'] : [])],
       })),
     ]
   }, [entities, edges, metric, pathways])
@@ -180,8 +191,15 @@ export function NetworkGraph(props: Props) {
         }
       }
     })
-    if (geometryChanged && entities.length) cy.fit(cy.elements(), 27)
-  }, [elements, entities.length, pathways])
+    if (geometryChanged && entities.length) {
+      if (props.compact) cy.layout({
+        name: 'concentric', fit: true, padding: 65, minNodeSpacing: 100,
+        concentric: node => node.id() === selected ? 100 : node.degree(),
+        levelWidth: () => 100,
+      }).run()
+      else cy.fit(cy.elements(), 27)
+    }
+  }, [elements, entities.length, pathways, props.compact, selected])
 
   useEffect(() => {
     const cy = graph.current
@@ -189,19 +207,23 @@ export function NetworkGraph(props: Props) {
     const root = cy.getElementById(selected)
     const edge = cy.getElementById(selectedEdge)
     cy.batch(() => {
-      cy.elements().removeClass('current faded connected')
+      cy.elements().removeClass('current faded connected active-path')
       cy.nodes().toggleClass('no-label', !labels)
       root.addClass('current')
       if (edge.nonempty()) {
         cy.elements().difference(edge.union(edge.connectedNodes())).addClass('faded')
         edge.addClass('current')
+      } else if (props.highlighted.length) {
+        const highlighted = cy.edges().filter(item => props.highlighted.includes(item.id()))
+        highlighted.addClass('active-path')
+        cy.elements().difference(highlighted.union(highlighted.connectedNodes())).addClass('faded')
       } else if (focus && root.nonempty()) {
         const neighbours = root.closedNeighborhood()
         neighbours.edges().addClass('connected')
         cy.elements().difference(neighbours).addClass('faded')
       }
     })
-  }, [elements, selected, selectedEdge, labels, focus])
+  }, [elements, selected, selectedEdge, labels, focus, props.highlighted])
 
   function zoom(factor: number) {
     const cy = graph.current
@@ -209,7 +231,7 @@ export function NetworkGraph(props: Props) {
   }
   return <div className="graph-area">
     <div className="graph-surface" ref={container} role="img" aria-label="Interactive institutional network. An accessible list of entities and relationships is available in the adjacent panels." data-testid="graph-surface" />
-    {entities.length === 0 && <div className="graph-empty"><strong>No matching entities</strong><span>Broaden your search or reset the filters.</span></div>}
+    {entities.length === 0 && <div className="graph-empty"><strong>{props.matchingCount ? 'No matching connections' : 'No matching entities'}</strong><span>{props.matchingCount ? 'Matching entities remain in the list. Broaden filters or display all matching entities.' : 'Broaden your search or reset the filters.'}</span></div>}
     <div className="graph-hint">Drag to pan <span>·</span> <b className="desktop-zoom">Scroll to zoom</b><b className="touch-zoom">Pinch to zoom</b></div>
     <div className="zoom-tools" aria-label="Graph navigation">
       <button type="button" title="Zoom in" aria-label="Zoom in" onClick={() => zoom(1.25)}><Plus size={17}/></button>

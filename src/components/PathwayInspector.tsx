@@ -5,6 +5,7 @@ import type { CapitalPathway, PathwayLink } from '../capital-research-model'
 import { displayName } from '../selectors'
 import { VerificationBadge } from './NetworkPanel'
 import { Sources } from './Sources'
+import { classificationNotes, relationshipFamily, relationshipFamilies } from '../relationship-taxonomy'
 
 const sections = [
   ['finance', 'Capital sources and financing'],
@@ -29,14 +30,15 @@ function ClaimSources({ ids, capital }: { ids: string[]; capital: CapitalPathway
   </details>
 }
 
-function PathwayClaim({ link, path, capital }: { link: PathwayLink; path: CapitalPathway; capital: CapitalPathwayIndex }) {
+function PathwayClaim({ link, path, capital, onEntity }: { link: PathwayLink; path: CapitalPathway; capital: CapitalPathwayIndex; onEntity?: (id: string) => void }) {
   const origins = path.origins.filter(origin => origin.linkId === link.id)
   const recipients = path.recipients.filter(recipient => recipient.linkId === link.id)
   return <li>
     <strong>{displayName(link.type)}{link.instrument && ' · ' + displayName(link.instrument)}</strong>
-    <div className="pathway-parties">{capital.actorNames.get(link.source)} → {capital.actorNames.get(link.target)}</div>
+    <div className="pathway-parties">{onEntity ? <button className="text-button" type="button" onClick={() => onEntity(link.source)}>{capital.actorNames.get(link.source)}</button> : capital.actorNames.get(link.source)} → {onEntity ? <button className="text-button" type="button" onClick={() => onEntity(link.target)}>{capital.actorNames.get(link.target)}</button> : capital.actorNames.get(link.target)}</div>
     {link.status !== 'verified' && <VerificationBadge status={link.status}/>}
     <p>{link.description}</p>
+    {classificationNotes[link.type] && <p className="classification-note">{classificationNotes[link.type]}</p>}
     {link.stage && <small>Documented stage · {displayName(link.stage)}</small>}
     {link.fundingScope && <p>{displayName(link.fundingScope)}</p>}
     {link.limitation && <p>{link.limitation}</p>}
@@ -47,12 +49,12 @@ function PathwayClaim({ link, path, capital }: { link: PathwayLink; path: Capita
   </li>
 }
 
-export function PathwayInspector({ edgeId, pathways, capital }: { edgeId: string; pathways: CapitalPathway[]; capital: CapitalPathwayIndex }) {
+export function PathwayInspector({ edgeId, pathways, capital, onEntity }: { edgeId: string; pathways: CapitalPathway[]; capital: CapitalPathwayIndex; onEntity?: (id: string) => void }) {
   return <section className="pathway-inspector" aria-label="Capital pathway research">
     <h3>Capital pathway</h3>
     {pathways.map((path, index) => {
-      const matching = path.links.filter(link => link.atlasRelationshipId === edgeId)
-      const contextual = path.links.filter(link => link.atlasRelationshipId !== edgeId)
+      const matching = path.links.filter(link => link.atlasRelationshipId === edgeId || link.id === edgeId)
+      const contextual = path.links.filter(link => !matching.includes(link))
       return <details className="pathway-mechanism" key={path.id} open={index === 0}>
         <summary>{path.name}</summary>
         <div className="pathway-body">
@@ -60,14 +62,20 @@ export function PathwayInspector({ edgeId, pathways, capital }: { edgeId: string
           {path.upstreamNote && <p>{path.upstreamNote}</p>}
           {matching.length > 0 && <details className="pathway-section" open>
             <summary>Research on this relationship</summary>
-            <ul>{matching.map(link => <PathwayClaim key={link.id} link={link} path={path} capital={capital}/>)}</ul>
+            <ul>{matching.map(link => <PathwayClaim key={link.id} link={link} path={path} capital={capital} onEntity={onEntity}/>)}</ul>
           </details>}
           <p className="pathway-label">Wider financing pathway</p>
           {sections.map(([group, title]) => {
-            const claims = contextual.filter(link => pathwayRelationshipGroups[link.type] === group)
+            const claims = contextual.filter(link => pathwayRelationshipGroups[link.type] === group && !['support', 'review'].includes(relationshipFamily(link.type)))
             return claims.length > 0 && <details className="pathway-section" key={group}>
               <summary>{title}</summary>
-              <ul>{claims.map(link => <PathwayClaim key={link.id} link={link} path={path} capital={capital}/>)}</ul>
+              <ul>{claims.map(link => <PathwayClaim key={link.id} link={link} path={path} capital={capital} onEntity={onEntity}/>)}</ul>
+            </details>
+          })}
+          {(['support', 'review'] as const).map(group => {
+            const claims = contextual.filter(link => relationshipFamily(link.type) === group)
+            return claims.length > 0 && <details className="pathway-section" key={group}><summary>{relationshipFamilies[group]}</summary>
+              <ul>{claims.map(link => <PathwayClaim key={link.id} link={link} path={path} capital={capital} onEntity={onEntity}/>)}</ul>
             </details>
           })}
           {path.amounts.length > 0 && <details className="pathway-section">

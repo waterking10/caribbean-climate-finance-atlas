@@ -2,7 +2,7 @@
 
 The [main source register](src/data/sources.json) and [scope audit sources](src/data/scope-sources.json) provide titles, publishers, URLs, access dates, publication dates where identified, and paraphrased references. Source cards in the app show these details alongside the official link.
 
-The registry contains 37 verified institutions, 36 verified vehicles, 73 verified relationships and 134 source records. Eight relationships include a disclosed financial amount. The Research desk contains 18 reviewed leads, including 15 published candidates linked to their atlas profiles. See the [candidate review](CANDIDATE_REVIEW.md) for decisions and updated coverage.
+The registry contains 37 verified institutions, 36 verified vehicles, 73 verified relationships and 134 source records. Eight relationships include a disclosed financial amount. The retained candidate-review records contain 18 reviewed leads, including 15 published candidates linked to their atlas profiles. Candidate management is excluded from the public app; published profiles and their source cards remain available through Explore and Compare. See the [candidate review](CANDIDATE_REVIEW.md) for decisions and updated coverage.
 
 ## Examples by coverage
 
