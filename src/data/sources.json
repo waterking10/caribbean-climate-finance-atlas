@@ -1,0 +1,1413 @@
+[
+  {
+    "id": "src-cdb-about",
+    "publisher": "Caribbean Development Bank",
+    "title": "About Us",
+    "url": "https://www.caribank.org/about-us",
+    "reference": "The mandate and mission describe the Bank’s development role in borrowing member countries.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-cdb-hq",
+    "publisher": "Caribbean Development Bank",
+    "title": "General Privacy Notice",
+    "url": "https://www.caribank.org/general-privacy-notice",
+    "reference": "The headquarters contact address is in Wildey, Barbados.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-cdb-members",
+    "publisher": "Caribbean Development Bank",
+    "title": "Borrowing Members",
+    "url": "https://www.caribank.org/countries-and-members/borrowing-members",
+    "reference": "Lists 19 borrowing members and explains their borrowing and voting rights.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-cdb-finance",
+    "publisher": "Caribbean Development Bank",
+    "title": "Sustainable Finance Framework",
+    "url": "https://www.caribank.org/sites/default/files/publication-resources/CDB%20Sustainable%20Finance%20Framework%20-%20Clean%20-%2021.11.22%201.pdf",
+    "reference": "Background and eligible categories describe development finance activities and the bank’s capital-market framework.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-idb-about",
+    "publisher": "Inter-American Development Bank",
+    "title": "About Us",
+    "url": "https://www.iadb.org/en/who-we-are/about-us",
+    "reference": "The page distinguishes IDB public sector finance, IDB Invest private sector finance and IDB Lab innovation.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-idb-capital",
+    "publisher": "Inter-American Development Bank",
+    "title": "Capital and Funds under Administration",
+    "url": "https://www.iadb.org/en/how-we-can-work-together/public-sector/capital-and-funds-under-administration",
+    "reference": "Describes member capital, market borrowing and administered funds.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-idb-offices",
+    "publisher": "Inter-American Development Bank",
+    "title": "Country Offices",
+    "url": "https://www.iadb.org/en/who-we-are/country-offices",
+    "reference": "Lists Washington headquarters and offices in Latin America and the Caribbean.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-idbi-about",
+    "publisher": "IDB Invest",
+    "title": "About Us",
+    "url": "https://idbinvest.org/en/about-us",
+    "reference": "Describes its private sector development mandate and ownership by member countries.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-idbi-finance",
+    "publisher": "IDB Invest",
+    "title": "Inter-American Investment Corporation financial statements",
+    "url": "https://www.idbinvest.org/es/download/7451",
+    "reference": "The institution describes senior and subordinated lending, equity and guarantees.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-idb-lab-report",
+    "publisher": "Inter-American Development Bank",
+    "title": "President’s Report 2025",
+    "url": "https://publications.iadb.org/publications/english/document/IDB_President_Report_2025.pdf",
+    "reference": "Identifies the Multilateral Investment Fund (IDB Lab) as a trust fund administered by IDB.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-wb-about",
+    "publisher": "World Bank",
+    "title": "World Bank (IBRD/IDA)",
+    "url": "https://www.worldbank.org/en/about/annual-report/world-bank",
+    "reference": "Distinguishes IBRD financing from IDA concessional credits and grants.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-wbg-basics",
+    "publisher": "World Bank Group",
+    "title": "World Bank Group Basics",
+    "url": "https://libguides.worldbank.org/WBGInfoguide/basics",
+    "reference": "Describes the five legally distinct institutions in the World Bank Group.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-wbg-caribbean",
+    "publisher": "World Bank Group",
+    "title": "The Caribbean",
+    "url": "https://www.worldbank.org/ext/en/region/lac/caribbean",
+    "reference": "The regional overview covers resilience, jobs and regional solutions.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-ifc-lac",
+    "publisher": "International Finance Corporation",
+    "title": "IFC in Latin America and the Caribbean",
+    "url": "https://www.ifc.org/en/where-we-work/latin-america-and-the-caribbean",
+    "reference": "Describes private sector investment and advisory operations in the region.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-eib-lac",
+    "publisher": "European Investment Bank",
+    "title": "The EIB in Latin America and the Caribbean",
+    "url": "https://www.eib.org/en/projects/region/latin-america-caribbean",
+    "reference": "Identifies climate action, infrastructure and sustainable development as regional priorities.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-eib-cdb-2024",
+    "publisher": "European Investment Bank",
+    "title": "EIB and Caribbean Development Bank partner to boost resilience to climate change in the Caribbean",
+    "url": "https://www.eib.org/en/press/all/2024-392-global-gateway-eib-and-caribbean-development-bank-partner-to-boost-resilience-to-climate-change-in-the-caribbean",
+    "reference": "The announcement describes a signed EUR 100 million loan for water and waste management and identifies EIB as owned by EU member states.",
+    "publishedOn": "2024-10-25",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-dbj-about",
+    "publisher": "Development Bank of Jamaica",
+    "title": "About the Development Bank of Jamaica",
+    "url": "https://dbankjm.com/elementor-16221/",
+    "reference": "Describes the bank as a wholly government-owned company established in 2000.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-dbj-afi",
+    "publisher": "Development Bank of Jamaica",
+    "title": "Loans through Approved Financial Institutions",
+    "url": "https://dbankjm.com/services/loansthroughafi/",
+    "reference": "Explains intermediary lending and DBJ funding sources.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-gcf-about",
+    "publisher": "Green Climate Fund",
+    "title": "About the Green Climate Fund",
+    "url": "https://www.greenclimate.fund/about",
+    "reference": "Describes the Fund’s UNFCCC origins and mitigation and adaptation mandate.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-gcf-hq",
+    "publisher": "Green Climate Fund",
+    "title": "Headquarters",
+    "url": "https://www.greenclimate.fund/about/secretariat/headquarters",
+    "reference": "Names Songdo, Incheon, Republic of Korea as headquarters.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-gcf-access",
+    "publisher": "Green Climate Fund",
+    "title": "Access funding for climate actions",
+    "url": "https://www.greenclimate.fund/access-funding",
+    "reference": "Describes country-driven project preparation, financing and access pathways.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-gef-funding",
+    "publisher": "Global Environment Facility",
+    "title": "Funding",
+    "url": "https://www.thegef.org/who-we-are/funding",
+    "reference": "Describes donor replenishment and delivery through GEF Agencies.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-gef-agencies",
+    "publisher": "Global Environment Facility",
+    "title": "GEF Agencies",
+    "url": "https://www.thegef.org/partners/gef-agencies",
+    "reference": "Identifies IDB and the World Bank as implementing agencies.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-af-about",
+    "publisher": "Adaptation Fund",
+    "title": "Adaptation Fund",
+    "url": "https://www.adaptation-fund.org/",
+    "reference": "Describes concrete adaptation support for vulnerable developing countries and communities.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-af-access",
+    "publisher": "Adaptation Fund",
+    "title": "Implementing Entities",
+    "url": "https://www.adaptation-fund.org/apply-funding/implementing-entities/",
+    "reference": "Eligible parties access funding through national, regional or multilateral implementing entities.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-af-cdb",
+    "publisher": "Adaptation Fund",
+    "title": "Caribbean Development Bank (CDB)",
+    "url": "https://www.adaptation-fund.org/imp_entity/caribbean-development-bank-cdb/",
+    "reference": "Lists CDB as a regional implementing entity.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-ifc-cif",
+    "publisher": "International Finance Corporation",
+    "title": "Climate Investment Funds",
+    "url": "https://www.ifc.org/en/what-we-do/sector-expertise/blended-finance/climate/climate-Investment-funds",
+    "reference": "Describes CIF’s climate mandate and the Clean Technology Fund as its concessional vehicle.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-cdb-sef",
+    "publisher": "Caribbean Development Bank",
+    "title": "CDB signs agreement with IDB for the Sustainable Energy Facility",
+    "url": "https://www.caribank.org/newsroom/news-and-events/cdb-signs-agreement-idb-secure-usd715m-sustainable-energy-facility-eastern-caribbean",
+    "reference": "Financing breakdown identifies a USD 20 million IDB credit line and grant components from the Clean Technology Fund and GEF Trust Fund.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-idb-sef",
+    "publisher": "Inter-American Development Bank",
+    "title": "Sustainable Energy Facility for the Eastern Caribbean (RG-L1071)",
+    "url": "https://www.iadb.org/en/project/RG-L1071",
+    "reference": "Original approval amount USD 20 million. The credit loan is to CDB for eligible on-lending.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-gcf-fp020",
+    "publisher": "Green Climate Fund",
+    "title": "FP020: Sustainable Energy Facility for the Eastern Caribbean",
+    "url": "https://www.greenclimate.fund/portfolio/projects/fp020",
+    "reference": "Portfolio record identifies approved GCF support and IDB as the accredited entity.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-ccccc-about",
+    "publisher": "Caribbean Community Climate Change Centre",
+    "title": "About Us",
+    "url": "https://caribbeanclimate.org/about/",
+    "reference": "Records the CARICOM Heads’ approval of the Centre and its regional climate mandate.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-gcf-ccccc",
+    "publisher": "Green Climate Fund",
+    "title": "Caribbean Community Climate Change Centre accredited entity profile",
+    "url": "https://www.greenclimate.fund/partners/accredited-entities/ccccc",
+    "reference": "Lists the Centre as a regional accredited entity and describes its small island focus.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-ccccc-caricom",
+    "publisher": "CARICOM",
+    "title": "Caribbean Community Climate Change Centre",
+    "url": "https://caricom.org/institutions/caribbean-community-climate-change-centre-ccccc/",
+    "reference": "Lists the Centre as a regional institution coordinating Caribbean climate response and locates it in Belize.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-ccsa-about",
+    "publisher": "Caribbean Climate-Smart Accelerator",
+    "title": "About CCSA",
+    "url": "https://caribbeanaccelerator.org/about",
+    "reference": "Describes the Accelerator’s origins and catalytic investment and implementation role.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-ccsa-work",
+    "publisher": "Caribbean Climate-Smart Accelerator",
+    "title": "What We Do",
+    "url": "https://caribbeanaccelerator.org/what-we-do",
+    "reference": "Documents regional project support and finance facilitation.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-ccsa-terms",
+    "publisher": "Caribbean Climate-Smart Accelerator",
+    "title": "Terms and Conditions",
+    "url": "https://caribbeanaccelerator.org/terms",
+    "reference": "Identifies the organization operating the platform.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-ccrif-about",
+    "publisher": "CCRIF SPC",
+    "title": "About Us",
+    "url": "https://www.ccrif.org/about-us?language_content_entity=en",
+    "reference": "Identifies the segregated portfolio company and its parametric insurance and regional risk-pooling role.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-ccrif-wb",
+    "publisher": "World Bank",
+    "title": "Risk insurance builds climate and disaster resilience in Central America and the Caribbean",
+    "url": "https://www.worldbank.org/en/results/2022/04/21/risk-insurance-builds-climate-and-disaster-resilience-in-central-america-and-the-caribbean",
+    "reference": "Documents technical and financial support through a World Bank-administered multi-donor trust fund.",
+    "publishedOn": "2022-04-21",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-cdb-seec",
+    "publisher": "Caribbean Development Bank",
+    "title": "Sustainable Energy for the Eastern Caribbean",
+    "url": "https://www.caribank.org/our-work/programmes/sustainable-energy-eastern-caribbean",
+    "reference": "Describes the multi-donor programme and its Eastern Caribbean mandate.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-caricom-about",
+    "publisher": "CARICOM",
+    "title": "Who We Are",
+    "url": "https://caricom.org/our-community/who-we-are/",
+    "reference": "Describes the Caribbean Community’s member countries and regional integration mandate.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-cdf-about",
+    "publisher": "CARICOM Development Fund",
+    "title": "Who We Are",
+    "url": "https://caricomdevelopmentfund.org/who-we-are/",
+    "reference": "Describes the treaty basis for the Fund and mandate to reduce disparities in the single market.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-cdf-programmes",
+    "publisher": "CARICOM Development Fund",
+    "title": "CARICOM Development Fund",
+    "url": "https://caricomdevelopmentfund.org/",
+    "reference": "Describes financial and technical assistance through Country Assistance Programmes.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-export-rpsdp",
+    "publisher": "Caribbean Export Development Agency",
+    "title": "Regional Private Sector Development Programme III",
+    "url": "https://carib-export.com/en/projects/regional-private-sector-development-programme-iii",
+    "reference": "Identifies Caribbean Export as implementing agency for the EU-supported programme for CARIFORUM private sector development.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-export-eu",
+    "publisher": "Caribbean Export Development Agency",
+    "title": "European Union",
+    "url": "https://carib-export.com/en/partners/european-union",
+    "reference": "Describes prior EU regional private sector development programmes implemented by the agency.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-eu-caribbean",
+    "publisher": "European External Action Service",
+    "title": "Factsheet: EU–Caribbean relations",
+    "url": "https://www.eeas.europa.eu/eeas/factsheet-eu-caribbean-relations_en",
+    "reference": "Summarizes the Caribbean partnership and EU development cooperation.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-eu-lacif",
+    "publisher": "European Commission",
+    "title": "LACIF: An EU vehicle to generate sustainable investment in Latin America and the Caribbean",
+    "url": "https://international-partnerships.ec.europa.eu/policies/programming/programmes/lacif-eu-vehicle-generate-sustainable-investment-latin-america-and-caribbean_en",
+    "reference": "Describes the EU facility combining grant support with partner finance.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-uk-caribbean",
+    "publisher": "UK Government",
+    "title": "UK–Caribbean region development partnership summary, July 2023",
+    "url": "https://www.gov.uk/government/publications/uk-caribbean-region-development-partnership-summary/uk-caribbean-region-development-partnership-summary-july-2023",
+    "reference": "Summarizes bilateral UK development priorities and infrastructure support in the Caribbean.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-cdb-ukcif",
+    "publisher": "Caribbean Development Bank",
+    "title": "United Kingdom Caribbean Infrastructure Fund (UKCIF)",
+    "url": "https://www.caribank.org/our-work/programmes/united-kingdom-caribbean-infrastructure-fund-ukcif",
+    "reference": "Identifies the UK government through FCDO as the grant funder and CDB as administrator.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-ukcif-procurement",
+    "publisher": "Caribbean Development Bank",
+    "title": "UK Caribbean Infrastructure Partnership Programme procurement",
+    "url": "https://www.caribank.org/work-with-us/procurement/procurement-notices/united-kingdom-caribbean-infrastructure-partnership-programme-ukcif",
+    "reference": "Lists procurement for a CDB-administered, UK-funded programme.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-cdb-sdf",
+    "publisher": "Caribbean Development Bank",
+    "title": "Special Development Fund",
+    "url": "https://www.caribank.org/our-work/programmes/special-development-fund",
+    "reference": "Describes the CDB fund, contributor replenishments, and concessional loans and grants.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-cdb-ppp",
+    "publisher": "Caribbean Development Bank",
+    "title": "Regional Public-Private Partnership Support Facility",
+    "url": "https://www.caribank.org/our-work/programmes/regional-public-private-partnership-support-facility",
+    "reference": "Names CDB, World Bank, IDB and the Multilateral Investment Fund among the launch collaborators in 2015.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-rfhl-about",
+    "publisher": "Republic Financial Holdings",
+    "title": "About Us",
+    "url": "https://www.rfhl.com/about-us/",
+    "reference": "Lists Republic Bank (Barbados) among the banks owned by the group.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-rfhl-subs",
+    "publisher": "Republic Financial Holdings",
+    "title": "Subsidiaries",
+    "url": "https://www.rfhl.com/subsidiaries/",
+    "reference": "Identifies Republic Bank (Barbados) Limited as a commercial bank and links to its website.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-republic-bb",
+    "publisher": "Republic Bank (Barbados)",
+    "title": "Republic Bank Barbados",
+    "url": "https://www.republicbarbados.com/",
+    "reference": "Bank site lists personal and commercial banking services.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-cibc-ar",
+    "publisher": "CIBC Caribbean",
+    "title": "CIBC Caribbean Group Annual Report 2025",
+    "url": "https://www.cibccaribbean.com/binaries/content/assets/annual-reports/2025/cibc-caribbean-group-ar-2025.pdf",
+    "reference": "Ownership chart and financial statements identify the public company, its parent and regional banking subsidiaries.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-cibc-history",
+    "publisher": "CIBC Caribbean",
+    "title": "Our History",
+    "url": "https://www.cibccaribbean.com/about-us/corporate-profile/history",
+    "reference": "Documents the FirstCaribbean origins and CIBC branding.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-rbc-caribbean",
+    "publisher": "Royal Bank of Canada",
+    "title": "RBC in the Caribbean",
+    "url": "https://www.rbcroyalbank.com/caribbean/",
+    "reference": "Official regional product and country selector for the Royal Bank of Canada Caribbean operations.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-sagicor-about",
+    "publisher": "Sagicor Financial",
+    "title": "Who We Are",
+    "url": "https://www.sagicor.com/en/about-sagicor/who%20we%20are",
+    "reference": "Describes the group’s Barbados origins, life insurance and annuities, and wider Caribbean services.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-sagicor-life",
+    "publisher": "Sagicor Financial",
+    "title": "Sagicor Life Inc",
+    "url": "https://www.sagicor.com/en/about-sagicor/our-companies/sagicor-life-inc",
+    "reference": "Group company profile describes Barbados origins, insurance, mortgages, asset management and pension services.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-guardian-structure",
+    "publisher": "Guardian Group",
+    "title": "Guardian Holdings Limited organization structure",
+    "url": "https://trinidad.myguardiangroup.com/companies/guardian-holdings-limited%3A%3Aorganisation-structure",
+    "reference": "Group chart lists regional insurance operations and subsidiaries.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-guardian-sustainability",
+    "publisher": "Guardian Group",
+    "title": "Sustainability Report 2025",
+    "url": "https://trinidad.myguardiangroup.com/sustainability-report-2025",
+    "reference": "Report scope covers Guardian Holdings and its subsidiaries.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-nis-about",
+    "publisher": "Barbados National Insurance and Social Security Service",
+    "title": "About Us",
+    "url": "https://www.nis.gov.bb/about-us/",
+    "reference": "Describes social insurance funded by contributions and names investment returns as a fund objective.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-nis-investment",
+    "publisher": "Barbados National Insurance and Social Security Service",
+    "title": "Investments",
+    "url": "https://www.nis.gov.bb/investments-2/",
+    "reference": "Publishes historical investment portfolio snapshots for the National Insurance Fund.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-nib-investments",
+    "publisher": "National Insurance Board of Trinidad and Tobago",
+    "title": "Investments",
+    "url": "https://www.nibtt.net/NIBTT/Investments.html",
+    "reference": "Explains how investment income and contributions fund benefits.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-nib-ar",
+    "publisher": "National Insurance Board of Trinidad and Tobago",
+    "title": "Annual Report 2023–2024",
+    "url": "https://www.nibtt.net/annualreport/AR2023_24.pdf",
+    "reference": "Annual report describes the statutory scheme and investment portfolio.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-sygnus-capital",
+    "publisher": "Sygnus Group",
+    "title": "Our Companies",
+    "url": "https://sygnusgroup.com/who-is-sygnus/our-companies/",
+    "reference": "Profiles Sygnus Capital as a licensed dealer and provider of alternative financing services.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-sygnus-sci",
+    "publisher": "Sygnus Group",
+    "title": "Sygnus Credit Investments",
+    "url": "https://sygnusgroup.com/alternative-investment-platform/sygnus-credit-investments/",
+    "reference": "Identifies Sygnus Capital as manager and describes note, preference share, asset-backed and mezzanine investment instruments.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-sygnus-deneb",
+    "publisher": "Sygnus Group",
+    "title": "Sygnus Deneb Investments",
+    "url": "https://sygnusgroup.com/alternative-investment-platform/sygnus-deneb/",
+    "reference": "Profiles a private equity company focused on growth capital for medium-sized businesses.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-sygnus-deneb-agm",
+    "publisher": "Sygnus Group",
+    "title": "Sygnus Credit Investments 4th annual general meeting minutes",
+    "url": "https://sygnusgroup.com/wp-content/uploads/2023/01/Minutes-for-Sygnus-Credit-Investments-Ltd-AGM-held-on-January-26-2022-FINAL.pdf",
+    "reference": "Management discussion identifies Sygnus Capital as manager of Sygnus Deneb at the January 2022 meeting.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-jn-about",
+    "publisher": "JN Fund Managers",
+    "title": "Who We Are",
+    "url": "https://www.jnfunds.com/who-we-are/",
+    "reference": "Describes the Jamaican licensed securities dealer and asset manager.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-jn-offering",
+    "publisher": "JN Fund Managers",
+    "title": "JN Mutual Funds Offering Document 2024–2025",
+    "url": "https://www.jnfunds.com/wp-content/uploads/JN-Mutual-Funds-Offering-Document-2024-to-2025-approved-Dec-20-2024.pdf",
+    "reference": "The management section names JN Fund Managers as the manager of the funds and supplies the Kingston address.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-fundaccess-about",
+    "publisher": "FundAccess",
+    "title": "About Us",
+    "url": "https://www.fundaccess.org/about/",
+    "reference": "Identifies the Barbados Agency for Micro Enterprise Development and its MSME finance mandate.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-fundaccess-loans",
+    "publisher": "FundAccess",
+    "title": "Application Documents",
+    "url": "https://www.fundaccess.org/app-docs/",
+    "reference": "Lists documents required to apply for a FundAccess loan.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-gcf-cdb",
+    "publisher": "Green Climate Fund",
+    "title": "Caribbean Development Bank accredited entity profile",
+    "url": "https://www.greenclimate.fund/partners/accredited-entities/cdb",
+    "reference": "Lists CDB as an accredited entity of the Green Climate Fund.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-gcf-idb",
+    "publisher": "Green Climate Fund",
+    "title": "GCF strengthens partnership with Inter-American Development Bank",
+    "url": "https://www.greenclimate.fund/about/news-and-updates/gcf-strengthens-partnership-inter-american-development-bank",
+    "reference": "GCF announcement documents the accreditation master agreement with IDB.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-gcf-idbi",
+    "publisher": "Green Climate Fund",
+    "title": "IDB Invest accredited entity profile",
+    "url": "https://www.greenclimate.fund/partners/accredited-entities/idb-invest",
+    "reference": "GCF directory identifies IDB Invest as an accredited entity.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-gcf-ifc",
+    "publisher": "Green Climate Fund",
+    "title": "International Finance Corporation accredited entity profile",
+    "url": "https://www.greenclimate.fund/partners/accredited-entities/ifc",
+    "reference": "GCF directory identifies IFC as an accredited entity.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-gef-organization",
+    "publisher": "Global Environment Facility",
+    "title": "Organization",
+    "url": "https://www.thegef.org/who-we-are/organization",
+    "reference": "Names the World Bank as trustee responsible for administering the GEF Trust Fund.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-af-trustee",
+    "publisher": "Adaptation Fund",
+    "title": "Trustee",
+    "url": "https://www.adaptation-fund.org/about/governance/trustee/",
+    "reference": "Identifies the World Bank’s interim trustee role.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-ccrif-ownership",
+    "publisher": "CCRIF SPC",
+    "title": "Request for expressions of interest: Asset Manager",
+    "url": "https://www.ccrif.org/request-expressions-interest-asset-manager?language_content_entity=en",
+    "reference": "Identifies CCRIF as domiciled in the Cayman Islands and owned by Caribbean and Central American governments.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-barbados-gov",
+    "publisher": "Barbados Government Information Service",
+    "title": "The Government of Barbados",
+    "url": "https://gisbarbados.gov.bb/government/",
+    "reference": "Lists the Government and its finance, economic development and public investment portfolios.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-ccrif-coast",
+    "publisher": "CCRIF SPC",
+    "title": "Caribbean Ocean and Aquaculture Sustainability Facility",
+    "url": "https://www.ccrif.org/projects/coast/caribbean-ocean-and-aquaculture-sustainability-facility?language_content_entity=en",
+    "reference": "Identifies Barbados as one of the purchasers of COAST fisheries insurance.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-gef-trust",
+    "publisher": "Global Environment Facility",
+    "title": "GEF Trust Fund Financial Report",
+    "url": "https://www.thegef.org/sites/default/files/documents/2025-04/GEF-9-Inf.03%20GEF%20Trust%20Fund%20Financial%20Report.pdf",
+    "reference": "The Trustee describes reporting on donor resources under the GEF Instrument.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-sagicor-ar",
+    "publisher": "Sagicor Financial Company",
+    "title": "Annual Report 2025",
+    "url": "https://www.sagicor.com/-/media/pdfs/sfc/annual-reports/sfc-annual-report-2025.pdf",
+    "reference": "Note on group companies lists Sagicor Life Inc under the Sagicor Life segment.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-ctf-governance",
+    "publisher": "Climate Investment Funds",
+    "title": "Governance Framework for the Clean Technology Fund",
+    "url": "https://cif.org/sites/cif_enc/files/meeting-documents/ctf_governance-framework-01212025.pdf",
+    "reference": "Sets out the purpose and governance of the Clean Technology Fund, one of the strategic Climate Investment Funds.",
+    "publishedOn": "2024-12-23",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-interenergy-about",
+    "title": "About Us",
+    "publisher": "InterEnergy Group",
+    "url": "https://interenergy.com/about-us/",
+    "reference": "Describes the group’s power generation, distribution and commercialization businesses in Latin America and the Caribbean.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-interenergy-portfolio",
+    "title": "Enertur",
+    "publisher": "InterEnergy Group",
+    "url": "https://interenergy.com/portfolio/enertur/",
+    "reference": "Identifies Enertur as a subsidiary and describes its solar and battery storage project in La Romana.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-findev-enertur",
+    "title": "Enertur transaction summary",
+    "publisher": "FinDev Canada",
+    "url": "https://www.findevcanada.ca/sites/default/files/2025-02/2025_001_TDS_Enertur_EN.pdf",
+    "reference": "Lists Enertur as counterparty, InterEnergy Group Limited as its owner and a signed FinDev Canada loan of up to USD 18.8 million, within an IDB Invest-led facility.",
+    "publishedOn": "2025-02-03",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-idbi-enertur",
+    "title": "IDB Invest, FinDev Canada, and FMO announce financing in Enertur",
+    "publisher": "IDB Invest",
+    "url": "https://idbinvest.org/en/news-media/idb-invest-findev-canada-and-fmo-announce-financing-enertur-boost-renewable-energy",
+    "reference": "Describes participation by the three lenders, lists InterEnergy’s operating markets and identifies FinDev Canada as Canada’s bilateral DFI.",
+    "publishedOn": "2024-11-07",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-findev-story",
+    "title": "Our story",
+    "publisher": "FinDev Canada",
+    "url": "https://www.findevcanada.ca/en/about-us/our-story",
+    "reference": "Identifies the Development Finance Institute Canada (DFIC) Inc. and describes its private sector development mandate.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-cbf-endow",
+    "title": "Conservation Finance",
+    "publisher": "Caribbean Biodiversity Fund",
+    "url": "https://caribbeanbiodiversityfund.org/conservation-finance/",
+    "reference": "Describes endowment investment and downstream support for eligible national conservation trust funds.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-cbf-eba",
+    "title": "Beneficiaries & Grantees",
+    "publisher": "Caribbean Biodiversity Fund",
+    "url": "https://caribbeanbiodiversityfund.org/beneficiaries-grantees/",
+    "reference": "Identifies awards through the Ecosystem-based Adaptation Facility and distinguishes them from the endowment programme.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-smart-programme",
+    "title": "Sustainable Energy Investment Programme (Energy Smart Fund 2)",
+    "publisher": "Government of Barbados, Ministry of Energy and Business",
+    "url": "https://energy.gov.bb/our-projects/sustainable-energy-investment-programme-energy-smart-fund-2/",
+    "reference": "Identifies a financing programme to increase renewable energy and energy efficiency and reduce fossil fuel dependency in Barbados.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-mpc-first",
+    "title": "Paradise Park solar project announcement",
+    "publisher": "MPC Capital",
+    "url": "https://www.mpc-capital.com/fileadmin/mpc/capital_24/Downloads/Press_Releases/Press_Releases_2018/Infrastructure/2018_05_31_PR_Jamaique_May_2018_VEng_Final.pdf",
+    "reference": "Names Paradise Park in Jamaica as the fund’s first investment.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-mpc-sale",
+    "title": "MPC Capital successfully sells Jamaica’s largest solar power plant",
+    "publisher": "MPC Capital",
+    "url": "https://www.mpc-capital.com/fileadmin/mpc/capital_24/Downloads/Press_Releases/Press_Releases_2025/2025_04_16_PR_Paradise_Park_exit_e.pdf",
+    "reference": "Documents the firm’s role and the exit from Paradise Park in Jamaica.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-surge-close",
+    "title": "CDB Marks Major Milestone with Financial Close on Dominica Geothermal Energy Project",
+    "publisher": "Caribbean Development Bank",
+    "url": "https://www.caribank.org/newsroom/news-and-events/cdb-marks-major-milestone-financial-close-dominica-geothermal-energy-project",
+    "reference": "Links a financial close in Dominica to SuRGE and identifies Canada’s regional programme.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-gcf-cdb-ppf",
+    "title": "Transforming Finance to Unlock Climate Action in the Caribbean",
+    "publisher": "Green Climate Fund",
+    "url": "https://www.greenclimate.fund/document/transforming-finance-unlock-climate-action-caribbean",
+    "reference": "The Green Climate Fund classifies CDB’s application for preparation support in Belize, Jamaica and Saint Lucia as approved project preparation funding.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-cdb-ccppf",
+    "title": "Climate Change Project Preparation Fund",
+    "publisher": "Caribbean Development Bank",
+    "url": "https://www.caribank.org/our-work/programmes/climate-change-project-preparation-fund",
+    "reference": "Describes the preparation fund and eligible climate activities for CDB borrowing member countries.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-gbff-belize",
+    "title": "Support for the development of a national policy, institutional and monitoring framework to effectively implement the Nagoya Protocol in Belize",
+    "publisher": "Global Environment Facility",
+    "url": "https://www.thegef.org/projects-operations/projects/11598",
+    "reference": "Identifies the Global Biodiversity Framework Fund as the source for an approved operation in Belize.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-sccf-fisheries",
+    "title": "Climate Change Resilience in the Caribbean Fisheries Sector (CC4FISH-II)",
+    "publisher": "Global Environment Facility",
+    "url": "https://www.thegef.org/projects-operations/projects/11412",
+    "reference": "Identifies the SCCF as the source for an approved Caribbean fisheries adaptation operation.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-fmo-enertur",
+    "title": "Energia Turistica Enertur S.A.",
+    "publisher": "FMO",
+    "url": "https://www.fmo.nl/project-detail/63516",
+    "reference": "Identifies Enertur and the renewable power and battery investment in the Dominican Republic.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-ccrf-cdf",
+    "title": "Caribbean Community Resilience Fund",
+    "publisher": "CARICOM Development Fund",
+    "url": "https://caricomdevelopmentfund.org/programme/caribbean-community-resilience-fund/",
+    "reference": "Names Sygnus Capital as manager and describes the separate debt and equity sleeves.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-ccrf-ifc",
+    "title": "IFC Invests in Caribbean Debt Fund to Strengthen Resilience, Support Job Creation across 13 Countries",
+    "publisher": "International Finance Corporation",
+    "url": "https://www.ifc.org/en/pressroom/2026/ifc-invests-in-caribbean-debt-fund-to-strengthen-resilience-support-job-creation",
+    "reference": "Identifies IFC’s debt sleeve investment and its 13-country coverage.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-ccrf-ifc-sii",
+    "title": "CCRF – Debt Fund (CRD)",
+    "publisher": "International Finance Corporation",
+    "url": "https://disclosures.ifc.org/project-detail/SII/50223/ccrf-debt-fund-crd",
+    "reference": "Identifies Sygnus as manager and the CARICOM Development Fund as the umbrella fund anchor investor.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-cbf-umbrella",
+    "title": "Our History",
+    "publisher": "Caribbean Biodiversity Fund",
+    "url": "https://caribbeanbiodiversityfund.org/our-history/",
+    "reference": "Describes the umbrella organization and its conservation financing mechanisms.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-cbf-accounts",
+    "title": "Caribbean Biodiversity Fund Financial Statements: FY25",
+    "publisher": "Caribbean Biodiversity Fund",
+    "url": "https://caribbeanbiodiversityfund.org/caribbean-biodiversity-fund-financial-statements-fy25/",
+    "reference": "Reports the conservation endowment and ecosystem-based adaptation facility as separate funding mechanisms.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-tnc-blue",
+    "title": "The Nature Conservancy Announces Its Third Global Debt Conversion in Barbados",
+    "publisher": "The Nature Conservancy",
+    "url": "https://www.nature.org/en-us/newsroom/tnc-announces-barbados-blue-bonds-debt-conversion/",
+    "reference": "Identifies TNC as conservation partner and guarantor of new Barbados debt supporting marine conservation.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-smart-accounts",
+    "title": "Enterprise Growth Fund Limited Annual Report 2025",
+    "publisher": "Enterprise Growth Fund Limited",
+    "url": "https://egfl.bb/wp-content/uploads/2025/10/EGFL_AR2025.pdf",
+    "reference": "The Energy Smart Fund II accounts identify the segregated pool, EGFL as manager and Government of Barbados contributions.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-mpc-prospectus",
+    "title": "MPC Caribbean Clean Energy Limited Prospectus",
+    "publisher": "MPC Caribbean Clean Energy Limited",
+    "url": "https://www.stockex.co.tt/wp-content/uploads/2023/04/MPC-Caribbean-Clean-Energy-Limited-Prospectus.pdf",
+    "reference": "Section 5 distinguishes the Barbados listed investment company from the Cayman fund and names MPC Renewable Energies GmbH as the historical investment adviser.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-mpc-accounts",
+    "title": "MPC Caribbean Clean Energy Limited Audited Financial Statements 2023",
+    "publisher": "MPC Caribbean Clean Energy Limited",
+    "url": "https://www.jamstockex.com/wp-content/uploads/2024/03/MPC-Caribbean-Clean-Energy-Limited-AFS-2023-1.pdf",
+    "reference": "Reports the listed company’s investment in MPC Caribbean Clean Energy Fund LLC and discusses planned changes to the structure.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-surge-programme",
+    "title": "Supporting Resilient Green Energy (SuRGE) in the Caribbean Programme",
+    "publisher": "Caribbean Development Bank",
+    "url": "https://www.caribank.org/our-work/programmes/supporting-resilient-green-energy-surge-caribbean-programme",
+    "reference": "Identifies Canadian grant and loan financing and CDB’s programme for the regional energy transition.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-surge-canada",
+    "title": "Canada hosts 54th Annual Meeting of Board of Governors of Caribbean Development Bank and announces development funding for Caribbean region",
+    "publisher": "Global Affairs Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2024/06/canada-hosts-54th-annual-meeting-of-board-of-governors-of-caribbean-development-bank-and-announces-development-funding-for-caribbean-region.html",
+    "reference": "Announces Canada’s signed SuRGE agreements with CDB for project finance and technical assistance.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-gcf-ppf",
+    "title": "Project Preparation Facility",
+    "publisher": "Green Climate Fund",
+    "url": "https://www.greenclimate.fund/access-funding/project-preparation-facility",
+    "reference": "Describes GCF proposal preparation funding and services for eligible applicants.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-gbff-setup",
+    "title": "Establishment of a New Trust Fund: The Global Biodiversity Framework Fund",
+    "publisher": "Global Environment Facility",
+    "url": "https://www.thegef.org/council-meeting-documents/gef-c-64-05-rev-01",
+    "reference": "Documents establishment of GBFF as a separate GEF trust fund.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-gbff-trustee",
+    "title": "Global Biodiversity Framework Fund Trustee Report",
+    "publisher": "World Bank, published by the Global Environment Facility",
+    "url": "https://www.thegef.org/sites/default/files/documents/2024-12/GEF_GBFF.03_Info%2002%20Trustee%20Report.pdf",
+    "reference": "World Bank reports as trustee for the separate GBFF trust fund.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-sccf-window",
+    "title": "Special Climate Change Fund",
+    "publisher": "Global Environment Facility",
+    "url": "https://www.thegef.org/what-we-do/topics/special-climate-change-fund-sccf",
+    "reference": "Describes the GEF fund and its adaptation windows for small islands and targeted innovation.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-fmo-ownership",
+    "title": "Shareholders",
+    "publisher": "FMO",
+    "url": "https://www.fmo.nl/about-us/shareholders",
+    "reference": "Records Dutch State majority ownership.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-review-sccf-trustee",
+    "title": "Special Climate Change Fund Trustee Report",
+    "publisher": "World Bank, published by the Global Environment Facility",
+    "url": "https://www.thegef.org/sites/default/files/documents/2025-11/GEF_LDCF.SCCF_.39_Inf.03_SCCF%20Trustee%20Report%20September%2030%202025%20-%20Final.pdf",
+    "reference": "Documents the World Bank’s financial management role as SCCF trustee.",
+    "accessedOn": "2026-11-17",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-ccrif-donors",
+    "title": "Risk insurance builds climate and disaster resilience in Central America and the Caribbean",
+    "publisher": "World Bank",
+    "url": "https://www.worldbank.org/en/results/2022/04/21/risk-insurance-builds-climate-and-disaster-resilience-in-central-america-and-the-caribbean",
+    "publishedOn": "2022-04-21",
+    "accessedOn": "2026-11-18",
+    "reference": "Bank Group Contribution and Partners sections identify the second multi-donor trust fund, donor institutions and the administrator.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "Initial and second trust funds have different contributors. Pooled donor resources have no country-by-donor allocation here.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-findev-financials",
+    "title": "FinDev Canada 2024 Financial Review and audited financial statements",
+    "publisher": "FinDev Canada",
+    "url": "https://www.findevcanada.ca/themes/custom/dfic/annual-reports/2024/en/_img/docs/FDC_2024_Financial_Review.pdf",
+    "accessedOn": "2026-11-18",
+    "reference": "Notes 1, 7, 10 and 18 identify EDC ownership, debt funding and equity capital.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "Institutional funding evidence does not attribute a specific EDC advance to Enertur.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-enertur-close",
+    "title": "FinDev Canada, IDB Invest and FMO invest in Enertur to boost renewable energy in the Dominican Republic",
+    "publisher": "FinDev Canada",
+    "url": "https://www.findevcanada.ca/en/news/findev-canada-idb-invest-and-fmo-invest-enertur-boost-renewable-energy-dominican-republic",
+    "publishedOn": "2024-11-07",
+    "accessedOn": "2026-11-18",
+    "reference": "Financing-package paragraph specifies three equal lender participations.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "FMO's separate portfolio record has greater amount precision and different asset specifications.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-bahamas-bank",
+    "title": "A debt conversion for nature for The Bahamas",
+    "publisher": "Standard Chartered",
+    "url": "https://www.sc.com/en/campaigns/bahamas-debt-for-nature/",
+    "accessedOn": "2026-11-18",
+    "reference": "Transaction description identifies Standard Chartered as the sole lender.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "The bank's own upstream funding mix is undisclosed.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-bahamas-tnc",
+    "title": "The Nature Conservancy Announces Innovative Nature Bonds Project",
+    "publisher": "The Nature Conservancy",
+    "url": "https://www.nature.org/en-us/newsroom/tnc-announces-new-nature-bonds-project-bahamas/",
+    "publishedOn": "2024-11-22",
+    "accessedOn": "2026-11-18",
+    "reference": "Financing, credit-enhancement and conservation-fund paragraphs identify parties and uses of savings.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "Named philanthropic supporters have no disclosed individual contribution amounts or precise funding legs.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-bahamas-debt-strategy",
+    "title": "Medium-Term Debt Management Strategy FY2025/26 to FY2027/28",
+    "publisher": "Government of The Bahamas, Ministry of Finance",
+    "url": "https://www.bahamasbudget.gov.bs/media/filer_public/5e/d7/5ed7b042-1060-4e99-9030-d3b17655984a/mof-midtermdebt-3-25-final.pdf",
+    "accessedOn": "2026-11-18",
+    "reference": "Page 16, Box A, details the loan, refinancing and three tiers of credit protection.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "Legal insurance counterparties and grant-award delegations require the transaction agreements.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-bahamas-axa",
+    "title": "Nature Bonds project enables Bahamas to effectively manage its marine protected areas",
+    "publisher": "AXA XL",
+    "url": "https://axaxl.com/fast-fast-forward/articles/nature-bonds-project-enables-bahamas-to-effectively-manage-its-marine-protected-areas",
+    "accessedOn": "2026-11-18",
+    "reference": "PRCB discussion identifies credit insurance and the conservation agreement.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "AXA XL is a division or brand. The policy's legal underwriting entity is unconfirmed. Repurchased-debt descriptions differ within this article.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-bahamas-builders",
+    "title": "Inside the First Family Office Financing of a Nature Bond and Its Impact on Ocean",
+    "publisher": "Builders Vision",
+    "url": "https://www.buildersvision.com/news-insights/inside-the-first-family-office-financing-of-a-nature-bond-and-its-impact-on-ocean/",
+    "accessedOn": "2026-11-18",
+    "reference": "Case-study financing section identifies the co-guarantee.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "The platform's name differs from Builders Asset Management in TNC's 2024 NatureVest report. Signing entity needs reconciliation.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-bahamas-idb",
+    "title": "IDB Partnership Report 2024",
+    "publisher": "Inter-American Development Bank",
+    "url": "https://idbinvest.org/sites/default/files/2025-10/2024-Partnership-Report-Partnering-for-Impact_0.pdf",
+    "accessedOn": "2026-11-18",
+    "reference": "Page 23 separates the nature-conversion guarantee from the earlier general-budget transaction.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "The USD 400 million umbrella includes an earlier USD 200 million operation with different uses.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-cbf-eba",
+    "title": "Climate Change Program and EbA Facility",
+    "publisher": "Caribbean Biodiversity Fund",
+    "url": "https://caribbeanbiodiversityfund.org/climate-change/",
+    "accessedOn": "2026-11-18",
+    "reference": "Programme funding, finance indicators and EbA Committee sections.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "EUR programme funding differs from the IKI project budget. Award counts differ between sections. Dynamic figures have varying reporting dates.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-iki-eba",
+    "title": "Climate change adaptation in the Caribbean — the EbA Facility",
+    "publisher": "International Climate Initiative (IKI)",
+    "url": "https://www.international-climate-initiative.com/en/project/climate-change-adaptation-in-the-caribbean-the-eba-facility-16-ii-156-karibik-k-climate-adaptation-in-the-caribbean/",
+    "accessedOn": "2026-11-18",
+    "reference": "Project data name KfW, CBF, country coverage, funding and duration.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "The IKI budget and the CBF facility funding may have different scopes. Their difference is unreconciled.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-af-jamaica",
+    "title": "Enhancing the Resilience of the Agricultural Sector and Coastal Areas to Protect Livelihoods and Improve Food Security",
+    "publisher": "Adaptation Fund",
+    "url": "https://www.adaptation-fund.org/project/enhancing-the-resilience-of-the-agricultural-sector-and-coastal-areas-to-protect-livelihoods-and-improve-food-security/",
+    "accessedOn": "2026-11-18",
+    "reference": "At A Glance and cost table give PIOJ, approval, grant and transferred amount.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "Transfer date is unstated. The implementation status remains displayed alongside a revised completion date already past at access.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-af-board",
+    "title": "Adaptation Fund Board Approves USD 50.7 Million in Grant Funding, including one Direct Access Project in Jamaica",
+    "publisher": "Adaptation Fund",
+    "url": "https://www.adaptation-fund.org/adaptation-fund-board-approves-50-7-million-in-grant-funding-including-one-direct-access-project-in-jamaica/",
+    "publishedOn": "2012-06-29",
+    "accessedOn": "2026-11-18",
+    "reference": "Jamaica decision identifies the Board and direct-access award to PIOJ.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "Approval identifies institutional authority. Individual procurement and payment sign-offs require other records.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-af-trustee",
+    "title": "Report of the Trustee on the Adaptation Fund Trust Fund, AFB/EFC.37/6",
+    "publisher": "World Bank as Adaptation Fund trustee",
+    "url": "https://www.adaptation-fund.org/wp-content/uploads/2026/03/AFB.EFC_.37.6-Report-of-the-Trustee-on-the-AF-TF_combined.pdf",
+    "accessedOn": "2026-11-18",
+    "reference": "Financial report as at 31 December 2025, sections 1–2, identifies CER proceeds, donations and investment income.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "A 2025 pool snapshot cannot allocate named donors to the 2012 Jamaican award.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-gcf-fp060",
+    "title": "FP060 — Water Sector Resilience Nexus for Sustainability in Barbados",
+    "publisher": "Green Climate Fund",
+    "url": "https://www.greenclimate.fund/portfolio/projects/fp060",
+    "accessedOn": "2026-11-18",
+    "reference": "Official indexed full record lists approval, grant instrument and exact value, CCCCC, and three dated GCF disbursements.",
+    "confidence": "primary_indexed_record",
+    "ambiguity": "Direct page fetch returned HTTP 403. Indexed primary text was available. Annual-report investment differs from the portfolio value and requires reconciliation.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-gcf-fp060-signing",
+    "title": "GCF signs off funding for Barbados water sector resilience project",
+    "publisher": "Green Climate Fund",
+    "url": "https://www.greenclimate.fund/about/news-and-updates/gcf-signs-funding-barbados-water-sector-resilience-project",
+    "accessedOn": "2026-11-18",
+    "reference": "Official indexed announcement states a 1 November signing with CCCCC and proposed use of BWA savings.",
+    "confidence": "discovery_only",
+    "ambiguity": "Full page fetch returned HTTP 403. Operative agreement and exact approval fee treatment need document review.",
+    "status": "reported"
+  },
+  {
+    "id": "src-intl-gcf-annual-2025",
+    "title": "Annual progress report 2025",
+    "publisher": "Green Climate Fund",
+    "url": "https://www.greenclimate.fund/document/annual-progress-report-2025",
+    "publishedOn": "2026-09-18",
+    "accessedOn": "2026-11-18",
+    "reference": "Water security through systemic reform in Barbados section identifies the implementation channel, utility and rounded investment.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "The reported USD 26.7 million has lower precision than an operative agreement. Current cumulative disbursement is not extracted.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-gcf-fp060-board",
+    "title": "GCF Board approves over USD 1 billion in funding for climate mitigation and adaptation",
+    "publisher": "Green Climate Fund",
+    "url": "https://www.greenclimate.fund/about/news-and-updates/gcf-board-approves-over-usd-1-billion-funding-climate-mitigation-and-adaptation",
+    "accessedOn": "2026-11-18",
+    "reference": "FP060 entry reports a USD 27.61 million approval envelope.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "Reconcile the approval envelope, fees and any modifications with the later USD 26.7 million reported investment.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-crew-pir-2024",
+    "title": "GEF CReW+ Project Implementation Report FY2024",
+    "publisher": "United Nations Environment Programme",
+    "url": "https://open.unep.org/docs/gef/PIR/9601_PIR_UNEP_2024_CREW%2B.pdf",
+    "accessedOn": "2026-11-18",
+    "reference": "Pages 3–5 identify approval and agency responsibilities. Section 2.3 gives agency-level disbursement. Section 2.4 discusses co-finance.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "Regional totals include countries outside the Caribbean. Financial totals have agency-level scope.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-crew-countries",
+    "title": "Toilets of the Caribbean — small-scale solutions for better water and sanitation in the Caribbean",
+    "publisher": "UNEP Cartagena Convention Secretariat",
+    "url": "https://www.unep.org/cep/news/blogpost/toilets-caribbean-small-scale-solutions-better-water-and-sanitation-caribbean",
+    "accessedOn": "2026-11-18",
+    "reference": "Programme description identifies GEF support, IDB and UNEP and the 18 endorsing countries.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "Endorsement and national coverage do not establish amounts paid in each country.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-eib-water-record",
+    "title": "CDB Water Management and Clean Oceans Framework Loan, 20220727",
+    "publisher": "European Investment Bank",
+    "url": "https://www.eib.org/en/projects/all/20220727",
+    "accessedOn": "2026-11-18",
+    "reference": "Signature table gives 30 September 2024 and EUR 100 million. Description identifies the parent programme and CDB procurement supervision.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "The 2017 Climate Action Framework Loan II is a separate operation.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-eib-water-ta",
+    "title": "Technical Assistance for the Caribbean Sustainable Water Management and Clean Oceans Programme",
+    "publisher": "European Investment Bank",
+    "url": "https://www.eib.org/en/about/procurement/calls-technical-assistance/all/aa-010789001",
+    "accessedOn": "2026-11-18",
+    "reference": "Official procurement record for programme technical assistance.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "Procurement evidence alone does not confirm individual consultant awards, fee payments or the entire regional grant's allocation to CDB.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-eib-water-parent",
+    "title": "EIB and European Commission join forces to provide EUR 150 million of Team Europe finance for water and sanitation projects in the Caribbean",
+    "publisher": "European Investment Bank",
+    "url": "https://www.eib.org/en/press/all/2022-296-eib-and-european-commission-join-forces-to-provide-eur-150m-of-team-europe-finance-for-water-and-sanitation-projects-in-the-caribbean",
+    "publishedOn": "2022-06-28",
+    "accessedOn": "2026-11-18",
+    "reference": "Opening and programme description identify approved umbrella lending and EU technical-assistance and investment grants.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "Expected NDICI guarantee coverage requires executed confirmation. The 2024 CDB loan is nested within the umbrella.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-bii-review",
+    "title": "British International Investment Annual Review 2022",
+    "publisher": "British International Investment",
+    "url": "https://assets.bii.co.uk/wp-content/uploads/2023/07/11121312/Annual-Review-2022.pdf",
+    "accessedOn": "2026-11-18",
+    "reference": "SEAF Caribbean SME Growth Fund investment case identifies the USD 10 million commitment and general SME objective.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "Climate-finance ambition does not establish a thematic use of this particular investment.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-dfc-belize",
+    "title": "DFC Provides USD 610 Million in Political Risk Insurance for Innovative Debt Conversion in Support of Marine Conservation in Belize",
+    "publisher": "U.S. International Development Finance Corporation",
+    "url": "https://www.dfc.gov/media/press-releases/dfc-provides-610-million-political-risk-insurance-innovative-debt-conversion",
+    "publishedOn": "2021-11-05",
+    "accessedOn": "2026-11-18",
+    "reference": "Financial-close announcement separates loan finance from insurance covering principal and interest.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "USD 610 million is insurance exposure, with a different scope from the USD 364 million underlying loan.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-belize-tnc",
+    "title": "Belize Debt Conversion for Marine Conservation — Case Study",
+    "publisher": "The Nature Conservancy",
+    "url": "https://www.nature.org/content/dam/tnc/nature/en/documents/TNC-Belize-Debt-Conversion-Case-Study.pdf",
+    "accessedOn": "2026-11-18",
+    "reference": "Transaction structure, page 5, identifies the investor, repackaging, lending and conservation structure.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "Platinum's exact issuing cell and the initial lender's signing entity require transaction-document reconciliation.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-tnc-audited-2023",
+    "title": "The Nature Conservancy consolidated financial statements, year ended 30 June 2023",
+    "publisher": "The Nature Conservancy",
+    "url": "https://www.nature.org/content/dam/tnc/nature/en/documents/2023-TNC-Audited-FS-Final.pdf",
+    "accessedOn": "2026-11-18",
+    "reference": "Debt note identifies Belize Blue Investment Company, LLC and Blue Investments for Nature Inc.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "The detailed legal finance documents are still required for delegated credit and conservation award authorities.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-tnc-impact-2022",
+    "title": "NatureVest 2022 Impact Report",
+    "publisher": "The Nature Conservancy",
+    "url": "https://www.nature.org/content/dam/tnc/nature/en/documents/NatureVest-2022-Impact-Report.pdf",
+    "accessedOn": "2026-11-18",
+    "reference": "Page 9 identifies Credit Suisse AG in the Belize transaction and describes the financing structure.",
+    "confidence": "primary_indexed_record",
+    "ambiguity": "The precise signing party's lending role must be reconciled with the executed finance agreements.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-jamaica-case-2026",
+    "title": "Jamaica 2026 Catastrophe Bond — World Bank Treasury case study",
+    "publisher": "World Bank Treasury",
+    "url": "https://thedocs.worldbank.org/en/doc/f66f98e820b44dcec2070273327df145-0340012026/original/Case-Study-Jamaica-2026-Cat-Bond.pdf",
+    "accessedOn": "2026-11-18",
+    "reference": "Financial Solution opening and transaction summary. The document is updated as of June 2026. Publication date supplied to 2026-06 precision.",
+    "confidence": "primary_document_reviewed",
+    "ambiguity": "Opening says May 2025. The 18 May 2026 press release and 2026 transaction terms support the 2026 pricing date.",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-bpaf-profile",
+    "title": "Who We Are",
+    "publisher": "The Bahamas Protected Areas Fund",
+    "url": "https://bahamasprotected.com/about/",
+    "reference": "Official fund profile describes its sustainable financing purpose and statutory establishment.",
+    "accessedOn": "2026-11-18",
+    "status": "verified"
+  },
+  {
+    "id": "src-intl-bmukn-profile",
+    "title": "Federal Ministry for the Environment, Climate Action, Nature Conservation and Nuclear Safety",
+    "publisher": "BMUKN",
+    "url": "https://www.bundesumweltministerium.de/en/federal-ministry-for-the-environment-nature-conservation-and-nuclear-safety",
+    "reference": "Official ministry profile supplies the current institutional name. Funding claims retain the source-era programme context.",
+    "accessedOn": "2026-11-18",
+    "status": "verified"
+  }
+]

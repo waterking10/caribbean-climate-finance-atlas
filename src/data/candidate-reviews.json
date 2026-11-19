@@ -1,0 +1,123 @@
+{
+  "candidate-ccrf": {
+    "decision": "approved",
+    "publishedEntityId": "ccrf",
+    "reviewNote": "Published the umbrella and each sleeve. CDF’s anchor investment applies to the umbrella. The sourced IFC and IDB Invest links point to the debt and equity sleeves respectively.",
+    "reviewedOn": "2026-11-17"
+  },
+  "candidate-craf": {
+    "decision": "approved",
+    "publishedEntityId": "craf",
+    "reviewNote": "Published the CDF-managed guarantee facility. CDF identifies an issued clean-energy guarantee in Saint Lucia.",
+    "reviewedOn": "2026-11-17"
+  },
+  "candidate-cbf-endowment": {
+    "decision": "approved",
+    "publishedEntityId": "cbf-endowment",
+    "reviewNote": "Published the separately reported endowment and its management link to the Caribbean Biodiversity Fund.",
+    "reviewedOn": "2026-11-17"
+  },
+  "candidate-cbf-eba": {
+    "decision": "approved",
+    "publishedEntityId": "cbf-eba",
+    "reviewNote": "Published the adaptation grant facility separately from the endowment. CBF identifies awards and grantees.",
+    "reviewedOn": "2026-11-17"
+  },
+  "candidate-barbados-blue-loan": {
+    "decision": "approved",
+    "publishedEntityId": "barbados-blue-loan",
+    "reviewNote": "Published the dated refinancing mechanism, domestic arranger and separately disclosed IDB and TNC guarantees.",
+    "reviewedOn": "2026-11-17"
+  },
+  "candidate-jamaica-cat-bond": {
+    "decision": "approved",
+    "publishedEntityId": "jamaica-cat-2026",
+    "reviewNote": "Published the 2026 IBRD issuance and the associated risk-transfer agreement. The recorded amount is the limit of hurricane coverage.",
+    "reviewedOn": "2026-11-17"
+  },
+  "candidate-energy-smart-fund-ii": {
+    "decision": "approved",
+    "publishedEntityId": "energy-smart-ii",
+    "reviewNote": "Published the government-capitalised financing pool and its audited management link to EGFL.",
+    "reviewedOn": "2026-11-17"
+  },
+  "candidate-mpc-clean-energy-fund": {
+    "decision": "approved",
+    "publishedEntityId": "mpc-caribbean-fund",
+    "reviewNote": "Published the historical Cayman fund with a dated investment link from the separate Barbados listed company. Later asset disposals and restructuring are described as dated disclosures.",
+    "reviewedOn": "2026-11-17"
+  },
+  "candidate-surge": {
+    "decision": "approved",
+    "publishedEntityId": "surge",
+    "reviewNote": "Published SuRGE, its Canadian sponsor and CDB’s management role. A CDB release documents support for the geothermal project at financial close in Dominica.",
+    "reviewedOn": "2026-11-17"
+  },
+  "candidate-gcf-ppf": {
+    "decision": "approved",
+    "publishedEntityId": "gcf-ppf",
+    "reviewNote": "Published the GCF facility and linked CDB through a published preparation approval covering Belize, Jamaica and Saint Lucia.",
+    "reviewedOn": "2026-11-17",
+    "evidenceNote": "The Green Climate Fund classifies CDB’s application for preparation support in Belize, Jamaica and Saint Lucia as approved project preparation funding."
+  },
+  "candidate-cdb-ccppf": {
+    "decision": "approved",
+    "publishedEntityId": "cdb-ccppf",
+    "reviewNote": "Published the dedicated CDB-managed preparation fund based on CDB’s operating and eligibility documentation.",
+    "reviewedOn": "2026-11-17"
+  },
+  "candidate-gbff": {
+    "decision": "approved",
+    "publishedEntityId": "gbff",
+    "reviewNote": "Published the biodiversity trust fund with its GEF formation and World Bank trusteeship. An approved Belize operation establishes regional activity.",
+    "reviewedOn": "2026-11-17"
+  },
+  "candidate-sccf": {
+    "decision": "approved",
+    "publishedEntityId": "sccf",
+    "reviewNote": "Published the adaptation fund and the World Bank’s trustee role. The GEF record identifies an approved Caribbean fisheries operation.",
+    "reviewedOn": "2026-11-17"
+  },
+  "candidate-bridge": {
+    "decision": "approved",
+    "publishedEntityId": "bridge-green",
+    "reviewNote": "Published the green grant window, which the EU funds and Caribbean Export administers. The source identifies targeted eligibility.",
+    "reviewedOn": "2026-11-17"
+  },
+  "candidate-fmo": {
+    "decision": "approved",
+    "publishedEntityId": "fmo",
+    "reviewNote": "Published FMO as a majority Dutch State-owned development financier and participating lender to Enertur.",
+    "reviewedOn": "2026-11-17"
+  },
+  "candidate-mpc-capital": {
+    "decision": "rejected",
+    "reviewedOn": "2026-11-17",
+    "reviewNote": "Dropped the parent-level manager entry. The historical prospectus names MPC Renewable Energies GmbH as investment adviser. The published Cayman fund and Barbados listed company capture the distinct verified vehicles.",
+    "evidenceUrl": "https://www.stockex.co.tt/wp-content/uploads/2023/04/MPC-Caribbean-Clean-Energy-Limited-Prospectus.pdf",
+    "sourceTitle": "MPC Caribbean Clean Energy Limited Prospectus",
+    "sourcePublisher": "MPC Caribbean Clean Energy Limited",
+    "evidenceNote": "Section 5 distinguishes the Barbados listed investment company from the Cayman fund and names MPC Renewable Energies GmbH as the historical investment adviser.",
+    "sourceAccessedOn": "2026-11-17"
+  },
+  "candidate-caribbean-strategic-advisors": {
+    "decision": "pending",
+    "reviewedOn": "2026-11-17",
+    "reviewNote": "The firm’s regional capital advisory practice and announcement of NRStor Caribbean’s launch are documented. Seek a named financed operation or a specific project preparation mandate before adding the institution.",
+    "evidenceUrl": "https://www.caribbeanstrategicadvisors.com/",
+    "sourceTitle": "Caribbean Strategic Advisors",
+    "sourcePublisher": "Caribbean Strategic Advisors",
+    "evidenceNote": "The firm describes Caribbean finance advisory and links to the NRStor Caribbean Inc. launch.",
+    "sourceAccessedOn": "2026-11-17"
+  },
+  "candidate-nrstor-caribbean": {
+    "decision": "pending",
+    "reviewedOn": "2026-11-17",
+    "reviewNote": "Launch evidence identifies NRStor Caribbean Inc. Seek a documented Caribbean investment, financed storage development or preparation role before creating an atlas entry.",
+    "evidenceUrl": "https://www.caribbeanstrategicadvisors.com/news-insights/nrstor-caribbean-inc-launched",
+    "sourceTitle": "NRStor Caribbean Inc. launched",
+    "sourcePublisher": "Caribbean Strategic Advisors",
+    "evidenceNote": "The launch announcement identifies the operating name and regional venture.",
+    "sourceAccessedOn": "2026-11-17"
+  }
+}

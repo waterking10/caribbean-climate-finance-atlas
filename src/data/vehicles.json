@@ -1,0 +1,1362 @@
+[
+  {
+    "id": "idb-lab",
+    "shortName": "IDB Lab",
+    "name": "Multilateral Investment Fund",
+    "kind": "fund",
+    "type": "Innovation fund",
+    "category": "development",
+    "ownership": "Multilateral",
+    "geographies": [
+      "lac",
+      "caribbean"
+    ],
+    "sectors": [
+      "enterprise",
+      "development"
+    ],
+    "mandate": "Support innovation and entrepreneurship in Latin America and the Caribbean.",
+    "activities": "Serves as the IDB Group’s innovation and venture arm.",
+    "plainLanguage": "IDB Lab supports early-stage approaches to development challenges and entrepreneurship.",
+    "website": "https://bidlab.org/en",
+    "evidenceIds": [
+      "src-idb-lab-report"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "managerId": "idb"
+  },
+  {
+    "id": "gcf",
+    "shortName": "GCF",
+    "name": "Green Climate Fund",
+    "kind": "fund",
+    "type": "Multilateral climate fund",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "global",
+      "caribbean"
+    ],
+    "sectors": [
+      "adaptation",
+      "energy"
+    ],
+    "mandate": "Support low-emission and climate-resilient development in developing countries.",
+    "activities": "Finances climate mitigation and adaptation and helps countries prepare programmes.",
+    "plainLanguage": "Countries work with delivery partners to develop climate proposals. The fund can support preparation and implementation.",
+    "website": "https://www.greenclimate.fund/",
+    "evidenceIds": [
+      "src-gcf-about",
+      "src-gcf-hq",
+      "src-gcf-access"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "headquarters": "Songdo, Incheon, Republic of Korea",
+    "capitalOrigins": [
+      "International"
+    ],
+    "access": {
+      "route": "intermediary",
+      "details": "See GCF access pathways for accredited entities and project-specific assessment eligibility.",
+      "evidenceId": "src-gcf-access"
+    }
+  },
+  {
+    "id": "gef",
+    "shortName": "GEF",
+    "name": "Global Environment Facility",
+    "kind": "fund",
+    "type": "Multilateral environment facility",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "global"
+    ],
+    "sectors": [
+      "environment",
+      "adaptation"
+    ],
+    "mandate": "Support action on global environmental challenges.",
+    "activities": "Channels donor resources through implementing agencies.",
+    "plainLanguage": "GEF helps countries develop environmental projects through eligible delivery agencies.",
+    "website": "https://www.thegef.org/",
+    "evidenceIds": [
+      "src-gef-funding",
+      "src-gef-agencies"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "capitalSources": [
+      "Donor replenishments"
+    ],
+    "capitalOrigins": [
+      "International"
+    ],
+    "access": {
+      "route": "intermediary",
+      "details": "Use a GEF Agency to develop proposals with country counterparts.",
+      "evidenceId": "src-gef-funding"
+    }
+  },
+  {
+    "id": "adaptation-fund",
+    "shortName": "Adaptation Fund",
+    "name": "Adaptation Fund",
+    "kind": "fund",
+    "type": "Multilateral climate fund",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "global",
+      "caribbean"
+    ],
+    "sectors": [
+      "adaptation"
+    ],
+    "mandate": "Support adaptation in vulnerable developing countries.",
+    "activities": "Funds practical adaptation activities through implementing entities.",
+    "plainLanguage": "The Fund pays for practical measures that help communities adapt to climate impacts.",
+    "website": "https://www.adaptation-fund.org/",
+    "evidenceIds": [
+      "src-af-about",
+      "src-af-access",
+      "src-af-cdb"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "instruments": [
+      "Grants"
+    ],
+    "access": {
+      "route": "intermediary",
+      "details": "Eligible parties work with accredited implementing entities.",
+      "evidenceId": "src-af-access"
+    }
+  },
+  {
+    "id": "cif",
+    "shortName": "CIF",
+    "name": "Climate Investment Funds",
+    "kind": "fund",
+    "type": "Multilateral climate fund",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "global"
+    ],
+    "sectors": [
+      "adaptation",
+      "energy"
+    ],
+    "mandate": "Support climate action in low- and middle-income countries.",
+    "activities": "Works with multilateral development banks to supply concessional climate finance.",
+    "plainLanguage": "CIF works through development banks to make climate investments viable.",
+    "website": "https://cif.org/",
+    "evidenceIds": [
+      "src-ifc-cif"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "capitalOrigins": [
+      "International"
+    ],
+    "access": {
+      "route": "intermediary",
+      "details": "Consult participating multilateral development banks.",
+      "evidenceId": "src-ifc-cif"
+    }
+  },
+  {
+    "id": "ctf",
+    "shortName": "CTF",
+    "name": "Clean Technology Fund",
+    "kind": "fund",
+    "type": "Concessional climate fund",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "global",
+      "caribbean"
+    ],
+    "sectors": [
+      "energy"
+    ],
+    "mandate": "Support deployment of low-carbon technologies.",
+    "activities": "Provides concessional resources, including a grant component for the Eastern Caribbean facility.",
+    "plainLanguage": "The Clean Technology Fund helps development banks finance technologies that reduce emissions.",
+    "website": "https://cif.org/",
+    "evidenceIds": [
+      "src-ifc-cif",
+      "src-cdb-sef",
+      "src-ctf-governance"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "instruments": [
+      "Grants"
+    ]
+  },
+  {
+    "id": "sef",
+    "shortName": "SEF",
+    "name": "Sustainable Energy Facility for the Eastern Caribbean",
+    "kind": "facility",
+    "type": "Blended finance facility",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "eastern-caribbean"
+    ],
+    "sectors": [
+      "energy",
+      "infrastructure"
+    ],
+    "mandate": "Support renewable energy and energy efficiency investments in the Eastern Caribbean.",
+    "activities": "Combines development bank and concessional climate resources for eligible energy investments.",
+    "plainLanguage": "The facility combines financing from multiple institutions for cleaner energy and efficiency in participating countries.",
+    "website": "https://www.caribank.org/newsroom/news-and-events/cdb-signs-agreement-idb-secure-usd715m-sustainable-energy-facility-eastern-caribbean",
+    "evidenceIds": [
+      "src-cdb-sef",
+      "src-idb-sef",
+      "src-gcf-fp020"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "managerId": "cdb",
+    "instruments": [
+      "Loans",
+      "Grants"
+    ],
+    "capitalOrigins": [
+      "International",
+      "Caribbean"
+    ]
+  },
+  {
+    "id": "seec",
+    "shortName": "SEEC",
+    "name": "Sustainable Energy for the Eastern Caribbean",
+    "kind": "programme",
+    "type": "Sustainable energy programme",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "eastern-caribbean"
+    ],
+    "sectors": [
+      "energy",
+      "infrastructure"
+    ],
+    "mandate": "Help Eastern Caribbean countries address energy security through efficiency and renewables.",
+    "activities": "Offers blended resources through a multi-partner initiative.",
+    "plainLanguage": "SEEC helps participating countries use less energy and shift toward renewable power.",
+    "website": "https://www.caribank.org/our-work/programmes/sustainable-energy-eastern-caribbean",
+    "evidenceIds": [
+      "src-cdb-seec",
+      "src-cdb-sef"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "managerId": "cdb",
+    "instruments": [
+      "Loans",
+      "Grants",
+      "Technical assistance"
+    ]
+  },
+  {
+    "id": "cdf",
+    "shortName": "CDF",
+    "name": "CARICOM Development Fund",
+    "kind": "fund",
+    "type": "Regional development fund",
+    "category": "public",
+    "ownership": "Multilateral",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "development",
+      "enterprise"
+    ],
+    "mandate": "Reduce disparities and strengthen economic and social cohesion among participating CARICOM states.",
+    "activities": "Provides financial and technical assistance through country programmes.",
+    "plainLanguage": "The Fund supports eligible member states in addressing structural disadvantages within the regional economy.",
+    "website": "https://caricomdevelopmentfund.org/who-we-are/",
+    "evidenceIds": [
+      "src-cdf-about",
+      "src-cdf-programmes"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "access": {
+      "route": "government",
+      "details": "Country Assistance Programmes provide the principal channel described by the Fund.",
+      "evidenceId": "src-cdf-programmes"
+    }
+  },
+  {
+    "id": "rpsdp",
+    "shortName": "RPSDP III",
+    "name": "Regional Private Sector Development Programme III",
+    "kind": "programme",
+    "type": "Enterprise development programme",
+    "category": "public",
+    "ownership": "Public",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "enterprise",
+      "trade"
+    ],
+    "mandate": "Strengthen CARIFORUM private sector development.",
+    "activities": "Supports enterprise competitiveness through the EU’s Global Gateway programme.",
+    "plainLanguage": "The programme is delivered by Caribbean Export to help regional businesses develop and compete.",
+    "website": "https://carib-export.com/en/projects/regional-private-sector-development-programme-iii",
+    "evidenceIds": [
+      "src-export-rpsdp"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "managerId": "caribbean-export",
+    "capitalOrigins": [
+      "European Union"
+    ],
+    "capitalSources": [
+      "European Union"
+    ]
+  },
+  {
+    "id": "lacif",
+    "shortName": "LACIF",
+    "name": "Latin America and Caribbean Investment Facility",
+    "kind": "facility",
+    "type": "Blended finance facility",
+    "category": "public",
+    "ownership": "Multilateral",
+    "geographies": [
+      "lac",
+      "caribbean"
+    ],
+    "sectors": [
+      "infrastructure",
+      "adaptation",
+      "development"
+    ],
+    "mandate": "Mobilize sustainable investment in Latin America and the Caribbean.",
+    "activities": "Uses EU grants with development finance partner resources.",
+    "plainLanguage": "The facility combines grants and development-bank finance for investments that serve public development priorities.",
+    "website": "https://international-partnerships.ec.europa.eu/policies/programming/programmes/lacif-eu-vehicle-generate-sustainable-investment-latin-america-and-caribbean_en",
+    "evidenceIds": [
+      "src-eu-lacif"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "capitalOrigins": [
+      "European Union"
+    ],
+    "capitalSources": [
+      "European Union"
+    ],
+    "instruments": [
+      "Grants"
+    ]
+  },
+  {
+    "id": "ukcif",
+    "shortName": "UKCIF",
+    "name": "United Kingdom Caribbean Infrastructure Fund",
+    "kind": "fund",
+    "type": "Bilateral infrastructure fund",
+    "category": "public",
+    "ownership": "Public",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "adaptation",
+      "infrastructure"
+    ],
+    "mandate": "Build climate-resilient economic infrastructure in eligible Caribbean countries.",
+    "activities": "Funds infrastructure investments through a CDB-administered grant programme.",
+    "plainLanguage": "UK assistance pays for eligible infrastructure upgrades through a programme run by CDB.",
+    "website": "https://www.caribank.org/our-work/programmes/united-kingdom-caribbean-infrastructure-fund-ukcif",
+    "evidenceIds": [
+      "src-cdb-ukcif",
+      "src-ukcif-procurement"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "managerId": "cdb",
+    "capitalOrigins": [
+      "United Kingdom"
+    ],
+    "capitalSources": [
+      "UK Government through FCDO"
+    ],
+    "instruments": [
+      "Grants"
+    ],
+    "access": {
+      "route": "procurement",
+      "details": "Review programme notices for individual procurement opportunities.",
+      "evidenceId": "src-ukcif-procurement"
+    }
+  },
+  {
+    "id": "sdf",
+    "shortName": "SDF",
+    "name": "Special Development Fund",
+    "kind": "fund",
+    "type": "Concessional development fund",
+    "category": "development",
+    "ownership": "Multilateral",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "development",
+      "adaptation"
+    ],
+    "mandate": "Address poverty and human development challenges across the Caribbean.",
+    "activities": "Pools contributor resources and finances activities on concessional terms.",
+    "plainLanguage": "This is CDB’s dedicated pool for development support on terms designed for eligible borrowers and beneficiaries.",
+    "website": "https://www.caribank.org/our-work/programmes/special-development-fund",
+    "evidenceIds": [
+      "src-cdb-sdf"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "managerId": "cdb",
+    "capitalSources": [
+      "Contributors’ replenishments"
+    ],
+    "instruments": [
+      "Loans",
+      "Grants"
+    ]
+  },
+  {
+    "id": "ppp",
+    "shortName": "PPP Facility",
+    "name": "Regional Public-Private Partnership Support Facility",
+    "kind": "facility",
+    "type": "Project preparation facility",
+    "category": "public",
+    "ownership": "Multilateral",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "infrastructure",
+      "development"
+    ],
+    "mandate": "Build Caribbean governments’ capacity to develop public–private partnerships.",
+    "activities": "Provides policy and project preparation support.",
+    "plainLanguage": "The facility helps governments plan infrastructure partnerships and assess how to structure them.",
+    "website": "https://www.caribank.org/our-work/programmes/regional-public-private-partnership-support-facility",
+    "evidenceIds": [
+      "src-cdb-ppp"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "instruments": [
+      "Technical assistance"
+    ]
+  },
+  {
+    "id": "nis-fund",
+    "shortName": "NIS Fund",
+    "name": "National Insurance Fund (Barbados)",
+    "kind": "fund",
+    "type": "Social insurance reserve fund",
+    "category": "institutional",
+    "ownership": "Public",
+    "geographies": [
+      "barbados"
+    ],
+    "sectors": [
+      "insurance",
+      "financial"
+    ],
+    "mandate": "Support Barbados social insurance benefits through pooled reserves.",
+    "activities": "Invests pooled reserves under the social insurance scheme.",
+    "plainLanguage": "The fund holds and invests reserves that help pay social insurance benefits.",
+    "website": "https://www.nis.gov.bb/investments-2/",
+    "evidenceIds": [
+      "src-nis-investment",
+      "src-nis-about"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "managerId": "nis",
+    "capitalOrigins": [
+      "Barbados"
+    ],
+    "capitalSources": [
+      "Social insurance contributions"
+    ]
+  },
+  {
+    "id": "sci",
+    "shortName": "Sygnus Credit",
+    "name": "Sygnus Credit Investments Limited",
+    "kind": "fund",
+    "type": "Listed private credit vehicle",
+    "category": "investment",
+    "ownership": "Private",
+    "geographies": [
+      "caribbean",
+      "jamaica",
+      "barbados",
+      "puerto-rico"
+    ],
+    "sectors": [
+      "financial",
+      "enterprise",
+      "energy",
+      "infrastructure"
+    ],
+    "mandate": "Provide alternative financing to Caribbean middle-market businesses.",
+    "activities": "Invests through structured private credit instruments.",
+    "plainLanguage": "The vehicle lends or invests through negotiated credit instruments beyond conventional bank loans.",
+    "website": "https://sygnusgroup.com/alternative-investment-platform/sygnus-credit-investments/",
+    "evidenceIds": [
+      "src-sygnus-sci"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "managerId": "sygnus",
+    "instruments": [
+      "Private credit",
+      "Mezzanine debt"
+    ],
+    "access": {
+      "route": "negotiation",
+      "details": "Engage the investment manager about eligibility for structured credit.",
+      "evidenceId": "src-sygnus-sci"
+    }
+  },
+  {
+    "id": "deneb",
+    "shortName": "Sygnus Deneb",
+    "name": "Sygnus Deneb Investments Limited",
+    "kind": "fund",
+    "type": "Private equity vehicle",
+    "category": "investment",
+    "ownership": "Private",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "enterprise",
+      "financial"
+    ],
+    "mandate": "Provide growth capital to medium-sized regional businesses.",
+    "activities": "Makes negotiated equity investments.",
+    "plainLanguage": "The vehicle takes an ownership stake in businesses to support expansion.",
+    "website": "https://sygnusgroup.com/alternative-investment-platform/sygnus-deneb/",
+    "evidenceIds": [
+      "src-sygnus-deneb",
+      "src-sygnus-deneb-agm"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "instruments": [
+      "Equity"
+    ],
+    "access": {
+      "route": "negotiation",
+      "details": "Engage the vehicle about investment fit and terms.",
+      "evidenceId": "src-sygnus-deneb"
+    }
+  },
+  {
+    "id": "jn-mutual",
+    "shortName": "JN Mutual Funds",
+    "name": "JN Mutual Funds",
+    "kind": "fund",
+    "type": "Collective investment vehicle",
+    "category": "investment",
+    "ownership": "Private",
+    "geographies": [
+      "jamaica"
+    ],
+    "sectors": [
+      "financial"
+    ],
+    "mandate": "Offer investors access to pooled investment portfolios.",
+    "activities": "Operates portfolios described in the offering document.",
+    "plainLanguage": "Investors buy into pooled portfolios managed by JN Fund Managers.",
+    "website": "https://www.jnfunds.com/",
+    "evidenceIds": [
+      "src-jn-offering"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "managerId": "jnfm"
+  },
+  {
+    "id": "gef-trust",
+    "shortName": "GEF Trust Fund",
+    "name": "Global Environment Facility Trust Fund",
+    "kind": "fund",
+    "type": "Multilateral trust fund",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "global",
+      "caribbean"
+    ],
+    "sectors": [
+      "environment",
+      "adaptation"
+    ],
+    "mandate": "Hold and disburse donor contributions for eligible GEF activities.",
+    "activities": "Administered by the World Bank as trustee and used to finance environmental projects.",
+    "plainLanguage": "The trust fund holds donor money and releases it for approved GEF activities.",
+    "website": "https://www.thegef.org/who-we-are/funding",
+    "evidenceIds": [
+      "src-gef-trust",
+      "src-gef-organization"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "managerId": "world-bank",
+    "capitalSources": [
+      "Donor replenishments"
+    ]
+  },
+  {
+    "id": "ccrf",
+    "name": "Caribbean Community Resilience Fund",
+    "shortName": "CCRF",
+    "kind": "fund",
+    "type": "Blended investment fund",
+    "category": "investment",
+    "ownership": "Unknown",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "adaptation",
+      "enterprise",
+      "infrastructure"
+    ],
+    "instruments": [
+      "Loans",
+      "Equity"
+    ],
+    "managerId": "sygnus",
+    "mandate": "Mobilise long-term capital for Caribbean economic and climate resilience.",
+    "activities": "Pools capital and invests through separate debt and equity funds across Caribbean markets.",
+    "plainLanguage": "The umbrella brings funding from multiple investors into one regional platform. Each sleeve supplies a different form of finance.",
+    "website": "https://caricomdevelopmentfund.org/programme/caribbean-community-resilience-fund/",
+    "evidenceIds": [
+      "src-review-ccrf-cdf",
+      "src-review-ccrf-ifc-sii",
+      "src-scope-ccrf"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "ccrf-debt",
+    "name": "Caribbean Community Resilience Fund Debt Sub-Fund",
+    "shortName": "CCRF Debt",
+    "kind": "fund",
+    "type": "Private credit sub-fund",
+    "category": "investment",
+    "ownership": "Unknown",
+    "geographies": [
+      "caribbean",
+      "antigua-barbuda",
+      "bahamas",
+      "barbados",
+      "belize",
+      "dominica",
+      "grenada",
+      "guyana",
+      "jamaica",
+      "saint-kitts-nevis",
+      "saint-lucia",
+      "saint-vincent-grenadines",
+      "suriname",
+      "trinidad-tobago"
+    ],
+    "sectors": [
+      "adaptation",
+      "enterprise",
+      "infrastructure"
+    ],
+    "instruments": [
+      "Loans"
+    ],
+    "managerId": "sygnus",
+    "mandate": "Provide loans to regional enterprises and resilience investments.",
+    "activities": "Extends credit to mid-sized companies and infrastructure investments. IFC announced its participation in 2026.",
+    "plainLanguage": "This sleeve lends money that borrowers repay.",
+    "website": "https://www.ifc.org/en/pressroom/2026/ifc-invests-in-caribbean-debt-fund-to-strengthen-resilience-support-job-creation",
+    "evidenceIds": [
+      "src-review-ccrf-ifc",
+      "src-review-ccrf-ifc-sii",
+      "src-review-ccrf-cdf"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "ccrf-equity",
+    "name": "Caribbean Community Resilience Fund Equity Sub-Fund",
+    "shortName": "CCRF Equity",
+    "kind": "fund",
+    "type": "Private equity sub-fund",
+    "category": "investment",
+    "ownership": "Unknown",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "adaptation",
+      "enterprise",
+      "infrastructure"
+    ],
+    "instruments": [
+      "Equity"
+    ],
+    "managerId": "sygnus",
+    "mandate": "Provide equity to Caribbean businesses and resilience investments.",
+    "activities": "Makes equity investments. IDB Invest disclosed a commitment with blended UK development resources.",
+    "plainLanguage": "This sleeve takes ownership stakes in eligible investments.",
+    "website": "https://idbinvest.org/en/projects/caribbean-community-resilience-fund",
+    "evidenceIds": [
+      "src-scope-ccrf",
+      "src-review-ccrf-cdf"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "craf",
+    "name": "Credit Risk Abatement Facility",
+    "shortName": "CRAF",
+    "kind": "facility",
+    "type": "Clean-energy guarantee facility",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "caribbean",
+      "saint-lucia"
+    ],
+    "sectors": [
+      "energy",
+      "enterprise"
+    ],
+    "instruments": [
+      "Guarantees"
+    ],
+    "mandate": "Share lender risk on eligible Caribbean renewable energy and efficiency loans.",
+    "activities": "Provides partial credit guarantees to participating lenders for eligible business energy loans.",
+    "plainLanguage": "The guarantee covers part of a lender’s risk so businesses can borrow for clean-energy improvements.",
+    "website": "https://caricomdevelopmentfund.org/news/renwick-company-becomes-first-saint-lucian-business-to-access-craf-guarantee-for-clean-energy/",
+    "evidenceIds": [
+      "src-scope-cdf-craf"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "cbf-endowment",
+    "name": "Caribbean Biodiversity Fund Endowment Fund",
+    "shortName": "CBF Endowment",
+    "kind": "fund",
+    "type": "Conservation endowment",
+    "category": "climate",
+    "ownership": "Private",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "environment"
+    ],
+    "instruments": [
+      "Grants"
+    ],
+    "managerId": "cbf",
+    "mandate": "Provide long-term financial resources for Caribbean biodiversity conservation.",
+    "activities": "Invests pooled assets and uses investment proceeds to support eligible national conservation trust funds.",
+    "plainLanguage": "The endowment puts its capital to work so it can support conservation over time.",
+    "website": "https://caribbeanbiodiversityfund.org/conservation-finance/",
+    "evidenceIds": [
+      "src-review-cbf-endow",
+      "src-review-cbf-accounts"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "cbf-eba",
+    "name": "Caribbean Biodiversity Fund Ecosystem-based Adaptation Facility",
+    "shortName": "CBF EbA",
+    "kind": "facility",
+    "type": "Ecosystem adaptation grant facility",
+    "category": "climate",
+    "ownership": "Private",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "environment",
+      "adaptation"
+    ],
+    "instruments": [
+      "Grants"
+    ],
+    "managerId": "cbf",
+    "mandate": "Finance adaptation using Caribbean ecosystems.",
+    "activities": "Awards grants to implement ecosystem-based adaptation across eligible Caribbean territories.",
+    "plainLanguage": "The facility pays for activities such as ecosystem restoration that help communities adapt.",
+    "website": "https://caribbeanbiodiversityfund.org/beneficiaries-grantees/",
+    "evidenceIds": [
+      "src-review-cbf-eba",
+      "src-review-cbf-accounts"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "barbados-blue-loan",
+    "name": "Barbados Blue Loan for Marine Conservation",
+    "shortName": "Barbados Blue Loan",
+    "kind": "facility",
+    "type": "Sovereign debt-for-nature loan",
+    "category": "climate",
+    "ownership": "Unknown",
+    "geographies": [
+      "barbados"
+    ],
+    "sectors": [
+      "environment",
+      "financial"
+    ],
+    "instruments": [
+      "Loans",
+      "Guarantees"
+    ],
+    "mandate": "Refinance sovereign debt to free up resources for marine conservation.",
+    "activities": "Provided term financing to buy back sovereign debt under the 2022 conversion, using credit guarantees from IDB and TNC.",
+    "plainLanguage": "Barbados refinanced debt on more favourable terms and committed the savings to marine conservation.",
+    "website": "https://www.iadb.org/en/news/barbados-places-climate-financing-firmly-agenda-idb-nature-conservancy-support",
+    "evidenceIds": [
+      "src-scope-barbados-nature",
+      "src-review-tnc-blue"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "jamaica-cat-2026",
+    "name": "Jamaica Catastrophe Bond (2026)",
+    "shortName": "Jamaica Cat Bond",
+    "kind": "facility",
+    "type": "Sovereign catastrophe bond",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "jamaica"
+    ],
+    "sectors": [
+      "insurance"
+    ],
+    "instruments": [
+      "Catastrophe bond",
+      "Parametric insurance"
+    ],
+    "mandate": "Back prearranged hurricane cover for Jamaica using capital-market risk transfer.",
+    "activities": "IBRD issued Capital at Risk Notes CAR 137 to back the separate 2026 risk transfer agreement.",
+    "plainLanguage": "The bond transfers some hurricane risk to investors. Its design helps finance rapid coverage for qualifying storms.",
+    "website": "https://www.worldbank.org/en/news/press-release/2026/05/18/world-bank-prices-catastrophe-bond-for-disaster-protection-for-jamaica",
+    "evidenceIds": [
+      "src-scope-jamaica-cat"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "energy-smart-ii",
+    "name": "Barbados Energy Smart Fund II",
+    "shortName": "Energy Smart II",
+    "kind": "fund",
+    "type": "Domestic clean-energy financing fund",
+    "category": "climate",
+    "ownership": "Public",
+    "geographies": [
+      "barbados"
+    ],
+    "sectors": [
+      "energy",
+      "enterprise"
+    ],
+    "instruments": [
+      "Loans",
+      "Technical assistance"
+    ],
+    "managerId": "egfl",
+    "mandate": "Expand energy efficiency and renewables and reduce reliance on imported fuels.",
+    "activities": "Uses a separate pool of capital to finance eligible Barbadian energy investments through EGFL.",
+    "plainLanguage": "The fund helps businesses pay for renewable power and improvements that use less energy.",
+    "website": "https://energy.gov.bb/our-projects/sustainable-energy-investment-programme-energy-smart-fund-2/",
+    "evidenceIds": [
+      "src-review-smart-programme",
+      "src-review-smart-accounts"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "mpc-caribbean-fund",
+    "name": "MPC Caribbean Clean Energy Fund LLC",
+    "shortName": "MPC Clean Energy Fund",
+    "kind": "fund",
+    "type": "Historical clean-energy investment fund",
+    "category": "investment",
+    "ownership": "Private",
+    "geographies": [
+      "caribbean",
+      "jamaica"
+    ],
+    "sectors": [
+      "energy",
+      "infrastructure"
+    ],
+    "instruments": [
+      "Equity"
+    ],
+    "mandate": "Invest in Caribbean renewable infrastructure.",
+    "activities": "The historical Cayman vehicle invested in Caribbean renewable assets, including Jamaica’s Paradise Park solar development.",
+    "plainLanguage": "Investors gained exposure to a portfolio of renewable infrastructure through this fund.",
+    "website": "https://www.stockex.co.tt/wp-content/uploads/2023/04/MPC-Caribbean-Clean-Energy-Limited-Prospectus.pdf",
+    "evidenceIds": [
+      "src-review-mpc-prospectus",
+      "src-review-mpc-first",
+      "src-review-mpc-accounts",
+      "src-review-mpc-sale"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "mpc-caribbean-listed",
+    "name": "MPC Caribbean Clean Energy Limited",
+    "shortName": "MPC Clean Energy Ltd",
+    "kind": "fund",
+    "type": "Listed renewable infrastructure investment company",
+    "category": "investment",
+    "ownership": "Private",
+    "geographies": [
+      "caribbean",
+      "jamaica",
+      "barbados",
+      "trinidad-tobago"
+    ],
+    "sectors": [
+      "energy",
+      "infrastructure"
+    ],
+    "instruments": [
+      "Equity"
+    ],
+    "mandate": "Give investors exposure to Caribbean renewable infrastructure.",
+    "activities": "The listed vehicle channelled capital into the Cayman fund under the original structure. In 2025 it sold the Paradise Park solar asset.",
+    "plainLanguage": "The listed company gave investors a way to invest in Caribbean renewable infrastructure through exchange-traded shares.",
+    "website": "https://www.jamstockex.com/wp-content/uploads/2024/03/MPC-Caribbean-Clean-Energy-Limited-AFS-2023-1.pdf",
+    "evidenceIds": [
+      "src-review-mpc-accounts",
+      "src-review-mpc-prospectus",
+      "src-review-mpc-sale"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "surge",
+    "name": "Supporting Resilient Green Energy (SuRGE) Programme",
+    "shortName": "SuRGE",
+    "kind": "programme",
+    "type": "Concessional energy transition programme",
+    "category": "climate",
+    "ownership": "Unknown",
+    "geographies": [
+      "caribbean",
+      "dominica"
+    ],
+    "sectors": [
+      "energy",
+      "infrastructure"
+    ],
+    "instruments": [
+      "Loans",
+      "Grants",
+      "Technical assistance"
+    ],
+    "managerId": "cdb",
+    "mandate": "Accelerate Caribbean investments in resilient and low-carbon energy systems.",
+    "activities": "Uses Canadian grant and loan resources for investment and technical assistance. CDB documents support for geothermal financing in Dominica.",
+    "plainLanguage": "The programme backs cleaner energy infrastructure and the work needed to prepare those investments.",
+    "website": "https://www.caribank.org/our-work/programmes/supporting-resilient-green-energy-surge-caribbean-programme",
+    "evidenceIds": [
+      "src-review-surge-programme",
+      "src-review-surge-close",
+      "src-review-surge-canada"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "gcf-ppf",
+    "name": "Green Climate Fund Project Preparation Facility",
+    "shortName": "GCF PPF",
+    "kind": "facility",
+    "type": "Climate project preparation facility",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "global",
+      "caribbean",
+      "belize",
+      "jamaica",
+      "saint-lucia"
+    ],
+    "sectors": [
+      "adaptation",
+      "financial"
+    ],
+    "instruments": [
+      "Grants",
+      "Technical assistance"
+    ],
+    "mandate": "Support preparation of eligible GCF funding proposals.",
+    "activities": "Provides proposal preparation funding and services, including approved preparation for CDB’s regional proposal.",
+    "plainLanguage": "It helps eligible applicants develop the evidence and designs needed to apply for a larger investment.",
+    "website": "https://www.greenclimate.fund/access-funding/project-preparation-facility",
+    "evidenceIds": [
+      "src-review-gcf-ppf",
+      "src-review-gcf-cdb-ppf"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "cdb-ccppf",
+    "name": "CDB Climate Change Project Preparation Fund",
+    "shortName": "CDB CC PPF",
+    "kind": "fund",
+    "type": "Climate project preparation fund",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "adaptation",
+      "financial"
+    ],
+    "instruments": [
+      "Technical assistance"
+    ],
+    "managerId": "cdb",
+    "mandate": "Help CDB borrowing member countries prepare viable climate investments.",
+    "activities": "Funds preparation activities such as concept development and technical work for eligible CDB borrowing members.",
+    "plainLanguage": "The fund helps governments turn climate ideas into proposals that financiers can assess.",
+    "website": "https://www.caribank.org/our-work/programmes/climate-change-project-preparation-fund",
+    "evidenceIds": [
+      "src-review-cdb-ccppf"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "gbff",
+    "name": "Global Biodiversity Framework Fund",
+    "shortName": "GBFF",
+    "kind": "fund",
+    "type": "Multilateral biodiversity trust fund",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "global",
+      "belize"
+    ],
+    "sectors": [
+      "environment"
+    ],
+    "instruments": [
+      "Grants"
+    ],
+    "managerId": "world-bank",
+    "mandate": "Support implementation of the Kunming–Montreal Global Biodiversity Framework.",
+    "activities": "Finances biodiversity through a separate GEF trust with the World Bank as trustee and approved activity in Belize.",
+    "plainLanguage": "It pools resources earmarked for biodiversity and channels them through implementing agencies.",
+    "website": "https://www.thegef.org/council-meeting-documents/gef-c-64-05-rev-01",
+    "evidenceIds": [
+      "src-review-gbff-setup",
+      "src-review-gbff-trustee",
+      "src-review-gbff-belize"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "sccf",
+    "name": "Special Climate Change Fund",
+    "shortName": "SCCF",
+    "kind": "fund",
+    "type": "Multilateral adaptation fund",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "global",
+      "caribbean"
+    ],
+    "sectors": [
+      "adaptation",
+      "environment"
+    ],
+    "instruments": [
+      "Grants"
+    ],
+    "managerId": "world-bank",
+    "mandate": "Finance adaptation in vulnerable developing countries, including small island developing states.",
+    "activities": "Supports adaptation and innovation through dedicated funding windows, including a regional Caribbean fisheries operation.",
+    "plainLanguage": "It helps vulnerable countries finance changes that reduce exposure to climate impacts.",
+    "website": "https://www.thegef.org/what-we-do/topics/special-climate-change-fund-sccf",
+    "evidenceIds": [
+      "src-review-sccf-window",
+      "src-review-sccf-trustee",
+      "src-review-sccf-fisheries"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "bridge-green",
+    "name": "BRIDGE Green Transition Grant",
+    "shortName": "BRIDGE Green Grant",
+    "kind": "facility",
+    "type": "Enterprise environmental grant window",
+    "category": "climate",
+    "ownership": "Unknown",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "environment",
+      "enterprise"
+    ],
+    "instruments": [
+      "Grants"
+    ],
+    "managerId": "caribbean-export",
+    "mandate": "Co-finance environmental improvements by eligible Caribbean exporters.",
+    "activities": "Provides EU co-financing for environmental improvements through a grant window administered by Caribbean Export.",
+    "plainLanguage": "Eligible businesses can get a grant to cover part of the cost of greener equipment or operations.",
+    "website": "https://carib-export.com/en/opportunities/green-transition-bridge",
+    "evidenceIds": [
+      "src-scope-bridge"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "ccrif-mdtf-2014",
+    "shortName": "CCRIF MDTF",
+    "name": "Central America and Caribbean Catastrophe Risk Insurance Program Multi-Donor Trust Fund",
+    "kind": "fund",
+    "type": "Multi-donor disaster risk finance trust fund",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "insurance",
+      "adaptation"
+    ],
+    "instruments": [
+      "Grants"
+    ],
+    "mandate": "Earmarked grant funding channel for CCRIF disaster-risk finance.",
+    "activities": "Canada contributes to the second donor trust fund. EU contributes to the second donor trust fund. US Treasury contributes to the second donor trust fund.",
+    "plainLanguage": "Earmarked grant funding channel for CCRIF disaster-risk finance.",
+    "website": "https://www.worldbank.org/en/results/2022/04/21/risk-insurance-builds-climate-and-disaster-resilience-in-central-america-and-the-caribbean",
+    "evidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18",
+    "managerId": "world-bank",
+    "capitalSources": [
+      "Global Affairs Canada",
+      "European Union",
+      "US Department of the Treasury",
+      "German BMZ resources through KfW"
+    ],
+    "capitalOrigins": [
+      "International"
+    ]
+  },
+  {
+    "id": "bahamas-debt-conversion-2024",
+    "shortName": "Bahamas Nature Loan",
+    "name": "The Bahamas Debt Conversion Project for Marine Conservation (2024)",
+    "kind": "facility",
+    "type": "Sovereign debt-for-nature financing mechanism",
+    "category": "climate",
+    "ownership": "Public",
+    "geographies": [
+      "bahamas"
+    ],
+    "sectors": [
+      "environment",
+      "adaptation"
+    ],
+    "instruments": [
+      "Guarantees",
+      "Insurance"
+    ],
+    "mandate": "Named debt-conversion financing mechanism. Vehicle denotes an arrangement, with no separate legal personality asserted.",
+    "activities": "IDB supplies first-tier credit enhancement. Builders Vision supplies collateralised co-guarantee support. AXA XL supplies credit insurance.",
+    "plainLanguage": "Named debt-conversion financing mechanism. Vehicle denotes an arrangement, with no separate legal personality asserted.",
+    "website": "https://www.nature.org/en-us/newsroom/tnc-announces-new-nature-bonds-project-bahamas/",
+    "evidenceIds": [
+      "src-intl-bahamas-debt-strategy",
+      "src-intl-bahamas-idb",
+      "src-intl-bahamas-builders",
+      "src-intl-bahamas-axa",
+      "src-intl-bahamas-tnc"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18",
+    "capitalSources": [
+      "Standard Chartered Bank commercial loan"
+    ],
+    "capitalOrigins": [
+      "International"
+    ]
+  },
+  {
+    "id": "crew-plus",
+    "shortName": "CReW+",
+    "name": "GEF CReW+ regional water and wastewater financing programme",
+    "kind": "programme",
+    "type": "Regional environmental financing programme",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "caribbean",
+      "barbados",
+      "belize",
+      "cuba",
+      "dominican-republic",
+      "grenada",
+      "guyana",
+      "jamaica",
+      "saint-kitts-nevis",
+      "saint-lucia",
+      "saint-vincent-grenadines",
+      "suriname",
+      "trinidad-tobago"
+    ],
+    "sectors": [
+      "environment"
+    ],
+    "instruments": [
+      "Grants"
+    ],
+    "mandate": "Regional programme supporting sustainable water and wastewater financing mechanisms.",
+    "activities": "GEF supports the regional CReW+ programme. IDB is a co-implementing agency. UNEP is a co-implementing agency.",
+    "plainLanguage": "Regional programme supporting sustainable water and wastewater financing mechanisms.",
+    "website": "https://www.unep.org/gef/projects/crew-integrated-approach-water-and-wastewater-management-using-innovative-solutions-and",
+    "evidenceIds": [
+      "src-intl-crew-pir-2024",
+      "src-intl-crew-countries"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18"
+  },
+  {
+    "id": "eib-caribbean-water-programme",
+    "shortName": "EIB Water Programme",
+    "name": "Caribbean Water, Sanitation and Clean Oceans Programme Loan",
+    "kind": "facility",
+    "type": "Climate and environmental programme loan",
+    "category": "climate",
+    "ownership": "Multilateral",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "environment",
+      "adaptation"
+    ],
+    "instruments": [
+      "Grants",
+      "Technical assistance"
+    ],
+    "mandate": "Approved umbrella framework supporting Caribbean water and ocean infrastructure.",
+    "activities": "EU approved technical-assistance and investment grant support for the umbrella. EIB procures technical assistance for programme delivery.",
+    "plainLanguage": "Approved umbrella framework supporting Caribbean water and ocean infrastructure.",
+    "website": "https://www.eib.org/en/projects/all/20210497",
+    "evidenceIds": [
+      "src-intl-eib-water-parent",
+      "src-intl-eib-water-ta"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18",
+    "managerId": "eib",
+    "capitalSources": [
+      "EIB programme lending",
+      "EU investment and technical-assistance grants"
+    ],
+    "capitalOrigins": [
+      "International"
+    ]
+  },
+  {
+    "id": "belize-blue-loan-2021",
+    "shortName": "Belize Blue Loan",
+    "name": "Belize Blue Loan and debt conversion (2021)",
+    "kind": "facility",
+    "type": "Sovereign debt-for-nature financing mechanism",
+    "category": "climate",
+    "ownership": "Public",
+    "geographies": [
+      "belize"
+    ],
+    "sectors": [
+      "environment",
+      "adaptation"
+    ],
+    "instruments": [
+      "Insurance"
+    ],
+    "mandate": "Named sovereign debt-conversion financing arrangement, with no separate legal personality asserted.",
+    "activities": "DFC provides political risk insurance for principal and interest.",
+    "plainLanguage": "Named sovereign debt-conversion financing arrangement, with no separate legal personality asserted.",
+    "website": "https://www.dfc.gov/media/press-releases/dfc-provides-610-million-political-risk-insurance-innovative-debt-conversion",
+    "evidenceIds": [
+      "src-intl-dfc-belize"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18",
+    "capitalSources": [
+      "Loan from Belize Blue Investment Company, LLC"
+    ],
+    "capitalOrigins": [
+      "International"
+    ]
+  }
+]

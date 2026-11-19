@@ -1,0 +1,1662 @@
+[
+  {
+    "id": "cdb",
+    "shortName": "CDB",
+    "name": "Caribbean Development Bank",
+    "kind": "institution",
+    "type": "Development bank",
+    "category": "development",
+    "ownership": "Multilateral",
+    "geographies": [
+      "caribbean",
+      "anguilla",
+      "antigua-barbuda",
+      "barbados",
+      "belize",
+      "bvi",
+      "cayman-islands",
+      "dominica",
+      "grenada",
+      "guyana",
+      "haiti",
+      "jamaica",
+      "montserrat",
+      "saint-kitts-nevis",
+      "saint-lucia",
+      "saint-vincent-grenadines",
+      "suriname",
+      "bahamas",
+      "trinidad-tobago",
+      "turks-caicos"
+    ],
+    "sectors": [
+      "development",
+      "adaptation",
+      "infrastructure",
+      "energy"
+    ],
+    "mandate": "Advance sustainable economic and social development in Caribbean borrowing member countries.",
+    "activities": "Provides development financing and technical assistance, with dedicated programmes for resilient infrastructure and sustainable energy.",
+    "plainLanguage": "CDB helps Caribbean governments and eligible institutions pay for development priorities such as resilient infrastructure and cleaner energy. Its borrowing members can access the bank’s financing.",
+    "website": "https://www.caribank.org/",
+    "evidenceIds": [
+      "src-cdb-about",
+      "src-cdb-hq",
+      "src-cdb-members",
+      "src-cdb-finance"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "headquarters": "Wildey, Barbados",
+    "capitalOrigins": [
+      "Caribbean",
+      "International"
+    ],
+    "capitalSources": [
+      "Member country capital",
+      "Capital market borrowing"
+    ],
+    "instruments": [
+      "Loans",
+      "Grants",
+      "Technical assistance"
+    ],
+    "access": {
+      "route": "government",
+      "details": "Borrowing member countries can work with CDB on development financing. Consult individual programmes for eligibility.",
+      "evidenceId": "src-cdb-members"
+    }
+  },
+  {
+    "id": "idb",
+    "shortName": "IDB",
+    "name": "Inter-American Development Bank",
+    "kind": "institution",
+    "type": "Development bank",
+    "category": "development",
+    "ownership": "Multilateral",
+    "geographies": [
+      "lac",
+      "caribbean"
+    ],
+    "sectors": [
+      "development",
+      "infrastructure",
+      "enterprise"
+    ],
+    "mandate": "Support economic and social development in Latin America and the Caribbean.",
+    "activities": "Finances public sector operations and provides technical assistance.",
+    "plainLanguage": "IDB lends to and advises public institutions in the region. IDB Invest and IDB Lab have distinct roles within the same group.",
+    "website": "https://www.iadb.org/en/who-we-are/about-us",
+    "evidenceIds": [
+      "src-idb-about",
+      "src-idb-capital",
+      "src-idb-offices"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "headquarters": "Washington, DC, United States",
+    "instruments": [
+      "Loans",
+      "Technical assistance"
+    ],
+    "capitalOrigins": [
+      "International"
+    ],
+    "capitalSources": [
+      "Member country capital",
+      "Capital market borrowing"
+    ]
+  },
+  {
+    "id": "idbi",
+    "shortName": "IDB Invest",
+    "name": "Inter-American Investment Corporation",
+    "kind": "institution",
+    "type": "Development finance institution",
+    "category": "development",
+    "ownership": "Multilateral",
+    "geographies": [
+      "lac",
+      "caribbean"
+    ],
+    "sectors": [
+      "development",
+      "enterprise",
+      "financial"
+    ],
+    "mandate": "Support sustainable development through the private sector in Latin America and the Caribbean.",
+    "activities": "Provides loans, equity and guarantees to private businesses and financial institutions.",
+    "plainLanguage": "IDB Invest finances companies and intermediaries whose investments can contribute to development.",
+    "website": "https://idbinvest.org/en/about-us",
+    "evidenceIds": [
+      "src-idbi-about",
+      "src-idbi-finance"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "capitalOrigins": [
+      "International"
+    ],
+    "capitalSources": [
+      "Member country capital"
+    ],
+    "instruments": [
+      "Loans",
+      "Equity",
+      "Guarantees"
+    ],
+    "access": {
+      "route": "negotiation",
+      "details": "Consult IDB Invest for project structuring and eligibility.",
+      "evidenceId": "src-idbi-about"
+    }
+  },
+  {
+    "id": "world-bank",
+    "shortName": "World Bank",
+    "name": "World Bank (IBRD and IDA)",
+    "kind": "institution",
+    "type": "Development banks",
+    "category": "development",
+    "ownership": "Multilateral",
+    "geographies": [
+      "global",
+      "caribbean"
+    ],
+    "sectors": [
+      "development",
+      "adaptation",
+      "infrastructure"
+    ],
+    "mandate": "Support poverty reduction and sustainable development through IBRD and IDA.",
+    "activities": "Provides financing and policy advice, including concessional credits and grants through IDA.",
+    "plainLanguage": "The World Bank works with governments. Its two institutions serve different borrower groups and offer financing on different terms.",
+    "website": "https://www.worldbank.org/",
+    "evidenceIds": [
+      "src-wb-about",
+      "src-wbg-caribbean"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "instruments": [
+      "Loans",
+      "Grants",
+      "Technical assistance"
+    ],
+    "capitalOrigins": [
+      "International"
+    ]
+  },
+  {
+    "id": "wbg",
+    "shortName": "WBG",
+    "name": "World Bank Group",
+    "kind": "institution",
+    "type": "Multilateral group",
+    "category": "development",
+    "ownership": "Multilateral",
+    "geographies": [
+      "global",
+      "caribbean"
+    ],
+    "sectors": [
+      "development",
+      "adaptation",
+      "enterprise"
+    ],
+    "mandate": "Work toward poverty reduction and shared prosperity through five development institutions.",
+    "activities": "Brings together public sector, private sector, guarantee and dispute-settlement institutions.",
+    "plainLanguage": "The group includes the World Bank’s public sector lenders and IFC, which focuses on private enterprise.",
+    "website": "https://www.worldbank.org/",
+    "evidenceIds": [
+      "src-wbg-basics",
+      "src-wbg-caribbean"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "ifc",
+    "shortName": "IFC",
+    "name": "International Finance Corporation",
+    "kind": "institution",
+    "type": "Development finance institution",
+    "category": "development",
+    "ownership": "Multilateral",
+    "geographies": [
+      "global",
+      "lac",
+      "caribbean"
+    ],
+    "sectors": [
+      "development",
+      "enterprise",
+      "financial"
+    ],
+    "mandate": "Promote private sector development in emerging markets.",
+    "activities": "Invests in private sector operations and provides advice, including in Latin America and the Caribbean.",
+    "plainLanguage": "IFC backs businesses and financial institutions to advance development goals.",
+    "website": "https://www.ifc.org/",
+    "evidenceIds": [
+      "src-ifc-lac",
+      "src-wbg-basics"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "eib",
+    "shortName": "EIB",
+    "name": "European Investment Bank",
+    "kind": "institution",
+    "type": "Development bank",
+    "category": "development",
+    "ownership": "Multilateral",
+    "geographies": [
+      "lac",
+      "caribbean"
+    ],
+    "sectors": [
+      "adaptation",
+      "infrastructure"
+    ],
+    "mandate": "Provide long-term investment financing in support of European Union policy goals.",
+    "activities": "Supports climate and infrastructure investments in the Caribbean, including through regional bank partners.",
+    "plainLanguage": "The EU’s member-owned bank lends for priorities such as resilient water and waste systems.",
+    "website": "https://www.eib.org/en/projects/region/latin-america-caribbean",
+    "evidenceIds": [
+      "src-eib-lac",
+      "src-eib-cdb-2024"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "capitalOrigins": [
+      "European Union"
+    ],
+    "capitalSources": [
+      "EU member state capital"
+    ],
+    "instruments": [
+      "Loans"
+    ]
+  },
+  {
+    "id": "dbj",
+    "shortName": "DBJ",
+    "name": "Development Bank of Jamaica Limited",
+    "kind": "institution",
+    "type": "Domestic development bank",
+    "category": "development",
+    "ownership": "Public",
+    "geographies": [
+      "jamaica"
+    ],
+    "sectors": [
+      "development",
+      "enterprise"
+    ],
+    "mandate": "Promote Jamaican economic and social development.",
+    "activities": "Provides financing through approved financial institutions and offers selected direct lending.",
+    "plainLanguage": "DBJ works with local lenders to help Jamaican businesses obtain development finance.",
+    "website": "https://dbankjm.com/",
+    "evidenceIds": [
+      "src-dbj-about",
+      "src-dbj-afi"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "instruments": [
+      "Loans"
+    ],
+    "access": {
+      "route": "lending",
+      "details": "Review the list of approved financial institutions for intermediary loans.",
+      "evidenceId": "src-dbj-afi"
+    }
+  },
+  {
+    "id": "ccccc",
+    "shortName": "5Cs",
+    "name": "Caribbean Community Climate Change Centre",
+    "kind": "institution",
+    "type": "Regional climate agency",
+    "category": "climate",
+    "ownership": "Public",
+    "geographies": [
+      "caribbean",
+      "belize"
+    ],
+    "sectors": [
+      "adaptation"
+    ],
+    "mandate": "Coordinate the region’s climate response and support climate resilience.",
+    "activities": "Provides climate information, project development support and a regional accredited route to GCF.",
+    "plainLanguage": "The Centre helps Caribbean countries develop responses to climate risks and prepare climate finance proposals.",
+    "website": "https://caribbeanclimate.org/",
+    "evidenceIds": [
+      "src-ccccc-about",
+      "src-gcf-ccccc",
+      "src-ccccc-caricom"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "headquarters": "Belize"
+  },
+  {
+    "id": "ccsa",
+    "shortName": "CCSA",
+    "name": "Caribbean Climate-Smart Accelerator Inc.",
+    "kind": "institution",
+    "type": "Climate finance facilitator",
+    "category": "climate",
+    "ownership": "Unknown",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "adaptation",
+      "energy",
+      "enterprise"
+    ],
+    "mandate": "Accelerate regional climate resilience and low-carbon development.",
+    "activities": "Helps climate initiatives prepare for funding and connect with partners.",
+    "plainLanguage": "The Accelerator helps connect Caribbean climate projects with expertise and potential finance.",
+    "website": "https://caribbeanaccelerator.org/",
+    "evidenceIds": [
+      "src-ccsa-about",
+      "src-ccsa-work",
+      "src-ccsa-terms"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "ccrif",
+    "shortName": "CCRIF SPC",
+    "name": "CCRIF SPC",
+    "kind": "institution",
+    "type": "Regional disaster risk insurer",
+    "category": "institutional",
+    "ownership": "Multilateral",
+    "geographies": [
+      "caribbean",
+      "central-america"
+    ],
+    "sectors": [
+      "insurance",
+      "adaptation"
+    ],
+    "mandate": "Provide rapid disaster liquidity to participating governments through parametric insurance.",
+    "activities": "Pools risk and offers policies triggered by modeled hazard and loss measures.",
+    "plainLanguage": "Participating governments can buy policies that pay when agreed disaster triggers are met.",
+    "website": "https://www.ccrif.org/",
+    "evidenceIds": [
+      "src-ccrif-about",
+      "src-ccrif-wb",
+      "src-ccrif-ownership"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "instruments": [
+      "Parametric insurance"
+    ]
+  },
+  {
+    "id": "caricom",
+    "shortName": "CARICOM",
+    "name": "Caribbean Community",
+    "kind": "institution",
+    "type": "Intergovernmental organization",
+    "category": "public",
+    "ownership": "Multilateral",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "development",
+      "trade"
+    ],
+    "mandate": "Advance regional integration, cooperation and development.",
+    "activities": "Coordinates common priorities among Caribbean member states and associate members.",
+    "plainLanguage": "CARICOM gives Caribbean governments a way to pursue shared policy and economic goals.",
+    "website": "https://caricom.org/",
+    "evidenceIds": [
+      "src-caricom-about"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "caribbean-export",
+    "shortName": "Caribbean Export",
+    "name": "Caribbean Export Development Agency",
+    "kind": "institution",
+    "type": "Trade and investment agency",
+    "category": "public",
+    "ownership": "Multilateral",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "trade",
+      "enterprise"
+    ],
+    "mandate": "Support regional trade, investment and private sector development.",
+    "activities": "Implements programmes and provides enterprise support across CARIFORUM.",
+    "plainLanguage": "The agency helps Caribbean businesses build capacity, reach markets and participate in specific support programmes.",
+    "website": "https://carib-export.com/",
+    "evidenceIds": [
+      "src-export-rpsdp",
+      "src-export-eu"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "eu",
+    "shortName": "EU",
+    "name": "European Union",
+    "kind": "institution",
+    "type": "Supranational donor",
+    "category": "public",
+    "ownership": "Multilateral",
+    "geographies": [
+      "lac",
+      "caribbean"
+    ],
+    "sectors": [
+      "development",
+      "infrastructure",
+      "trade"
+    ],
+    "mandate": "Cooperate with Caribbean partners on sustainable development and economic priorities.",
+    "activities": "Provides development cooperation and investment support through instruments including LACIF.",
+    "plainLanguage": "The EU helps fund regional programmes and combines grants with development-bank financing in some facilities.",
+    "website": "https://international-partnerships.ec.europa.eu/",
+    "evidenceIds": [
+      "src-eu-caribbean",
+      "src-eu-lacif",
+      "src-export-rpsdp"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "capitalOrigins": [
+      "European Union"
+    ],
+    "instruments": [
+      "Grants"
+    ]
+  },
+  {
+    "id": "fcdo",
+    "shortName": "UK FCDO",
+    "name": "Foreign, Commonwealth & Development Office",
+    "kind": "institution",
+    "type": "Bilateral development agency",
+    "category": "public",
+    "ownership": "Public",
+    "geographies": [
+      "global",
+      "caribbean"
+    ],
+    "sectors": [
+      "development",
+      "adaptation",
+      "infrastructure"
+    ],
+    "mandate": "Deliver UK foreign and development policy, including Caribbean partnerships.",
+    "activities": "Supports development programmes including resilient Caribbean infrastructure.",
+    "plainLanguage": "The UK department funds development programmes that are delivered with regional partners.",
+    "website": "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office",
+    "evidenceIds": [
+      "src-uk-caribbean",
+      "src-cdb-ukcif"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "capitalOrigins": [
+      "United Kingdom"
+    ]
+  },
+  {
+    "id": "rfhl",
+    "shortName": "Republic Group",
+    "name": "Republic Financial Holdings Limited",
+    "kind": "institution",
+    "type": "Financial holding company",
+    "category": "commercial",
+    "ownership": "Private",
+    "geographies": [
+      "caribbean",
+      "guyana",
+      "barbados",
+      "trinidad-tobago"
+    ],
+    "sectors": [
+      "financial"
+    ],
+    "mandate": "Oversee the Republic group of financial services businesses.",
+    "activities": "Owns commercial banks and other financial subsidiaries.",
+    "plainLanguage": "The holding company owns banks that deliver services in individual markets.",
+    "website": "https://www.rfhl.com/",
+    "evidenceIds": [
+      "src-rfhl-about",
+      "src-rfhl-subs"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "republic-bb",
+    "shortName": "Republic BB",
+    "name": "Republic Bank (Barbados) Limited",
+    "kind": "institution",
+    "type": "Commercial bank",
+    "category": "commercial",
+    "ownership": "Private",
+    "geographies": [
+      "barbados"
+    ],
+    "sectors": [
+      "financial",
+      "enterprise"
+    ],
+    "mandate": "Provide banking services in Barbados.",
+    "activities": "Offers personal and commercial banking products.",
+    "plainLanguage": "Businesses and individuals can work with the local bank on accounts and credit products.",
+    "website": "https://www.republicbarbados.com/",
+    "evidenceIds": [
+      "src-rfhl-subs",
+      "src-republic-bb"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "parentId": "rfhl",
+    "instruments": [
+      "Loans"
+    ],
+    "access": {
+      "route": "lending",
+      "details": "Consult Republic Bank Barbados for product eligibility and applications.",
+      "evidenceId": "src-republic-bb"
+    }
+  },
+  {
+    "id": "cibc",
+    "shortName": "CIBC Caribbean",
+    "name": "CIBC Caribbean Bank Limited",
+    "kind": "institution",
+    "type": "Commercial bank",
+    "category": "commercial",
+    "ownership": "Private",
+    "geographies": [
+      "caribbean",
+      "barbados",
+      "jamaica",
+      "trinidad-tobago"
+    ],
+    "sectors": [
+      "financial",
+      "enterprise"
+    ],
+    "mandate": "Provide commercial and retail banking services in regional markets.",
+    "activities": "Operates banks and financial services subsidiaries across the Caribbean.",
+    "plainLanguage": "The bank provides everyday banking and business finance through its local operations.",
+    "website": "https://www.cibccaribbean.com/",
+    "evidenceIds": [
+      "src-cibc-ar",
+      "src-cibc-history"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "headquarters": "Warrens, Barbados",
+    "capitalOrigins": [
+      "Canada",
+      "Caribbean"
+    ],
+    "instruments": [
+      "Loans"
+    ]
+  },
+  {
+    "id": "rbc",
+    "shortName": "RBC",
+    "name": "Royal Bank of Canada",
+    "kind": "institution",
+    "type": "Commercial bank",
+    "category": "commercial",
+    "ownership": "Private",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "financial",
+      "enterprise"
+    ],
+    "mandate": "Provide banking services through regional operations.",
+    "activities": "Offers personal and business banking products in selected Caribbean markets.",
+    "plainLanguage": "RBC serves customers through local Caribbean banking operations. Available products vary by market.",
+    "website": "https://www.rbcroyalbank.com/caribbean/",
+    "evidenceIds": [
+      "src-rbc-caribbean"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "capitalOrigins": [
+      "Canada"
+    ],
+    "instruments": [
+      "Loans"
+    ],
+    "access": {
+      "route": "lending",
+      "details": "Choose the relevant market on the regional site and review its local products.",
+      "evidenceId": "src-rbc-caribbean"
+    }
+  },
+  {
+    "id": "sagicor",
+    "shortName": "Sagicor",
+    "name": "Sagicor Financial Company Ltd.",
+    "kind": "institution",
+    "type": "Insurance holding company",
+    "category": "institutional",
+    "ownership": "Private",
+    "geographies": [
+      "caribbean",
+      "north-america"
+    ],
+    "sectors": [
+      "insurance",
+      "financial"
+    ],
+    "mandate": "Provide insurance and related financial services in the Caribbean and North America.",
+    "activities": "Operates insurance and financial services businesses in several markets.",
+    "plainLanguage": "The group sells insurance and other financial products through its operating companies.",
+    "website": "https://www.sagicor.com/",
+    "evidenceIds": [
+      "src-sagicor-about",
+      "src-sagicor-life"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "sagicor-life",
+    "shortName": "Sagicor Life",
+    "name": "Sagicor Life Inc",
+    "kind": "institution",
+    "type": "Insurer and asset manager",
+    "category": "institutional",
+    "ownership": "Private",
+    "geographies": [
+      "caribbean",
+      "barbados",
+      "trinidad-tobago",
+      "belize"
+    ],
+    "sectors": [
+      "insurance",
+      "financial"
+    ],
+    "mandate": "Provide insurance and financial services to Caribbean customers.",
+    "activities": "Offers insurance, mortgages, asset management and pension services.",
+    "plainLanguage": "Customers can use the company for insurance and selected savings, investment and lending products.",
+    "website": "https://www.sagicor.com/en/about-sagicor/our-companies/sagicor-life-inc",
+    "evidenceIds": [
+      "src-sagicor-life",
+      "src-sagicor-ar"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "instruments": [
+      "Insurance",
+      "Loans"
+    ]
+  },
+  {
+    "id": "guardian",
+    "shortName": "Guardian",
+    "name": "Guardian Holdings Limited",
+    "kind": "institution",
+    "type": "Insurance holding company",
+    "category": "institutional",
+    "ownership": "Private",
+    "geographies": [
+      "caribbean",
+      "trinidad-tobago",
+      "jamaica"
+    ],
+    "sectors": [
+      "insurance",
+      "financial"
+    ],
+    "mandate": "Oversee regional insurance and financial services businesses.",
+    "activities": "Operates through regional life and general insurance subsidiaries.",
+    "plainLanguage": "The group serves insurance customers through local operating companies.",
+    "website": "https://www.myguardiangroup.com/",
+    "evidenceIds": [
+      "src-guardian-structure",
+      "src-guardian-sustainability"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "nis",
+    "shortName": "NIS Barbados",
+    "name": "National Insurance and Social Security Service",
+    "kind": "institution",
+    "type": "Statutory social insurance administrator",
+    "category": "institutional",
+    "ownership": "Public",
+    "geographies": [
+      "barbados"
+    ],
+    "sectors": [
+      "insurance",
+      "financial"
+    ],
+    "mandate": "Administer social insurance for eligible contributors and beneficiaries in Barbados.",
+    "activities": "Collects contributions, administers benefits and oversees investment of the National Insurance Fund.",
+    "plainLanguage": "Workers and employers contribute to social insurance. The service uses contributions and invested reserves to support benefit payments.",
+    "website": "https://www.nis.gov.bb/",
+    "evidenceIds": [
+      "src-nis-about",
+      "src-nis-investment"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "capitalOrigins": [
+      "Barbados"
+    ]
+  },
+  {
+    "id": "nibtt",
+    "shortName": "NIBTT",
+    "name": "National Insurance Board of Trinidad and Tobago",
+    "kind": "institution",
+    "type": "Statutory social insurance administrator",
+    "category": "institutional",
+    "ownership": "Public",
+    "geographies": [
+      "trinidad-tobago"
+    ],
+    "sectors": [
+      "insurance",
+      "financial"
+    ],
+    "mandate": "Administer national insurance benefits in Trinidad and Tobago.",
+    "activities": "Collects contributions and invests reserves to support benefit payments.",
+    "plainLanguage": "The board invests part of the national insurance scheme’s resources to help finance benefits.",
+    "website": "https://www.nibtt.net/",
+    "evidenceIds": [
+      "src-nib-investments",
+      "src-nib-ar"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "capitalOrigins": [
+      "Trinidad and Tobago"
+    ],
+    "capitalSources": [
+      "Social insurance contributions",
+      "Income from invested reserves"
+    ]
+  },
+  {
+    "id": "sygnus",
+    "shortName": "Sygnus Capital",
+    "name": "Sygnus Capital Limited",
+    "kind": "institution",
+    "type": "Alternative investment manager",
+    "category": "investment",
+    "ownership": "Private",
+    "geographies": [
+      "caribbean",
+      "lac"
+    ],
+    "sectors": [
+      "enterprise",
+      "financial"
+    ],
+    "mandate": "Connect businesses and investors with alternative capital.",
+    "activities": "Manages investment vehicles and assists clients with debt and equity financing.",
+    "plainLanguage": "Sygnus Capital structures and manages investments through distinct vehicles for strategies such as private credit.",
+    "website": "https://sygnusgroup.com/",
+    "evidenceIds": [
+      "src-sygnus-capital",
+      "src-sygnus-sci"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "jnfm",
+    "shortName": "JN Fund Managers",
+    "name": "JN Fund Managers Limited",
+    "kind": "institution",
+    "type": "Asset manager",
+    "category": "investment",
+    "ownership": "Private",
+    "geographies": [
+      "jamaica"
+    ],
+    "sectors": [
+      "financial"
+    ],
+    "mandate": "Provide investment and securities services.",
+    "activities": "Manages investments, brokers securities and provides investment banking services.",
+    "plainLanguage": "The manager runs investment products and helps clients buy or sell securities.",
+    "website": "https://www.jnfunds.com/",
+    "evidenceIds": [
+      "src-jn-about",
+      "src-jn-offering"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "headquarters": "Kingston, Jamaica"
+  },
+  {
+    "id": "fundaccess",
+    "shortName": "FundAccess",
+    "name": "The Barbados Agency for Micro Enterprise Development Ltd.",
+    "kind": "institution",
+    "type": "Enterprise development lender",
+    "category": "development",
+    "ownership": "Public",
+    "geographies": [
+      "barbados"
+    ],
+    "sectors": [
+      "enterprise",
+      "development"
+    ],
+    "mandate": "Provide development finance for Barbados micro, small and medium enterprises.",
+    "activities": "Offers lending and business development support.",
+    "plainLanguage": "Eligible Barbados entrepreneurs can submit an application for a business loan and access guidance.",
+    "website": "https://www.fundaccess.org/",
+    "evidenceIds": [
+      "src-fundaccess-about",
+      "src-fundaccess-loans"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "instruments": [
+      "Loans"
+    ],
+    "access": {
+      "route": "direct",
+      "details": "Check the loan categories and application documents on the official site.",
+      "evidenceId": "src-fundaccess-loans"
+    }
+  },
+  {
+    "id": "barbados-gov",
+    "shortName": "Barbados",
+    "name": "Government of Barbados",
+    "kind": "institution",
+    "type": "National government",
+    "category": "public",
+    "ownership": "Public",
+    "geographies": [
+      "barbados"
+    ],
+    "sectors": [
+      "development",
+      "infrastructure"
+    ],
+    "mandate": "Manage public policy and investment in Barbados.",
+    "activities": "Oversees public finance and investments and participates in regional disaster insurance.",
+    "plainLanguage": "The government manages Barbados’s public finances and can transfer some disaster risks through regional insurance.",
+    "website": "https://www.gov.bb/",
+    "evidenceIds": [
+      "src-barbados-gov",
+      "src-ccrif-coast"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "findev",
+    "shortName": "FinDev Canada",
+    "name": "Development Finance Institute Canada (DFIC) Inc.",
+    "kind": "institution",
+    "type": "Bilateral development finance institution",
+    "category": "development",
+    "ownership": "Public",
+    "geographies": [
+      "lac",
+      "dominican-republic"
+    ],
+    "sectors": [
+      "development",
+      "energy",
+      "infrastructure"
+    ],
+    "mandate": "Advance sustainable private sector development in emerging markets and developing economies.",
+    "activities": "Provides development finance, investment and blended finance, including direct lending for renewable infrastructure.",
+    "plainLanguage": "Canada’s development finance institution finances businesses and infrastructure that can advance development goals.",
+    "website": "https://www.findevcanada.ca/en",
+    "evidenceIds": [
+      "src-findev-story",
+      "src-idbi-enertur",
+      "src-findev-enertur"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "capitalOrigins": [
+      "Canada"
+    ],
+    "instruments": [
+      "Loans"
+    ]
+  },
+  {
+    "id": "interenergy",
+    "shortName": "InterEnergy",
+    "name": "InterEnergy Group Limited",
+    "kind": "institution",
+    "type": "Energy infrastructure investor and operator",
+    "category": "investment",
+    "ownership": "Private",
+    "geographies": [
+      "lac",
+      "caribbean",
+      "dominican-republic",
+      "jamaica"
+    ],
+    "sectors": [
+      "energy",
+      "infrastructure"
+    ],
+    "mandate": "Develop and operate power infrastructure in Latin America and the Caribbean.",
+    "activities": "Invests in generation and electricity infrastructure, including renewable energy assets.",
+    "plainLanguage": "The group invests in and operates power businesses. Its subsidiaries develop specific projects and can borrow in their own name.",
+    "website": "https://interenergy.com/",
+    "evidenceIds": [
+      "src-interenergy-about",
+      "src-interenergy-portfolio",
+      "src-findev-enertur",
+      "src-idbi-enertur"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "enertur",
+    "shortName": "Enertur",
+    "name": "Energia Turistica Enertur S.A.",
+    "kind": "institution",
+    "type": "Renewable infrastructure project company",
+    "category": "investment",
+    "ownership": "Private",
+    "geographies": [
+      "dominican-republic"
+    ],
+    "sectors": [
+      "energy",
+      "infrastructure"
+    ],
+    "mandate": "Develop power generation and storage infrastructure in the Dominican Republic.",
+    "activities": "Acts as the project company for the La Romana solar and battery storage development.",
+    "plainLanguage": "This company is the borrowing and development vehicle for a solar and battery storage investment.",
+    "website": "https://interenergy.com/portfolio/enertur/",
+    "evidenceIds": [
+      "src-findev-enertur",
+      "src-interenergy-portfolio",
+      "src-idbi-enertur"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17",
+    "parentId": "interenergy"
+  },
+  {
+    "id": "cbf",
+    "name": "Caribbean Biodiversity Fund",
+    "shortName": "CBF",
+    "kind": "institution",
+    "type": "Regional conservation grantmaker",
+    "category": "climate",
+    "ownership": "Private",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "environment",
+      "adaptation"
+    ],
+    "instruments": [
+      "Grants"
+    ],
+    "mandate": "Provide long-term financing for Caribbean conservation and sustainable development.",
+    "activities": "Manages an endowment and provides conservation and ecosystem adaptation grants through distinct mechanisms.",
+    "plainLanguage": "This regional nonprofit runs several ways to fund nature protection and climate adaptation.",
+    "website": "https://caribbeanbiodiversityfund.org/our-history/",
+    "evidenceIds": [
+      "src-review-cbf-umbrella",
+      "src-review-cbf-accounts",
+      "src-review-cbf-endow",
+      "src-review-cbf-eba"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "tnc",
+    "name": "The Nature Conservancy",
+    "shortName": "TNC",
+    "kind": "institution",
+    "type": "Conservation nonprofit and guarantor",
+    "category": "climate",
+    "ownership": "Private",
+    "geographies": [
+      "barbados",
+      "global"
+    ],
+    "sectors": [
+      "environment",
+      "financial"
+    ],
+    "instruments": [
+      "Guarantees"
+    ],
+    "mandate": "Support conservation through financing and partnerships.",
+    "activities": "Provides conservation support and credit enhancement in the Barbados debt-for-nature conversion.",
+    "plainLanguage": "The nonprofit agreed to cover a defined share of credit risk so Barbados could obtain more favourable loan terms.",
+    "website": "https://www.nature.org/en-us/newsroom/tnc-announces-barbados-blue-bonds-debt-conversion/",
+    "evidenceIds": [
+      "src-review-tnc-blue",
+      "src-scope-barbados-nature"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "jamaica-gov",
+    "name": "Government of Jamaica",
+    "shortName": "Jamaica",
+    "kind": "institution",
+    "type": "National government",
+    "category": "public",
+    "ownership": "Public",
+    "geographies": [
+      "jamaica"
+    ],
+    "sectors": [
+      "insurance"
+    ],
+    "instruments": [
+      "Parametric insurance"
+    ],
+    "mandate": "Manage Jamaica’s public finances, including disaster risk financing.",
+    "activities": "Pays premiums for hurricane cover through a risk transfer agreement with the World Bank.",
+    "plainLanguage": "Jamaica can receive funds after a qualifying storm if the contract’s payout conditions are met.",
+    "website": "https://www.mof.gov.jm/",
+    "evidenceIds": [
+      "src-scope-jamaica-cat"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "egfl",
+    "name": "Enterprise Growth Fund Limited",
+    "shortName": "EGFL",
+    "kind": "institution",
+    "type": "Domestic fund manager and financier",
+    "category": "development",
+    "ownership": "Unknown",
+    "geographies": [
+      "barbados"
+    ],
+    "sectors": [
+      "financial",
+      "enterprise",
+      "energy"
+    ],
+    "instruments": [
+      "Loans",
+      "Technical assistance"
+    ],
+    "mandate": "Provide and administer financing for Barbadian enterprises.",
+    "activities": "Manages domestic lending and business-support funds, including the separate Energy Smart Fund II pool.",
+    "plainLanguage": "EGFL administers the resources used to finance energy improvements by Barbados businesses.",
+    "website": "https://egfl.bb/",
+    "evidenceIds": [
+      "src-review-smart-accounts",
+      "src-review-smart-programme"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "gac",
+    "name": "Global Affairs Canada",
+    "shortName": "Global Affairs Canada",
+    "kind": "institution",
+    "type": "Bilateral development agency",
+    "category": "public",
+    "ownership": "Public",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "energy",
+      "infrastructure"
+    ],
+    "instruments": [
+      "Loans",
+      "Grants"
+    ],
+    "mandate": "Deliver Canadian international development cooperation.",
+    "activities": "Funds the CDB-administered SuRGE programme through Canadian financing agreements.",
+    "plainLanguage": "Canada supplies public finance for projects and technical assistance that support the Caribbean energy transition.",
+    "website": "https://www.canada.ca/en/global-affairs/news/2024/06/canada-hosts-54th-annual-meeting-of-board-of-governors-of-caribbean-development-bank-and-announces-development-funding-for-caribbean-region.html",
+    "evidenceIds": [
+      "src-review-surge-canada",
+      "src-review-surge-programme"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "fmo",
+    "name": "FMO (Dutch Entrepreneurial Development Bank)",
+    "shortName": "FMO",
+    "kind": "institution",
+    "type": "Bilateral development finance institution",
+    "category": "development",
+    "ownership": "Public",
+    "geographies": [
+      "dominican-republic"
+    ],
+    "sectors": [
+      "energy",
+      "infrastructure"
+    ],
+    "instruments": [
+      "Loans"
+    ],
+    "mandate": "Support private sector development through investment and financing.",
+    "activities": "Participated in the Enertur solar and battery storage financing led by IDB Invest.",
+    "plainLanguage": "The Dutch development bank provided a loan alongside other lenders for renewable power in the Dominican Republic.",
+    "website": "https://www.fmo.nl/",
+    "evidenceIds": [
+      "src-review-fmo-enertur",
+      "src-review-fmo-ownership",
+      "src-idbi-enertur"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "us-treasury",
+    "shortName": "US Treasury",
+    "name": "United States Department of the Treasury",
+    "kind": "institution",
+    "type": "Bilateral public donor",
+    "category": "public",
+    "ownership": "Public",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "insurance",
+      "adaptation"
+    ],
+    "instruments": [
+      "Grants"
+    ],
+    "mandate": "Named donor to the second CCRIF multi-donor trust fund.",
+    "activities": "US Treasury contributes to the second donor trust fund.",
+    "plainLanguage": "Named donor to the second CCRIF multi-donor trust fund.",
+    "website": "https://home.treasury.gov/",
+    "evidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18"
+  },
+  {
+    "id": "germany-bmz",
+    "shortName": "BMZ",
+    "name": "Federal Ministry for Economic Cooperation and Development (Germany)",
+    "kind": "institution",
+    "type": "Bilateral development ministry",
+    "category": "public",
+    "ownership": "Public",
+    "geographies": [
+      "caribbean"
+    ],
+    "sectors": [
+      "insurance",
+      "adaptation"
+    ],
+    "instruments": [
+      "Grants"
+    ],
+    "mandate": "Named bilateral funding source for CCRIF through KfW.",
+    "activities": "BMZ resources are channelled through KfW for this trust fund.",
+    "plainLanguage": "Named bilateral funding source for CCRIF through KfW.",
+    "website": "https://www.bmz.de/en",
+    "evidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18"
+  },
+  {
+    "id": "kfw",
+    "shortName": "KfW",
+    "name": "KfW Development Bank",
+    "kind": "institution",
+    "type": "Bilateral development bank",
+    "category": "development",
+    "ownership": "Public",
+    "geographies": [
+      "caribbean",
+      "antigua-barbuda",
+      "barbados",
+      "cuba",
+      "dominica",
+      "dominican-republic",
+      "grenada",
+      "haiti",
+      "jamaica",
+      "saint-lucia",
+      "saint-vincent-grenadines",
+      "trinidad-tobago"
+    ],
+    "sectors": [
+      "insurance",
+      "adaptation",
+      "environment"
+    ],
+    "instruments": [
+      "Grants"
+    ],
+    "mandate": "Documented German funding channel for the CBF adaptation facility.",
+    "activities": "BMZ resources are channelled through KfW for this trust fund. KfW is the named channel for German resources. KfW implements the earmarked IKI support.",
+    "plainLanguage": "Documented German funding channel for the CBF adaptation facility.",
+    "website": "https://www.kfw-entwicklungsbank.de/International-financing/KfW-Development-Bank/",
+    "evidenceIds": [
+      "src-intl-iki-eba",
+      "src-intl-ccrif-donors",
+      "src-intl-cbf-eba"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18"
+  },
+  {
+    "id": "edc",
+    "shortName": "EDC",
+    "name": "Export Development Canada",
+    "kind": "institution",
+    "type": "Public export credit and financing institution",
+    "category": "development",
+    "ownership": "Public",
+    "geographies": [
+      "dominican-republic"
+    ],
+    "sectors": [
+      "energy"
+    ],
+    "instruments": [
+      "Equity",
+      "Loans"
+    ],
+    "mandate": "Documented debt and equity funding relationship to FinDev Canada. Transaction-specific Enertur attribution is unresolved.",
+    "activities": "EDC supplies equity to its FinDev subsidiary. EDC supplies FinDev debt funding.",
+    "plainLanguage": "Documented debt and equity funding relationship to FinDev Canada. Transaction-specific Enertur attribution is unresolved.",
+    "website": "https://www.edc.ca/",
+    "evidenceIds": [
+      "src-intl-findev-financials"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18"
+  },
+  {
+    "id": "standard-chartered-bank",
+    "shortName": "Standard Chartered",
+    "name": "Standard Chartered Bank",
+    "kind": "institution",
+    "type": "Commercial bank",
+    "category": "commercial",
+    "ownership": "Private",
+    "geographies": [
+      "bahamas"
+    ],
+    "sectors": [
+      "environment",
+      "adaptation"
+    ],
+    "instruments": [
+      "Loans"
+    ],
+    "mandate": "Identified sole lender for The Bahamas conservation-linked debt conversion.",
+    "activities": "The bank is the sole lender in the new commercial loan.",
+    "plainLanguage": "Identified sole lender for The Bahamas conservation-linked debt conversion.",
+    "website": "https://www.sc.com/",
+    "evidenceIds": [
+      "src-intl-bahamas-bank"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18"
+  },
+  {
+    "id": "bahamas-gov",
+    "shortName": "The Bahamas",
+    "name": "Government of The Bahamas",
+    "kind": "institution",
+    "type": "National government",
+    "category": "public",
+    "ownership": "Public",
+    "geographies": [
+      "bahamas"
+    ],
+    "sectors": [
+      "environment",
+      "adaptation"
+    ],
+    "instruments": [
+      "Loans"
+    ],
+    "mandate": "Sovereign borrower implementing conservation-linked refinancing and commitments.",
+    "activities": "The bank is the sole lender in the new commercial loan. Conservation funding is channelled to the national conservation trust fund.",
+    "plainLanguage": "Sovereign borrower implementing conservation-linked refinancing and commitments.",
+    "website": "https://www.bahamas.gov.bs/",
+    "evidenceIds": [
+      "src-intl-bahamas-debt-strategy",
+      "src-intl-bahamas-bank",
+      "src-intl-bahamas-tnc"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18"
+  },
+  {
+    "id": "bahamas-protected-areas-fund",
+    "shortName": "BPAF",
+    "name": "The Bahamas Protected Areas Fund",
+    "kind": "institution",
+    "type": "Conservation trust fund",
+    "category": "climate",
+    "ownership": "Unknown",
+    "geographies": [
+      "bahamas"
+    ],
+    "sectors": [
+      "environment",
+      "adaptation"
+    ],
+    "instruments": [],
+    "mandate": "Conservation trust fund designated to manage resulting conservation finance. Governance and ownership need constituting-document review.",
+    "activities": "Conservation funding is channelled to the national conservation trust fund. BPAF manages the resulting conservation funding.",
+    "plainLanguage": "Conservation trust fund designated to manage resulting conservation finance. Governance and ownership need constituting-document review.",
+    "website": "https://bahamasprotected.com/",
+    "evidenceIds": [
+      "src-intl-bahamas-tnc",
+      "src-intl-bpaf-profile"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18"
+  },
+  {
+    "id": "germany-environment-ministry",
+    "shortName": "BMUKN",
+    "name": "Federal Ministry for the Environment, Climate Action, Nature Conservation and Nuclear Safety (Germany)",
+    "kind": "institution",
+    "type": "Bilateral environment ministry",
+    "category": "public",
+    "ownership": "Public",
+    "geographies": [
+      "antigua-barbuda",
+      "barbados",
+      "cuba",
+      "dominica",
+      "dominican-republic",
+      "grenada",
+      "haiti",
+      "jamaica",
+      "saint-lucia",
+      "saint-vincent-grenadines",
+      "trinidad-tobago"
+    ],
+    "sectors": [
+      "adaptation",
+      "environment"
+    ],
+    "instruments": [
+      "Grants"
+    ],
+    "mandate": "Named IKI funding source for Caribbean ecosystem-based adaptation. Source-era ministry names are retained as dated aliases.",
+    "activities": "German environment funding supports the IKI programme leg. German environment-ministry resources support the CBF adaptation facility through IKI and KfW. This link identifies the public source and implementing channel.",
+    "plainLanguage": "Named IKI funding source for Caribbean ecosystem-based adaptation. Source-era ministry names are retained as dated aliases.",
+    "website": "https://www.bundesumweltministerium.de/en/",
+    "evidenceIds": [
+      "src-intl-cbf-eba",
+      "src-intl-iki-eba",
+      "src-intl-bmukn-profile"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18"
+  },
+  {
+    "id": "pioj",
+    "shortName": "PIOJ",
+    "name": "Planning Institute of Jamaica",
+    "kind": "institution",
+    "type": "National implementing institution",
+    "category": "public",
+    "ownership": "Public",
+    "geographies": [
+      "jamaica"
+    ],
+    "sectors": [
+      "adaptation",
+      "insurance"
+    ],
+    "instruments": [
+      "Grants"
+    ],
+    "mandate": "National implementing entity receiving the Adaptation Fund's documented Jamaican grant.",
+    "activities": "PIOJ receives the direct-access grant. PIOJ is the national implementing entity. The funded programme targets Jamaican agricultural and coastal communities.",
+    "plainLanguage": "National implementing entity receiving the Adaptation Fund's documented Jamaican grant.",
+    "website": "https://www.pioj.gov.jm/",
+    "evidenceIds": [
+      "src-intl-af-jamaica"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18"
+  },
+  {
+    "id": "barbados-water-authority",
+    "shortName": "BWA",
+    "name": "Barbados Water Authority",
+    "kind": "institution",
+    "type": "Public water utility",
+    "category": "public",
+    "ownership": "Public",
+    "geographies": [
+      "barbados"
+    ],
+    "sectors": [
+      "adaptation",
+      "energy"
+    ],
+    "instruments": [],
+    "mandate": "Named utility beneficiary in Barbados' GCF-funded water resilience mechanism.",
+    "activities": "The utility is an identified programme beneficiary.",
+    "plainLanguage": "Named utility beneficiary in Barbados' GCF-funded water resilience mechanism.",
+    "website": "https://barbadoswaterauthority.com/",
+    "evidenceIds": [
+      "src-intl-gcf-annual-2025"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18"
+  },
+  {
+    "id": "unep",
+    "shortName": "UNEP",
+    "name": "United Nations Environment Programme",
+    "kind": "institution",
+    "type": "Multilateral environmental implementing agency",
+    "category": "development",
+    "ownership": "Multilateral",
+    "geographies": [
+      "caribbean",
+      "barbados",
+      "belize",
+      "cuba",
+      "dominican-republic",
+      "grenada",
+      "guyana",
+      "jamaica",
+      "saint-kitts-nevis",
+      "saint-lucia",
+      "saint-vincent-grenadines",
+      "suriname",
+      "trinidad-tobago"
+    ],
+    "sectors": [
+      "environment"
+    ],
+    "instruments": [],
+    "mandate": "Documented co-implementing agency for the CReW+ regional environmental financing programme.",
+    "activities": "UNEP is a co-implementing agency.",
+    "plainLanguage": "Documented co-implementing agency for the CReW+ regional environmental financing programme.",
+    "website": "https://www.unep.org/",
+    "evidenceIds": [
+      "src-intl-crew-pir-2024"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18"
+  },
+  {
+    "id": "giz",
+    "shortName": "GIZ",
+    "name": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "kind": "institution",
+    "type": "Development cooperation implementing agency",
+    "category": "development",
+    "ownership": "Public",
+    "geographies": [
+      "caribbean",
+      "barbados",
+      "belize",
+      "cuba",
+      "dominican-republic",
+      "grenada",
+      "guyana",
+      "jamaica",
+      "saint-kitts-nevis",
+      "saint-lucia",
+      "saint-vincent-grenadines",
+      "suriname",
+      "trinidad-tobago"
+    ],
+    "sectors": [
+      "environment"
+    ],
+    "instruments": [],
+    "mandate": "Named executing agency for CReW+, with earlier CRAF technical assistance also documented.",
+    "activities": "GIZ is a named executing agency.",
+    "plainLanguage": "Named executing agency for CReW+, with earlier CRAF technical assistance also documented.",
+    "website": "https://www.giz.de/",
+    "evidenceIds": [
+      "src-intl-crew-pir-2024"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18"
+  },
+  {
+    "id": "dfc",
+    "shortName": "DFC",
+    "name": "U.S. International Development Finance Corporation",
+    "kind": "institution",
+    "type": "Bilateral development finance institution",
+    "category": "development",
+    "ownership": "Public",
+    "geographies": [
+      "belize"
+    ],
+    "sectors": [
+      "environment",
+      "adaptation"
+    ],
+    "instruments": [
+      "Insurance"
+    ],
+    "mandate": "Named political risk insurer in the Belize conservation debt conversion.",
+    "activities": "DFC provides political risk insurance for principal and interest.",
+    "plainLanguage": "Named political risk insurer in the Belize conservation debt conversion.",
+    "website": "https://www.dfc.gov/",
+    "evidenceIds": [
+      "src-intl-dfc-belize"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18"
+  },
+  {
+    "id": "belize-gov",
+    "shortName": "Belize",
+    "name": "Government of Belize",
+    "kind": "institution",
+    "type": "National government",
+    "category": "public",
+    "ownership": "Public",
+    "geographies": [
+      "belize"
+    ],
+    "sectors": [
+      "environment",
+      "adaptation"
+    ],
+    "instruments": [
+      "Loans"
+    ],
+    "mandate": "Sovereign borrower and conservation-funding obligor in the documented 2021 debt conversion.",
+    "activities": "The special-purpose lender extended Belize's Blue Loan.",
+    "plainLanguage": "Sovereign borrower and conservation-funding obligor in the documented 2021 debt conversion.",
+    "website": "https://www.mof.gov.bz/",
+    "evidenceIds": [
+      "src-intl-dfc-belize",
+      "src-intl-belize-tnc",
+      "src-intl-tnc-audited-2023"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18"
+  },
+  {
+    "id": "belize-blue-investment-company",
+    "shortName": "BzBIC",
+    "name": "Belize Blue Investment Company, LLC",
+    "kind": "institution",
+    "type": "Special-purpose conservation lender",
+    "category": "investment",
+    "ownership": "Private",
+    "geographies": [
+      "belize"
+    ],
+    "sectors": [
+      "environment",
+      "adaptation"
+    ],
+    "instruments": [
+      "Loans",
+      "Equity"
+    ],
+    "mandate": "Special-purpose lender in the Belize blue-loan arrangement.",
+    "activities": "Credit Suisse funded the special-purpose lender through the repackaging structure. The special-purpose lender extended Belize's Blue Loan. TNC supplied reserve-related equity support to its subsidiary structure.",
+    "plainLanguage": "Special-purpose lender in the Belize blue-loan arrangement.",
+    "website": "https://www.nature.org/content/dam/tnc/nature/en/documents/2023-TNC-Audited-FS-Final.pdf",
+    "evidenceIds": [
+      "src-intl-tnc-audited-2023",
+      "src-intl-belize-tnc",
+      "src-intl-tnc-impact-2022"
+    ],
+    "status": "verified",
+    "verifiedOn": "2026-11-18"
+  }
+]

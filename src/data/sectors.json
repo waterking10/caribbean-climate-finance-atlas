@@ -1,0 +1,38 @@
+[
+  {
+    "id": "development",
+    "label": "Economic & social development"
+  },
+  {
+    "id": "adaptation",
+    "label": "Climate adaptation & resilience"
+  },
+  {
+    "id": "infrastructure",
+    "label": "Infrastructure"
+  },
+  {
+    "id": "energy",
+    "label": "Renewable energy & efficiency"
+  },
+  {
+    "id": "enterprise",
+    "label": "Enterprise & SME finance"
+  },
+  {
+    "id": "financial",
+    "label": "Financial services"
+  },
+  {
+    "id": "insurance",
+    "label": "Insurance & disaster risk"
+  },
+  {
+    "id": "environment",
+    "label": "Environment"
+  },
+  {
+    "id": "trade",
+    "label": "Trade & exports"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "caribbean",
+    "label": "Caribbean"
+  },
+  {
+    "id": "global",
+    "label": "Global"
+  },
+  {
+    "id": "lac",
+    "label": "Latin America & Caribbean"
+  },
+  {
+    "id": "eastern-caribbean",
+    "label": "Eastern Caribbean"
+  },
+  {
+    "id": "barbados",
+    "label": "Barbados"
+  },
+  {
+    "id": "jamaica",
+    "label": "Jamaica"
+  },
+  {
+    "id": "trinidad-tobago",
+    "label": "Trinidad & Tobago"
+  },
+  {
+    "id": "belize",
+    "label": "Belize"
+  },
+  {
+    "id": "guyana",
+    "label": "Guyana"
+  },
+  {
+    "id": "dominica",
+    "label": "Dominica"
+  },
+  {
+    "id": "central-america",
+    "label": "Central America"
+  },
+  {
+    "id": "north-america",
+    "label": "North America"
+  },
+  {
+    "id": "puerto-rico",
+    "label": "Puerto Rico"
+  },
+  {
+    "id": "anguilla",
+    "label": "Anguilla"
+  },
+  {
+    "id": "antigua-barbuda",
+    "label": "Antigua and Barbuda"
+  },
+  {
+    "id": "bvi",
+    "label": "British Virgin Islands"
+  },
+  {
+    "id": "cayman-islands",
+    "label": "Cayman Islands"
+  },
+  {
+    "id": "grenada",
+    "label": "Grenada"
+  },
+  {
+    "id": "haiti",
+    "label": "Haiti"
+  },
+  {
+    "id": "montserrat",
+    "label": "Montserrat"
+  },
+  {
+    "id": "saint-kitts-nevis",
+    "label": "Saint Kitts and Nevis"
+  },
+  {
+    "id": "saint-lucia",
+    "label": "Saint Lucia"
+  },
+  {
+    "id": "saint-vincent-grenadines",
+    "label": "Saint Vincent and the Grenadines"
+  },
+  {
+    "id": "suriname",
+    "label": "Suriname"
+  },
+  {
+    "id": "bahamas",
+    "label": "The Bahamas"
+  },
+  {
+    "id": "turks-caicos",
+    "label": "Turks and Caicos Islands"
+  },
+  {
+    "id": "dominican-republic",
+    "label": "Dominican Republic"
+  },
+  {
+    "id": "cuba",
+    "label": "Cuba"
+  }
+]

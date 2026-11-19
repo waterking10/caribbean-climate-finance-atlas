@@ -1,0 +1,1186 @@
+{
+  "rel-cdb-gcf": {
+    "themes": [
+      "climate_adaptation",
+      "climate_mitigation"
+    ],
+    "scopeRationale": "Accreditation enables access to GCF adaptation and mitigation resources.",
+    "participantRoles": {
+      "source": "Accredited entity",
+      "target": "Accrediting climate fund"
+    }
+  },
+  "rel-ccccc-gcf": {
+    "themes": [
+      "climate_adaptation",
+      "climate_mitigation"
+    ],
+    "scopeRationale": "Regional accreditation enables the Centre to bring climate proposals to GCF.",
+    "participantRoles": {
+      "source": "Regional accredited entity",
+      "target": "Accrediting climate fund"
+    }
+  },
+  "rel-idb-gcf": {
+    "themes": [
+      "climate_adaptation",
+      "climate_mitigation"
+    ],
+    "scopeRationale": "The master agreement provides an institutional route for eligible GCF finance.",
+    "participantRoles": {
+      "source": "Accredited entity",
+      "target": "Accrediting climate fund"
+    }
+  },
+  "rel-idbi-gcf": {
+    "themes": [
+      "climate_adaptation",
+      "climate_mitigation"
+    ],
+    "scopeRationale": "Accreditation enables IDB Invest to bring eligible private-sector climate proposals to GCF.",
+    "participantRoles": {
+      "source": "Accredited entity",
+      "target": "Accrediting climate fund"
+    }
+  },
+  "rel-ifc-gcf": {
+    "themes": [
+      "climate_adaptation",
+      "climate_mitigation"
+    ],
+    "scopeRationale": "Accreditation enables IFC to bring eligible private-sector climate proposals to GCF.",
+    "participantRoles": {
+      "source": "Accredited entity",
+      "target": "Accrediting climate fund"
+    }
+  },
+  "rel-cdb-af": {
+    "themes": [
+      "climate_adaptation"
+    ],
+    "scopeRationale": "Regional implementation accreditation is an access route to dedicated adaptation finance.",
+    "participantRoles": {
+      "source": "Regional implementing entity",
+      "target": "Accrediting adaptation fund"
+    }
+  },
+  "rel-cdb-ukcif": {
+    "themes": [
+      "climate_adaptation",
+      "disaster_resilience"
+    ],
+    "scopeRationale": "The CDB administration arrangement covers UKCIF grants for climate-resilient infrastructure.",
+    "participantRoles": {
+      "source": "Grant programme administrator",
+      "target": "Administered grant programme"
+    }
+  },
+  "rel-uk-ukcif": {
+    "themes": [
+      "climate_adaptation",
+      "disaster_resilience"
+    ],
+    "scopeRationale": "Grant support through FCDO enables the fund’s climate-resilient infrastructure commitments.",
+    "participantRoles": {
+      "source": "Bilateral grant capital provider",
+      "target": "Grant financing vehicle"
+    }
+  },
+  "rel-cdb-sdf": {
+    "themes": [
+      "climate_adaptation",
+      "disaster_resilience",
+      "energy_transition",
+      "climate_mitigation"
+    ],
+    "scopeRationale": "CDB administers a diversified concessional portfolio that includes Caribbean resilience and renewable energy finance.",
+    "scopeEvidenceIds": [
+      "src-scope-sdf-climate"
+    ],
+    "participantRoles": {
+      "source": "Concessional fund administrator",
+      "target": "Administered development fund"
+    }
+  },
+  "rel-cdb-sef": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "Facility management channels blended resources toward renewable energy and energy efficiency.",
+    "participantRoles": {
+      "source": "Facility administrator and on-lender",
+      "target": "Administered facility"
+    }
+  },
+  "rel-idb-cdb-sef": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "The approved credit line is dedicated to eligible energy on-lending.",
+    "participantRoles": {
+      "source": "Upstream lender",
+      "target": "Borrower and downstream lender"
+    }
+  },
+  "rel-ctf-cdb-sef": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "The signed SEF package includes a Clean Technology Fund grant component.",
+    "participantRoles": {
+      "source": "Concessional grant provider",
+      "target": "Grant recipient and facility administrator"
+    }
+  },
+  "rel-gef-cdb-sef": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "The signed SEF package includes a GEF Trust Fund grant component for energy financing.",
+    "participantRoles": {
+      "source": "Trust fund grant provider",
+      "target": "Grant recipient and facility administrator"
+    }
+  },
+  "rel-gcf-sef": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "The approved FP020 financing is dedicated to the Eastern Caribbean energy facility.",
+    "participantRoles": {
+      "source": "Climate capital provider",
+      "target": "Funded facility"
+    }
+  },
+  "rel-idb-sef": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "This delivery role is tied to a named GCF approval for SEF.",
+    "participantRoles": {
+      "source": "Accredited delivery entity",
+      "target": "Facility receiving GCF support"
+    }
+  },
+  "rel-cdb-seec": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "Administration supports grants and project preparation for renewable energy and energy efficiency.",
+    "participantRoles": {
+      "source": "Programme administrator",
+      "target": "Administered programme"
+    }
+  },
+  "rel-eu-seec": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "The EU-backed Caribbean Investment Facility contribution supported SEEC’s energy programme.",
+    "participantRoles": {
+      "source": "Grant contributor via the Caribbean Investment Facility",
+      "target": "Co-funded energy programme"
+    }
+  },
+  "rel-idb-idblab": {
+    "themes": [],
+    "scopeRationale": "The relationship describes administration of the entire innovation fund.",
+    "participantRoles": {
+      "source": "Innovation fund administrator",
+      "target": "Administered innovation fund"
+    }
+  },
+  "rel-idb-gef": {
+    "themes": [
+      "environmental_sustainability"
+    ],
+    "scopeRationale": "The agency designation establishes an institutional channel for GEF environmental financing.",
+    "participantRoles": {
+      "source": "Implementing agency",
+      "target": "Environmental financing mechanism"
+    }
+  },
+  "rel-wb-gef": {
+    "themes": [
+      "environmental_sustainability"
+    ],
+    "scopeRationale": "Trusteeship is the administrative channel for the GEF’s environmental resources.",
+    "participantRoles": {
+      "source": "Trustee and administrator",
+      "target": "Administered environmental trust"
+    }
+  },
+  "rel-wb-af": {
+    "themes": [
+      "climate_adaptation"
+    ],
+    "scopeRationale": "The interim trustee administers dedicated adaptation finance resources.",
+    "participantRoles": {
+      "source": "Interim trustee",
+      "target": "Adaptation fund"
+    }
+  },
+  "rel-eib-cdb": {
+    "themes": [
+      "climate_adaptation",
+      "environmental_sustainability"
+    ],
+    "scopeRationale": "The signed credit line addresses climate resilience through eligible water and waste management investment.",
+    "participantRoles": {
+      "source": "Wholesale lender",
+      "target": "Borrower and downstream lender"
+    }
+  },
+  "rel-cdb-ppp": {
+    "themes": [],
+    "scopeRationale": "The facility launch records broad PPP policy and capacity support.",
+    "participantRoles": {
+      "source": "PPP support facility",
+      "target": "Founding collaborator"
+    }
+  },
+  "rel-wb-ppp": {
+    "themes": [],
+    "scopeRationale": "The World Bank’s launch collaboration concerns a general PPP facility.",
+    "participantRoles": {
+      "source": "PPP support facility",
+      "target": "Founding collaborator"
+    }
+  },
+  "rel-idb-ppp": {
+    "themes": [],
+    "scopeRationale": "IDB’s launch collaboration concerns a general PPP facility.",
+    "participantRoles": {
+      "source": "PPP support facility",
+      "target": "Founding collaborator"
+    }
+  },
+  "rel-idblab-ppp": {
+    "themes": [],
+    "scopeRationale": "The innovation fund’s launch collaboration concerns a general PPP facility.",
+    "participantRoles": {
+      "source": "PPP support facility",
+      "target": "Founding collaborator"
+    }
+  },
+  "rel-caricom-ccccc": {
+    "themes": [
+      "climate_adaptation"
+    ],
+    "scopeRationale": "The enabling protocol explains the regional institutional origin of the Centre that prepares and delivers adaptation programmes.",
+    "participantRoles": {
+      "source": "Established regional centre",
+      "target": "Establishing intergovernmental body"
+    }
+  },
+  "rel-caricom-cdf": {
+    "themes": [],
+    "scopeRationale": "The treaty established a diversified development fund. Its later clean-energy guarantee activity is documented separately.",
+    "participantRoles": {
+      "source": "Treaty-established development fund",
+      "target": "Establishing intergovernmental body"
+    }
+  },
+  "rel-eu-lacif": {
+    "themes": [
+      "environmental_sustainability"
+    ],
+    "scopeRationale": "The founding arrangement establishes a blending vehicle whose documented Caribbean portfolio includes water management and clean oceans.",
+    "participantRoles": {
+      "source": "Founding institution",
+      "target": "Established blending facility"
+    }
+  },
+  "rel-eu-export": {
+    "themes": [],
+    "scopeRationale": "The record establishes delivery of the broader private-sector programme on behalf of the EU.",
+    "participantRoles": {
+      "source": "Programme implementing agency",
+      "target": "Programme sponsor"
+    }
+  },
+  "rel-export-rpsdp": {
+    "themes": [],
+    "scopeRationale": "The record covers implementation of the broad enterprise support programme.",
+    "participantRoles": {
+      "source": "Programme implementing agency",
+      "target": "Administered programme"
+    }
+  },
+  "rel-eu-rpsdp": {
+    "themes": [],
+    "scopeRationale": "The EU contribution applies to the programme as a whole. Its green co-financing component requires a separate allocation record.",
+    "participantRoles": {
+      "source": "Programme grant funder",
+      "target": "Funded programme"
+    }
+  },
+  "rel-wb-ccrif": {
+    "themes": [
+      "disaster_resilience"
+    ],
+    "scopeRationale": "The donor resources administered by the World Bank support Caribbean catastrophe risk pooling.",
+    "participantRoles": {
+      "source": "Donor trust fund administrator and financing channel",
+      "target": "Catastrophe risk pool"
+    }
+  },
+  "rel-rfhl-republic-bb": {
+    "themes": [],
+    "scopeRationale": "The holding-company ownership record describes general corporate structure. Targeted energy lending by the operating bank has separate evidence.",
+    "participantRoles": {
+      "source": "Bank holding company",
+      "target": "Owned operating bank"
+    }
+  },
+  "rel-sagicor-life": {
+    "themes": [],
+    "scopeRationale": "The ownership link describes general insurance group structure.",
+    "participantRoles": {
+      "source": "Insurance holding company",
+      "target": "Operating insurance company"
+    }
+  },
+  "rel-nis-managed": {
+    "themes": [],
+    "scopeRationale": "The relationship concerns social insurance reserve oversight.",
+    "participantRoles": {
+      "source": "Statutory reserve administrator",
+      "target": "Managed social insurance reserve"
+    }
+  },
+  "rel-sygnus-sci": {
+    "themes": [],
+    "scopeRationale": "The relationship concerns management of a diversified structured credit portfolio.",
+    "participantRoles": {
+      "source": "Investment manager",
+      "target": "Managed credit vehicle"
+    }
+  },
+  "rel-sygnus-deneb": {
+    "themes": [],
+    "scopeRationale": "The dated AGM record identifies management of a general growth equity vehicle.",
+    "participantRoles": {
+      "source": "Investment manager",
+      "target": "Managed equity vehicle"
+    }
+  },
+  "rel-jn-managed": {
+    "themes": [],
+    "scopeRationale": "The offering document establishes management of pooled portfolios.",
+    "participantRoles": {
+      "source": "Investment manager",
+      "target": "Managed mutual funds"
+    }
+  },
+  "rel-ccrif-barbados": {
+    "themes": [
+      "disaster_resilience",
+      "climate_adaptation"
+    ],
+    "scopeRationale": "The government purchases weather and cyclone risk cover under COAST for the fisheries sector.",
+    "participantRoles": {
+      "source": "Parametric risk insurer",
+      "target": "Sovereign policyholder"
+    }
+  },
+  "rel-interenergy-enertur": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "The ownership relationship identifies the sponsor of the solar and storage company within the electricity transition plan.",
+    "participantRoles": {
+      "source": "Project sponsor and owner",
+      "target": "Owned project vehicle"
+    }
+  },
+  "rel-findev-enertur": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "FinDev’s signed project-finance commitment supports the solar and storage investment.",
+    "participantRoles": {
+      "source": "Participating project lender",
+      "target": "Project company borrower"
+    }
+  },
+  "rel-idbi-enertur": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "The IDB Invest-led multi-lender facility finances the solar and storage investment.",
+    "participantRoles": {
+      "source": "Lead project finance lender",
+      "target": "Project company borrower"
+    }
+  },
+  "rel-idbi-findev-enertur": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "The institutional link records common participation in the Enertur financing.",
+    "participantRoles": {
+      "source": "Lead financing institution",
+      "target": "Participating lender"
+    }
+  },
+  "rel-sygnus-ccrf": {
+    "themes": [
+      "climate_adaptation"
+    ],
+    "scopeRationale": "The management appointment relates specifically to a fund with a regional climate resilience mandate.",
+    "participantRoles": {
+      "source": "Appointed fund manager",
+      "target": "Managed umbrella fund"
+    }
+  },
+  "rel-cdf-ccrf": {
+    "themes": [
+      "climate_adaptation"
+    ],
+    "scopeRationale": "The disclosed role is the umbrella anchor investment.",
+    "participantRoles": {
+      "source": "Anchor investor",
+      "target": "Umbrella investment fund"
+    }
+  },
+  "rel-ccrf-debt-umbrella": {
+    "themes": [
+      "climate_adaptation"
+    ],
+    "scopeRationale": "The structure identifies which sleeve receives debt-fund investment.",
+    "participantRoles": {
+      "source": "Debt sleeve",
+      "target": "Umbrella investment fund"
+    }
+  },
+  "rel-ccrf-equity-umbrella": {
+    "themes": [
+      "climate_adaptation"
+    ],
+    "scopeRationale": "The structure identifies which sleeve receives equity-fund investment.",
+    "participantRoles": {
+      "source": "Equity sleeve",
+      "target": "Umbrella investment fund"
+    }
+  },
+  "rel-ifc-ccrf-debt": {
+    "themes": [
+      "climate_adaptation"
+    ],
+    "scopeRationale": "IFC’s announcement attributes the investment to the debt sleeve.",
+    "participantRoles": {
+      "source": "Sub-fund investor",
+      "target": "Debt sleeve receiving the investment"
+    }
+  },
+  "rel-idbi-ccrf-equity": {
+    "themes": [
+      "climate_adaptation"
+    ],
+    "scopeRationale": "The equity commitment is disclosed separately from participation proposed for the debt sleeve.",
+    "participantRoles": {
+      "source": "Equity sleeve investor",
+      "target": "Equity sleeve receiving the commitment"
+    }
+  },
+  "rel-cdf-craf": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "The guarantees help address lender risk for energy efficiency and renewables.",
+    "participantRoles": {
+      "source": "Facility implementer",
+      "target": "Managed guarantee facility"
+    }
+  },
+  "rel-cbf-endowment": {
+    "themes": [
+      "biodiversity_nature",
+      "environmental_sustainability"
+    ],
+    "scopeRationale": "The endowment is a dedicated conservation financing mechanism.",
+    "participantRoles": {
+      "source": "Umbrella fund and endowment manager",
+      "target": "Managed conservation endowment"
+    }
+  },
+  "rel-cbf-eba": {
+    "themes": [
+      "biodiversity_nature",
+      "climate_adaptation"
+    ],
+    "scopeRationale": "Grants support adaptation through ecosystems across Caribbean communities.",
+    "participantRoles": {
+      "source": "Grant facility operator",
+      "target": "Adaptation grant facility"
+    }
+  },
+  "rel-idb-barbados-blue": {
+    "themes": [
+      "biodiversity_nature",
+      "environmental_sustainability"
+    ],
+    "scopeRationale": "The guarantee supports the refinancing that generates fiscal savings for marine conservation.",
+    "participantRoles": {
+      "source": "Multilateral guarantor",
+      "target": "Credit-enhanced term loan"
+    }
+  },
+  "rel-tnc-barbados-blue": {
+    "themes": [
+      "biodiversity_nature",
+      "environmental_sustainability"
+    ],
+    "scopeRationale": "The guarantee is a documented credit enhancement for the conservation refinancing.",
+    "participantRoles": {
+      "source": "Conservation nonprofit guarantor",
+      "target": "Credit-enhanced term loan"
+    }
+  },
+  "rel-cibc-barbados-blue": {
+    "themes": [
+      "biodiversity_nature",
+      "environmental_sustainability"
+    ],
+    "scopeRationale": "Arrangement is a documented intermediation role for a conservation-related loan.",
+    "participantRoles": {
+      "source": "Domestic lead arranger",
+      "target": "Arranged term loan"
+    }
+  },
+  "rel-barbados-blue-refinance": {
+    "themes": [
+      "biodiversity_nature",
+      "environmental_sustainability"
+    ],
+    "scopeRationale": "The loan finances the refinancing. Conservation is financed through the resulting fiscal savings.",
+    "participantRoles": {
+      "source": "Refinancing loan facility",
+      "target": "Sovereign borrower"
+    }
+  },
+  "rel-jamaica-cat-issuer": {
+    "themes": [
+      "disaster_resilience"
+    ],
+    "scopeRationale": "The notes back hurricane cover by transferring risk to capital markets.",
+    "participantRoles": {
+      "source": "Capital at Risk Notes (CAR 137)",
+      "target": "IBRD issuer"
+    }
+  },
+  "rel-world-bank-jamaica-cover": {
+    "themes": [
+      "disaster_resilience"
+    ],
+    "scopeRationale": "The stated amount measures cover, with payouts subject to the trigger.",
+    "participantRoles": {
+      "source": "IBRD risk-transfer counterparty",
+      "target": "Sovereign purchaser of cover"
+    }
+  },
+  "rel-egfl-energy-smart-ii": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "The fund provides support for domestic renewable energy and energy efficiency.",
+    "participantRoles": {
+      "source": "Fund manager",
+      "target": "Managed segregated fund"
+    }
+  },
+  "rel-barbados-energy-smart-ii": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "Government capital supports defined renewable energy and energy efficiency investments.",
+    "participantRoles": {
+      "source": "Government capital provider",
+      "target": "Capitalised domestic energy fund"
+    }
+  },
+  "rel-mpc-listed-fund": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "This is historical evidence of the original feeder structure. Later restructuring and asset sale disclosures require separate dating.",
+    "participantRoles": {
+      "source": "Listed feeder investor under the original structure",
+      "target": "Cayman renewable infrastructure fund"
+    }
+  },
+  "rel-gac-surge": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "The signed funding supports the programme’s stated Caribbean energy-transition objective.",
+    "participantRoles": {
+      "source": "Bilateral public capital provider",
+      "target": "Programme financed with Canadian resources"
+    }
+  },
+  "rel-cdb-surge": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "The programme directs concessional capital to eligible Caribbean energy-transition activity.",
+    "participantRoles": {
+      "source": "Programme administrator and financing channel",
+      "target": "Administered programme"
+    }
+  },
+  "rel-gcf-ppf": {
+    "themes": [
+      "climate_adaptation",
+      "climate_mitigation"
+    ],
+    "scopeRationale": "The facility is an established route to develop mitigation and adaptation proposals.",
+    "participantRoles": {
+      "source": "Fund and facility administrator",
+      "target": "Preparation funding and services window"
+    }
+  },
+  "rel-gcf-ppf-cdb": {
+    "themes": [
+      "climate_adaptation",
+      "climate_mitigation"
+    ],
+    "scopeRationale": "Approval relates to preparation of the funding proposal.",
+    "participantRoles": {
+      "source": "Project preparation facility",
+      "target": "Accredited applicant and preparation lead"
+    }
+  },
+  "rel-cdb-ccppf": {
+    "themes": [
+      "climate_adaptation",
+      "climate_mitigation"
+    ],
+    "scopeRationale": "The bank documents dedicated adaptation and mitigation preparation support.",
+    "participantRoles": {
+      "source": "Fund manager",
+      "target": "CDB climate preparation fund"
+    }
+  },
+  "rel-gbff-gef": {
+    "themes": [
+      "biodiversity_nature"
+    ],
+    "scopeRationale": "The fund has separate governance and a documented Caribbean operation.",
+    "participantRoles": {
+      "source": "Established biodiversity trust fund",
+      "target": "Establishing facility through its Council"
+    }
+  },
+  "rel-world-bank-gbff": {
+    "themes": [
+      "biodiversity_nature"
+    ],
+    "scopeRationale": "The trustee role explains custody and administration of a vehicle active in Caribbean nature finance.",
+    "participantRoles": {
+      "source": "Financial trustee",
+      "target": "Administered biodiversity trust fund"
+    }
+  },
+  "rel-world-bank-sccf": {
+    "themes": [
+      "climate_adaptation"
+    ],
+    "scopeRationale": "The trust finances a documented Caribbean fisheries adaptation operation.",
+    "participantRoles": {
+      "source": "Financial trustee",
+      "target": "Administered adaptation trust fund"
+    }
+  },
+  "rel-eu-bridge-green": {
+    "themes": [
+      "environmental_sustainability"
+    ],
+    "scopeRationale": "The source identifies the specific environmental grant window.",
+    "participantRoles": {
+      "source": "Grant-window funder",
+      "target": "EU-funded environmental grant window"
+    }
+  },
+  "rel-export-bridge-green": {
+    "themes": [
+      "environmental_sustainability"
+    ],
+    "scopeRationale": "This grant-window role is supported by its published eligibility and application information.",
+    "participantRoles": {
+      "source": "Grant-window administrator",
+      "target": "Administered environmental grant window"
+    }
+  },
+  "rel-fmo-enertur": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation",
+      "transition_finance"
+    ],
+    "scopeRationale": "The loan finances renewable power and energy storage in the Dominican Republic.",
+    "participantRoles": {
+      "source": "Participating lender",
+      "target": "Solar and storage project borrower"
+    }
+  },
+  "rel-intl-ccrif-donors-canada": {
+    "themes": [
+      "disaster_resilience",
+      "climate_adaptation"
+    ],
+    "scopeRationale": "Documents contributes to within Second CCRIF donor trust fund. Pooled donor resources. Individual Caribbean payouts cannot be attributed to a donor.",
+    "scopeEvidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "participantRoles": {
+      "source": "Contributor",
+      "target": "Earmarked pooled funding channel"
+    }
+  },
+  "rel-intl-ccrif-donors-eu": {
+    "themes": [
+      "disaster_resilience",
+      "climate_adaptation"
+    ],
+    "scopeRationale": "Documents contributes to within Second CCRIF donor trust fund. Pooled donor resources. Individual Caribbean payouts cannot be attributed to a donor.",
+    "scopeEvidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "participantRoles": {
+      "source": "Contributor",
+      "target": "Earmarked pooled funding channel"
+    }
+  },
+  "rel-intl-ccrif-donors-us": {
+    "themes": [
+      "disaster_resilience",
+      "climate_adaptation"
+    ],
+    "scopeRationale": "Documents contributes to within Second CCRIF donor trust fund. Pooled donor resources. Individual Caribbean payouts cannot be attributed to a donor.",
+    "scopeEvidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "participantRoles": {
+      "source": "Contributor",
+      "target": "Earmarked pooled funding channel"
+    }
+  },
+  "rel-intl-ccrif-donors-germany": {
+    "themes": [
+      "disaster_resilience",
+      "climate_adaptation"
+    ],
+    "scopeRationale": "Documents funds within Second CCRIF donor trust fund. Pooled donor resources. Individual Caribbean payouts cannot be attributed to a donor.",
+    "scopeEvidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "participantRoles": {
+      "source": "Funding provider or channel",
+      "target": "Funded mechanism or recipient"
+    }
+  },
+  "rel-intl-ccrif-donors-kfw": {
+    "themes": [
+      "disaster_resilience",
+      "climate_adaptation"
+    ],
+    "scopeRationale": "Documents contributes to within Second CCRIF donor trust fund. Pooled donor resources. Individual Caribbean payouts cannot be attributed to a donor.",
+    "scopeEvidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "participantRoles": {
+      "source": "Contributor",
+      "target": "Earmarked pooled funding channel"
+    }
+  },
+  "rel-intl-ccrif-donors-administrator": {
+    "themes": [
+      "disaster_resilience",
+      "climate_adaptation"
+    ],
+    "scopeRationale": "Documents administers within Second CCRIF donor trust fund. Pooled donor resources. Individual Caribbean payouts cannot be attributed to a donor.",
+    "scopeEvidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "participantRoles": {
+      "source": "Administrator",
+      "target": "Administered funding mechanism"
+    }
+  },
+  "rel-intl-ccrif-donors-grants": {
+    "themes": [
+      "disaster_resilience",
+      "climate_adaptation"
+    ],
+    "scopeRationale": "Documents grants to within Second CCRIF donor trust fund. Pooled donor resources. Individual Caribbean payouts cannot be attributed to a donor.",
+    "scopeEvidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "participantRoles": {
+      "source": "Grant provider",
+      "target": "Grant recipient or implementing entity"
+    }
+  },
+  "rel-intl-enertur-edc-equity": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation"
+    ],
+    "scopeRationale": "Documents capitalizes within Enertur solar financing and FinDev institutional funding context. EDC funding supports FinDev's balance sheet. No allocation of a particular EDC advance to Enertur is established.",
+    "scopeEvidenceIds": [
+      "src-intl-findev-financials"
+    ],
+    "participantRoles": {
+      "source": "Capital provider",
+      "target": "Institution receiving equity capital"
+    }
+  },
+  "rel-intl-enertur-edc-debt": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation"
+    ],
+    "scopeRationale": "Documents lends to within Enertur solar financing and FinDev institutional funding context. EDC funding supports FinDev's balance sheet. No allocation of a particular EDC advance to Enertur is established.",
+    "scopeEvidenceIds": [
+      "src-intl-findev-financials"
+    ],
+    "participantRoles": {
+      "source": "Lender",
+      "target": "Borrower"
+    }
+  },
+  "rel-intl-enertur-arranger": {
+    "themes": [
+      "energy_transition",
+      "climate_mitigation"
+    ],
+    "scopeRationale": "Documents arranges within Enertur solar financing and FinDev institutional funding context. EDC funding supports FinDev's balance sheet. No allocation of a particular EDC advance to Enertur is established.",
+    "scopeEvidenceIds": [
+      "src-findev-enertur"
+    ],
+    "participantRoles": {
+      "source": "Arranger",
+      "target": "Financed borrower"
+    }
+  },
+  "rel-intl-bahamas-2024-loan": {
+    "themes": [
+      "biodiversity_nature",
+      "climate_adaptation",
+      "environmental_sustainability"
+    ],
+    "scopeRationale": "Documents lends to within The Bahamas 2024 marine conservation debt conversion. Sole commercial lender identified. Its own funding mix is undisclosed. Conservation finance arises from sovereign debt-service savings.",
+    "scopeEvidenceIds": [
+      "src-intl-bahamas-bank"
+    ],
+    "participantRoles": {
+      "source": "Lender",
+      "target": "Borrower"
+    }
+  },
+  "rel-intl-bahamas-2024-idb": {
+    "themes": [
+      "biodiversity_nature",
+      "climate_adaptation",
+      "environmental_sustainability"
+    ],
+    "scopeRationale": "Documents guarantees within The Bahamas 2024 marine conservation debt conversion. Sole commercial lender identified. Its own funding mix is undisclosed. Conservation finance arises from sovereign debt-service savings.",
+    "scopeEvidenceIds": [
+      "src-intl-bahamas-debt-strategy",
+      "src-intl-bahamas-idb"
+    ],
+    "participantRoles": {
+      "source": "Guarantor",
+      "target": "Covered financing mechanism"
+    }
+  },
+  "rel-intl-bahamas-2024-savings": {
+    "themes": [
+      "biodiversity_nature",
+      "climate_adaptation",
+      "environmental_sustainability"
+    ],
+    "scopeRationale": "Documents commits savings to within The Bahamas 2024 marine conservation debt conversion. Sole commercial lender identified. Its own funding mix is undisclosed. Conservation finance arises from sovereign debt-service savings.",
+    "scopeEvidenceIds": [
+      "src-intl-bahamas-tnc"
+    ],
+    "participantRoles": {
+      "source": "Sovereign funding obligor",
+      "target": "Conservation funding recipient"
+    }
+  },
+  "rel-intl-bahamas-2024-management": {
+    "themes": [
+      "biodiversity_nature",
+      "climate_adaptation",
+      "environmental_sustainability"
+    ],
+    "scopeRationale": "Documents manages within The Bahamas 2024 marine conservation debt conversion. Sole commercial lender identified. Its own funding mix is undisclosed. Conservation finance arises from sovereign debt-service savings.",
+    "scopeEvidenceIds": [
+      "src-intl-bahamas-tnc"
+    ],
+    "participantRoles": {
+      "source": "Fund manager",
+      "target": "Managed conservation-finance arrangement"
+    }
+  },
+  "rel-intl-bahamas-2024-conservation": {
+    "themes": [
+      "biodiversity_nature",
+      "climate_adaptation",
+      "environmental_sustainability"
+    ],
+    "scopeRationale": "Documents provides technical assistance to within The Bahamas 2024 marine conservation debt conversion. Sole commercial lender identified. Its own funding mix is undisclosed. Conservation finance arises from sovereign debt-service savings.",
+    "scopeEvidenceIds": [
+      "src-intl-bahamas-tnc"
+    ],
+    "participantRoles": {
+      "source": "Technical assistance provider",
+      "target": "Supported financing mechanism"
+    }
+  },
+  "rel-intl-cbf-eba-facility": {
+    "themes": [
+      "climate_adaptation",
+      "biodiversity_nature"
+    ],
+    "scopeRationale": "Documents funds within German IKI capital supporting CBF ecosystem-based adaptation. German public funding via IKI and KfW. The two reported euro budgets have unreconciled scopes.",
+    "scopeEvidenceIds": [
+      "src-intl-cbf-eba",
+      "src-intl-iki-eba"
+    ],
+    "participantRoles": {
+      "source": "Funding provider or channel",
+      "target": "Funded mechanism or recipient"
+    }
+  },
+  "rel-intl-cbf-eba-german-channel": {
+    "themes": [
+      "climate_adaptation",
+      "biodiversity_nature"
+    ],
+    "scopeRationale": "Documents funds within German IKI capital supporting CBF ecosystem-based adaptation. German public funding via IKI and KfW. The two reported euro budgets have unreconciled scopes.",
+    "scopeEvidenceIds": [
+      "src-intl-cbf-eba",
+      "src-intl-iki-eba"
+    ],
+    "participantRoles": {
+      "source": "Funding provider or channel",
+      "target": "Funded mechanism or recipient"
+    }
+  },
+  "rel-intl-af-jamaica-grant": {
+    "themes": [
+      "climate_adaptation",
+      "disaster_resilience"
+    ],
+    "scopeRationale": "Documents grants to within Adaptation Fund direct access through PIOJ. The fund pool has donor and CER revenues. Individual original sources for the 2012 award are unallocated.",
+    "scopeEvidenceIds": [
+      "src-intl-af-jamaica"
+    ],
+    "participantRoles": {
+      "source": "Grant provider",
+      "target": "Grant recipient or implementing entity"
+    }
+  },
+  "rel-intl-gcf-fp060-funding": {
+    "themes": [
+      "climate_adaptation",
+      "energy_transition",
+      "climate_mitigation"
+    ],
+    "scopeRationale": "Documents grants to within GCF–CCCCC Barbados water resilience financing. GCF pooled resources. Contributor-country attribution for FP060 remains unknown.",
+    "scopeEvidenceIds": [
+      "src-intl-gcf-annual-2025",
+      "src-intl-gcf-fp060"
+    ],
+    "participantRoles": {
+      "source": "Grant provider",
+      "target": "Grant recipient or implementing entity"
+    }
+  },
+  "rel-intl-gcf-fp060-utility": {
+    "themes": [
+      "climate_adaptation",
+      "energy_transition",
+      "climate_mitigation"
+    ],
+    "scopeRationale": "Documents targets within GCF–CCCCC Barbados water resilience financing. GCF pooled resources. Contributor-country attribution for FP060 remains unknown.",
+    "scopeEvidenceIds": [
+      "src-intl-gcf-annual-2025"
+    ],
+    "participantRoles": {
+      "source": "Programme delivery institution",
+      "target": "Intended beneficiary"
+    }
+  },
+  "rel-intl-crew-plus-resources": {
+    "themes": [
+      "environmental_sustainability",
+      "biodiversity_nature"
+    ],
+    "scopeRationale": "Documents funds within GEF CReW+ regional environmental financing mechanisms. GEF pooled resources. Regional totals include Latin American participants outside the listed Caribbean countries.",
+    "scopeEvidenceIds": [
+      "src-intl-crew-pir-2024",
+      "src-intl-crew-countries"
+    ],
+    "participantRoles": {
+      "source": "Funding provider or channel",
+      "target": "Funded mechanism or recipient"
+    }
+  },
+  "rel-intl-crew-plus-idb": {
+    "themes": [
+      "environmental_sustainability",
+      "biodiversity_nature"
+    ],
+    "scopeRationale": "Documents implements for within GEF CReW+ regional environmental financing mechanisms. GEF pooled resources. Regional totals include Latin American participants outside the listed Caribbean countries.",
+    "scopeEvidenceIds": [
+      "src-intl-crew-pir-2024"
+    ],
+    "participantRoles": {
+      "source": "Implementing or executing agency",
+      "target": "Implemented financing programme"
+    }
+  },
+  "rel-intl-crew-plus-unep": {
+    "themes": [
+      "environmental_sustainability",
+      "biodiversity_nature"
+    ],
+    "scopeRationale": "Documents implements for within GEF CReW+ regional environmental financing mechanisms. GEF pooled resources. Regional totals include Latin American participants outside the listed Caribbean countries.",
+    "scopeEvidenceIds": [
+      "src-intl-crew-pir-2024"
+    ],
+    "participantRoles": {
+      "source": "Implementing or executing agency",
+      "target": "Implemented financing programme"
+    }
+  },
+  "rel-intl-crew-plus-giz": {
+    "themes": [
+      "environmental_sustainability",
+      "biodiversity_nature"
+    ],
+    "scopeRationale": "Documents implements for within GEF CReW+ regional environmental financing mechanisms. GEF pooled resources. Regional totals include Latin American participants outside the listed Caribbean countries.",
+    "scopeEvidenceIds": [
+      "src-intl-crew-pir-2024"
+    ],
+    "participantRoles": {
+      "source": "Implementing or executing agency",
+      "target": "Implemented financing programme"
+    }
+  },
+  "rel-intl-eib-cdb-water-eu": {
+    "themes": [
+      "environmental_sustainability",
+      "climate_adaptation",
+      "biodiversity_nature"
+    ],
+    "scopeRationale": "Documents funds within EIB and EU Caribbean water and clean-oceans programme. EIB balance-sheet lending and EU programme grants. Upstream EIB bond or shareholder resources cannot be assigned to this facility.",
+    "scopeEvidenceIds": [
+      "src-intl-eib-water-parent"
+    ],
+    "participantRoles": {
+      "source": "Funding provider or channel",
+      "target": "Funded mechanism or recipient"
+    }
+  },
+  "rel-intl-eib-cdb-water-ta": {
+    "themes": [
+      "environmental_sustainability",
+      "climate_adaptation",
+      "biodiversity_nature"
+    ],
+    "scopeRationale": "Documents provides technical assistance to within EIB and EU Caribbean water and clean-oceans programme. EIB balance-sheet lending and EU programme grants. Upstream EIB bond or shareholder resources cannot be assigned to this facility.",
+    "scopeEvidenceIds": [
+      "src-intl-eib-water-ta"
+    ],
+    "participantRoles": {
+      "source": "Technical assistance provider",
+      "target": "Supported financing mechanism"
+    }
+  },
+  "rel-intl-belize-blue-2021-sovereign": {
+    "themes": [
+      "biodiversity_nature",
+      "climate_adaptation"
+    ],
+    "scopeRationale": "Documents lends to within Belize blue-loan capital and DFC political risk insurance. Post-closing note investor class and TNC reserve equity support are documented. Exact investor and issuing-cell allocation is unresolved.",
+    "scopeEvidenceIds": [
+      "src-intl-belize-tnc",
+      "src-intl-tnc-audited-2023"
+    ],
+    "participantRoles": {
+      "source": "Lender",
+      "target": "Borrower"
+    }
+  },
+  "rel-intl-belize-blue-2021-dfc": {
+    "themes": [
+      "biodiversity_nature",
+      "climate_adaptation"
+    ],
+    "scopeRationale": "Documents insures within Belize blue-loan capital and DFC political risk insurance. Post-closing note investor class and TNC reserve equity support are documented. Exact investor and issuing-cell allocation is unresolved.",
+    "scopeEvidenceIds": [
+      "src-intl-dfc-belize"
+    ],
+    "participantRoles": {
+      "source": "Insurer",
+      "target": "Covered financing mechanism"
+    }
+  },
+  "rel-intl-belize-mechanism-borrower": {
+    "themes": [
+      "biodiversity_nature",
+      "climate_adaptation"
+    ],
+    "scopeRationale": "Identifies the borrower of the conservation-linked loan mechanism. Its legal lender and risk insurer have their own documented relationships.",
+    "scopeEvidenceIds": [
+      "src-intl-dfc-belize",
+      "src-intl-belize-tnc"
+    ],
+    "participantRoles": {
+      "source": "Sovereign financing mechanism",
+      "target": "Sovereign borrower"
+    }
+  }
+}

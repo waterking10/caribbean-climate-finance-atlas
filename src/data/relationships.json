@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "rel-cdb-gcf",
+    "source": "cdb",
+    "target": "gcf",
+    "type": "ACCREDITED_BY",
+    "description": "The GCF lists CDB as an accredited entity. This role enables it to bring forward eligible GCF proposals.",
+    "evidenceIds": [
+      "src-gcf-cdb"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-ccccc-gcf",
+    "source": "ccccc",
+    "target": "gcf",
+    "type": "ACCREDITED_BY",
+    "description": "GCF lists the Centre as a regional accredited entity.",
+    "evidenceIds": [
+      "src-gcf-ccccc"
+    ],
+    "status": "verified",
+    "direction": "directed",
+    "period": "Initial accreditation in 2015"
+  },
+  {
+    "id": "rel-idb-gcf",
+    "source": "idb",
+    "target": "gcf",
+    "type": "ACCREDITED_BY",
+    "description": "The GCF and IDB documented their accreditation master agreement.",
+    "evidenceIds": [
+      "src-gcf-idb"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-idbi-gcf",
+    "source": "idbi",
+    "target": "gcf",
+    "type": "ACCREDITED_BY",
+    "description": "IDB Invest is listed as a GCF accredited entity.",
+    "evidenceIds": [
+      "src-gcf-idbi"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-ifc-gcf",
+    "source": "ifc",
+    "target": "gcf",
+    "type": "ACCREDITED_BY",
+    "description": "IFC is listed as a GCF accredited entity.",
+    "evidenceIds": [
+      "src-gcf-ifc"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-cdb-af",
+    "source": "cdb",
+    "target": "adaptation-fund",
+    "type": "ACCREDITED_BY",
+    "description": "The Adaptation Fund lists CDB as a regional implementing entity.",
+    "evidenceIds": [
+      "src-af-cdb"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-cdb-ukcif",
+    "source": "cdb",
+    "target": "ukcif",
+    "type": "MANAGES",
+    "description": "CDB administers the infrastructure grant programme on behalf of the UK government.",
+    "evidenceIds": [
+      "src-cdb-ukcif"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-uk-ukcif",
+    "source": "fcdo",
+    "target": "ukcif",
+    "type": "FUNDS",
+    "description": "The UK government supplies grant resources through FCDO for the UK Caribbean Infrastructure Fund.",
+    "evidenceIds": [
+      "src-cdb-ukcif"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-cdb-sdf",
+    "source": "cdb",
+    "target": "sdf",
+    "type": "MANAGES",
+    "description": "CDB administers the Special Development Fund for concessional support.",
+    "evidenceIds": [
+      "src-cdb-sdf"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-cdb-sef",
+    "source": "cdb",
+    "target": "sef",
+    "type": "MANAGES",
+    "description": "CDB administers resources for eligible SEF financing in beneficiary countries.",
+    "evidenceIds": [
+      "src-idb-sef"
+    ],
+    "status": "verified",
+    "direction": "directed",
+    "period": "From 2015 agreement"
+  },
+  {
+    "id": "rel-idb-cdb-sef",
+    "source": "idb",
+    "target": "cdb",
+    "type": "LENDS_TO",
+    "description": "IDB approved a global credit loan to CDB for eligible energy on-lending. The amount is the original approval for operation RG-L1071.",
+    "evidenceIds": [
+      "src-idb-sef"
+    ],
+    "status": "verified",
+    "direction": "directed",
+    "period": "2015",
+    "amount": {
+      "value": 20000000,
+      "currency": "USD",
+      "status": "approval",
+      "instrument": "Global credit loan"
+    }
+  },
+  {
+    "id": "rel-ctf-cdb-sef",
+    "source": "ctf",
+    "target": "cdb",
+    "type": "FUNDS",
+    "description": "CDB identified a Clean Technology Fund grant component in the signed SEF package.",
+    "evidenceIds": [
+      "src-cdb-sef"
+    ],
+    "status": "verified",
+    "direction": "directed",
+    "period": "2015",
+    "amount": {
+      "value": 19050000,
+      "currency": "USD",
+      "status": "commitment",
+      "instrument": "Grant ceiling"
+    }
+  },
+  {
+    "id": "rel-gef-cdb-sef",
+    "source": "gef-trust",
+    "target": "cdb",
+    "type": "FUNDS",
+    "description": "CDB identified a Global Environment Facility Trust Fund grant component in the signed SEF package.",
+    "evidenceIds": [
+      "src-cdb-sef"
+    ],
+    "status": "verified",
+    "direction": "directed",
+    "period": "2015",
+    "amount": {
+      "value": 3013698,
+      "currency": "USD",
+      "status": "commitment",
+      "instrument": "Grant ceiling"
+    }
+  },
+  {
+    "id": "rel-gcf-sef",
+    "source": "gcf",
+    "target": "sef",
+    "type": "FUNDS",
+    "description": "GCF records its approved FP020 support for the energy facility, with IDB as accredited entity.",
+    "evidenceIds": [
+      "src-gcf-fp020"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-idb-sef",
+    "source": "idb",
+    "target": "sef",
+    "type": "IMPLEMENTS_FOR",
+    "description": "IDB is the accredited delivery entity listed for the facility’s GCF FP020 financing.",
+    "evidenceIds": [
+      "src-gcf-fp020"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-cdb-seec",
+    "source": "cdb",
+    "target": "seec",
+    "type": "MANAGES",
+    "description": "CDB administers the multi-partner SEEC programme.",
+    "evidenceIds": [
+      "src-cdb-seec"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-eu-seec",
+    "source": "eu",
+    "target": "seec",
+    "type": "FUNDS",
+    "description": "CDB reported a contribution from the EU Caribbean Investment Facility to SEEC.",
+    "evidenceIds": [
+      "src-cdb-sef"
+    ],
+    "status": "verified",
+    "direction": "directed",
+    "period": "2015"
+  },
+  {
+    "id": "rel-idb-idblab",
+    "source": "idb",
+    "target": "idb-lab",
+    "type": "MANAGES",
+    "description": "IDB administers the Multilateral Investment Fund, which operates as IDB Lab.",
+    "evidenceIds": [
+      "src-idb-lab-report"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-idb-gef",
+    "source": "idb",
+    "target": "gef",
+    "type": "IMPLEMENTS_FOR",
+    "description": "IDB is listed as a GEF implementing agency.",
+    "evidenceIds": [
+      "src-gef-agencies"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-wb-gef",
+    "source": "world-bank",
+    "target": "gef-trust",
+    "type": "MANAGES",
+    "description": "The World Bank administers the GEF Trust Fund as trustee.",
+    "evidenceIds": [
+      "src-gef-organization"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-wb-af",
+    "source": "world-bank",
+    "target": "adaptation-fund",
+    "type": "MANAGES",
+    "description": "The World Bank serves as the Adaptation Fund’s interim trustee.",
+    "evidenceIds": [
+      "src-af-trustee"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-eib-cdb",
+    "source": "eib",
+    "target": "cdb",
+    "type": "LENDS_TO",
+    "description": "EIB announced a signed loan to CDB for eligible water and waste management investments.",
+    "evidenceIds": [
+      "src-eib-cdb-2024"
+    ],
+    "status": "verified",
+    "direction": "directed",
+    "period": "October 2024",
+    "amount": {
+      "value": 100000000,
+      "currency": "EUR",
+      "status": "commitment",
+      "instrument": "Loan"
+    }
+  },
+  {
+    "id": "rel-cdb-ppp",
+    "source": "ppp",
+    "target": "cdb",
+    "type": "ESTABLISHED_BY",
+    "description": "CDB and collaborating institutions launched the Regional PPP Support Facility.",
+    "evidenceIds": [
+      "src-cdb-ppp"
+    ],
+    "status": "verified",
+    "direction": "directed",
+    "period": "2015"
+  },
+  {
+    "id": "rel-wb-ppp",
+    "source": "ppp",
+    "target": "world-bank",
+    "type": "ESTABLISHED_BY",
+    "description": "The World Bank collaborated on the launch of the Regional PPP Support Facility.",
+    "evidenceIds": [
+      "src-cdb-ppp"
+    ],
+    "status": "verified",
+    "direction": "directed",
+    "period": "2015"
+  },
+  {
+    "id": "rel-idb-ppp",
+    "source": "ppp",
+    "target": "idb",
+    "type": "ESTABLISHED_BY",
+    "description": "IDB collaborated on the launch of the Regional PPP Support Facility.",
+    "evidenceIds": [
+      "src-cdb-ppp"
+    ],
+    "status": "verified",
+    "direction": "directed",
+    "period": "2015"
+  },
+  {
+    "id": "rel-idblab-ppp",
+    "source": "ppp",
+    "target": "idb-lab",
+    "type": "ESTABLISHED_BY",
+    "description": "The Multilateral Investment Fund collaborated on the launch of the Regional PPP Support Facility.",
+    "evidenceIds": [
+      "src-cdb-ppp"
+    ],
+    "status": "verified",
+    "direction": "directed",
+    "period": "2015"
+  },
+  {
+    "id": "rel-caricom-ccccc",
+    "source": "ccccc",
+    "target": "caricom",
+    "type": "ESTABLISHED_BY",
+    "description": "CARICOM Heads of Government approved establishing the Centre and signed its enabling protocol.",
+    "evidenceIds": [
+      "src-ccccc-about"
+    ],
+    "status": "verified",
+    "direction": "directed",
+    "period": "2002 approval"
+  },
+  {
+    "id": "rel-caricom-cdf",
+    "source": "cdf",
+    "target": "caricom",
+    "type": "ESTABLISHED_BY",
+    "description": "The Fund was established under Article 158 of the Revised Treaty of Chaguaramas.",
+    "evidenceIds": [
+      "src-cdf-about"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-eu-lacif",
+    "source": "lacif",
+    "target": "eu",
+    "type": "ESTABLISHED_BY",
+    "description": "The European Commission describes LACIF as an EU vehicle to generate sustainable investment.",
+    "evidenceIds": [
+      "src-eu-lacif"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-eu-export",
+    "source": "caribbean-export",
+    "target": "eu",
+    "type": "IMPLEMENTS_FOR",
+    "description": "Caribbean Export implements the EU-backed Regional Private Sector Development Programme III.",
+    "evidenceIds": [
+      "src-export-rpsdp"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-export-rpsdp",
+    "source": "caribbean-export",
+    "target": "rpsdp",
+    "type": "MANAGES",
+    "description": "The Caribbean Export Development Agency implements RPSDP III.",
+    "evidenceIds": [
+      "src-export-rpsdp"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-eu-rpsdp",
+    "source": "eu",
+    "target": "rpsdp",
+    "type": "FUNDS",
+    "description": "The programme is supported through the EU Global Gateway initiative.",
+    "evidenceIds": [
+      "src-export-rpsdp"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-wb-ccrif",
+    "source": "world-bank",
+    "target": "ccrif",
+    "type": "FUNDS",
+    "description": "The World Bank administered donor financing supporting CCRIF and regional catastrophe risk insurance.",
+    "evidenceIds": [
+      "src-ccrif-wb"
+    ],
+    "status": "verified",
+    "direction": "directed",
+    "period": "2015–2021 results period"
+  },
+  {
+    "id": "rel-rfhl-republic-bb",
+    "source": "rfhl",
+    "target": "republic-bb",
+    "type": "OWNS",
+    "description": "Republic Financial Holdings lists Republic Bank (Barbados) among its owned banks.",
+    "evidenceIds": [
+      "src-rfhl-about"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-sagicor-life",
+    "source": "sagicor",
+    "target": "sagicor-life",
+    "type": "OWNS",
+    "description": "The Sagicor Financial annual report lists Sagicor Life Inc among the group’s operating companies in the Sagicor Life segment.",
+    "evidenceIds": [
+      "src-sagicor-ar"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-nis-managed",
+    "source": "nis",
+    "target": "nis-fund",
+    "type": "MANAGES",
+    "description": "The social insurance administrator provides the fund’s investment portfolio disclosures.",
+    "evidenceIds": [
+      "src-nis-investment"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-sygnus-sci",
+    "source": "sygnus",
+    "target": "sci",
+    "type": "MANAGES",
+    "description": "Sygnus Capital manages Sygnus Credit Investments.",
+    "evidenceIds": [
+      "src-sygnus-sci"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-sygnus-deneb",
+    "source": "sygnus",
+    "target": "deneb",
+    "type": "MANAGES",
+    "description": "Sygnus Capital was identified as manager of Sygnus Deneb at the January 2022 AGM.",
+    "evidenceIds": [
+      "src-sygnus-deneb-agm"
+    ],
+    "status": "verified",
+    "direction": "directed",
+    "period": "January 2022 disclosure"
+  },
+  {
+    "id": "rel-jn-managed",
+    "source": "jnfm",
+    "target": "jn-mutual",
+    "type": "MANAGES",
+    "description": "The 2024–2025 offering document identifies JN Fund Managers as manager.",
+    "evidenceIds": [
+      "src-jn-offering"
+    ],
+    "status": "verified",
+    "direction": "directed",
+    "period": "2024–2025 offering document"
+  },
+  {
+    "id": "rel-ccrif-barbados",
+    "source": "ccrif",
+    "target": "barbados-gov",
+    "type": "INSURES",
+    "description": "CCRIF identifies Barbados as a purchaser of COAST parametric fisheries coverage.",
+    "evidenceIds": [
+      "src-ccrif-coast"
+    ],
+    "status": "verified",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-interenergy-enertur",
+    "source": "interenergy",
+    "target": "enertur",
+    "type": "OWNS",
+    "direction": "directed",
+    "description": "FinDev Canada’s transaction summary identifies InterEnergy Group Limited as the owner of the project company.",
+    "evidenceIds": [
+      "src-findev-enertur"
+    ],
+    "status": "verified",
+    "period": "November 2024 transaction"
+  },
+  {
+    "id": "rel-findev-enertur",
+    "source": "findev",
+    "target": "enertur",
+    "type": "LENDS_TO",
+    "direction": "directed",
+    "description": "FinDev Canada signed an individual project-finance commitment of up to USD 18.8 million within the IDB Invest-led facility.",
+    "evidenceIds": [
+      "src-findev-enertur"
+    ],
+    "status": "verified",
+    "period": "November 2024",
+    "amount": {
+      "value": 18800000,
+      "currency": "USD",
+      "status": "commitment",
+      "instrument": "Project finance loan ceiling",
+      "asOf": "2024-11-01"
+    }
+  },
+  {
+    "id": "rel-idbi-enertur",
+    "source": "idbi",
+    "target": "enertur",
+    "type": "LENDS_TO",
+    "direction": "directed",
+    "description": "IDB Invest led the multi-lender project finance facility for Enertur’s solar and storage development.",
+    "evidenceIds": [
+      "src-idbi-enertur"
+    ],
+    "status": "verified",
+    "period": "November 2024"
+  },
+  {
+    "id": "rel-idbi-findev-enertur",
+    "source": "idbi",
+    "target": "findev",
+    "type": "CO_INVESTS_WITH",
+    "direction": "mutual",
+    "description": "IDB Invest and FinDev Canada participated alongside FMO in the documented Enertur financing.",
+    "evidenceIds": [
+      "src-idbi-enertur"
+    ],
+    "status": "verified",
+    "period": "November 2024"
+  },
+  {
+    "id": "rel-sygnus-ccrf",
+    "source": "sygnus",
+    "target": "ccrf",
+    "type": "MANAGES",
+    "direction": "directed",
+    "description": "Sygnus Capital was appointed to manage the resilience investment platform.",
+    "evidenceIds": [
+      "src-review-ccrf-cdf",
+      "src-scope-ccrf"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-cdf-ccrf",
+    "source": "cdf",
+    "target": "ccrf",
+    "type": "INVESTS_IN",
+    "direction": "directed",
+    "description": "The IFC disclosure identifies CDF as anchor investor at the CCRF platform level.",
+    "evidenceIds": [
+      "src-review-ccrf-ifc-sii",
+      "src-review-ccrf-cdf"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-ccrf-debt-umbrella",
+    "source": "ccrf-debt",
+    "target": "ccrf",
+    "type": "SUB_FUND_OF",
+    "direction": "directed",
+    "description": "The Debt Sub-Fund is the credit sleeve of CCRF.",
+    "evidenceIds": [
+      "src-review-ccrf-ifc-sii",
+      "src-review-ccrf-cdf"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-ccrf-equity-umbrella",
+    "source": "ccrf-equity",
+    "target": "ccrf",
+    "type": "SUB_FUND_OF",
+    "direction": "directed",
+    "description": "The Equity Sub-Fund is the equity sleeve of CCRF.",
+    "evidenceIds": [
+      "src-scope-ccrf",
+      "src-review-ccrf-cdf"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-ifc-ccrf-debt",
+    "source": "ifc",
+    "target": "ccrf-debt",
+    "type": "INVESTS_IN",
+    "direction": "directed",
+    "description": "IFC announced its CCRF Debt Sub-Fund investment in June 2026.",
+    "evidenceIds": [
+      "src-review-ccrf-ifc",
+      "src-review-ccrf-ifc-sii"
+    ],
+    "status": "verified",
+    "period": "June 2026 announcement"
+  },
+  {
+    "id": "rel-idbi-ccrf-equity",
+    "source": "idbi",
+    "target": "ccrf-equity",
+    "type": "INVESTS_IN",
+    "direction": "directed",
+    "description": "IDB Invest disclosed an equity-sleeve commitment including UK blended finance resources.",
+    "evidenceIds": [
+      "src-scope-ccrf"
+    ],
+    "status": "verified",
+    "period": "2025 signed equity operation"
+  },
+  {
+    "id": "rel-cdf-craf",
+    "source": "cdf",
+    "target": "craf",
+    "type": "MANAGES",
+    "direction": "directed",
+    "description": "CDF operates CRAF, which has guaranteed eligible Saint Lucian clean-energy investment.",
+    "evidenceIds": [
+      "src-scope-cdf-craf"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-cbf-endowment",
+    "source": "cbf",
+    "target": "cbf-endowment",
+    "type": "MANAGES",
+    "direction": "directed",
+    "description": "CBF manages the endowment used to support national conservation trust funds.",
+    "evidenceIds": [
+      "src-review-cbf-endow",
+      "src-review-cbf-accounts"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-cbf-eba",
+    "source": "cbf",
+    "target": "cbf-eba",
+    "type": "MANAGES",
+    "direction": "directed",
+    "description": "CBF operates the Ecosystem-based Adaptation Facility and documents its grant recipients.",
+    "evidenceIds": [
+      "src-review-cbf-eba",
+      "src-review-cbf-accounts"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-idb-barbados-blue",
+    "source": "idb",
+    "target": "barbados-blue-loan",
+    "type": "GUARANTEES",
+    "direction": "directed",
+    "description": "IDB supplied a guarantee for the new Blue Loan used in the 2022 debt conversion.",
+    "evidenceIds": [
+      "src-scope-barbados-nature"
+    ],
+    "status": "verified",
+    "period": "2022 debt conversion",
+    "amount": {
+      "value": 100000000,
+      "currency": "USD",
+      "status": "guarantee_limit",
+      "instrument": "IDB guarantee"
+    }
+  },
+  {
+    "id": "rel-tnc-barbados-blue",
+    "source": "tnc",
+    "target": "barbados-blue-loan",
+    "type": "GUARANTEES",
+    "direction": "directed",
+    "description": "TNC supplied a separate guarantee for the 2022 Blue Loan.",
+    "evidenceIds": [
+      "src-review-tnc-blue",
+      "src-scope-barbados-nature"
+    ],
+    "status": "verified",
+    "period": "2022 debt conversion",
+    "amount": {
+      "value": 50000000,
+      "currency": "USD",
+      "status": "guarantee_limit",
+      "instrument": "TNC guarantee"
+    }
+  },
+  {
+    "id": "rel-cibc-barbados-blue",
+    "source": "cibc",
+    "target": "barbados-blue-loan",
+    "type": "ARRANGES",
+    "direction": "directed",
+    "description": "CIBC FirstCaribbean was the domestic lead arranger of the Blue Loan.",
+    "evidenceIds": [
+      "src-scope-barbados-nature"
+    ],
+    "status": "verified",
+    "period": "2022 debt conversion"
+  },
+  {
+    "id": "rel-barbados-blue-refinance",
+    "source": "barbados-blue-loan",
+    "target": "barbados-gov",
+    "type": "FUNDS",
+    "direction": "directed",
+    "description": "Barbados borrowed under the Blue Loan to buy back debt, with savings used to support marine conservation.",
+    "evidenceIds": [
+      "src-scope-barbados-nature"
+    ],
+    "status": "verified",
+    "period": "2022 debt conversion"
+  },
+  {
+    "id": "rel-jamaica-cat-issuer",
+    "source": "jamaica-cat-2026",
+    "target": "world-bank",
+    "type": "ESTABLISHED_BY",
+    "direction": "directed",
+    "description": "IBRD issued the notes under its Capital at Risk Notes programme.",
+    "evidenceIds": [
+      "src-scope-jamaica-cat"
+    ],
+    "status": "verified",
+    "period": "2026 issuance"
+  },
+  {
+    "id": "rel-world-bank-jamaica-cover",
+    "source": "world-bank",
+    "target": "jamaica-gov",
+    "type": "INSURES",
+    "direction": "directed",
+    "description": "The World Bank entered into a risk transfer agreement with Jamaica for parametric hurricane coverage backed by the 2026 issuance.",
+    "evidenceIds": [
+      "src-scope-jamaica-cat"
+    ],
+    "status": "verified",
+    "period": "2026 agreement",
+    "amount": {
+      "value": 200000000,
+      "currency": "USD",
+      "status": "insurance_limit",
+      "instrument": "Parametric hurricane coverage"
+    }
+  },
+  {
+    "id": "rel-egfl-energy-smart-ii",
+    "source": "egfl",
+    "target": "energy-smart-ii",
+    "type": "MANAGES",
+    "direction": "directed",
+    "description": "EGFL’s audited accounts identify it as manager of Energy Smart Fund II.",
+    "evidenceIds": [
+      "src-review-smart-accounts"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-barbados-energy-smart-ii",
+    "source": "barbados-gov",
+    "target": "energy-smart-ii",
+    "type": "CAPITALIZES",
+    "direction": "directed",
+    "description": "The government pledged capital and the accounts report contributions to the segregated Energy Smart Fund II.",
+    "evidenceIds": [
+      "src-review-smart-accounts",
+      "src-review-smart-programme"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-mpc-listed-fund",
+    "source": "mpc-caribbean-listed",
+    "target": "mpc-caribbean-fund",
+    "type": "INVESTS_IN",
+    "direction": "directed",
+    "description": "The listed company disclosed its investment in the Cayman fund in its 2023 audited statements.",
+    "evidenceIds": [
+      "src-review-mpc-accounts",
+      "src-review-mpc-prospectus"
+    ],
+    "status": "verified",
+    "period": "Documented at 31 December 2023"
+  },
+  {
+    "id": "rel-gac-surge",
+    "source": "gac",
+    "target": "surge",
+    "type": "FUNDS",
+    "direction": "directed",
+    "description": "Canada signed financing agreements with CDB for SuRGE, covering investment and technical assistance.",
+    "evidenceIds": [
+      "src-review-surge-canada",
+      "src-review-surge-programme"
+    ],
+    "status": "verified",
+    "period": "2024 financing agreements"
+  },
+  {
+    "id": "rel-cdb-surge",
+    "source": "cdb",
+    "target": "surge",
+    "type": "MANAGES",
+    "direction": "directed",
+    "description": "CDB administers SuRGE and identifies its role in financing the Dominica geothermal development.",
+    "evidenceIds": [
+      "src-review-surge-programme",
+      "src-review-surge-close"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-gcf-ppf",
+    "source": "gcf",
+    "target": "gcf-ppf",
+    "type": "MANAGES",
+    "direction": "directed",
+    "description": "GCF administers its facility for preparation of eligible proposals.",
+    "evidenceIds": [
+      "src-review-gcf-ppf"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-gcf-ppf-cdb",
+    "source": "gcf-ppf",
+    "target": "cdb",
+    "type": "FUNDS",
+    "direction": "directed",
+    "description": "GCF lists the CDB proposal for preparation work in Belize, Jamaica and Saint Lucia as approved.",
+    "evidenceIds": [
+      "src-review-gcf-cdb-ppf"
+    ],
+    "status": "verified",
+    "period": "2020 preparation approval"
+  },
+  {
+    "id": "rel-cdb-ccppf",
+    "source": "cdb",
+    "target": "cdb-ccppf",
+    "type": "MANAGES",
+    "direction": "directed",
+    "description": "CDB manages its own preparation fund for borrowing member countries.",
+    "evidenceIds": [
+      "src-review-cdb-ccppf"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-gbff-gef",
+    "source": "gbff",
+    "target": "gef",
+    "type": "ESTABLISHED_BY",
+    "direction": "directed",
+    "description": "The GEF Council approved arrangements for the specialised biodiversity trust fund.",
+    "evidenceIds": [
+      "src-review-gbff-setup",
+      "src-review-gbff-belize"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-world-bank-gbff",
+    "source": "world-bank",
+    "target": "gbff",
+    "type": "MANAGES",
+    "direction": "directed",
+    "description": "The World Bank reports on GBFF resources in its trustee capacity.",
+    "evidenceIds": [
+      "src-review-gbff-trustee",
+      "src-review-gbff-belize"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-world-bank-sccf",
+    "source": "world-bank",
+    "target": "sccf",
+    "type": "MANAGES",
+    "direction": "directed",
+    "description": "The World Bank serves as trustee of the SCCF Trust Fund.",
+    "evidenceIds": [
+      "src-review-sccf-trustee",
+      "src-review-sccf-fisheries"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-eu-bridge-green",
+    "source": "eu",
+    "target": "bridge-green",
+    "type": "FUNDS",
+    "direction": "directed",
+    "description": "The EU funds the green-transition co-financing window of BRIDGE.",
+    "evidenceIds": [
+      "src-scope-bridge"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-export-bridge-green",
+    "source": "caribbean-export",
+    "target": "bridge-green",
+    "type": "MANAGES",
+    "direction": "directed",
+    "description": "Caribbean Export administers the green-transition grant for eligible MSMEs.",
+    "evidenceIds": [
+      "src-scope-bridge"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-fmo-enertur",
+    "source": "fmo",
+    "target": "enertur",
+    "type": "LENDS_TO",
+    "direction": "directed",
+    "description": "IDB Invest and FMO identify FMO’s participation in the financing of Enertur.",
+    "evidenceIds": [
+      "src-review-fmo-enertur",
+      "src-idbi-enertur"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-ccrif-donors-canada",
+    "source": "gac",
+    "target": "ccrif-mdtf-2014",
+    "type": "CONTRIBUTES_TO",
+    "direction": "directed",
+    "description": "Second CCRIF donor trust fund. Canada contributes to the second donor trust fund.",
+    "evidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-ccrif-donors-eu",
+    "source": "eu",
+    "target": "ccrif-mdtf-2014",
+    "type": "CONTRIBUTES_TO",
+    "direction": "directed",
+    "description": "Second CCRIF donor trust fund. EU contributes to the second donor trust fund.",
+    "evidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-ccrif-donors-us",
+    "source": "us-treasury",
+    "target": "ccrif-mdtf-2014",
+    "type": "CONTRIBUTES_TO",
+    "direction": "directed",
+    "description": "Second CCRIF donor trust fund. US Treasury contributes to the second donor trust fund.",
+    "evidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-ccrif-donors-germany",
+    "source": "germany-bmz",
+    "target": "kfw",
+    "type": "FUNDS",
+    "direction": "directed",
+    "description": "Second CCRIF donor trust fund. BMZ resources are channelled through KfW for this trust fund.",
+    "evidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-ccrif-donors-kfw",
+    "source": "kfw",
+    "target": "ccrif-mdtf-2014",
+    "type": "CONTRIBUTES_TO",
+    "direction": "directed",
+    "description": "Second CCRIF donor trust fund. KfW is the named channel for German resources.",
+    "evidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-ccrif-donors-administrator",
+    "source": "world-bank",
+    "target": "ccrif-mdtf-2014",
+    "type": "ADMINISTERS",
+    "direction": "directed",
+    "description": "Second CCRIF donor trust fund. World Bank administers the second trust fund.",
+    "evidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-ccrif-donors-grants",
+    "source": "ccrif-mdtf-2014",
+    "target": "ccrif",
+    "type": "GRANTS_TO",
+    "direction": "directed",
+    "description": "Second CCRIF donor trust fund. The trust fund supports CCRIF through recipient-executed grants.",
+    "evidenceIds": [
+      "src-intl-ccrif-donors"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-enertur-edc-equity",
+    "source": "edc",
+    "target": "findev",
+    "type": "CAPITALIZES",
+    "direction": "directed",
+    "description": "Enertur solar financing and FinDev institutional funding context. EDC supplies equity to its FinDev subsidiary.",
+    "evidenceIds": [
+      "src-intl-findev-financials"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-enertur-edc-debt",
+    "source": "edc",
+    "target": "findev",
+    "type": "LENDS_TO",
+    "direction": "directed",
+    "description": "Enertur solar financing and FinDev institutional funding context. EDC supplies FinDev debt funding.",
+    "evidenceIds": [
+      "src-intl-findev-financials"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-enertur-arranger",
+    "source": "idbi",
+    "target": "enertur",
+    "type": "ARRANGES",
+    "direction": "directed",
+    "description": "Enertur solar financing and FinDev institutional funding context. IDB Invest leads the project finance facility.",
+    "evidenceIds": [
+      "src-findev-enertur"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-bahamas-2024-loan",
+    "source": "standard-chartered-bank",
+    "target": "bahamas-gov",
+    "type": "LENDS_TO",
+    "direction": "directed",
+    "description": "The Bahamas 2024 marine conservation debt conversion. The bank is the sole lender in the new commercial loan.",
+    "evidenceIds": [
+      "src-intl-bahamas-bank"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-bahamas-2024-idb",
+    "source": "idb",
+    "target": "bahamas-debt-conversion-2024",
+    "type": "GUARANTEES",
+    "direction": "directed",
+    "description": "The Bahamas 2024 marine conservation debt conversion. IDB supplies first-tier credit enhancement.",
+    "evidenceIds": [
+      "src-intl-bahamas-debt-strategy",
+      "src-intl-bahamas-idb"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-bahamas-2024-savings",
+    "source": "bahamas-gov",
+    "target": "bahamas-protected-areas-fund",
+    "type": "COMMITS_SAVINGS_TO",
+    "direction": "directed",
+    "description": "The Bahamas 2024 marine conservation debt conversion. Conservation funding is channelled to the national conservation trust fund.",
+    "evidenceIds": [
+      "src-intl-bahamas-tnc"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-bahamas-2024-management",
+    "source": "bahamas-protected-areas-fund",
+    "target": "bahamas-debt-conversion-2024",
+    "type": "MANAGES",
+    "direction": "directed",
+    "description": "The Bahamas 2024 marine conservation debt conversion. BPAF manages the resulting conservation funding.",
+    "evidenceIds": [
+      "src-intl-bahamas-tnc"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-bahamas-2024-conservation",
+    "source": "tnc",
+    "target": "bahamas-debt-conversion-2024",
+    "type": "PROVIDES_TECHNICAL_ASSISTANCE_TO",
+    "direction": "directed",
+    "description": "The Bahamas 2024 marine conservation debt conversion. TNC supports the conservation-linked transaction.",
+    "evidenceIds": [
+      "src-intl-bahamas-tnc"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-cbf-eba-facility",
+    "source": "kfw",
+    "target": "cbf-eba",
+    "type": "FUNDS",
+    "direction": "directed",
+    "description": "German IKI capital supporting CBF ecosystem-based adaptation. German resources support the CBF adaptation facility through KfW.",
+    "evidenceIds": [
+      "src-intl-cbf-eba",
+      "src-intl-iki-eba"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-cbf-eba-german-channel",
+    "source": "germany-environment-ministry",
+    "target": "kfw",
+    "type": "FUNDS",
+    "direction": "directed",
+    "description": "German IKI capital supporting CBF ecosystem-based adaptation. German environment-ministry resources support the CBF adaptation facility through IKI and KfW. This link identifies the public source and implementing channel.",
+    "evidenceIds": [
+      "src-intl-cbf-eba",
+      "src-intl-iki-eba"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-af-jamaica-grant",
+    "source": "adaptation-fund",
+    "target": "pioj",
+    "type": "GRANTS_TO",
+    "direction": "directed",
+    "description": "Adaptation Fund direct access through PIOJ. PIOJ receives the direct-access grant.",
+    "evidenceIds": [
+      "src-intl-af-jamaica"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-gcf-fp060-funding",
+    "source": "gcf",
+    "target": "ccccc",
+    "type": "GRANTS_TO",
+    "direction": "directed",
+    "description": "GCF–CCCCC Barbados water resilience financing. GCF funds the Barbados water resilience activity through CCCCC.",
+    "evidenceIds": [
+      "src-intl-gcf-annual-2025",
+      "src-intl-gcf-fp060"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-gcf-fp060-utility",
+    "source": "ccccc",
+    "target": "barbados-water-authority",
+    "type": "TARGETS",
+    "direction": "directed",
+    "description": "GCF–CCCCC Barbados water resilience financing. The utility is an identified programme beneficiary.",
+    "evidenceIds": [
+      "src-intl-gcf-annual-2025"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-crew-plus-resources",
+    "source": "gef-trust",
+    "target": "crew-plus",
+    "type": "FUNDS",
+    "direction": "directed",
+    "description": "GEF CReW+ regional environmental financing mechanisms. GEF supports the regional CReW+ programme.",
+    "evidenceIds": [
+      "src-intl-crew-pir-2024",
+      "src-intl-crew-countries"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-crew-plus-idb",
+    "source": "idb",
+    "target": "crew-plus",
+    "type": "IMPLEMENTS_FOR",
+    "direction": "directed",
+    "description": "GEF CReW+ regional environmental financing mechanisms. IDB is a co-implementing agency.",
+    "evidenceIds": [
+      "src-intl-crew-pir-2024"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-crew-plus-unep",
+    "source": "unep",
+    "target": "crew-plus",
+    "type": "IMPLEMENTS_FOR",
+    "direction": "directed",
+    "description": "GEF CReW+ regional environmental financing mechanisms. UNEP is a co-implementing agency.",
+    "evidenceIds": [
+      "src-intl-crew-pir-2024"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-crew-plus-giz",
+    "source": "giz",
+    "target": "crew-plus",
+    "type": "IMPLEMENTS_FOR",
+    "direction": "directed",
+    "description": "GEF CReW+ regional environmental financing mechanisms. GIZ is a named executing agency.",
+    "evidenceIds": [
+      "src-intl-crew-pir-2024"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-eib-cdb-water-eu",
+    "source": "eu",
+    "target": "eib-caribbean-water-programme",
+    "type": "FUNDS",
+    "direction": "directed",
+    "description": "EIB and EU Caribbean water and clean-oceans programme. EU approved technical-assistance and investment grant support for the umbrella.",
+    "evidenceIds": [
+      "src-intl-eib-water-parent"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-eib-cdb-water-ta",
+    "source": "eib",
+    "target": "eib-caribbean-water-programme",
+    "type": "PROVIDES_TECHNICAL_ASSISTANCE_TO",
+    "direction": "directed",
+    "description": "EIB and EU Caribbean water and clean-oceans programme. EIB procures technical assistance for programme delivery.",
+    "evidenceIds": [
+      "src-intl-eib-water-ta"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-belize-blue-2021-sovereign",
+    "source": "belize-blue-investment-company",
+    "target": "belize-gov",
+    "type": "LENDS_TO",
+    "direction": "directed",
+    "description": "Belize blue-loan capital and DFC political risk insurance. The special-purpose lender extended Belize's Blue Loan.",
+    "evidenceIds": [
+      "src-intl-belize-tnc",
+      "src-intl-tnc-audited-2023"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-belize-blue-2021-dfc",
+    "source": "dfc",
+    "target": "belize-blue-loan-2021",
+    "type": "INSURES",
+    "direction": "directed",
+    "description": "Belize blue-loan capital and DFC political risk insurance. DFC provides political risk insurance for principal and interest.",
+    "evidenceIds": [
+      "src-intl-dfc-belize"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rel-intl-belize-mechanism-borrower",
+    "source": "belize-blue-loan-2021",
+    "target": "belize-gov",
+    "type": "FUNDS",
+    "direction": "directed",
+    "description": "The Belize Blue Loan finances the sovereign borrower through Belize Blue Investment Company, LLC. The legal lender is separately linked to Belize for this same facility.",
+    "evidenceIds": [
+      "src-intl-dfc-belize",
+      "src-intl-belize-tnc"
+    ],
+    "status": "verified"
+  }
+]

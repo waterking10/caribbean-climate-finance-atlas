@@ -1,0 +1,46 @@
+[
+  {
+    "entityId": "idbi",
+    "name": "Inter-American Investment Corporation"
+  },
+  {
+    "entityId": "idbi",
+    "name": "IIC"
+  },
+  {
+    "entityId": "ccccc",
+    "name": "CCCCC"
+  },
+  {
+    "entityId": "ccccc",
+    "name": "5Cs"
+  },
+  {
+    "entityId": "ccrif",
+    "name": "Caribbean Catastrophe Risk Insurance Facility"
+  },
+  {
+    "entityId": "rfhl",
+    "name": "RFHL"
+  },
+  {
+    "entityId": "cibc",
+    "name": "FirstCaribbean International Bank"
+  },
+  {
+    "entityId": "cibc",
+    "name": "CIBC FirstCaribbean"
+  },
+  {
+    "entityId": "rbc",
+    "name": "RBC Caribbean"
+  },
+  {
+    "entityId": "findev",
+    "name": "DFIC"
+  },
+  {
+    "entityId": "enertur",
+    "name": "Energía Turística S.A."
+  }
+]

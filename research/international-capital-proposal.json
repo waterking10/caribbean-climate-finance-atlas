@@ -1,0 +1,2973 @@
+{
+  "proposalId": "international-capital-2026-11-18",
+  "status": "approved_published",
+  "preparedOn": "2026-11-18",
+  "publicationState": "approved_scope_published",
+  "baseline": {
+    "registryEntities": 73,
+    "registryRelationships": 73,
+    "registrySources": 134,
+    "capitalPathways": 14,
+    "researchClaims": 111,
+    "financialObservations": 35,
+    "supplementalSources": 46,
+    "sourceFileManifest": [
+      {
+        "path": "src/App.tsx",
+        "sha256": "48d9ff268956b7c20d7b7fba9911274e4f98587639af66058398834c28474931"
+      },
+      {
+        "path": "src/capital-research-model.ts",
+        "sha256": "44204da027a08d2c76fbd82a30ce5202d4aae925b6cdd7dd23392ff067d84be1"
+      },
+      {
+        "path": "src/capital-research.ts",
+        "sha256": "d3a2f8b26c77b3fe49b559a0865521598288938d46887c61e9d02325b2c03ef3"
+      },
+      {
+        "path": "src/components/About.tsx",
+        "sha256": "612f8ce8a65b17ac2e0aff6069f03274092ba6b7e536f55d12fc621c5d795abc"
+      },
+      {
+        "path": "src/components/Compare.tsx",
+        "sha256": "3414b1d620f9ae02fcac9fe6d1d5199949009244c378ac3435d89cda0a55bed7"
+      },
+      {
+        "path": "src/components/Inspector.tsx",
+        "sha256": "3c19f52a9b089082636b0ea79ef17b2884707c42e85fa46798675ec68128284e"
+      },
+      {
+        "path": "src/components/NetworkGraph.tsx",
+        "sha256": "d425c7a3121a57da375f0dcd9c91bdd34d73466026b67a23d4e5abc0b5aab9d2"
+      },
+      {
+        "path": "src/components/NetworkPanel.tsx",
+        "sha256": "0bb80cf35559854c803b7abae581df057cd3a42c4c74d8cee2fef4e188165bbf"
+      },
+      {
+        "path": "src/components/PathwayInspector.tsx",
+        "sha256": "2cc8b087d2b488a4f7b6bdc04fb50ade6d5fd5f9313f31ec7dad3dbb75bbb275"
+      },
+      {
+        "path": "src/components/Research.tsx",
+        "sha256": "621328c03f435155ed35fd6012646b1f31a3f323a1818c04ee7ff9b5c4c43f85"
+      },
+      {
+        "path": "src/components/Sidebar.tsx",
+        "sha256": "ef0582883a58daab57e581351c95870ef690f0c7410dbdef52f3acbf5c8b4b5a"
+      },
+      {
+        "path": "src/components/Sources.tsx",
+        "sha256": "7c809b81f4a6826173c61d0d2cc93a94ec6dfdba81f244ad24beef90a41638ee"
+      },
+      {
+        "path": "src/data/aliases.json",
+        "sha256": "c58d07f34510644389791a629bb8654752c4edb90eee25bdd660f1073bcb783e"
+      },
+      {
+        "path": "src/data/candidate-reviews.json",
+        "sha256": "4ec37ed530756d209e67609c60c6f4905fe2c83d8c880c18a781255a6335736f"
+      },
+      {
+        "path": "src/data/candidates.json",
+        "sha256": "5f76084ca46fd86e2d8e11457d19ee2b28f67fec76c771eb15bd22c4eb910d4f"
+      },
+      {
+        "path": "src/data/capital-pathways.json",
+        "sha256": "006e448e2e62130d3a95484d029e8928413b65299cdf55294324a4644487f805"
+      },
+      {
+        "path": "src/data/entity-scope.json",
+        "sha256": "f792ca78e67ca6e7942d56a51712fd09e8fbbaa37c697ca7c4f73a0c02230b1e"
+      },
+      {
+        "path": "src/data/geographies.json",
+        "sha256": "7b3c002c2fed123773831d7155732f07b93aa0081bc345972cfad37ef0046c07"
+      },
+      {
+        "path": "src/data/institutions.json",
+        "sha256": "96387e8e6d335cdaf7966c2ea7ffa6f1ef83abce0fadc62cc54b67ed9410167a"
+      },
+      {
+        "path": "src/data/projects.json",
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      {
+        "path": "src/data/relationship-scope.json",
+        "sha256": "12d2be7954db3f81ecf36c10e4a1caec5f479cd4ac8a3a45e9a6dc24a0121ef7"
+      },
+      {
+        "path": "src/data/relationships.json",
+        "sha256": "6a5b8213e45439a599a53ff127f96ee8d1c81f681eb69853c90634a5323e7d15"
+      },
+      {
+        "path": "src/data/scope-sources.json",
+        "sha256": "cf187b2722c9597e45ed05b9750075a6c605b6856ebb59c704ca95b06700101f"
+      },
+      {
+        "path": "src/data/sectors.json",
+        "sha256": "00b2a88c0b77b6a2572e9cd0f13b09dd1ecce1abf320d2a9e380d199c49f9992"
+      },
+      {
+        "path": "src/data/sources.json",
+        "sha256": "5cfa4c58b1cb5ba2212f3fcf76f84d9b9708f18c793f0430ec520a5767ee7f97"
+      },
+      {
+        "path": "src/data/transactions.json",
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      {
+        "path": "src/data/vehicles.json",
+        "sha256": "0f82804d58db0654da660504370b0c1a10e0eafa3c78632fd42fcc76421fb664"
+      },
+      {
+        "path": "src/main.tsx",
+        "sha256": "ae07337b120d43d5581c77aaf6841616f67dda8aff38a799092bab0d4d3510b8"
+      },
+      {
+        "path": "src/model.ts",
+        "sha256": "606e1929ee0f86cfc297aca1f96f9f38253ed17a0c480c8dbf903cf89bf8c86d"
+      },
+      {
+        "path": "src/repository.ts",
+        "sha256": "6fd59fd70109613c71ac7dcf96f9cb47564ec0cc5aef956048e70bfbc4000a7b"
+      },
+      {
+        "path": "src/research.ts",
+        "sha256": "adc3411d36f276cda12470c2ed16f2ac9752a19a09beace08ce272d68b73db28"
+      },
+      {
+        "path": "src/selectors.ts",
+        "sha256": "0db0eddd69d4c3f5d26a1fccbfd5b860f8383294b685ea6b2f0b38e2877cd183"
+      },
+      {
+        "path": "src/styles.css",
+        "sha256": "d45f13fbff7fdc2f4274f42272fc50b2acc96def4078bbcd949faf0903e08a1e"
+      },
+      {
+        "path": "src/validation.ts",
+        "sha256": "9277800052d7784eb60b49d80f43eed2ac74c53ad19cb2c075730c698581fbd2"
+      }
+    ]
+  },
+  "scope": "Documented international financing and institutional links to qualifying Caribbean climate, transition, resilience and environmental mechanisms.",
+  "inclusionCriteria": [
+    "Document an identifiable Caribbean operation or funded delivery relationship using primary evidence.",
+    "Record each legal institution and financing mechanism under a stable reusable ID.",
+    "Record a general eligibility, strategy or fundraising statement as a research lead.",
+    "Treat institution-wide capital separately from a mechanism-specific funding allocation.",
+    "Give direct financing, grants, administration, approval, advisory and risk support distinct claims.",
+    "Preserve source currency, financial stage, reporting date precision and source-level ambiguity."
+  ],
+  "integrationNotes": [
+    "This file is outside src/data and is not imported by the application.",
+    "All entities and new assertions require publication approval and final record mapping.",
+    "Existing registry relationships and canonical amounts are referenced without duplication.",
+    "Research-context actors include brands, investor classes and case operations. These need individual review before registry promotion.",
+    "Null reportedOn means the source gives no financial reporting date. observedOn is an access snapshot. Publication will require explicit unknown-date support or further dated evidence.",
+    "Source publication dates are nullable and can have month precision. Existing Evidence publishedOn validation requires a full date, so unavailable dates must remain omitted on conversion.",
+    "Carbon-market proceeds are a proposed capital-source category to add only if the Adaptation Fund upstream context is approved.",
+    "Country coverage names the Caribbean subset for wider regional programmes. The structured wider-region financial totals remain unallocated to this subset.",
+    "Three mechanisms already researched in the baseline are included only as a separate publication-review item."
+  ],
+  "counts": {
+    "registryCandidates": 21,
+    "evidenceSupportedRegistryCandidates": 20,
+    "conditionalRegistryCandidates": 1,
+    "newResearchContextActors": 20,
+    "pathwayProposals": 10,
+    "documentedLinkProposals": 52,
+    "financialObservations": 27,
+    "canonicalAmountReferences": 3,
+    "sourceRecords": 29,
+    "openQuestions": 38
+  },
+  "registryCandidates": [
+    {
+      "id": "ccrif-mdtf-2014",
+      "name": "Central America and Caribbean Catastrophe Risk Insurance Program Multi-Donor Trust Fund",
+      "kind": "vehicle",
+      "action": "new",
+      "proposedScope": "CORE",
+      "ownership": "Multilateral",
+      "evidenceIds": [
+        "src-intl-ccrif-donors"
+      ],
+      "rationale": "Earmarked grant funding channel for CCRIF disaster-risk finance.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "us-treasury",
+      "name": "United States Department of the Treasury",
+      "kind": "institution",
+      "action": "new",
+      "proposedScope": "CORE",
+      "ownership": "Public",
+      "evidenceIds": [
+        "src-intl-ccrif-donors"
+      ],
+      "rationale": "Named donor to the second CCRIF multi-donor trust fund.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "germany-bmz",
+      "name": "Federal Ministry for Economic Cooperation and Development (Germany)",
+      "kind": "institution",
+      "action": "promote_existing_research_actor",
+      "proposedScope": "CORE",
+      "ownership": "Public",
+      "evidenceIds": [
+        "src-intl-ccrif-donors"
+      ],
+      "rationale": "Named bilateral funding source for CCRIF through KfW.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "kfw",
+      "name": "KfW Development Bank",
+      "kind": "institution",
+      "action": "promote_existing_research_actor",
+      "proposedScope": "CORE",
+      "ownership": "Public",
+      "evidenceIds": [
+        "src-intl-iki-eba"
+      ],
+      "rationale": "Documented German funding channel for the CBF adaptation facility.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "edc",
+      "name": "Export Development Canada",
+      "kind": "institution",
+      "action": "new",
+      "proposedScope": "SUPPORTING",
+      "ownership": "Public",
+      "evidenceIds": [
+        "src-intl-findev-financials"
+      ],
+      "rationale": "Documented debt and equity funding relationship to FinDev Canada. Transaction-specific Enertur attribution is unresolved.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "standard-chartered-bank",
+      "name": "Standard Chartered Bank",
+      "kind": "institution",
+      "action": "new",
+      "proposedScope": "CORE",
+      "ownership": "Private",
+      "evidenceIds": [
+        "src-intl-bahamas-bank"
+      ],
+      "rationale": "Identified sole lender for The Bahamas conservation-linked debt conversion.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "bahamas-gov",
+      "name": "Government of The Bahamas",
+      "kind": "institution",
+      "action": "new",
+      "proposedScope": "CORE",
+      "ownership": "Public",
+      "evidenceIds": [
+        "src-intl-bahamas-debt-strategy"
+      ],
+      "rationale": "Sovereign borrower implementing conservation-linked refinancing and commitments.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "bahamas-debt-conversion-2024",
+      "name": "The Bahamas Debt Conversion Project for Marine Conservation (2024)",
+      "kind": "vehicle",
+      "action": "new",
+      "proposedScope": "CORE",
+      "ownership": "Public",
+      "evidenceIds": [
+        "src-intl-bahamas-debt-strategy"
+      ],
+      "rationale": "Named debt-conversion financing mechanism. Vehicle denotes an arrangement, with no separate legal personality asserted.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "bahamas-protected-areas-fund",
+      "name": "The Bahamas Protected Areas Fund",
+      "kind": "institution",
+      "action": "new",
+      "proposedScope": "CORE",
+      "ownership": null,
+      "evidenceIds": [
+        "src-intl-bahamas-tnc"
+      ],
+      "rationale": "Conservation trust fund designated to manage resulting conservation finance. Governance and ownership need constituting-document review.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "germany-environment-ministry",
+      "name": "German Federal Ministry responsible for environment, climate action and nature conservation",
+      "kind": "institution",
+      "action": "new",
+      "proposedScope": "CORE",
+      "ownership": "Public",
+      "evidenceIds": [
+        "src-intl-cbf-eba"
+      ],
+      "rationale": "Named IKI funding source for Caribbean ecosystem-based adaptation. Source-era ministry names are retained as dated aliases.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "pioj",
+      "name": "Planning Institute of Jamaica",
+      "kind": "institution",
+      "action": "new",
+      "proposedScope": "CORE",
+      "ownership": "Public",
+      "evidenceIds": [
+        "src-intl-af-jamaica"
+      ],
+      "rationale": "National implementing entity receiving the Adaptation Fund's documented Jamaican grant.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "barbados-water-authority",
+      "name": "Barbados Water Authority",
+      "kind": "institution",
+      "action": "new",
+      "proposedScope": "SUPPORTING",
+      "ownership": "Public",
+      "evidenceIds": [
+        "src-intl-gcf-annual-2025"
+      ],
+      "rationale": "Named utility beneficiary in Barbados' GCF-funded water resilience mechanism.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "unep",
+      "name": "United Nations Environment Programme",
+      "kind": "institution",
+      "action": "new",
+      "proposedScope": "CORE",
+      "ownership": "Multilateral",
+      "evidenceIds": [
+        "src-intl-crew-pir-2024"
+      ],
+      "rationale": "Documented co-implementing agency for the CReW+ regional environmental financing programme.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "giz",
+      "name": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "kind": "institution",
+      "action": "promote_existing_research_actor",
+      "proposedScope": "CORE",
+      "ownership": "Public",
+      "evidenceIds": [
+        "src-intl-crew-pir-2024"
+      ],
+      "rationale": "Named executing agency for CReW+, with earlier CRAF technical assistance also documented.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "crew-plus",
+      "name": "GEF CReW+ regional water and wastewater financing programme",
+      "kind": "vehicle",
+      "action": "new",
+      "proposedScope": "CORE",
+      "ownership": "Multilateral",
+      "evidenceIds": [
+        "src-intl-crew-pir-2024"
+      ],
+      "rationale": "Regional programme supporting sustainable water and wastewater financing mechanisms.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "eib-caribbean-water-programme",
+      "name": "Caribbean Water, Sanitation and Clean Oceans Programme Loan",
+      "kind": "vehicle",
+      "action": "new",
+      "proposedScope": "CORE",
+      "ownership": "Multilateral",
+      "evidenceIds": [
+        "src-intl-eib-water-parent"
+      ],
+      "rationale": "Approved umbrella framework supporting Caribbean water and ocean infrastructure.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "dfc",
+      "name": "U.S. International Development Finance Corporation",
+      "kind": "institution",
+      "action": "new",
+      "proposedScope": "CORE",
+      "ownership": "Public",
+      "evidenceIds": [
+        "src-intl-dfc-belize"
+      ],
+      "rationale": "Named political risk insurer in the Belize conservation debt conversion.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "belize-gov",
+      "name": "Government of Belize",
+      "kind": "institution",
+      "action": "new",
+      "proposedScope": "CORE",
+      "ownership": "Public",
+      "evidenceIds": [
+        "src-intl-dfc-belize"
+      ],
+      "rationale": "Sovereign borrower and conservation-funding obligor in the documented 2021 debt conversion.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "belize-blue-investment-company",
+      "name": "Belize Blue Investment Company, LLC",
+      "kind": "institution",
+      "action": "new",
+      "proposedScope": "CORE",
+      "ownership": "Private",
+      "evidenceIds": [
+        "src-intl-tnc-audited-2023"
+      ],
+      "rationale": "Special-purpose lender in the Belize blue-loan arrangement.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "belize-blue-loan-2021",
+      "name": "Belize Blue Loan and debt conversion (2021)",
+      "kind": "vehicle",
+      "action": "new",
+      "proposedScope": "CORE",
+      "ownership": "Public",
+      "evidenceIds": [
+        "src-intl-dfc-belize"
+      ],
+      "rationale": "Named sovereign debt-conversion financing arrangement, with no separate legal personality asserted.",
+      "reviewStatus": "proposed",
+      "publicationReadiness": "evidence_supported_pending_user_approval"
+    },
+    {
+      "id": "credit-suisse-ag",
+      "name": "Credit Suisse AG",
+      "kind": "institution",
+      "action": "defer_registry_pending_identity",
+      "proposedScope": "SUPPORTING",
+      "ownership": "Private",
+      "evidenceIds": [
+        "src-intl-tnc-impact-2022"
+      ],
+      "rationale": "Historical financing participant in the Belize conversion. Exact transaction role and signing entity require full legal-document review.",
+      "reviewStatus": "conditional",
+      "publicationReadiness": "transaction_identity_review_required"
+    }
+  ],
+  "researchContextActors": [
+    {
+      "id": "jamaica-cat-investors",
+      "name": "Institutional investors subscribing to Jamaica CAR 137 notes",
+      "kind": "investor_class",
+      "limitation": "Membership register undisclosed. Distribution is reported by investor type and geography.",
+      "publicationTarget": "research_context_only"
+    },
+    {
+      "id": "aon-securities",
+      "name": "Aon Securities",
+      "kind": "institution",
+      "limitation": "Bookrunner and structuring agent name. Exact issuing-transaction legal entity requires final terms.",
+      "publicationTarget": "research_context_only"
+    },
+    {
+      "id": "swiss-re-capital-markets",
+      "name": "Swiss Re Capital Markets",
+      "kind": "institution",
+      "limitation": "Bookrunner and structuring agent. No reinsurance or capital contribution is inferred.",
+      "publicationTarget": "research_context_only"
+    },
+    {
+      "id": "builders-vision",
+      "name": "Builders Vision",
+      "kind": "institution",
+      "limitation": "Verified named co-guarantor platform. Resolve Builders Asset Management signing identity before creating a canonical institution.",
+      "publicationTarget": "research_context_only"
+    },
+    {
+      "id": "axa-xl",
+      "name": "AXA XL",
+      "kind": "institution",
+      "limitation": "Verified credit-insurance division name. Legal policy underwriter and insured party require executed documentation.",
+      "publicationTarget": "research_context_only"
+    },
+    {
+      "id": "iki",
+      "name": "International Climate Initiative (IKI)",
+      "kind": "vehicle",
+      "limitation": "Funding programme of Germany's environment ministry. Contribution is recorded once across this channel.",
+      "publicationTarget": "research_context_only"
+    },
+    {
+      "id": "af-donor-pool",
+      "name": "Government and private contributors to the Adaptation Fund pool",
+      "kind": "investor_class",
+      "limitation": "Aggregate source class. No named donor is attributed to the 2012 Jamaican award.",
+      "publicationTarget": "research_context_only"
+    },
+    {
+      "id": "af-cer-proceeds",
+      "name": "Certified Emission Reduction sale proceeds for the Adaptation Fund",
+      "kind": "vehicle",
+      "limitation": "Revenue-source class under the fund's documented resource model.",
+      "publicationTarget": "research_context_only"
+    },
+    {
+      "id": "af-jamaica-2012",
+      "name": "Jamaica agriculture and coastal resilience grant, JAM/NIE/Multi/2011/1",
+      "kind": "operation",
+      "limitation": "Case record supporting institutional financing links.",
+      "publicationTarget": "research_context_only"
+    },
+    {
+      "id": "af-board",
+      "name": "Adaptation Fund Board",
+      "kind": "authority_body",
+      "limitation": "Institutional funding approval body.",
+      "publicationTarget": "research_context_only"
+    },
+    {
+      "id": "fp060",
+      "name": "Barbados Water Sector Resilience Nexus for Sustainability, FP060",
+      "kind": "operation",
+      "limitation": "Case record supporting GCF, CCCCC and utility relationships.",
+      "publicationTarget": "research_context_only"
+    },
+    {
+      "id": "oas",
+      "name": "Organization of American States",
+      "kind": "institution",
+      "limitation": "Named CReW+ executing agency. Retained in case context for this proposal.",
+      "publicationTarget": "research_context_only"
+    },
+    {
+      "id": "cdb-water-clean-oceans-2024",
+      "name": "CDB Water Management and Clean Oceans Framework Loan, EIB 20220727",
+      "kind": "operation",
+      "limitation": "Sub-operation of EIB 20210497, reusing the published EUR 100 million EIB–CDB amount.",
+      "publicationTarget": "research_context_only"
+    },
+    {
+      "id": "belize-blue-investors",
+      "name": "Institutional investors in Belize conservation-linked Blue Bonds",
+      "kind": "investor_class",
+      "limitation": "Ultimate investor class identified. Names and allocations undisclosed.",
+      "publicationTarget": "research_context_only"
+    },
+    {
+      "id": "belize-platinum-issuer",
+      "name": "Platinum repackaging vehicle in the Belize Blue Bond structure",
+      "kind": "vehicle",
+      "limitation": "Exact issuing entity, cell and legal transfer sequence need transaction documents.",
+      "publicationTarget": "research_context_only"
+    },
+    {
+      "id": "caribbean-policyholders",
+      "name": "Participating Caribbean policyholder governments",
+      "kind": "recipient_group",
+      "publicationTarget": "research_context_only",
+      "limitation": "Class-level context without recipient-specific allocations."
+    },
+    {
+      "id": "eba-grantees",
+      "name": "CBF EbA grant recipients",
+      "kind": "recipient_group",
+      "publicationTarget": "research_context_only",
+      "limitation": "Class-level context without recipient-specific allocations."
+    },
+    {
+      "id": "jamaica-community-beneficiaries",
+      "name": "Jamaican programme beneficiary communities",
+      "kind": "recipient_group",
+      "publicationTarget": "research_context_only",
+      "limitation": "Class-level context without recipient-specific allocations."
+    },
+    {
+      "id": "crew-country-recipients",
+      "name": "CReW+ country-level recipients",
+      "kind": "recipient_group",
+      "publicationTarget": "research_context_only",
+      "limitation": "Class-level context without recipient-specific allocations."
+    },
+    {
+      "id": "cdb-water-borrowers",
+      "name": "Eligible CDB water and waste-management borrowers",
+      "kind": "recipient_group",
+      "publicationTarget": "research_context_only",
+      "limitation": "Class-level context without recipient-specific allocations."
+    }
+  ],
+  "reusedResearchActorIds": [
+    "gcf-board",
+    "gef-ceo"
+  ],
+  "researchPriorities": [
+    {
+      "priority": 1,
+      "id": "ccrif-donor-channels",
+      "status": "proposed_for_review",
+      "pathwayId": "intl-ccrif-donors",
+      "institutions": [
+        "gac",
+        "eu",
+        "us-treasury",
+        "germany-bmz",
+        "kfw",
+        "world-bank"
+      ],
+      "nextEvidence": "Executed trust-fund contributions, recipient schedules and dated beneficiary allocations."
+    },
+    {
+      "priority": 1,
+      "id": "market-and-private-risk",
+      "status": "proposed_for_review",
+      "pathwayIds": [
+        "intl-jamaica-cat-2026",
+        "intl-bahamas-2024",
+        "intl-belize-blue-2021"
+      ],
+      "institutions": [
+        "world-bank",
+        "standard-chartered-bank",
+        "idb",
+        "dfc",
+        "tnc"
+      ],
+      "nextEvidence": "Final terms, investor registers, legal policy and guarantee counterparties, payout delegations."
+    },
+    {
+      "priority": 1,
+      "id": "bilateral-energy-capital",
+      "status": "proposed_for_review",
+      "pathwayId": "intl-enertur",
+      "institutions": [
+        "findev",
+        "idbi",
+        "fmo",
+        "edc"
+      ],
+      "nextEvidence": "Executed loan schedules and precise allocation of institutional funding, if disclosed."
+    },
+    {
+      "priority": 1,
+      "id": "climate-and-environment-delivery",
+      "status": "proposed_for_review",
+      "pathwayIds": [
+        "intl-gcf-fp060",
+        "intl-af-jamaica",
+        "intl-crew-plus",
+        "intl-cbf-eba",
+        "intl-eib-cdb-water"
+      ],
+      "institutions": [
+        "gcf",
+        "gef-trust",
+        "adaptation-fund",
+        "eib",
+        "kfw",
+        "unep"
+      ],
+      "nextEvidence": "Funded activity and grant agreements, delegated approval schedules and recipient records."
+    },
+    {
+      "priority": 2,
+      "id": "existing-staged-mechanisms",
+      "status": "already_researched_publication_review_separate",
+      "mechanismIds": [
+        "fp242",
+        "ace-facility",
+        "barbados-cat-ddo"
+      ],
+      "nextEvidence": "Recheck each existing claim and scope before registry promotion. Reuse existing research IDs and source records."
+    },
+    {
+      "priority": 2,
+      "id": "surge-upstream-and-approvals",
+      "status": "existing_verified_case_follow_up",
+      "mechanismId": "surge",
+      "institutions": [
+        "gac",
+        "cdb"
+      ],
+      "existingPathwayId": "surge",
+      "nextEvidence": "Executed Canadian loan and TA agreements, CDB allocation procedures and any own-account finance. Existing split financing remains canonical."
+    },
+    {
+      "priority": 2,
+      "id": "existing-preparation-support",
+      "status": "existing_verified_case_follow_up",
+      "mechanismIds": [
+        "gcf-ppf",
+        "cdb-ccppf"
+      ],
+      "institutions": [
+        "gcf",
+        "cdb"
+      ],
+      "nextEvidence": "Existing GCF PPF approval already maps to CDB. Establish actual CC PPF contributors and awards from contracts and financials.",
+      "evidenceIds": [
+        "src-review-cdb-ccppf",
+        "src-capital-gcf-ppf-cdb-approved"
+      ]
+    },
+    {
+      "priority": 2,
+      "id": "cbf-endowment-and-ccrf",
+      "status": "existing_verified_case_follow_up",
+      "existingPathwayIds": [
+        "cbf-endowment",
+        "ccrf-debt",
+        "ccrf-equity"
+      ],
+      "institutions": [
+        "tnc",
+        "ifc",
+        "idbi",
+        "fcdo"
+      ],
+      "nextEvidence": "Current donor, limited-partner and subscription registers, final drawdowns and national conservation transfers."
+    },
+    {
+      "priority": 3,
+      "id": "bii-seaf",
+      "status": "hold_thematic_connection_unestablished",
+      "institutions": [
+        "British International Investment",
+        "SEAF Caribbean SME Growth Fund"
+      ],
+      "evidenceIds": [
+        "src-intl-bii-review"
+      ],
+      "finding": "A Caribbean SME fund commitment is documented. Qualifying climate or environmental deployment was not established by this review.",
+      "nextEvidence": "Named climate or environmental investment and BII capital attribution through the fund."
+    },
+    {
+      "priority": 3,
+      "id": "unallocated-philanthropic-supporters",
+      "status": "hold_specific_financing_leg_unestablished",
+      "institutions": [
+        "Becht Foundation",
+        "Lyda Hill Philanthropies",
+        "other named TNC supporters"
+      ],
+      "evidenceIds": [
+        "src-intl-bahamas-tnc"
+      ],
+      "finding": "Supporters are acknowledged. Named grant instruments, amounts and the precise recipient mechanism require corroboration.",
+      "nextEvidence": "Foundation grant ledger or recipient accounts identifying the funded leg."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-intl-ccrif-donors",
+      "title": "Risk insurance builds climate and disaster resilience in Central America and the Caribbean",
+      "publisher": "World Bank",
+      "url": "https://www.worldbank.org/en/results/2022/04/21/risk-insurance-builds-climate-and-disaster-resilience-in-central-america-and-the-caribbean",
+      "publishedOn": "2022-04-21",
+      "accessedOn": "2026-11-18",
+      "reference": "Bank Group Contribution and Partners sections identify the second multi-donor trust fund, donor institutions and the administrator.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "Initial and second trust funds have different contributors. Pooled donor resources have no country-by-donor allocation here."
+    },
+    {
+      "id": "src-intl-findev-financials",
+      "title": "FinDev Canada 2024 Financial Review and audited financial statements",
+      "publisher": "FinDev Canada",
+      "url": "https://www.findevcanada.ca/themes/custom/dfic/annual-reports/2024/en/_img/docs/FDC_2024_Financial_Review.pdf",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Notes 1, 7, 10 and 18 identify EDC ownership, debt funding and equity capital.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "Institutional funding evidence does not attribute a specific EDC advance to Enertur."
+    },
+    {
+      "id": "src-intl-enertur-close",
+      "title": "FinDev Canada, IDB Invest and FMO invest in Enertur to boost renewable energy in the Dominican Republic",
+      "publisher": "FinDev Canada",
+      "url": "https://www.findevcanada.ca/en/news/findev-canada-idb-invest-and-fmo-invest-enertur-boost-renewable-energy-dominican-republic",
+      "publishedOn": "2024-11-07",
+      "accessedOn": "2026-11-18",
+      "reference": "Financing-package paragraph specifies three equal lender participations.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "FMO's separate portfolio record has greater amount precision and different asset specifications."
+    },
+    {
+      "id": "src-intl-bahamas-bank",
+      "title": "A debt conversion for nature for The Bahamas",
+      "publisher": "Standard Chartered",
+      "url": "https://www.sc.com/en/campaigns/bahamas-debt-for-nature/",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Transaction description identifies Standard Chartered as the sole lender.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "The bank's own upstream funding mix is undisclosed."
+    },
+    {
+      "id": "src-intl-bahamas-tnc",
+      "title": "The Nature Conservancy Announces Innovative Nature Bonds Project",
+      "publisher": "The Nature Conservancy",
+      "url": "https://www.nature.org/en-us/newsroom/tnc-announces-new-nature-bonds-project-bahamas/",
+      "publishedOn": "2024-11-22",
+      "accessedOn": "2026-11-18",
+      "reference": "Financing, credit-enhancement and conservation-fund paragraphs identify parties and uses of savings.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "Named philanthropic supporters have no disclosed individual contribution amounts or precise funding legs."
+    },
+    {
+      "id": "src-intl-bahamas-debt-strategy",
+      "title": "Medium-Term Debt Management Strategy FY2025/26 to FY2027/28",
+      "publisher": "Government of The Bahamas, Ministry of Finance",
+      "url": "https://www.bahamasbudget.gov.bs/media/filer_public/5e/d7/5ed7b042-1060-4e99-9030-d3b17655984a/mof-midtermdebt-3-25-final.pdf",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Page 16, Box A, details the loan, refinancing and three tiers of credit protection.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "Legal insurance counterparties and grant-award delegations require the transaction agreements."
+    },
+    {
+      "id": "src-intl-bahamas-axa",
+      "title": "Nature Bonds project enables Bahamas to effectively manage its marine protected areas",
+      "publisher": "AXA XL",
+      "url": "https://axaxl.com/fast-fast-forward/articles/nature-bonds-project-enables-bahamas-to-effectively-manage-its-marine-protected-areas",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "PRCB discussion identifies credit insurance and the conservation agreement.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "AXA XL is a division or brand. The policy's legal underwriting entity is unconfirmed. Repurchased-debt descriptions differ within this article."
+    },
+    {
+      "id": "src-intl-bahamas-builders",
+      "title": "Inside the First Family Office Financing of a Nature Bond and Its Impact on Ocean",
+      "publisher": "Builders Vision",
+      "url": "https://www.buildersvision.com/news-insights/inside-the-first-family-office-financing-of-a-nature-bond-and-its-impact-on-ocean/",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Case-study financing section identifies the co-guarantee.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "The platform's name differs from Builders Asset Management in TNC's 2024 NatureVest report. Signing entity needs reconciliation."
+    },
+    {
+      "id": "src-intl-bahamas-idb",
+      "title": "IDB Partnership Report 2024",
+      "publisher": "Inter-American Development Bank",
+      "url": "https://idbinvest.org/sites/default/files/2025-10/2024-Partnership-Report-Partnering-for-Impact_0.pdf",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Page 23 separates the nature-conversion guarantee from the earlier general-budget transaction.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "The USD 400 million umbrella includes an earlier USD 200 million operation with different uses."
+    },
+    {
+      "id": "src-intl-cbf-eba",
+      "title": "Climate Change Program and EbA Facility",
+      "publisher": "Caribbean Biodiversity Fund",
+      "url": "https://caribbeanbiodiversityfund.org/climate-change/",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Programme funding, finance indicators and EbA Committee sections.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "EUR programme funding differs from the IKI project budget. Award counts differ between sections. Dynamic figures have varying reporting dates."
+    },
+    {
+      "id": "src-intl-iki-eba",
+      "title": "Climate change adaptation in the Caribbean — the EbA Facility",
+      "publisher": "International Climate Initiative (IKI)",
+      "url": "https://www.international-climate-initiative.com/en/project/climate-change-adaptation-in-the-caribbean-the-eba-facility-16-ii-156-karibik-k-climate-adaptation-in-the-caribbean/",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Project data name KfW, CBF, country coverage, funding and duration.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "The IKI budget and the CBF facility funding may have different scopes. Their difference is unreconciled."
+    },
+    {
+      "id": "src-intl-af-jamaica",
+      "title": "Enhancing the Resilience of the Agricultural Sector and Coastal Areas to Protect Livelihoods and Improve Food Security",
+      "publisher": "Adaptation Fund",
+      "url": "https://www.adaptation-fund.org/project/enhancing-the-resilience-of-the-agricultural-sector-and-coastal-areas-to-protect-livelihoods-and-improve-food-security/",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "At A Glance and cost table give PIOJ, approval, grant and transferred amount.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "Transfer date is unstated. The implementation status remains displayed alongside a revised completion date already past at access."
+    },
+    {
+      "id": "src-intl-af-board",
+      "title": "Adaptation Fund Board Approves USD 50.7 Million in Grant Funding, including one Direct Access Project in Jamaica",
+      "publisher": "Adaptation Fund",
+      "url": "https://www.adaptation-fund.org/adaptation-fund-board-approves-50-7-million-in-grant-funding-including-one-direct-access-project-in-jamaica/",
+      "publishedOn": "2012-06-29",
+      "accessedOn": "2026-11-18",
+      "reference": "Jamaica decision identifies the Board and direct-access award to PIOJ.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "Approval identifies institutional authority. Individual procurement and payment sign-offs require other records."
+    },
+    {
+      "id": "src-intl-af-trustee",
+      "title": "Report of the Trustee on the Adaptation Fund Trust Fund, AFB/EFC.37/6",
+      "publisher": "World Bank as Adaptation Fund trustee",
+      "url": "https://www.adaptation-fund.org/wp-content/uploads/2026/03/AFB.EFC_.37.6-Report-of-the-Trustee-on-the-AF-TF_combined.pdf",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Financial report as at 31 December 2025, sections 1–2, identifies CER proceeds, donations and investment income.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "A 2025 pool snapshot cannot allocate named donors to the 2012 Jamaican award."
+    },
+    {
+      "id": "src-intl-gcf-fp060",
+      "title": "FP060 — Water Sector Resilience Nexus for Sustainability in Barbados",
+      "publisher": "Green Climate Fund",
+      "url": "https://www.greenclimate.fund/portfolio/projects/fp060",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Official indexed full record lists approval, grant instrument and exact value, CCCCC, and three dated GCF disbursements.",
+      "confidence": "primary_indexed_record",
+      "ambiguity": "Direct page fetch returned HTTP 403. Indexed primary text was available. Annual-report investment differs from the portfolio value and requires reconciliation."
+    },
+    {
+      "id": "src-intl-gcf-fp060-signing",
+      "title": "GCF signs off funding for Barbados water sector resilience project",
+      "publisher": "Green Climate Fund",
+      "url": "https://www.greenclimate.fund/about/news-and-updates/gcf-signs-funding-barbados-water-sector-resilience-project",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Official indexed announcement states a 1 November signing with CCCCC and proposed use of BWA savings.",
+      "confidence": "discovery_only",
+      "ambiguity": "Full page fetch returned HTTP 403. Operative agreement and exact approval fee treatment need document review."
+    },
+    {
+      "id": "src-intl-gcf-annual-2025",
+      "title": "Annual progress report 2025",
+      "publisher": "Green Climate Fund",
+      "url": "https://www.greenclimate.fund/document/annual-progress-report-2025",
+      "publishedOn": "2026-09-18",
+      "accessedOn": "2026-11-18",
+      "reference": "Water security through systemic reform in Barbados section identifies the implementation channel, utility and rounded investment.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "The reported USD 26.7 million has lower precision than an operative agreement. Current cumulative disbursement is not extracted."
+    },
+    {
+      "id": "src-intl-gcf-fp060-board",
+      "title": "GCF Board approves over USD 1 billion in funding for climate mitigation and adaptation",
+      "publisher": "Green Climate Fund",
+      "url": "https://www.greenclimate.fund/about/news-and-updates/gcf-board-approves-over-usd-1-billion-funding-climate-mitigation-and-adaptation",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "FP060 entry reports a USD 27.61 million approval envelope.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "Reconcile the approval envelope, fees and any modifications with the later USD 26.7 million reported investment."
+    },
+    {
+      "id": "src-intl-crew-pir-2024",
+      "title": "GEF CReW+ Project Implementation Report FY2024",
+      "publisher": "United Nations Environment Programme",
+      "url": "https://open.unep.org/docs/gef/PIR/9601_PIR_UNEP_2024_CREW%2B.pdf",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Pages 3–5 identify approval and agency responsibilities. Section 2.3 gives agency-level disbursement. Section 2.4 discusses co-finance.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "Regional totals include countries outside the Caribbean. Financial totals have agency-level scope."
+    },
+    {
+      "id": "src-intl-crew-countries",
+      "title": "Toilets of the Caribbean — small-scale solutions for better water and sanitation in the Caribbean",
+      "publisher": "UNEP Cartagena Convention Secretariat",
+      "url": "https://www.unep.org/cep/news/blogpost/toilets-caribbean-small-scale-solutions-better-water-and-sanitation-caribbean",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Programme description identifies GEF support, IDB and UNEP and the 18 endorsing countries.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "Endorsement and national coverage do not establish amounts paid in each country."
+    },
+    {
+      "id": "src-intl-eib-water-record",
+      "title": "CDB Water Management and Clean Oceans Framework Loan, 20220727",
+      "publisher": "European Investment Bank",
+      "url": "https://www.eib.org/en/projects/all/20220727",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Signature table gives 30 September 2024 and EUR 100 million. Description identifies the parent programme and CDB procurement supervision.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "The 2017 Climate Action Framework Loan II is a separate operation."
+    },
+    {
+      "id": "src-intl-eib-water-ta",
+      "title": "Technical Assistance for the Caribbean Sustainable Water Management and Clean Oceans Programme",
+      "publisher": "European Investment Bank",
+      "url": "https://www.eib.org/en/about/procurement/calls-technical-assistance/all/aa-010789001",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Official procurement record for programme technical assistance.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "Procurement evidence alone does not confirm individual consultant awards, fee payments or the entire regional grant's allocation to CDB."
+    },
+    {
+      "id": "src-intl-eib-water-parent",
+      "title": "EIB and European Commission join forces to provide EUR 150 million of Team Europe finance for water and sanitation projects in the Caribbean",
+      "publisher": "European Investment Bank",
+      "url": "https://www.eib.org/en/press/all/2022-296-eib-and-european-commission-join-forces-to-provide-eur-150m-of-team-europe-finance-for-water-and-sanitation-projects-in-the-caribbean",
+      "publishedOn": "2022-06-28",
+      "accessedOn": "2026-11-18",
+      "reference": "Opening and programme description identify approved umbrella lending and EU technical-assistance and investment grants.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "Expected NDICI guarantee coverage requires executed confirmation. The 2024 CDB loan is nested within the umbrella."
+    },
+    {
+      "id": "src-intl-bii-review",
+      "title": "British International Investment Annual Review 2022",
+      "publisher": "British International Investment",
+      "url": "https://assets.bii.co.uk/wp-content/uploads/2023/07/11121312/Annual-Review-2022.pdf",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "SEAF Caribbean SME Growth Fund investment case identifies the USD 10 million commitment and general SME objective.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "Climate-finance ambition does not establish a thematic use of this particular investment."
+    },
+    {
+      "id": "src-intl-dfc-belize",
+      "title": "DFC Provides USD 610 Million in Political Risk Insurance for Innovative Debt Conversion in Support of Marine Conservation in Belize",
+      "publisher": "U.S. International Development Finance Corporation",
+      "url": "https://www.dfc.gov/media/press-releases/dfc-provides-610-million-political-risk-insurance-innovative-debt-conversion",
+      "publishedOn": "2021-11-05",
+      "accessedOn": "2026-11-18",
+      "reference": "Financial-close announcement separates loan finance from insurance covering principal and interest.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "USD 610 million is insurance exposure, with a different scope from the USD 364 million underlying loan."
+    },
+    {
+      "id": "src-intl-belize-tnc",
+      "title": "Belize Debt Conversion for Marine Conservation — Case Study",
+      "publisher": "The Nature Conservancy",
+      "url": "https://www.nature.org/content/dam/tnc/nature/en/documents/TNC-Belize-Debt-Conversion-Case-Study.pdf",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Transaction structure, page 5, identifies the investor, repackaging, lending and conservation structure.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "Platinum's exact issuing cell and the initial lender's signing entity require transaction-document reconciliation."
+    },
+    {
+      "id": "src-intl-tnc-audited-2023",
+      "title": "The Nature Conservancy consolidated financial statements, year ended 30 June 2023",
+      "publisher": "The Nature Conservancy",
+      "url": "https://www.nature.org/content/dam/tnc/nature/en/documents/2023-TNC-Audited-FS-Final.pdf",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Debt note identifies Belize Blue Investment Company, LLC and Blue Investments for Nature Inc.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "The detailed legal finance documents are still required for delegated credit and conservation award authorities."
+    },
+    {
+      "id": "src-intl-tnc-impact-2022",
+      "title": "NatureVest 2022 Impact Report",
+      "publisher": "The Nature Conservancy",
+      "url": "https://www.nature.org/content/dam/tnc/nature/en/documents/NatureVest-2022-Impact-Report.pdf",
+      "publishedOn": null,
+      "accessedOn": "2026-11-18",
+      "reference": "Page 9 identifies Credit Suisse AG in the Belize transaction and describes the financing structure.",
+      "confidence": "primary_indexed_record",
+      "ambiguity": "The precise signing party's lending role must be reconciled with the executed finance agreements."
+    },
+    {
+      "id": "src-intl-jamaica-case-2026",
+      "title": "Jamaica 2026 Catastrophe Bond — World Bank Treasury case study",
+      "publisher": "World Bank Treasury",
+      "url": "https://thedocs.worldbank.org/en/doc/f66f98e820b44dcec2070273327df145-0340012026/original/Case-Study-Jamaica-2026-Cat-Bond.pdf",
+      "publishedOn": "2026-06",
+      "accessedOn": "2026-11-18",
+      "reference": "Financial Solution opening and transaction summary. The document is updated as of June 2026.",
+      "confidence": "primary_document_reviewed",
+      "ambiguity": "Opening says May 2025. The 18 May 2026 press release and 2026 transaction terms support the 2026 pricing date."
+    }
+  ],
+  "pathways": [
+    {
+      "id": "intl-ccrif-donors",
+      "name": "Second CCRIF donor trust fund",
+      "mechanismId": "ccrif-mdtf-2014",
+      "countryIds": [
+        "caribbean"
+      ],
+      "themes": [
+        "disaster_resilience",
+        "climate_adaptation"
+      ],
+      "instruments": [
+        "grant",
+        "insurance"
+      ],
+      "reviewStatus": "proposed",
+      "capitalOrigin": {
+        "coverage": "partial",
+        "furthestDocumentedProviders": [
+          "gac",
+          "eu",
+          "us-treasury",
+          "germany-bmz"
+        ],
+        "attribution": "Pooled donor resources. Individual Caribbean payouts cannot be attributed to a donor.",
+        "providerClassifications": [
+          {
+            "actorId": "gac",
+            "sourceType": "bilateral_public",
+            "geography": "international",
+            "attributionLevel": "furthest_documented_provider"
+          },
+          {
+            "actorId": "eu",
+            "sourceType": "supranational_public",
+            "geography": "international",
+            "attributionLevel": "furthest_documented_provider"
+          },
+          {
+            "actorId": "us-treasury",
+            "sourceType": "bilateral_public",
+            "geography": "international",
+            "attributionLevel": "furthest_documented_provider"
+          },
+          {
+            "actorId": "germany-bmz",
+            "sourceType": "bilateral_public",
+            "geography": "international",
+            "attributionLevel": "furthest_documented_provider"
+          }
+        ]
+      },
+      "links": [
+        {
+          "id": "intl-ccrif-donors.canada",
+          "source": "gac",
+          "target": "ccrif-mdtf-2014",
+          "type": "CONTRIBUTES_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "Canada contributes to the second donor trust fund.",
+          "evidenceIds": [
+            "src-intl-ccrif-donors"
+          ],
+          "instrument": "grant",
+          "stage": "reported",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-ccrif-donors.eu",
+          "source": "eu",
+          "target": "ccrif-mdtf-2014",
+          "type": "CONTRIBUTES_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "EU contributes to the second donor trust fund.",
+          "evidenceIds": [
+            "src-intl-ccrif-donors"
+          ],
+          "instrument": "grant",
+          "stage": "reported",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-ccrif-donors.us",
+          "source": "us-treasury",
+          "target": "ccrif-mdtf-2014",
+          "type": "CONTRIBUTES_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "US Treasury contributes to the second donor trust fund.",
+          "evidenceIds": [
+            "src-intl-ccrif-donors"
+          ],
+          "instrument": "grant",
+          "stage": "reported",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-ccrif-donors.germany",
+          "source": "germany-bmz",
+          "target": "kfw",
+          "type": "FUNDS",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "BMZ resources are channelled through KfW for this trust fund.",
+          "evidenceIds": [
+            "src-intl-ccrif-donors"
+          ],
+          "instrument": "grant",
+          "stage": "reported",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-ccrif-donors.kfw",
+          "source": "kfw",
+          "target": "ccrif-mdtf-2014",
+          "type": "CONTRIBUTES_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "KfW is the named channel for German resources.",
+          "evidenceIds": [
+            "src-intl-ccrif-donors"
+          ],
+          "instrument": "grant",
+          "stage": "reported",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-ccrif-donors.administrator",
+          "source": "world-bank",
+          "target": "ccrif-mdtf-2014",
+          "type": "ADMINISTERS",
+          "group": "institutional",
+          "claimBasis": "documented",
+          "description": "World Bank administers the second trust fund.",
+          "evidenceIds": [
+            "src-intl-ccrif-donors"
+          ],
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-ccrif-donors.grants",
+          "source": "ccrif-mdtf-2014",
+          "target": "ccrif",
+          "type": "GRANTS_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "The trust fund supports CCRIF through recipient-executed grants.",
+          "evidenceIds": [
+            "src-intl-ccrif-donors"
+          ],
+          "instrument": "grant",
+          "stage": "reported",
+          "contextAtlasRelationshipIds": [
+            "rel-wb-ccrif"
+          ],
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        }
+      ],
+      "financialObservations": [],
+      "unresolvedQuestions": [
+        "Separate first and second trust funds and later single-donor agreements by date.",
+        "Obtain executed donor and recipient grant schedules, dated drawdowns and delegations.",
+        "Identify reinsurance counterparties and risk layers for each policy year."
+      ],
+      "recipients": [
+        {
+          "actorId": "ccrif",
+          "role": "immediate",
+          "basis": "recipient-executed grants"
+        },
+        {
+          "actorId": "caribbean-policyholders",
+          "role": "intended",
+          "basis": "unallocated country-level coverage"
+        }
+      ],
+      "proposedGraphTreatment": "Institutional and financing-mechanism links, with individual operations retained as research context.",
+      "coverageInterpretation": "Documented operation or programme scope. Country-level allocations require their own evidence."
+    },
+    {
+      "id": "intl-jamaica-cat-2026",
+      "name": "Jamaica 2026 capital-at-risk notes and insurance",
+      "mechanismId": "jamaica-cat-2026",
+      "countryIds": [
+        "jamaica"
+      ],
+      "themes": [
+        "disaster_resilience"
+      ],
+      "instruments": [
+        "bond",
+        "insurance"
+      ],
+      "reviewStatus": "proposed",
+      "capitalOrigin": {
+        "coverage": "partial",
+        "furthestDocumentedProviders": [
+          "jamaica-cat-investors"
+        ],
+        "attribution": "Investor class and distribution disclosed. Note proceeds are not earmarked lending to Jamaica.",
+        "providerClassifications": [
+          {
+            "actorId": "jamaica-cat-investors",
+            "sourceType": "private_institutional",
+            "geography": "international",
+            "attributionLevel": "furthest_documented_provider"
+          }
+        ]
+      },
+      "links": [
+        {
+          "id": "intl-jamaica-cat-2026.subscription",
+          "source": "jamaica-cat-investors",
+          "target": "jamaica-cat-2026",
+          "type": "SUBSCRIBES_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "Investors subscribe to the IBRD-issued CAR 137 notes.",
+          "evidenceIds": [
+            "src-scope-jamaica-cat"
+          ],
+          "instrument": "bond",
+          "stage": "priced",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-jamaica-cat-2026.protection",
+          "source": "world-bank",
+          "target": "jamaica-gov",
+          "type": "INSURES",
+          "group": "risk",
+          "claimBasis": "documented",
+          "description": "IBRD enters a separate parametric risk-transfer agreement with Jamaica.",
+          "evidenceIds": [
+            "src-scope-jamaica-cat"
+          ],
+          "instrument": "insurance",
+          "atlasRelationshipId": "rel-world-bank-jamaica-cover",
+          "beneficiaryIds": [
+            "jamaica-gov"
+          ],
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-jamaica-cat-2026.capital-risk",
+          "source": "jamaica-cat-investors",
+          "target": "jamaica-cat-2026",
+          "type": "BEARS_RISK_FOR",
+          "group": "risk",
+          "claimBasis": "documented",
+          "description": "Qualifying events can reduce note principal.",
+          "evidenceIds": [
+            "src-scope-jamaica-cat"
+          ],
+          "instrument": "bond",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-jamaica-cat-2026.aon",
+          "source": "aon-securities",
+          "target": "jamaica-cat-2026",
+          "type": "ARRANGES",
+          "group": "institutional",
+          "claimBasis": "documented",
+          "description": "Joint structuring agent and bookrunner.",
+          "evidenceIds": [
+            "src-scope-jamaica-cat"
+          ],
+          "publicationTarget": "research_context_only"
+        },
+        {
+          "id": "intl-jamaica-cat-2026.swiss-re",
+          "source": "swiss-re-capital-markets",
+          "target": "jamaica-cat-2026",
+          "type": "ARRANGES",
+          "group": "institutional",
+          "claimBasis": "documented",
+          "description": "Joint structuring agent and bookrunner.",
+          "evidenceIds": [
+            "src-scope-jamaica-cat"
+          ],
+          "publicationTarget": "research_context_only"
+        }
+      ],
+      "financialObservations": [
+        {
+          "id": "intl-jamaica-cat-2026.amount.nominal",
+          "measure": "facility_size",
+          "stage": "reported",
+          "value": 200000000,
+          "currency": "USD",
+          "reportedOn": "2026-05-18",
+          "dateBasis": "event",
+          "scope": "CAR 137 nominal amount at pricing. Settlement was scheduled for 26 May. Underlying note principal has the same economic risk base as the coverage.",
+          "evidenceIds": [
+            "src-scope-jamaica-cat"
+          ],
+          "sourceEvent": "pricing",
+          "doNotAggregateWith": [
+            "rel-world-bank-jamaica-cover"
+          ]
+        }
+      ],
+      "unresolvedQuestions": [
+        "Individual noteholders and positions are undisclosed.",
+        "Confirm final terms and completed settlement separately from pricing.",
+        "The June 2026 case study calls the issuance May 2025, conflicting with the dated pricing disclosure.",
+        "Identify the risk-transfer agreement's calculation and payout authorisation terms."
+      ],
+      "existingAmountReferences": [
+        {
+          "atlasRelationshipId": "rel-world-bank-jamaica-cover",
+          "measure": "insurance_coverage",
+          "scope": "Existing canonical USD 200 million coverage limit."
+        }
+      ],
+      "recipients": [
+        {
+          "actorId": "world-bank",
+          "role": "immediate",
+          "basis": "issuer receiving note subscriptions"
+        },
+        {
+          "actorId": "jamaica-gov",
+          "role": "contingent",
+          "basis": "risk-transfer payout beneficiary"
+        }
+      ],
+      "proposedGraphTreatment": "Institutional and financing-mechanism links, with individual operations retained as research context.",
+      "coverageInterpretation": "Documented operation or programme scope. Country-level allocations require their own evidence."
+    },
+    {
+      "id": "intl-enertur",
+      "name": "Enertur solar financing and FinDev institutional funding context",
+      "mechanismId": "enertur",
+      "countryIds": [
+        "dominican-republic"
+      ],
+      "themes": [
+        "energy_transition",
+        "climate_mitigation"
+      ],
+      "instruments": [
+        "loan",
+        "equity"
+      ],
+      "reviewStatus": "proposed",
+      "capitalOrigin": {
+        "coverage": "partial",
+        "furthestDocumentedProviders": [
+          "findev",
+          "idbi",
+          "fmo"
+        ],
+        "institutionalUpstreamContext": [
+          "edc"
+        ],
+        "attribution": "EDC funding supports FinDev's balance sheet. No allocation of a particular EDC advance to Enertur is established.",
+        "providerClassifications": [
+          {
+            "actorId": "findev",
+            "sourceType": "bilateral_public",
+            "geography": "international",
+            "attributionLevel": "furthest_documented_provider"
+          },
+          {
+            "actorId": "idbi",
+            "sourceType": "multilateral",
+            "geography": "international",
+            "attributionLevel": "furthest_documented_provider"
+          },
+          {
+            "actorId": "fmo",
+            "sourceType": "bilateral_public",
+            "geography": "international",
+            "attributionLevel": "furthest_documented_provider"
+          }
+        ]
+      },
+      "links": [
+        {
+          "id": "intl-enertur.edc-equity",
+          "source": "edc",
+          "target": "findev",
+          "type": "CAPITALIZES",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "EDC supplies equity to its FinDev subsidiary.",
+          "evidenceIds": [
+            "src-intl-findev-financials"
+          ],
+          "instrument": "equity",
+          "fundingScope": "institution_balance_sheet",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-enertur.edc-debt",
+          "source": "edc",
+          "target": "findev",
+          "type": "LENDS_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "EDC supplies FinDev debt funding.",
+          "evidenceIds": [
+            "src-intl-findev-financials"
+          ],
+          "instrument": "loan",
+          "fundingScope": "institution_balance_sheet",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-enertur.findev",
+          "source": "findev",
+          "target": "enertur",
+          "type": "LENDS_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "Named lender participates in the Enertur solar financing.",
+          "evidenceIds": [
+            "src-intl-enertur-close"
+          ],
+          "instrument": "loan",
+          "stage": "committed",
+          "atlasRelationshipId": "rel-findev-enertur",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-enertur.idbi",
+          "source": "idbi",
+          "target": "enertur",
+          "type": "LENDS_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "Named lender participates in the Enertur solar financing.",
+          "evidenceIds": [
+            "src-intl-enertur-close"
+          ],
+          "instrument": "loan",
+          "stage": "committed",
+          "atlasRelationshipId": "rel-idbi-enertur",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-enertur.fmo",
+          "source": "fmo",
+          "target": "enertur",
+          "type": "LENDS_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "Named lender participates in the Enertur solar financing.",
+          "evidenceIds": [
+            "src-intl-enertur-close"
+          ],
+          "instrument": "loan",
+          "stage": "committed",
+          "atlasRelationshipId": "rel-fmo-enertur",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-enertur.arranger",
+          "source": "idbi",
+          "target": "enertur",
+          "type": "ARRANGES",
+          "group": "institutional",
+          "claimBasis": "documented",
+          "description": "IDB Invest leads the project finance facility.",
+          "evidenceIds": [
+            "src-findev-enertur"
+          ],
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        }
+      ],
+      "financialObservations": [
+        {
+          "id": "intl-enertur.amount.facility",
+          "measure": "facility_size",
+          "stage": "committed",
+          "value": 56400000,
+          "currency": "USD",
+          "reportedOn": "2024-11-07",
+          "dateBasis": "source_publication",
+          "scope": "Announced total of the three lender participations.",
+          "evidenceIds": [
+            "src-intl-enertur-close"
+          ]
+        },
+        {
+          "id": "intl-enertur.amount.idbi",
+          "measure": "loan_principal",
+          "stage": "committed",
+          "value": 18800000,
+          "currency": "USD",
+          "reportedOn": "2024-11-07",
+          "dateBasis": "source_publication",
+          "scope": "Rounded announced participation of idbi.",
+          "evidenceIds": [
+            "src-intl-enertur-close"
+          ],
+          "linkId": "intl-enertur.idbi",
+          "partOfAmountId": "intl-enertur.amount.facility"
+        },
+        {
+          "id": "intl-enertur.amount.fmo",
+          "measure": "loan_principal",
+          "stage": "committed",
+          "value": 18800000,
+          "currency": "USD",
+          "reportedOn": "2024-11-07",
+          "dateBasis": "source_publication",
+          "scope": "Rounded announced participation of fmo.",
+          "evidenceIds": [
+            "src-intl-enertur-close"
+          ],
+          "linkId": "intl-enertur.fmo",
+          "partOfAmountId": "intl-enertur.amount.facility"
+        },
+        {
+          "id": "intl-enertur.amount.fmo-precise",
+          "measure": "loan_principal",
+          "stage": "reported",
+          "value": 18810000,
+          "currency": "USD",
+          "reportedOn": "2024-11-01",
+          "dateBasis": "event",
+          "scope": "FMO portfolio effective-date amount, retained as an alternative observation requiring reconciliation.",
+          "evidenceIds": [
+            "src-review-fmo-enertur"
+          ],
+          "alternativeToAmountId": "intl-enertur.amount.fmo",
+          "aggregationStatus": "hold"
+        },
+        {
+          "id": "intl-enertur.amount.edc-equity",
+          "measure": "capital_contribution",
+          "stage": "received",
+          "value": 350000000,
+          "currency": "CAD",
+          "reportedOn": "2024-12-31",
+          "dateBasis": "reporting_period_end",
+          "scope": "Institution-wide 2024 share-capital issuance to EDC. No Enertur attribution.",
+          "evidenceIds": [
+            "src-intl-findev-financials"
+          ],
+          "fundingScope": "institution_balance_sheet",
+          "linkId": "intl-enertur.edc-equity",
+          "aggregationStatus": "institutional_context_only"
+        }
+      ],
+      "unresolvedQuestions": [
+        "Reconcile rounded FMO participation with its current higher-precision portfolio value.",
+        "Separate project specifications across differently dated lender disclosures.",
+        "Obtain executed loan schedules, disbursements and named credit-approval bodies.",
+        "Find upstream institutional funding documentation for the other lenders without assigning unrestricted resources to this loan."
+      ],
+      "existingAmountReferences": [
+        {
+          "atlasRelationshipId": "rel-findev-enertur",
+          "measure": "loan_principal",
+          "partOfAmountId": "intl-enertur.amount.facility",
+          "scope": "Reuse the existing FinDev USD 18.8 million commitment."
+        }
+      ],
+      "recipients": [
+        {
+          "actorId": "findev",
+          "role": "immediate_institutional_context",
+          "basis": "EDC institution-level funding"
+        },
+        {
+          "actorId": "enertur",
+          "role": "immediate",
+          "basis": "project finance borrower"
+        }
+      ],
+      "proposedGraphTreatment": "Institutional and financing-mechanism links, with individual operations retained as research context.",
+      "coverageInterpretation": "Documented operation or programme scope. Country-level allocations require their own evidence."
+    },
+    {
+      "id": "intl-bahamas-2024",
+      "name": "The Bahamas 2024 marine conservation debt conversion",
+      "mechanismId": "bahamas-debt-conversion-2024",
+      "countryIds": [
+        "bahamas"
+      ],
+      "themes": [
+        "biodiversity_nature",
+        "climate_adaptation",
+        "environmental_sustainability"
+      ],
+      "instruments": [
+        "loan",
+        "debt_conversion",
+        "guarantee",
+        "insurance"
+      ],
+      "reviewStatus": "proposed",
+      "capitalOrigin": {
+        "coverage": "partial",
+        "furthestDocumentedProviders": [
+          "standard-chartered-bank"
+        ],
+        "attribution": "Sole commercial lender identified. Its own funding mix is undisclosed. Conservation finance arises from sovereign debt-service savings.",
+        "providerClassifications": [
+          {
+            "actorId": "standard-chartered-bank",
+            "sourceType": "commercial_bank",
+            "geography": "international",
+            "attributionLevel": "furthest_documented_provider"
+          }
+        ]
+      },
+      "links": [
+        {
+          "id": "intl-bahamas-2024.loan",
+          "source": "standard-chartered-bank",
+          "target": "bahamas-gov",
+          "type": "LENDS_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "The bank is the sole lender in the new commercial loan.",
+          "evidenceIds": [
+            "src-intl-bahamas-bank"
+          ],
+          "instrument": "loan",
+          "stage": "closed",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-bahamas-2024.idb",
+          "source": "idb",
+          "target": "bahamas-debt-conversion-2024",
+          "type": "GUARANTEES",
+          "group": "risk",
+          "claimBasis": "documented",
+          "description": "IDB supplies first-tier credit enhancement.",
+          "evidenceIds": [
+            "src-intl-bahamas-debt-strategy",
+            "src-intl-bahamas-idb"
+          ],
+          "instrument": "guarantee",
+          "stage": "closed",
+          "beneficiaryIds": [
+            "standard-chartered-bank"
+          ],
+          "beneficiaryConfidence": "economic_lender_protection_confirmed_legal_schedule_pending",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-bahamas-2024.builders",
+          "source": "builders-vision",
+          "target": "bahamas-debt-conversion-2024",
+          "type": "GUARANTEES",
+          "group": "risk",
+          "claimBasis": "documented",
+          "description": "Builders Vision supplies collateralised co-guarantee support.",
+          "evidenceIds": [
+            "src-intl-bahamas-builders",
+            "src-intl-bahamas-debt-strategy"
+          ],
+          "instrument": "guarantee",
+          "stage": "closed",
+          "publicationTarget": "research_context_only"
+        },
+        {
+          "id": "intl-bahamas-2024.axa",
+          "source": "axa-xl",
+          "target": "bahamas-debt-conversion-2024",
+          "type": "INSURES",
+          "group": "risk",
+          "claimBasis": "documented",
+          "description": "AXA XL supplies credit insurance.",
+          "evidenceIds": [
+            "src-intl-bahamas-axa"
+          ],
+          "instrument": "insurance",
+          "stage": "closed",
+          "publicationTarget": "research_context_only"
+        },
+        {
+          "id": "intl-bahamas-2024.savings",
+          "source": "bahamas-gov",
+          "target": "bahamas-protected-areas-fund",
+          "type": "COMMITS_SAVINGS_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "Conservation funding is channelled to the national conservation trust fund.",
+          "evidenceIds": [
+            "src-intl-bahamas-tnc"
+          ],
+          "stage": "committed",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-bahamas-2024.management",
+          "source": "bahamas-protected-areas-fund",
+          "target": "bahamas-debt-conversion-2024",
+          "type": "MANAGES",
+          "group": "institutional",
+          "claimBasis": "documented",
+          "description": "BPAF manages the resulting conservation funding.",
+          "evidenceIds": [
+            "src-intl-bahamas-tnc"
+          ],
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-bahamas-2024.conservation",
+          "source": "tnc",
+          "target": "bahamas-debt-conversion-2024",
+          "type": "PROVIDES_TECHNICAL_ASSISTANCE_TO",
+          "group": "institutional",
+          "claimBasis": "documented",
+          "description": "TNC supports the conservation-linked transaction.",
+          "evidenceIds": [
+            "src-intl-bahamas-tnc"
+          ],
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        }
+      ],
+      "financialObservations": [
+        {
+          "id": "intl-bahamas-2024.amount.loan",
+          "measure": "loan_principal",
+          "stage": "closed",
+          "value": 300000000,
+          "currency": "USD",
+          "reportedOn": "2024-11",
+          "dateBasis": "event",
+          "scope": "New sovereign loan financing refinancing and the linked transaction.",
+          "evidenceIds": [
+            "src-intl-bahamas-debt-strategy",
+            "src-intl-bahamas-bank"
+          ],
+          "linkId": "intl-bahamas-2024.loan"
+        },
+        {
+          "id": "intl-bahamas-2024.amount.idb",
+          "measure": "guarantee_coverage",
+          "stage": "closed",
+          "value": 200000000,
+          "currency": "USD",
+          "reportedOn": "2024-11",
+          "dateBasis": "event",
+          "scope": "Credit-enhancement exposure for the same underlying loan.",
+          "evidenceIds": [
+            "src-intl-bahamas-idb",
+            "src-intl-bahamas-debt-strategy"
+          ],
+          "linkId": "intl-bahamas-2024.idb",
+          "doNotAggregateWith": [
+            "intl-bahamas-2024.amount.loan"
+          ]
+        },
+        {
+          "id": "intl-bahamas-2024.amount.builders",
+          "measure": "guarantee_coverage",
+          "stage": "closed",
+          "value": 70000000,
+          "currency": "USD",
+          "reportedOn": "2024-11",
+          "dateBasis": "event",
+          "scope": "Credit-enhancement exposure for the same underlying loan.",
+          "evidenceIds": [
+            "src-intl-bahamas-builders",
+            "src-intl-bahamas-debt-strategy"
+          ],
+          "linkId": "intl-bahamas-2024.builders",
+          "doNotAggregateWith": [
+            "intl-bahamas-2024.amount.loan"
+          ]
+        },
+        {
+          "id": "intl-bahamas-2024.amount.axa",
+          "measure": "insurance_coverage",
+          "stage": "closed",
+          "value": 30000000,
+          "currency": "USD",
+          "reportedOn": "2024-11",
+          "dateBasis": "event",
+          "scope": "Credit-enhancement exposure for the same underlying loan.",
+          "evidenceIds": [
+            "src-intl-bahamas-axa",
+            "src-intl-bahamas-debt-strategy"
+          ],
+          "linkId": "intl-bahamas-2024.axa",
+          "doNotAggregateWith": [
+            "intl-bahamas-2024.amount.loan"
+          ]
+        },
+        {
+          "id": "intl-bahamas-2024.amount.conservation",
+          "measure": "fiscal_savings",
+          "stage": "estimated",
+          "value": 124000000,
+          "currency": "USD",
+          "reportedOn": "2024-11-22",
+          "dateBasis": "source_publication",
+          "scope": "Expected conservation cash funding over 15 years.",
+          "evidenceIds": [
+            "src-intl-bahamas-tnc"
+          ],
+          "timeHorizonYears": 15,
+          "aggregationStatus": "estimate_only"
+        }
+      ],
+      "unresolvedQuestions": [
+        "Confirm Builders Vision's signing entity and AXA XL's legal underwriter.",
+        "Obtain the credit guarantee and policy beneficiary, attachment and loss-sharing terms.",
+        "Identify individual credit, disbursement and BPAF award delegations.",
+        "Reconcile the insurer's debt-repurchase description against the Ministry's nominal and cash tender record.",
+        "Philanthropic supporters are named but their contributions and specific financing roles remain unquantified."
+      ],
+      "recipients": [
+        {
+          "actorId": "bahamas-gov",
+          "role": "immediate",
+          "basis": "commercial loan borrower"
+        },
+        {
+          "actorId": "bahamas-protected-areas-fund",
+          "role": "downstream",
+          "basis": "manager of resulting conservation funding"
+        }
+      ],
+      "proposedGraphTreatment": "Institutional and financing-mechanism links, with individual operations retained as research context.",
+      "coverageInterpretation": "Documented operation or programme scope. Country-level allocations require their own evidence."
+    },
+    {
+      "id": "intl-cbf-eba",
+      "name": "German IKI capital supporting CBF ecosystem-based adaptation",
+      "mechanismId": "cbf-eba",
+      "countryIds": [
+        "antigua-barbuda",
+        "barbados",
+        "cuba",
+        "dominica",
+        "dominican-republic",
+        "grenada",
+        "haiti",
+        "jamaica",
+        "saint-lucia",
+        "saint-vincent-grenadines",
+        "trinidad-tobago"
+      ],
+      "themes": [
+        "climate_adaptation",
+        "biodiversity_nature"
+      ],
+      "instruments": [
+        "grant"
+      ],
+      "reviewStatus": "proposed",
+      "capitalOrigin": {
+        "coverage": "documented_institutional_source",
+        "furthestDocumentedProviders": [
+          "germany-environment-ministry"
+        ],
+        "attribution": "German public funding via IKI and KfW. The two reported euro budgets have unreconciled scopes.",
+        "providerClassifications": [
+          {
+            "actorId": "germany-environment-ministry",
+            "sourceType": "bilateral_public",
+            "geography": "international",
+            "attributionLevel": "named_public_source"
+          }
+        ]
+      },
+      "links": [
+        {
+          "id": "intl-cbf-eba.ministry",
+          "source": "germany-environment-ministry",
+          "target": "iki",
+          "type": "FUNDS",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "German environment funding supports the IKI programme leg.",
+          "evidenceIds": [
+            "src-intl-cbf-eba"
+          ],
+          "instrument": "grant",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-cbf-eba.kfw",
+          "source": "iki",
+          "target": "kfw",
+          "type": "FUNDS",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "KfW implements the earmarked IKI support.",
+          "evidenceIds": [
+            "src-intl-iki-eba"
+          ],
+          "instrument": "grant",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-cbf-eba.facility",
+          "source": "kfw",
+          "target": "cbf-eba",
+          "type": "FUNDS",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "German resources support the CBF adaptation facility through KfW.",
+          "evidenceIds": [
+            "src-intl-cbf-eba",
+            "src-intl-iki-eba"
+          ],
+          "instrument": "grant",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-cbf-eba.manager",
+          "source": "cbf",
+          "target": "cbf-eba",
+          "type": "MANAGES",
+          "group": "institutional",
+          "claimBasis": "documented",
+          "description": "CBF operates the EbA facility.",
+          "evidenceIds": [
+            "src-intl-cbf-eba"
+          ],
+          "atlasRelationshipId": "rel-cbf-eba",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        }
+      ],
+      "financialObservations": [
+        {
+          "id": "intl-cbf-eba.amount.cbf-budget",
+          "measure": "facility_size",
+          "stage": "reported",
+          "value": 55000000,
+          "currency": "EUR",
+          "reportedOn": null,
+          "dateBasis": "undated_source_snapshot",
+          "scope": "CBF's reported programme funding.",
+          "evidenceIds": [
+            "src-intl-cbf-eba"
+          ],
+          "observedOn": "2026-11-18",
+          "aggregationStatus": "scope_reconciliation_hold"
+        },
+        {
+          "id": "intl-cbf-eba.amount.iki-budget",
+          "measure": "facility_size",
+          "stage": "reported",
+          "value": 55880000,
+          "currency": "EUR",
+          "reportedOn": null,
+          "dateBasis": "undated_source_snapshot",
+          "scope": "IKI's reported project funding.",
+          "evidenceIds": [
+            "src-intl-iki-eba"
+          ],
+          "observedOn": "2026-11-18",
+          "alternativeToAmountId": "intl-cbf-eba.amount.cbf-budget",
+          "aggregationStatus": "scope_reconciliation_hold"
+        },
+        {
+          "id": "intl-cbf-eba.amount.grant-commitments",
+          "measure": "grant",
+          "stage": "committed",
+          "value": 58838042.24,
+          "currency": "USD",
+          "reportedOn": null,
+          "dateBasis": "undated_source_snapshot",
+          "scope": "CBF commitments across calls 1–5.",
+          "evidenceIds": [
+            "src-intl-cbf-eba"
+          ],
+          "observedOn": "2026-11-18"
+        },
+        {
+          "id": "intl-cbf-eba.amount.grant-disbursements",
+          "measure": "grant",
+          "stage": "disbursed",
+          "value": 41200000,
+          "currency": "USD",
+          "reportedOn": "2026-06",
+          "dateBasis": "reporting_period_end",
+          "scope": "CBF's rounded facility-level disbursement figure.",
+          "evidenceIds": [
+            "src-intl-cbf-eba"
+          ],
+          "precision": "rounded_0.1_million",
+          "doNotAggregateWith": [
+            "intl-cbf-eba.amount.grant-commitments"
+          ]
+        }
+      ],
+      "unresolvedQuestions": [
+        "Reconcile CBF's EUR 55 million with IKI's EUR 55.88 million, including support costs and amendments.",
+        "Reconcile differing grant counts within the CBF page.",
+        "Obtain grant approval and payment delegations and country-level transfers."
+      ],
+      "recipients": [
+        {
+          "actorId": "cbf-eba",
+          "role": "immediate",
+          "basis": "earmarked adaptation facility"
+        },
+        {
+          "actorId": "eba-grantees",
+          "role": "downstream",
+          "basis": "programme recipients whose individual transfers are unallocated"
+        }
+      ],
+      "proposedGraphTreatment": "Institutional and financing-mechanism links, with individual operations retained as research context.",
+      "coverageInterpretation": "Documented operation or programme scope. Country-level allocations require their own evidence."
+    },
+    {
+      "id": "intl-af-jamaica",
+      "name": "Adaptation Fund direct access through PIOJ",
+      "mechanismId": "af-jamaica-2012",
+      "countryIds": [
+        "jamaica"
+      ],
+      "themes": [
+        "climate_adaptation",
+        "disaster_resilience"
+      ],
+      "instruments": [
+        "grant"
+      ],
+      "reviewStatus": "proposed",
+      "capitalOrigin": {
+        "coverage": "partial",
+        "furthestDocumentedProviders": [
+          "adaptation-fund"
+        ],
+        "poolContext": [
+          "af-donor-pool",
+          "af-cer-proceeds"
+        ],
+        "attribution": "The fund pool has donor and CER revenues. Individual original sources for the 2012 award are unallocated.",
+        "providerClassifications": [
+          {
+            "actorId": "adaptation-fund",
+            "sourceType": "multilateral",
+            "geography": "international",
+            "attributionLevel": "furthest_documented_provider"
+          }
+        ]
+      },
+      "links": [
+        {
+          "id": "intl-af-jamaica.grant",
+          "source": "adaptation-fund",
+          "target": "pioj",
+          "type": "GRANTS_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "PIOJ receives the direct-access grant.",
+          "evidenceIds": [
+            "src-intl-af-jamaica"
+          ],
+          "instrument": "grant",
+          "stage": "approved",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-af-jamaica.approval",
+          "source": "af-board",
+          "target": "af-jamaica-2012",
+          "type": "APPROVES_FINANCING_FOR",
+          "group": "decision",
+          "claimBasis": "documented",
+          "description": "The Fund Board approves the Jamaica award.",
+          "evidenceIds": [
+            "src-intl-af-board"
+          ],
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-af-jamaica.implementation",
+          "source": "pioj",
+          "target": "af-jamaica-2012",
+          "type": "IMPLEMENTS_FOR",
+          "group": "institutional",
+          "claimBasis": "documented",
+          "description": "PIOJ is the national implementing entity.",
+          "evidenceIds": [
+            "src-intl-af-jamaica"
+          ],
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-af-jamaica.donors",
+          "source": "af-donor-pool",
+          "target": "adaptation-fund",
+          "type": "CONTRIBUTES_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "Donations enter the fund's pooled resources.",
+          "evidenceIds": [
+            "src-intl-af-trustee"
+          ],
+          "fundingScope": "global_pool_context",
+          "publicationTarget": "research_context_only"
+        },
+        {
+          "id": "intl-af-jamaica.cer",
+          "source": "af-cer-proceeds",
+          "target": "adaptation-fund",
+          "type": "FUNDS",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "CER monetisation is a distinct pool revenue source.",
+          "evidenceIds": [
+            "src-intl-af-trustee"
+          ],
+          "fundingScope": "global_pool_context",
+          "capitalSourceType": "carbon_market_proceeds",
+          "publicationTarget": "research_context_only"
+        }
+      ],
+      "financialObservations": [
+        {
+          "id": "intl-af-jamaica.amount.approval",
+          "measure": "grant",
+          "stage": "approved",
+          "value": 9965000,
+          "currency": "USD",
+          "reportedOn": "2012-06-28",
+          "dateBasis": "event",
+          "scope": "Jamaica direct-access award, inclusive of the award's stated cost basis.",
+          "evidenceIds": [
+            "src-intl-af-jamaica"
+          ],
+          "linkId": "intl-af-jamaica.grant"
+        },
+        {
+          "id": "intl-af-jamaica.amount.transfer",
+          "measure": "grant",
+          "stage": "disbursed",
+          "value": 9965000,
+          "currency": "USD",
+          "reportedOn": null,
+          "dateBasis": "undated_source_snapshot",
+          "scope": "Portfolio's cumulative transferred amount to the implementing entity.",
+          "evidenceIds": [
+            "src-intl-af-jamaica"
+          ],
+          "observedOn": "2026-11-18",
+          "doNotAggregateWith": [
+            "intl-af-jamaica.amount.approval"
+          ]
+        }
+      ],
+      "unresolvedQuestions": [
+        "Determine grant-payment dates and distinguish transfers to the implementing entity from spending by ultimate beneficiaries.",
+        "Establish a contemporaneous source-pool schedule for the 2012 award.",
+        "Check the current status against the displayed March 2026 completion date.",
+        "Identify PIOJ's downstream approval and disbursement bodies."
+      ],
+      "recipients": [
+        {
+          "actorId": "pioj",
+          "role": "immediate",
+          "basis": "national implementing entity"
+        },
+        {
+          "actorId": "jamaica-community-beneficiaries",
+          "role": "intended",
+          "basis": "programme beneficiary groups"
+        }
+      ],
+      "proposedGraphTreatment": "Institutional and financing-mechanism links, with individual operations retained as research context.",
+      "coverageInterpretation": "Documented operation or programme scope. Country-level allocations require their own evidence."
+    },
+    {
+      "id": "intl-gcf-fp060",
+      "name": "GCF–CCCCC Barbados water resilience financing",
+      "mechanismId": "fp060",
+      "countryIds": [
+        "barbados"
+      ],
+      "themes": [
+        "climate_adaptation",
+        "energy_transition",
+        "climate_mitigation"
+      ],
+      "instruments": [
+        "grant"
+      ],
+      "reviewStatus": "proposed",
+      "capitalOrigin": {
+        "coverage": "partial",
+        "furthestDocumentedProviders": [
+          "gcf"
+        ],
+        "attribution": "GCF pooled resources. Contributor-country attribution for FP060 remains unknown.",
+        "providerClassifications": [
+          {
+            "actorId": "gcf",
+            "sourceType": "multilateral",
+            "geography": "international",
+            "attributionLevel": "furthest_documented_provider"
+          }
+        ]
+      },
+      "links": [
+        {
+          "id": "intl-gcf-fp060.funding",
+          "source": "gcf",
+          "target": "ccccc",
+          "type": "GRANTS_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "GCF funds the Barbados water resilience activity through CCCCC.",
+          "evidenceIds": [
+            "src-intl-gcf-annual-2025",
+            "src-intl-gcf-fp060"
+          ],
+          "instrument": "grant",
+          "stage": "approved",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-gcf-fp060.approval",
+          "source": "gcf-board",
+          "target": "fp060",
+          "type": "APPROVES_FINANCING_FOR",
+          "group": "decision",
+          "claimBasis": "documented",
+          "description": "The GCF Board approved FP060.",
+          "evidenceIds": [
+            "src-intl-gcf-fp060-board"
+          ],
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-gcf-fp060.utility",
+          "source": "ccccc",
+          "target": "barbados-water-authority",
+          "type": "TARGETS",
+          "group": "institutional",
+          "claimBasis": "documented",
+          "description": "The utility is an identified programme beneficiary.",
+          "evidenceIds": [
+            "src-intl-gcf-annual-2025"
+          ],
+          "recipientRole": "intended",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        }
+      ],
+      "financialObservations": [
+        {
+          "id": "intl-gcf-fp060.amount.reported-investment",
+          "measure": "grant",
+          "stage": "reported",
+          "value": 26700000,
+          "currency": "USD",
+          "reportedOn": "2025",
+          "dateBasis": "reporting_period_end",
+          "scope": "Rounded investment in the 2025 annual report.",
+          "evidenceIds": [
+            "src-intl-gcf-annual-2025"
+          ],
+          "precision": "rounded_0.1_million",
+          "aggregationStatus": "approval_basis_reconciliation_hold"
+        },
+        {
+          "id": "intl-gcf-fp060.amount.original-envelope",
+          "measure": "facility_size",
+          "stage": "approved",
+          "value": 27610000,
+          "currency": "USD",
+          "reportedOn": "2018",
+          "dateBasis": "event",
+          "scope": "Original Board announcement envelope; fee and modification reconciliation remains open.",
+          "evidenceIds": [
+            "src-intl-gcf-fp060-board"
+          ],
+          "alternativeToAmountId": "intl-gcf-fp060.amount.reported-investment",
+          "aggregationStatus": "approval_basis_reconciliation_hold",
+          "precision": "rounded_0.01_million"
+        },
+        {
+          "id": "intl-gcf-fp060.amount.portfolio-grant",
+          "measure": "grant",
+          "stage": "approved",
+          "value": 27605010,
+          "currency": "USD",
+          "reportedOn": "2018-03-01",
+          "dateBasis": "event",
+          "scope": "Current portfolio grant value linked to the approval date in the same record. Amendments, if any, need the operative agreement.",
+          "evidenceIds": [
+            "src-intl-gcf-fp060"
+          ],
+          "aggregationStatus": "approval_basis_reconciliation_hold",
+          "doNotAggregateWith": [
+            "intl-gcf-fp060.amount.original-envelope",
+            "intl-gcf-fp060.amount.reported-investment"
+          ]
+        },
+        {
+          "id": "intl-gcf-fp060.amount.first",
+          "measure": "grant",
+          "stage": "disbursed",
+          "value": 5000000,
+          "currency": "USD",
+          "reportedOn": "2019-03-22",
+          "dateBasis": "event",
+          "scope": "Individual GCF disbursement in the portfolio timeline. Downstream utility expenditure is not established.",
+          "linkId": "intl-gcf-fp060.funding",
+          "evidenceIds": [
+            "src-intl-gcf-fp060"
+          ],
+          "doNotAggregateWith": [
+            "intl-gcf-fp060.amount.portfolio-grant",
+            "intl-gcf-fp060.amount.original-envelope",
+            "intl-gcf-fp060.amount.reported-investment"
+          ]
+        },
+        {
+          "id": "intl-gcf-fp060.amount.second",
+          "measure": "grant",
+          "stage": "disbursed",
+          "value": 12927000,
+          "currency": "USD",
+          "reportedOn": "2020-09-14",
+          "dateBasis": "event",
+          "scope": "Individual GCF disbursement in the portfolio timeline. Downstream utility expenditure is not established.",
+          "linkId": "intl-gcf-fp060.funding",
+          "evidenceIds": [
+            "src-intl-gcf-fp060"
+          ],
+          "doNotAggregateWith": [
+            "intl-gcf-fp060.amount.portfolio-grant",
+            "intl-gcf-fp060.amount.original-envelope",
+            "intl-gcf-fp060.amount.reported-investment"
+          ]
+        },
+        {
+          "id": "intl-gcf-fp060.amount.third",
+          "measure": "grant",
+          "stage": "disbursed",
+          "value": 9270636,
+          "currency": "USD",
+          "reportedOn": "2023-01-24",
+          "dateBasis": "event",
+          "scope": "Individual GCF disbursement in the portfolio timeline. Downstream utility expenditure is not established.",
+          "linkId": "intl-gcf-fp060.funding",
+          "evidenceIds": [
+            "src-intl-gcf-fp060"
+          ],
+          "doNotAggregateWith": [
+            "intl-gcf-fp060.amount.portfolio-grant",
+            "intl-gcf-fp060.amount.original-envelope",
+            "intl-gcf-fp060.amount.reported-investment"
+          ]
+        }
+      ],
+      "unresolvedQuestions": [
+        "Review the operative funded activity agreement and amendments.",
+        "Reconcile USD 27,605,010 in the portfolio, the rounded original approval, the 2025 annual-report investment and dated disbursements.",
+        "Verify legal establishment, approvals and actual transactions of the intended savings-funded adaptation mechanism.",
+        "Trace actual downstream transfers and expenditure."
+      ],
+      "recipients": [
+        {
+          "actorId": "ccccc",
+          "role": "immediate",
+          "basis": "accredited implementation channel"
+        },
+        {
+          "actorId": "barbados-water-authority",
+          "role": "intended",
+          "basis": "named utility beneficiary"
+        }
+      ],
+      "proposedGraphTreatment": "Institutional and financing-mechanism links, with individual operations retained as research context.",
+      "coverageInterpretation": "Documented operation or programme scope. Country-level allocations require their own evidence."
+    },
+    {
+      "id": "intl-crew-plus",
+      "name": "GEF CReW+ regional environmental financing mechanisms",
+      "mechanismId": "crew-plus",
+      "countryIds": [
+        "caribbean",
+        "barbados",
+        "belize",
+        "cuba",
+        "dominican-republic",
+        "grenada",
+        "guyana",
+        "jamaica",
+        "saint-kitts-nevis",
+        "saint-lucia",
+        "saint-vincent-grenadines",
+        "suriname",
+        "trinidad-tobago"
+      ],
+      "themes": [
+        "environmental_sustainability",
+        "biodiversity_nature"
+      ],
+      "instruments": [
+        "grant",
+        "technical_assistance"
+      ],
+      "reviewStatus": "proposed",
+      "capitalOrigin": {
+        "coverage": "partial",
+        "furthestDocumentedProviders": [
+          "gef-trust"
+        ],
+        "attribution": "GEF pooled resources. Regional totals include Latin American participants outside the listed Caribbean countries.",
+        "providerClassifications": [
+          {
+            "actorId": "gef-trust",
+            "sourceType": "multilateral",
+            "geography": "international",
+            "attributionLevel": "furthest_documented_provider"
+          }
+        ]
+      },
+      "links": [
+        {
+          "id": "intl-crew-plus.resources",
+          "source": "gef-trust",
+          "target": "crew-plus",
+          "type": "FUNDS",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "GEF supports the regional CReW+ programme.",
+          "evidenceIds": [
+            "src-intl-crew-pir-2024",
+            "src-intl-crew-countries"
+          ],
+          "instrument": "grant",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-crew-plus.idb",
+          "source": "idb",
+          "target": "crew-plus",
+          "type": "IMPLEMENTS_FOR",
+          "group": "institutional",
+          "claimBasis": "documented",
+          "description": "IDB is a co-implementing agency.",
+          "evidenceIds": [
+            "src-intl-crew-pir-2024"
+          ],
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-crew-plus.unep",
+          "source": "unep",
+          "target": "crew-plus",
+          "type": "IMPLEMENTS_FOR",
+          "group": "institutional",
+          "claimBasis": "documented",
+          "description": "UNEP is a co-implementing agency.",
+          "evidenceIds": [
+            "src-intl-crew-pir-2024"
+          ],
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-crew-plus.giz",
+          "source": "giz",
+          "target": "crew-plus",
+          "type": "IMPLEMENTS_FOR",
+          "group": "institutional",
+          "claimBasis": "documented",
+          "description": "GIZ is a named executing agency.",
+          "evidenceIds": [
+            "src-intl-crew-pir-2024"
+          ],
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-crew-plus.oas",
+          "source": "oas",
+          "target": "crew-plus",
+          "type": "IMPLEMENTS_FOR",
+          "group": "institutional",
+          "claimBasis": "documented",
+          "description": "OAS is a named executing agency.",
+          "evidenceIds": [
+            "src-intl-crew-pir-2024"
+          ],
+          "publicationTarget": "research_context_only"
+        },
+        {
+          "id": "intl-crew-plus.endorsement",
+          "source": "gef-ceo",
+          "target": "crew-plus",
+          "type": "APPROVES_FINANCING_FOR",
+          "group": "decision",
+          "claimBasis": "documented",
+          "description": "CEO endorsement is dated 13 November 2019.",
+          "evidenceIds": [
+            "src-intl-crew-pir-2024"
+          ],
+          "decisionScope": "GEF CEO endorsement",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        }
+      ],
+      "financialObservations": [
+        {
+          "id": "intl-crew-plus.amount.disbursement",
+          "measure": "grant",
+          "stage": "disbursed",
+          "value": 12672532,
+          "currency": "USD",
+          "reportedOn": "2024-06-30",
+          "dateBasis": "reporting_period_end",
+          "scope": "Combined IDB and UNEP regional programme-agency disbursement; ultimate Caribbean beneficiary spending is unallocated.",
+          "evidenceIds": [
+            "src-intl-crew-pir-2024"
+          ],
+          "aggregationStatus": "wider_region_programme_only"
+        }
+      ],
+      "unresolvedQuestions": [
+        "Trace the GEF replenishment source without assigning global donor contributions to individual countries.",
+        "Resolve agency-specific grants, downstream recipients and paid amounts.",
+        "Review the endorsed package for co-financing signed commitments versus projected or reported parallel activity."
+      ],
+      "recipients": [
+        {
+          "actorId": "crew-plus",
+          "role": "programme",
+          "basis": "regional agency disbursement level"
+        },
+        {
+          "actorId": "crew-country-recipients",
+          "role": "intended",
+          "basis": "country and local financing recipients remain unallocated"
+        }
+      ],
+      "proposedGraphTreatment": "Institutional and financing-mechanism links, with individual operations retained as research context.",
+      "coverageInterpretation": "Documented operation or programme scope. Country-level allocations require their own evidence."
+    },
+    {
+      "id": "intl-eib-cdb-water",
+      "name": "EIB and EU Caribbean water and clean-oceans programme",
+      "mechanismId": "eib-caribbean-water-programme",
+      "countryIds": [
+        "caribbean"
+      ],
+      "themes": [
+        "environmental_sustainability",
+        "climate_adaptation",
+        "biodiversity_nature"
+      ],
+      "instruments": [
+        "loan",
+        "grant",
+        "technical_assistance"
+      ],
+      "reviewStatus": "proposed",
+      "capitalOrigin": {
+        "coverage": "partial",
+        "furthestDocumentedProviders": [
+          "eib",
+          "eu"
+        ],
+        "attribution": "EIB balance-sheet lending and EU programme grants. Upstream EIB bond or shareholder resources cannot be assigned to this facility.",
+        "providerClassifications": [
+          {
+            "actorId": "eib",
+            "sourceType": "multilateral",
+            "geography": "international",
+            "attributionLevel": "furthest_documented_provider"
+          },
+          {
+            "actorId": "eu",
+            "sourceType": "supranational_public",
+            "geography": "international",
+            "attributionLevel": "furthest_documented_provider"
+          }
+        ]
+      },
+      "links": [
+        {
+          "id": "intl-eib-cdb-water.loan",
+          "source": "eib",
+          "target": "cdb",
+          "type": "LENDS_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "The signed CDB sub-operation is under the wider water programme.",
+          "evidenceIds": [
+            "src-intl-eib-water-record"
+          ],
+          "instrument": "loan",
+          "stage": "signed",
+          "atlasRelationshipId": "rel-eib-cdb",
+          "mechanismId": "cdb-water-clean-oceans-2024",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-eib-cdb-water.eu",
+          "source": "eu",
+          "target": "eib-caribbean-water-programme",
+          "type": "FUNDS",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "EU approved technical-assistance and investment grant support for the umbrella.",
+          "evidenceIds": [
+            "src-intl-eib-water-parent"
+          ],
+          "instrument": "grant",
+          "stage": "approved",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-eib-cdb-water.ta",
+          "source": "eib",
+          "target": "eib-caribbean-water-programme",
+          "type": "PROVIDES_TECHNICAL_ASSISTANCE_TO",
+          "group": "institutional",
+          "claimBasis": "documented",
+          "description": "EIB procures technical assistance for programme delivery.",
+          "evidenceIds": [
+            "src-intl-eib-water-ta"
+          ],
+          "instrument": "technical_assistance",
+          "stage": "procurement_documented",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-eib-cdb-water.procurement",
+          "source": "cdb",
+          "target": "cdb-water-clean-oceans-2024",
+          "type": "OVERSEES_IMPLEMENTATION_OF",
+          "group": "decision",
+          "claimBasis": "documented",
+          "description": "CDB supervises procurement under the mutual-reliance framework.",
+          "evidenceIds": [
+            "src-intl-eib-water-record"
+          ],
+          "decisionScope": "procurement supervision",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        }
+      ],
+      "financialObservations": [
+        {
+          "id": "intl-eib-cdb-water.amount.umbrella",
+          "measure": "facility_size",
+          "stage": "approved",
+          "value": 150000000,
+          "currency": "EUR",
+          "reportedOn": "2022-06-28",
+          "dateBasis": "source_publication",
+          "scope": "Approved umbrella programme loan, covering multiple operations.",
+          "evidenceIds": [
+            "src-intl-eib-water-parent"
+          ]
+        }
+      ],
+      "unresolvedQuestions": [
+        "Obtain executed EU grant and any guarantee agreements and the exact support allocated to the CDB sub-operation.",
+        "Trace CDB's downstream signed subloans and approval or release delegations.",
+        "Keep the separate 2017 Climate Action Framework Loan II out of this 2024 operation.",
+        "Verify the expected NDICI comprehensive guarantee before asserting an executed guarantee."
+      ],
+      "existingAmountReferences": [
+        {
+          "atlasRelationshipId": "rel-eib-cdb",
+          "measure": "loan_principal",
+          "documentedStage": "signed",
+          "reportedOn": "2024-09-30",
+          "dateBasis": "event",
+          "scope": "Reuse canonical EUR 100 million value. Record the signed stage as a new dated observation supported by EIB.",
+          "includedWithin": "intl-eib-cdb-water.amount.umbrella",
+          "evidenceIds": [
+            "src-intl-eib-water-record"
+          ]
+        }
+      ],
+      "recipients": [
+        {
+          "actorId": "cdb",
+          "role": "immediate",
+          "basis": "framework loan intermediary"
+        },
+        {
+          "actorId": "cdb-water-borrowers",
+          "role": "intended",
+          "basis": "eligible sub-borrowers remain unallocated"
+        }
+      ],
+      "proposedGraphTreatment": "Institutional and financing-mechanism links, with individual operations retained as research context.",
+      "coverageInterpretation": "Documented operation or programme scope. Country-level allocations require their own evidence."
+    },
+    {
+      "id": "intl-belize-blue-2021",
+      "name": "Belize blue-loan capital and DFC political risk insurance",
+      "mechanismId": "belize-blue-loan-2021",
+      "countryIds": [
+        "belize"
+      ],
+      "themes": [
+        "biodiversity_nature",
+        "climate_adaptation"
+      ],
+      "instruments": [
+        "loan",
+        "bond",
+        "equity",
+        "insurance",
+        "debt_conversion"
+      ],
+      "reviewStatus": "proposed",
+      "capitalOrigin": {
+        "coverage": "partial",
+        "furthestDocumentedProviders": [
+          "belize-blue-investors",
+          "tnc"
+        ],
+        "attribution": "Post-closing note investor class and TNC reserve equity support are documented. Exact investor and issuing-cell allocation is unresolved.",
+        "providerClassifications": [
+          {
+            "actorId": "belize-blue-investors",
+            "sourceType": "private_institutional",
+            "geography": "international",
+            "attributionLevel": "furthest_documented_provider"
+          },
+          {
+            "actorId": "tnc",
+            "sourceType": "unknown",
+            "geography": "international",
+            "attributionLevel": "provider_identified_underlying_resources_unallocated"
+          }
+        ]
+      },
+      "links": [
+        {
+          "id": "intl-belize-blue-2021.investors",
+          "source": "belize-blue-investors",
+          "target": "belize-platinum-issuer",
+          "type": "SUBSCRIBES_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "Institutional investors bought the repackaged Blue Bonds after closing.",
+          "evidenceIds": [
+            "src-intl-belize-tnc"
+          ],
+          "instrument": "bond",
+          "publicationTarget": "research_context_only"
+        },
+        {
+          "id": "intl-belize-blue-2021.bank",
+          "source": "credit-suisse-ag",
+          "target": "belize-blue-investment-company",
+          "type": "LENDS_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "Credit Suisse funded the special-purpose lender through the repackaging structure.",
+          "evidenceIds": [
+            "src-intl-belize-tnc",
+            "src-intl-tnc-impact-2022"
+          ],
+          "instrument": "loan",
+          "publicationTarget": "research_context_only",
+          "identityReconciliationRequired": true
+        },
+        {
+          "id": "intl-belize-blue-2021.sovereign",
+          "source": "belize-blue-investment-company",
+          "target": "belize-gov",
+          "type": "LENDS_TO",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "The special-purpose lender extended Belize's Blue Loan.",
+          "evidenceIds": [
+            "src-intl-belize-tnc",
+            "src-intl-tnc-audited-2023"
+          ],
+          "instrument": "loan",
+          "stage": "closed",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-belize-blue-2021.dfc",
+          "source": "dfc",
+          "target": "belize-blue-loan-2021",
+          "type": "INSURES",
+          "group": "risk",
+          "claimBasis": "documented",
+          "description": "DFC provides political risk insurance for principal and interest.",
+          "evidenceIds": [
+            "src-intl-dfc-belize"
+          ],
+          "instrument": "insurance",
+          "stage": "closed",
+          "publicationTarget": "review_endpoint_eligibility_before_registry_mapping"
+        },
+        {
+          "id": "intl-belize-blue-2021.tnc",
+          "source": "tnc",
+          "target": "belize-blue-investment-company",
+          "type": "FUNDS",
+          "group": "finance",
+          "claimBasis": "documented",
+          "description": "TNC supplied reserve-related equity support to its subsidiary structure.",
+          "evidenceIds": [
+            "src-intl-belize-tnc"
+          ],
+          "instrument": "equity",
+          "publicationTarget": "research_context_only",
+          "legalRoutingUnresolved": true
+        }
+      ],
+      "financialObservations": [
+        {
+          "id": "intl-belize-blue-2021.amount.loan",
+          "measure": "loan_principal",
+          "stage": "closed",
+          "value": 364000000,
+          "currency": "USD",
+          "reportedOn": "2021-11-05",
+          "dateBasis": "source_publication",
+          "scope": "Underlying Blue Loan amount at the announced financial close.",
+          "evidenceIds": [
+            "src-intl-dfc-belize"
+          ],
+          "linkId": "intl-belize-blue-2021.sovereign"
+        },
+        {
+          "id": "intl-belize-blue-2021.amount.insurance",
+          "measure": "insurance_coverage",
+          "stage": "closed",
+          "value": 610000000,
+          "currency": "USD",
+          "reportedOn": "2021-11-05",
+          "dateBasis": "source_publication",
+          "scope": "DFC political risk coverage includes principal and interest.",
+          "evidenceIds": [
+            "src-intl-dfc-belize"
+          ],
+          "linkId": "intl-belize-blue-2021.dfc",
+          "doNotAggregateWith": [
+            "intl-belize-blue-2021.amount.loan"
+          ]
+        }
+      ],
+      "unresolvedQuestions": [
+        "Confirm the Platinum issuing cell and exact lender signing entity from executed contracts.",
+        "Document DFC policy beneficiaries, recoveries and risk-sharing terms.",
+        "Identify credit, drawdown and conservation-award delegations.",
+        "Reconcile prefunded endowment principal, future sovereign payments and return estimates as separate observations."
+      ],
+      "recipients": [
+        {
+          "actorId": "belize-blue-investment-company",
+          "role": "immediate",
+          "basis": "intermediary lender"
+        },
+        {
+          "actorId": "belize-gov",
+          "role": "downstream",
+          "basis": "sovereign borrower"
+        }
+      ],
+      "proposedGraphTreatment": "Institutional and financing-mechanism links, with individual operations retained as research context.",
+      "coverageInterpretation": "Documented operation or programme scope. Country-level allocations require their own evidence."
+    }
+  ],
+  "approvedOn": "2026-11-18",
+  "publicationRecord": "research/international-capital-publication.json"
+}
