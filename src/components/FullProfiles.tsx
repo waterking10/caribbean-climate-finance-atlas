@@ -3,7 +3,7 @@ import { ArrowLeft, ArrowRight, ExternalLink } from 'lucide-react'
 import type { CapitalPathwayIndex } from '../capital-research'
 import { accessRoutes, financialRoles, themes } from '../model'
 import type { Connection, FinancialObservation, FocusedIndex } from '../focused-network'
-import { associatedPaths, edgeEvidence, groupConnections, nodeFunction, observationsFor, pathPurpose, pathwayManagers, selectFocusedNetwork, focusedEmptyFilters } from '../focused-network'
+import { associatedPaths, edgeEvidence, groupConnections, hasFinancingParticipation, isInstitutionNode, nodeFunction, observationsFor, pathPurpose, pathwayManagers, selectFocusedNetwork, focusedEmptyFilters } from '../focused-network'
 import { displayName } from '../selectors'
 import { classificationNotes, relationshipFamilies } from '../relationship-taxonomy'
 import { profileHref } from './CompactPanels'
@@ -27,11 +27,12 @@ export function FullProfiles({kind,id,index,capital,onReturn,onExplore,onCompare
   const links=kind==='institution'?index.edges.filter(edge=>edge.source===id||edge.target===id):connection?.members??[]
   const paths=kind==='institution'?associatedPaths(index,id):kind==='mechanism'&&path?[path]:connection?.pathwayIds.map(pathId=>index.pathById.get(pathId)!).filter(Boolean)??[]
   const evidenceIds=[...new Set([...(node?.entity?.evidenceIds??[]),...(node?.entity?.scope.evidenceIds??[]),...links.flatMap(edgeEvidence),...(path?.links.flatMap(link=>link.evidenceIds)??[])])]
+  const canExplore=kind!=='institution'||Boolean(node&&(!isInstitutionNode(node,index.research)||hasFinancingParticipation(index,id)))
   return <main className="secondary-page full-profile" id="main">
     <button className="back-link" type="button" onClick={onReturn}><ArrowLeft size={15}/> Back to network</button>
     {missing?<section className="panel full-profile-body"><h1>Profile not found</h1><p>This URL does not match a published record. Return to Explore to search the registry.</p></section>:<>
       <header className="full-profile-heading"><p>{kind==='mechanism'?'Financing mechanism':kind==='relationship'?'Relationship details':node?.entity?.kind==='institution'?'Institution profile':node?.entity?'Fund / mechanism profile':'Research participant profile'}</p><h1>{heading}</h1>
-        <div className="full-profile-actions">{kind!=='relationship'&&<button className="primary-button" type="button" onClick={()=>onExplore(path?.mechanismId??id,path?.id)}>Show in network <ArrowRight size={14}/></button>}
+        <div className="full-profile-actions">{kind!=='relationship'&&canExplore&&<button className="primary-button" type="button" onClick={()=>onExplore(path?.mechanismId??id,path?.id)}>Show in network <ArrowRight size={14}/></button>}
           {node?.entity&&<button type="button" className="text-button" onClick={()=>onCompare(node.id)}>{picked.includes(node.id)?'Remove from comparison':'Add to comparison'}</button>}
           {node?.entity?.website&&<a href={node.entity.website} target="_blank" rel="noreferrer">Official website <ExternalLink size={13}/></a>}
         </div>

@@ -4,7 +4,7 @@ Mapping the funds, institutions and financing relationships supporting the Carib
 
 Explore the [hosted atlas on GitHub Pages](https://waterking10.github.io/caribbean-climate-finance-atlas/).
 
-The atlas explores institutional relationships behind adaptation, mitigation, energy transition, disaster resilience, nature finance, environmental sustainability and transition finance. The focused explorer includes all institutions with sourced thematic profiles or verified thematic financing participation, together with their documented direct institutional connections. There is no ranking cutoff. Search reaches the complete research registry; mechanisms expand individually when selected. The hosted version may precede these local changes.
+The atlas explores institutional relationships behind adaptation, mitigation, energy transition, disaster resilience, nature finance, environmental sustainability and transition finance. The focused explorer shows every institution with a documented direct institutional climate-finance connection. Profile-only institutions stay in search and full profiles; mechanism-only participants appear when their arrangement is expanded. There is no ranking cutoff. Search reaches the complete research registry; mechanisms expand individually when selected. The hosted version may precede these local changes.
 
 The international capital expansion approved on 18 November 2026 brings coverage to 93 entities, 102 relationships and 24 capital pathways. Its source records distinguish institution-wide funding, case-specific finance, contingent protection, approval authority and unknown attribution. See the [publication record and remaining gaps](INTERNATIONAL_CAPITAL_PROPOSAL.md).
 
@@ -19,7 +19,7 @@ pnpm dev
 
 Open [the local atlas](http://127.0.0.1:5173/). The application bundles its fonts and data and runs without credentials or an external service.
 
-- The default view shows the Atlas’s documented institutional coverage. Mechanism-only participants remain selectable without invented bilateral lines; active filters hide institutions without matching direct connections.
+- The default view shows the Atlas’s documented institutional coverage. There are no isolated institutions in the overview. Search opens profile-only records as full profiles and mechanism-only participants in compact summaries with associated arrangements; active filters hide institutions without matching direct connections.
 - Use the prominent search for institutions, funds, facilities, mechanisms, acronyms and aliases, including other registry records.
 - Filter connections by relationship type, geography and financing theme. Advanced filters contain supported institution types, ownership and documented financing instruments.
 - Click an institution for a compact summary and immediate connections; expand around it or include two-hop connections.

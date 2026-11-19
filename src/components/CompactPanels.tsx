@@ -2,7 +2,7 @@ import { ArrowRight, Building2, Link2 } from 'lucide-react'
 import type { CapitalPathway } from '../capital-research-model'
 import type { ExplorationNode } from '../exploration'
 import type { Connection, FinancialObservation, FocusedIndex } from '../focused-network'
-import { associatedPaths, edgeEvidence, nodeFunction, observationsFor, oneSentence, pathPurpose, pathwayManagers } from '../focused-network'
+import { associatedPaths, edgeEvidence, isInstitutionNode, nodeFunction, observationsFor, oneSentence, pathPurpose, pathwayManagers } from '../focused-network'
 import { displayName } from '../selectors'
 import { relationshipFamilies } from '../relationship-taxonomy'
 
@@ -23,6 +23,7 @@ export function CompactInstitution({ node,index,connections,path,onNode,onConnec
   const priority=(edge:Connection)=>(edge.family==='capital'?10:edge.family==='decision'?6:edge.family==='management'?4:2)+(edge.target===node.id?2:0)
   const immediate=connections.filter(edge=>edge.source===node.id||edge.target===node.id).sort((a,b)=>priority(b)-priority(a)||a.id.localeCompare(b.id))
   const paths=associatedPaths(index,node.id)
+  const canExpand=!isInstitutionNode(node,index.research)||index.defaultIds.includes(node.id)
   const claims=path?.links.filter(link=>link.source===node.id||link.target===node.id)??[]
   const roleLabels=[...new Set(claims.map(link=>(link.source===node.id?'':'Recipient / subject of ')+displayName(link.type)))]
   const selectedEdges=index.edges.filter(edge=>edge.claims.some(claim=>claim.path.id===path?.id)&&(edge.source===node.id||edge.target===node.id))
@@ -33,7 +34,7 @@ export function CompactInstitution({ node,index,connections,path,onNode,onConnec
     <h2>{node.name}</h2><p className="compact-type">{node.type}</p><p className="compact-function">{nodeFunction(node)}</p>
     {path && <section><h3>Role in this arrangement</h3><p>{roleLabels.length?roleLabels.join(' · '):'Not documented in this arrangement.'}</p>
       {selectedEdges.some(edge=>['capital','risk'].includes(connections.find(connection=>connection.members.some(member=>member.id===edge.id))?.family??'')) && <ObservationSummary observations={observationsFor(index,selectedEdges)}/>}</section>}
-    <div className="compact-actions"><button type="button" className="primary-button" onClick={onExpand}>Expand connections <ArrowRight size={14}/></button>
+    <div className="compact-actions">{canExpand&&<button type="button" className="primary-button" onClick={onExpand}>Expand connections <ArrowRight size={14}/></button>}
       {node.entity&&<button className="text-button" type="button" onClick={onCompare}>{compared?'Remove from comparison':'Compare'}</button>}</div>
     <section><h3>Immediate connections <small>{immediate.length}</small></h3>
       {immediate.length===0?<p className="compact-muted">No direct institutional connection matches this view. Explore an associated mechanism below.</p>:<ul className="compact-list">{immediate.slice(0,5).map(edge=>{

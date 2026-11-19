@@ -11,7 +11,7 @@ for(const width of [1440,390]) {
     await expect(page.getByRole('navigation').getByRole('link')).toHaveText(['Explore','Compare','About & Methodology'])
     await expect(page.getByRole('button',{name:/Explore pathways|Explore institutions|Explore ecosystem|Capital Flow|Network Mode/})).toHaveCount(0)
     const chart=page.getByRole('region',{name:'Climate finance network'})
-    await expect(chart.getByText(/69 institutions · 49 connections/)).toBeVisible()
+    await expect(chart.getByText(/46 institutions · 49 connections/)).toBeVisible()
     await page.screenshot({path:`${screenshots}/02-default-${size}.png`,fullPage:width!==1440})
     const search=page.getByRole('searchbox',{name:'Search institutions, funds and mechanisms'})
     await search.fill('CDB')
